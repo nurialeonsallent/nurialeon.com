@@ -1,6 +1,23 @@
+.topMenu {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: $background-color;
+}
+
+.contact-topMenu {
+  color: white;
+  text-align: center;
+  background: $brand-color;
+  padding: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
 .header {
   position: relative;
-  height: 64px;
+  height: 48px;
 
   .header__overlay {
     position: fixed;

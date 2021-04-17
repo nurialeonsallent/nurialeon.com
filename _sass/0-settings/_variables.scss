@@ -15,7 +15,7 @@ $global-transition: all .35s;
 // *****************
 // Color Variables
 // *****************
-$brand-color: #76323F;
+$brand-color: hsl(345, 40%, 35%);
 $dark: #393e46;
 $gray: #bbbbbb;
 $light-gray: #e6eef0;
@@ -23,7 +23,8 @@ $white: #ffffff;
 $black: #000000;
 
 // Background Colors
-$background-color: #eee9e5;
+$content-background-color: hsl(27, 20%, 95%);
+$background-color: hsl(27, 20%, 90%);
 $background-color-dark: #EAE3DE;
 
 // Body Color

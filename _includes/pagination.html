@@ -5,13 +5,13 @@
       {% if paginator.previous_page %}
       
       {% if paginator.previous_page == 1 %}
-        <a class="previous-link" href="{{ site.baseurl }}/blog/">Prev Posts</a>
+        <a class="previous-link" href="{{ site.baseurl }}/blog/">Anterior</a>
       {% else %}
-        <a class="previous-link" href="{{ site.baseurl }}/blog/{{ paginator.previous_page }}/">Prev Posts</a>
+        <a class="previous-link" href="{{ site.baseurl }}/blog/{{ paginator.previous_page }}/">Anterior</a>
       {% endif %}
       
       {% else %}
-        <span class="disabled">Prev Posts</span>
+        <span class="disabled">Anterior</span>
       {% endif %}
 
       <div class="counter-box">
@@ -33,11 +33,10 @@
       </div>
 
       {% if paginator.next_page %}
-      <a class="next-link" href="{{ site.baseurl }}/blog/{{ paginator.next_page }}/">Next Posts</a>
+      <a class="next-link" href="{{ site.baseurl }}/blog/{{ paginator.next_page }}/">Siguiente</a>
       {% else %}
-        <span class="disabled">Next Posts</span>
+        <span class="disabled">Siguiente</span>
       {% endif %}
-
 
     </div>
   </div>
