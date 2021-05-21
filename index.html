@@ -2,4 +2,129 @@
 layout: default
 ---
 
-{% include hero.html %}
+<div class="index main">
+    <div class="first-page">
+        {% include hero.html %}
+
+        <div class="pricing">
+            <a class="no-decoration price-card col-1"
+                href="javascript:;" onclick="focusContactForm()"
+                style="background-image: url({{site.baseurl}}/images/online.jpg)">
+                <div class="title">Sesión Online</div>
+                <div class="price">37€/h</div>
+            </a>
+            <a class="no-decoration price-card col-2"
+                href="javascript:;" onclick="focusContactForm()"
+                style="background-image: url({{site.baseurl}}/images/presencial.jpg)">
+                <div class="title">Sesión Presencial</div>
+                <div class="price">47€/h</div>
+            </a>
+        </div>
+        <div class="info">
+            <h2 class="h3">Sobre mí</h2>
+            <p>Trabajo con personas que viven situaciones complicadas (duelos, separaciones, pérdida de trabajo, problemas de autoestima, enfermedades, relaciones amorosas, toma de decisiones importantes...). Ya son más de 50 personas las que han confiado en mi.</p>
+            <p>También acompaño a personas que quieran mejorar aspectos de su vida, conocerse mejor y en general ser más felices. Mi formación más relevante es:</p>
+            <div class="col2">
+                <ul>
+                    <li>Máster de Psicología General Sanitaria (cursando actualmente)</li>
+                    <li>Postgrado en Psicopatología clínica</li>
+                    <li>Grado de Psicología en la Universitat de Barcelona</li>
+                    <li>Máster en Estrategia y Gestión de Marca por la Barcelona School of Management</li>
+                </ul>
+                <div class="sello">
+                    <img src="{{site.baseurl}}/images/sello_colegial.jpg" data-action="zoom">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="second-page">
+        <div class="opinions">
+            <h2 class="h3">Valoraciones</h2>
+            <div class="scroll">
+                <p>
+                    <b>N. G.</b> &nbsp; 04/2021 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Núria es una excelente profesional, paciente y empatica. Me ayudó tanto a reconocer mis límites como a crecer emocionalmente y entender mis emociones, además de no dudar en apoyarme siempre que lo he necesitado con una sonrisa y ganas. 100% recomendada.
+                </p>
+                <p>
+                    <b>C. M.</b> &nbsp; 04/2021 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Fer teràpia amb la Núria m'està ajudant molt a gestionar els meus pensaments i emocions, i a prioritzar el meu benestar. Sento que estic adquirint eines que podré fer servir sempre que ho necessiti. La Núria és molt propera i dolça, fa que la teràpia sigui un espai segur i que sentis confiança per obrir-te amb ella. Molt recomanable!
+                </p>
+                <p>
+                    <b>Ana M.</b> &nbsp; 04/2021 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Muy contenta con Nuria, me ha ayudado mucho en diferentes etapas difíciles de mi vida. La recomiendo de corazón, es una gran profesional.
+                </p>
+                <p>
+                    <b>M.</b> &nbsp; 01/2021 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Nuria es una gran profesional. Se ha preocupado mucho por mí desde el primer día que entré por la puerta de su despacho. Acompaña sus terapias con ejercicios muy dinámicos y con material de lectura que te ayuda a entender y esclarecer cualquier duda que puedas tener durante todo el proceso.
+                </p>
+                <p>
+                    <b>Betty T.</b> &nbsp; 10/2020 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Es una excelente chica, inteligente y creativa. Sus terapias educativas han ayudado a mi hijo a adaptarse a su entorno escolar.
+                </p>
+                <p>
+                    <b>Pere G.</b> &nbsp; 07/2020 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Jo puc dir que actualment m'esta ajudant moltissim, mai es rendeix, es molt profesional i la atencio es el millor. Pots explicarli el que vulguis, es molt propera.
+                </p>
+                <p>
+                    <b>Michael N.</b> &nbsp; 07/2020 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    No tant sols es preocupa de els problemes que presentes en aquella primera o primeres sessions, sinó que sap com buscar i trobar inseguretats que tenim per dintre, incongruència rares, aquella falta d'autoestima, tota una sèrie de punts "febles" en els que s'enfoca i els potencia.
+                </p>
+                <p>
+                    <b>Sergio L.</b> &nbsp; 11/2019 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star-outline"></ion-icon></span> <br/>
+                    Contento de momento con ella. Las sesiones fluyen y me siento bien. Seguiré hasta que lo necesite.
+                </p>
+                <p>
+                    <b>Gemma P.</b> &nbsp; 09/2019 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Nuria es muy profesional. Muy dinámica con las sesiones.
+                </p>
+                <p>
+                    <b>A. M.</b> &nbsp; 08/2019 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star-outline"></ion-icon></span> <br/>
+                    Cansada de ir a varios profesionales puedo decir que Núria me ha ayudado muchísimo. Su enfoque y sus ejercicios de meditación y mindfullness me han servido para mejorar mi vida y reducir el estrés.
+                </p>
+                <p>
+                    <b>Uri. M.</b> &nbsp; 08/2019 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Molt professional, em va ajudar amb uns problemes de parella que tenia. La seva ajuda i disponibilitat em van anar molt bé en moments difícils.
+                </p>
+                <p>
+                    <b>David. G.</b> &nbsp; 04/2019 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    La atención es muy profesional y estupenda, siempre tiene una recomendación para cada problema que presento, desde que empecé con ella me he sentido mejor.
+                </p>
+                <p>
+                    <b>Alan. A.</b> &nbsp; 04/2019 &nbsp;
+                    <span class="no-wrap"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span> <br/>
+                    Una persona dinámica, con atención para escucharte, opiniones profesionales y consejos eficientes para salir adelante en las peores etapas. He salido de una adiccion con su apoyo, y me siento mejor con sus trucos. 100% recomendada.
+                </p>
+            </div>
+            <div class="more">
+                <a class="action" href="opinion.html">Escribir Valoración</a>
+                <a class="action" href="https://trabeja.com/cat/p/nuria-leon-sallent#opinions" target="_blank" rel="noopener noreferrer">Más valoraciones</a>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="marker" id="gotoContactForm"></div>
+            <h2 class="h3">¿Hablamos? Escríbeme</h2>
+            <form id="contactForm" method="POST" onsubmit="return formOnSubmit('contact')">
+                <input type="text" name="Nombre" placeholder="Nombre y Apellidos" aria-label="Nombre y Apellidos" autocomplete="off" required />
+                <input type="text" name="Contacto" placeholder="Teléfono o Email de contacto" aria-label="Teléfono o Email de contacto" autocomplete="off" required />
+                <textarea name="Mensaje" placeholder="Escribe tu consulta aquí. &#10;Si quieres reservar una cita, escribe también la fecha/hora deseada." aria-label="Escribe tu consulta aquí. &#10;Si quieres reservar una cita, escribe también la fecha/hora deseada." autocomplete="off" required></textarea>
+                <div class="buttons">
+                    <button class="action" type="submit" onclick="return formButtonClicked('whatsapp')"><ion-icon class="vcenter" name="logo-whatsapp"></ion-icon> Contactar por Whatsapp</button>
+                    <button class="action" type="submit" onclick="return formButtonClicked('direct')">Contactar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

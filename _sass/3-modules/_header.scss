@@ -17,7 +17,7 @@
 
 .header {
   position: relative;
-  height: 48px;
+  height: 56px;
 
   .header__overlay {
     position: fixed;
@@ -38,6 +38,10 @@
         visibility: visible;
       }
     }
+  }
+
+  @media screen and (max-width: $desktop) {
+    height: 48px;
   }
 }
 

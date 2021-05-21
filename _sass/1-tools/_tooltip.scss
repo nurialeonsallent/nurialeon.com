@@ -1,0 +1,72 @@
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip content */
+.tooltip .tooltipcontent {
+    visibility: hidden;
+    background-color: #565656;
+    color: #ffffff;
+    text-align: center;
+    width: 120px;
+    padding: 0.3em 0;
+    border-radius: 6px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    /* transition: opacity 0.75s; */
+    font-size: 0.85rem;
+}
+
+.tooltip .tooltipcontent.big {
+    width: 180px;
+}
+
+.tooltip .tooltipcontent.big.bottom {
+    margin-left: -90px;
+}
+
+.tooltip .tooltipcontent::after {
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #565656 transparent;
+}
+
+.tooltip .tooltipcontent.top {
+    position: absolute;
+    z-index: 999999;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltipcontent.top::after {
+    top: 100%;
+    left: 50%;
+}
+
+.tooltip .tooltipcontent.bottom {
+    position: absolute;
+    z-index: 999999;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltipcontent.bottom::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltipcontent {
+    visibility: visible;
+    opacity: 1;
+}

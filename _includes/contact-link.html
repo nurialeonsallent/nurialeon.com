@@ -1,23 +1,26 @@
-<div class="contact">
-  <ul class="contact__list list-reset">
-    {% if site.data.settings.twitter %}
-      <li><a href="{{ site.data.settings.twitter }}"><i class="ion ion-logo-twitter"></i></a></li>
-    {% else %} {% endif %}
-
-    {% if site.data.settings.facebook %}
-      <li><a href="{{ site.data.settings.facebook }}"><i class="ion ion-logo-facebook"></i></a></li>
-    {% else %} {% endif %}
-  
-    {% if site.data.settings.dribbble %}
-      <li><a href="{{ site.data.settings.dribbble }}"><i class="ion ion-logo-dribbble"></i></a></li>
-    {% else %} {% endif %}
-  
-    {% if site.data.settings.instagram %}
-      <li><a href="{{ site.data.settings.instagram }}"><i class="ion ion-logo-instagram"></i></a></li>
-    {% else %} {% endif %}
-  
-    {% if site.data.settings.pinterest %}
-      <li><a href="{{ site.data.settings.pinterest }}"><i class="ion ion-logo-pinterest"></i></a></li>
-    {% else %} {% endif %}
-  </ul>
+<div class="networks">
+  <a href="https://www.instagram.com/{{ site.data.settings.instagram }}/" alt="Instagram" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
+      <ion-icon style="color: #C13584" name="logo-instagram"></ion-icon>
+      <div class="tooltipcontent bottom">@{{ site.data.settings.instagram }}</div>
+  </a>
+  <a href="https://www.facebook.com/{{ site.data.settings.facebook }}/" alt="Facebook" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
+      <ion-icon style="color: #4267B2" name="logo-facebook"></ion-icon>
+      <div class="tooltipcontent bottom">{{ site.data.settings.facebook }}</div>
+  </a>
+  <!-- <a href="https://www.linkedin.com/in/nurialeonsallent/" alt="Linkedin" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
+      <ion-icon style="color: #2867b2" name="logo-linkedin"></ion-icon>
+      <div class="tooltipcontent bottom">nurialeonsallent</div>
+  </a> -->
+  <a href="javascript:;" onclick="openWhatsApp('')" alt="WhatsApp" id="WhatsappLink" class="no-decoration tooltip">
+      <ion-icon style="color: #128C7E" name="logo-whatsapp"></ion-icon>
+      <div class="tooltipcontent bottom">+34 650 011 672</div>
+  </a>
+  <a href="javascript:;" onclick="openEmail()" alt="Email" class="no-decoration tooltip">
+      <ion-icon style="color: #B23121" name="mail-outline"></ion-icon>
+      <div class="tooltipcontent big bottom">contacto@nurialeon.com</div>
+  </a>
+  <a href="javascript:;" onclick="openCall()" alt="Teléfono" class="no-decoration tooltip">
+      <ion-icon name="call-outline"></ion-icon>
+      <div class="tooltipcontent bottom">+34 650 011 672</div>
+  </a>
 </div>

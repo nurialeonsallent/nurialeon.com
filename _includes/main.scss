@@ -62,6 +62,8 @@
 // 1.6 Zoom
 @import '1-tools/zoom';
 
+@import '1-tools/tooltip';
+
 
 /* >>>>>>>>>>>>>> :: 2-Base Styles <<<<<<<<<<<<<<< */
 
@@ -116,3 +118,7 @@
 
 // 4.5 Tag Page
 @import '4-layouts/tag-page';
+
+/* >>>>>>>>>>>>>> :: 5-OldPage <<<<<<<<<<<<<<< */
+
+@import '5-OldPage/index'
