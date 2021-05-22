@@ -56,8 +56,14 @@ a, button {
     color: var(--primary-color);
     text-decoration: none;
     border-bottom: 1px dashed;
-    line-height: 2em;
     cursor: pointer;
+
+    line-height: initial;
+    white-space: initial;
+}
+
+a.action, button.action {
+    line-height: 2em;
     white-space: nowrap;
 }
 
@@ -67,11 +73,6 @@ a.action:before, button.action:before {
 
 a.back:before, button.back:before {
     content: "\2190  ";
-}
-
-a.inline, button.inline {
-    line-height: 1.5em;
-    white-space: initial;
 }
 
 a:before, button:before {
@@ -93,12 +94,12 @@ ion-icon.vcenter {
     content: unset;
 }
 
-h1, h2, h3, h4 {
+.main h1, .main h2, .main h3, .main h4 {
     color: var(--primary-color);
     margin-top: 0;
 }
 
-.h3 {
+.main .h3 {
     font-size: 1.3em;
     margin-bottom: 1em; 
 }
@@ -318,7 +319,7 @@ ion-icon {
     display: inline-block;
     font-size: 1.2rem;
     padding: 5px 10px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 4px 0 4px 0;
 }
 
@@ -328,7 +329,7 @@ ion-icon {
     right: 0;
     bottom: 0;
     font-size: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px 0 5px 0;
 }
 
@@ -342,9 +343,18 @@ ion-icon {
 
 .opinions .scroll {
     overflow-y: scroll;
-    margin: 0 -1em 1em -1em;
-    padding-left: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0.5rem;
     max-height: 300px;
+    margin-bottom: 1rem;
+
+    & > :first-child {
+        margin-top: 0;
+    }
+
+    & > :last-child {
+        margin-bottom: 0;
+    }
 }
 
 .opinions h1 {
@@ -366,12 +376,14 @@ ion-icon {
 }
 
 .opinions .more {
-    grid-area: more;
-    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
 }
 
-.opinions .more :last-child {
-    margin-left: 1rem;
+.opinions .more > :last-child {
+    margin-left: 2rem;
 }
 
 .contact {
@@ -429,8 +441,8 @@ ion-icon {
     justify-content: flex-end;
 }
 
-.contact .buttons button:last-child {
-    margin-left: 1rem;
+.contact .buttons > :last-child {
+    margin-left: 2rem;
 }
 
 .info .col2 {
@@ -650,7 +662,7 @@ ion-icon {
     }
 
     .index .second-page {
-        grid-template-rows: auto auto auto 1vh;
+        grid-template-rows: auto auto 0;
         grid-template-areas:
             "opinions"
             "contact"
@@ -658,7 +670,7 @@ ion-icon {
     }
 
     .about-me .second-page {
-        grid-template-rows: auto auto auto 1vh;
+        grid-template-rows: auto auto 0;
         grid-template-areas:
             "collaborations"
             "picture"
@@ -672,14 +684,28 @@ ion-icon {
 
     .opinions .scroll {
         max-height: 50vh;
+        margin-left: -1rem;
+        margin-right: -1rem;
     }
 
     .opinions {
         margin: 0;
+
+        .more > *,
+        .more > :last-child {
+            margin: 0.5rem;
+        }
     }
 
-    .contact textarea {
-        height: 8rem;
+    .contact {
+        textarea {
+            height: 8rem;
+        }
+
+        .buttons > *,
+        .buttons > :last-child {
+            margin: 0.5rem;
+        }
     }
 }
 
