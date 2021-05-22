@@ -70,8 +70,8 @@
 .main-nav {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 48px;
+  transform: translateY(-50%);
 
   .nav-icon__close {
     display: none;

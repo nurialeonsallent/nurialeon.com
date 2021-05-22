@@ -1,9 +1,9 @@
 #-------------------------------
 # General Site Settings
 title: Núria León - Psicóloga Barcelona
-logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
-
+logo: logo.svg
+description: ¡Hola! ¿Qué tal? Mi nombre es Núria León, soy psicóloga en Barcelona y colegiada número 26792. Desde hace mucho tiempo me dedico a ayudar a otras personas a superar dificultades y a sentirse mejor con sus vidas. ¿Quieres saber más?"
+keywords: nuria, leon, psicologa, barcelona, online
 
 #-------------------------------
 # Author Settings
@@ -16,11 +16,9 @@ author:
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+twitter: nurialeonpsico
+facebook: nurialeonpsicologa
+instagram: nurialeonpsicologa
 
 
 #-------------------------------
@@ -36,7 +34,7 @@ instagram-profile: nurialeonpsicologa # Add instagram username
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-111742878-3
 
 
 #-------------------------------
