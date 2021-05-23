@@ -16,7 +16,6 @@
 .main {
     display: grid;
     max-width: 1800px;
-    overflow-x: hidden;
 }
 
 .index.main {
@@ -100,7 +99,7 @@ ion-icon.vcenter {
 }
 
 .main .h3 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     margin-bottom: 1em; 
 }
 
@@ -392,7 +391,7 @@ ion-icon {
 
 .contact form {
     display: grid;
-    grid-gap: 0.5rem;
+    grid-gap: 1rem;
 }
 
 .contact input[type=text],
@@ -429,6 +428,8 @@ ion-icon {
 
 .contact fieldset {
     border: 1px solid var(--primary-color);
+    margin: 0;
+    padding: 0.5rem;
 }
 
 .contact input[type=radio] {
@@ -487,8 +488,8 @@ ion-icon {
 .opinion-form {
     display: inline-block;
     flex: 0 1 auto;
-    background-color: var(--section-bc);
     border-radius: 4px;
+    margin: 2rem 1rem;
     padding: 1rem;
     min-width: #{"min(calc(100vw - 1rem), 600px)"};
 }
@@ -630,7 +631,9 @@ ion-icon {
     }
 
     .opinion-form {
-        margin: 2rem 1rem;
+        h1 {
+            font-size: 1.8rem;
+        }
     }
 
     .top-bar {
