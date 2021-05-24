@@ -312,6 +312,8 @@ ion-icon {
     color: white;
     text-shadow: 2px 2px 4px #000000;
     font-weight: bold;
+
+    overflow: hidden;
 }
 
 .price-card .title {
@@ -594,11 +596,7 @@ ion-icon {
     .price-card {
         width: 100%;
         .title {
-            display: block;
-            > * {
-                width: 0;
-                overflow: visible;
-            }
+            word-spacing: 100vw;
         }
     }
 }
