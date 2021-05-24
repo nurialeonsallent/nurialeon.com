@@ -8,8 +8,8 @@
   <meta name="robots" content="index, follow" />
 
   <!-- Primary Meta Tags -->
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
-  <meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}">
+  <title>{% if page.title %}{{ page.title | append: ' | ' | append: site.data.settings.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
+  <meta name="title" content="{% if page.title %}{{ page.title | append: ' | ' | append: site.data.settings.title }}{% else %}{{ site.data.settings.title }}{% endif %}">
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
   <meta name="image" content="{{ site.url | append: site.baseurl | append: '/meta-img.jpg' }}" />
   <meta itemprop="image" content="{{ site.url | append: site.baseurl | append: '/meta-img.jpg' }}" />
@@ -21,8 +21,8 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
-  <meta property="og:site_name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}">
+  <meta property="og:site_name" content="{% if page.title %}{{ page.title | append: ' | ' | append: site.data.settings.title }}{% else %}{{ site.data.settings.title }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | append: ' | ' | append: site.data.settings.title }}{% else %}{{ site.data.settings.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}">
   <meta property="og:image" content="{{ site.url | append: site.baseurl | append: '/meta-img.jpg' }}" />
   <meta property="og:image:url" content="{{ site.url | append: site.baseurl | append: '/meta-img.jpg' }}" />
@@ -36,7 +36,7 @@
   <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
   <meta name="twitter:site" content="@{{ site.data.settings.twitter }}" />
   <meta name="twitter:creator" content="@{{ site.data.settings.twitter }}" />
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: ' | ' | append: site.data.settings.title }}{% else %}{{ site.data.settings.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}" />
   <meta name="twitter:image" content="{{ site.url | append: site.baseurl | append: '/meta-img.jpg' }}" />
 
