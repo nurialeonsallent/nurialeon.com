@@ -593,6 +593,13 @@ ion-icon {
 
     .price-card {
         width: 100%;
+        .title {
+            display: block;
+            > * {
+                width: 0;
+                overflow: visible;
+            }
+        }
     }
 }
 
