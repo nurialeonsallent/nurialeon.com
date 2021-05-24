@@ -155,5 +155,5 @@ hr {
 
 .marker {
   position: relative;
-  top: -3rem;
+  top: calc(-1 * (85px + 1rem)); // topbar + padding
 }
