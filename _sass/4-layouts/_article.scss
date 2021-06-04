@@ -34,6 +34,12 @@
     background: rgba(255, 255, 255, 0.98);
     box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 
+    .article-tags__box {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+
     .article__tag {
       font-size: 12px;
       letter-spacing: 0.5px;
@@ -42,15 +48,8 @@
     }
 
     .article__title {
-      margin-bottom: 20px;
-      font-size: 30px;
-      
-      a {
-        color: $dark;
-        &:hover {
-          color: $black;
-        }
-      }
+      margin-top: 0;
+      margin-bottom: 1rem;
     }
 
     .article__excerpt {
