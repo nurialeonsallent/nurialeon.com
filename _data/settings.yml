@@ -13,31 +13,23 @@ author:
   say-hello: Núria León, Psicóloga
   bio: ¡Hola! ¿Qué tal? Mi nombre es Núria León Sallent y soy psicóloga en Barcelona. Desde hace mucho tiempo que me dedico a ayudar a otras personas a superar dificultades y a sentirse mejor con sus vidas.
 
-
 #-------------------------------
 # Contact links
+twitter: nurialeonpsico
+instagram: nurialeonpsicologa
+youtube: UCqJfTv6FpCxw-HNjLHI_LNQ
+facebook: nurialeonpsicologa
 email: psicologa@nurialeon.com
 phone: +34 650 011 672
-twitter: nurialeonpsico
-facebook: nurialeonpsicologa
-instagram: nurialeonpsicologa
-
-
-#-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
-
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 instagram-profile: nurialeonpsicologa # Add instagram username
-
 
 #-------------------------------
 # Google Analytics
 google-analytics: UA-111742878-3
-
 
 #-------------------------------
 # Newsletter

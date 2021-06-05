@@ -4,9 +4,14 @@
       <div class="tooltipcontent big bottom">@{{ site.data.settings.instagram }}</div>
   </a>
   <a href="https://www.facebook.com/{{ site.data.settings.facebook }}/" alt="Facebook" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
-      <ion-icon style="color: #4267B2" name="logo-facebook"></ion-icon>
-      <div class="tooltipcontent big bottom">{{ site.data.settings.facebook }}</div>
-  </a>
+    <ion-icon style="color: #4267B2" name="logo-facebook"></ion-icon>
+    <div class="tooltipcontent big bottom">{{ site.data.settings.facebook }}</div>
+</a>
+  {%if site.data.settings.youtube %}
+    <a href="https://www.youtube.com/channel/{{ site.data.settings.youtube }}/" alt="Youtube" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
+        <ion-icon style="color: #4267B2" name="logo-youtube"></ion-icon>
+    </a>
+  {% endif %}
   <!-- <a href="https://www.linkedin.com/in/nurialeonsallent/" alt="Linkedin" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
       <ion-icon style="color: #2867b2" name="logo-linkedin"></ion-icon>
       <div class="tooltipcontent big bottom">nurialeonsallent</div>
