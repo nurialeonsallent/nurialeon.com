@@ -47,6 +47,9 @@ layout: default
     <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
 
       <div class="post__content">
+        {% if page.subtitle %}
+          <h2>{{ page.subtitle }}</h2>
+        {% endif %}
         {{ content }}
       </div>
 
