@@ -3,8 +3,8 @@
   border-top: 1px solid $light-gray;
 
   .post-title {
+    margin-top: 10px;
     margin-bottom: 10px;
-    width: 500px;
     max-width: 100%;
     font-size: 57px;
     line-height: 70px;
@@ -32,14 +32,6 @@
   .post__author {
     margin-right: 10px;
     font-weight: 700;
-    
-    .author-name {
-      color: $gray;
-      border-bottom: 1px solid transparent;
-      &:hover {
-        border-bottom: 1px solid $gray;
-      }
-    }
   }
 
   .post__tags {
