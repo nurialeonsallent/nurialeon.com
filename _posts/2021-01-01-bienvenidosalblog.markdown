@@ -9,6 +9,8 @@ published: true
 
 Ya hacía tiempo que sentía la necesidad de escribir un blog para poder compartir con vosotros algunas de las anécdotas, experiencias, ideas, reflexiones, etc. que suelo tener en mi experiencia como psicóloga. 
 
+<!-- more -->
+
 Por ese mismo motivo he decidido crear este espacio para compartir con vosotros todo lo que sé de psicología. Hablaremos de ansiedad, depresión, tristeza, miedos, angustia y de todas esas emociones que a veces son tan incómodas. 
 
 La realidad es que todas las emociones nos dan información muy valiosa sobre nosotros mismos y por eso es importante escuchar el mensaje que nos traen. En una sociedad en la que está mal visto sentir, los valientes son aquellos que deciden aceptarse incondicionalmente y vivir sintiendo la totalidad de sus emociones. 
