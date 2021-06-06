@@ -18,7 +18,7 @@
         {% if paginator.page == 1 %}
           <span class="active-link">1</span>
         {% else %}
-          <a href="{{ site.baseurl }}/blog/">1</a>
+          <a class="no-decoration" href="{{ site.baseurl }}/blog/">1</a>
         {% endif %}
 
 
@@ -33,7 +33,7 @@
       </div>
 
       {% if paginator.next_page %}
-      <a class="next-link" href="{{ site.baseurl }}/blog/{{ paginator.next_page }}/">Siguiente</a>
+      <a class="no-decoration next-link" href="{{ site.baseurl }}/blog/{{ paginator.next_page }}/">Siguiente</a>
       {% else %}
         <span class="disabled">Siguiente</span>
       {% endif %}
