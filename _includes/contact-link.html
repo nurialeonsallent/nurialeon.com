@@ -9,14 +9,16 @@
 </a>
   {%if site.data.settings.youtube %}
     <a href="https://www.youtube.com/channel/{{ site.data.settings.youtube }}/" alt="Youtube" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
-        <ion-icon style="color: #FF0000" name="logo-youtube"></ion-icon>
+        <ion-icon style="color: rgb(223 32 32)" name="logo-youtube"></ion-icon>
         <div class="tooltipcontent bottom">YouTube</div>
     </a>
   {% endif %}
-  <!-- <a href="https://www.linkedin.com/in/nurialeonsallent/" alt="Linkedin" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
-      <ion-icon style="color: #2867b2" name="logo-linkedin"></ion-icon>
-      <div class="tooltipcontent big bottom">nurialeonsallent</div>
-  </a> -->
+  {%if site.data.settings.linkedin %}
+    <a href="https://www.linkedin.com/in/{{ site.data.settings.linkedin }}/" alt="Linkedin" class="no-decoration tooltip" target="_blank" rel="noopener noreferrer">
+        <ion-icon style="color: #2867b2" name="logo-linkedin"></ion-icon>
+        <div class="tooltipcontent bottom">{{ site.data.settings.linkedin }}</div>
+    </a>
+  {% endif %}
   <a href="javascript:;" onclick="openWhatsApp('')" alt="WhatsApp" id="WhatsappLink" class="no-decoration tooltip">
       <ion-icon style="color: #128C7E" name="logo-whatsapp"></ion-icon>
       <div class="tooltipcontent bottom">{{ site.data.settings.phone }}</div>
