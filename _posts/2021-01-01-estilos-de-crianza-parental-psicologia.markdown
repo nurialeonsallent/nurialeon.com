@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Estilos de crianza parental: autoritario, democrático y permisivo"
+subtitle: "¿Cómo afecta el estilo educativo en el desarrollo psicosocial de los niños?"
+date: 2021-07-04 00:00:00 +1
+image: nurialeonpsicologabarcelona_crianza.jpg
+published: true
+---
+
+Los estilos educativos son las pautas de crianza dirigidas a los niños y niñas para lograr su adaptación completa en la sociedad en la que vivimos. Dicho de otra forma, el estilo educativo incluye todos aquellos patrones que enseñamos a nuestros hijos para que puedan desarrollarse como seres humanos completos.
+
+
+<!-- more -->
+
+Algunas ideas importantes sobre la crianza:
+- las relaciones en la familia son *bidireccionales* (los padres influyen en los hijos y los hijos influyen en los padres)
+- los estilos educativos *no son pautas rígidas* sino que lo habitual es que se vayan modificando y perfeccionando según cada circunstancia y cada persona.
+
+Por lo general la mayoría de las familias utilizan 3 tipos de enfoques a la hora de educar a sus hijos:
+
+- **estilo permisivo**: basado en dar libertad sin ningún tipo de límite
+-**estilo autoritario**: basado en poner límites sin que se tenga libertad de elección
+- **estilo democratico**: basado en ofrecer una libertad pero dentro de unos límites
+
+Cada uno de estos enfoques aproximan al niño o niña a un conjunto de lecciones y formas de aprender sobre lo que significa la cooperación, la responsabilidad, sobre valores y de lo que se espera de él o ella. 
+
+La realidad es que según la mayoría de autores y profesionales siempre se coincide en que el mejor estilo de crianza es el democrático. ¿Pero por qué?
+
+
+### Estilo de crianza permisivo: Cuando todo es libertad
+
+En este caso nos encontramos ante unos padres que consideran que su trabajo es servir a sus hijos y hacerles felices. De esta manera los hijos solo acaban cooperando con ellos cuando realmente tienen algo que les beneficia. La forma de solucionar los problemas es mediante la persuasión y su sistema de recompensa se trata en el ganar-perder, ganan los hijos y pierden los padres.
+
+¿Qué es lo que aprenden los niños entonces? Pues a que no hay reglas y que pueden siempre hacer lo que quieren cuando quieren y como quieren. Se fomenta el egocentrismo en los niños pero también la dependencia emocional, ya que realmente no se hacen responsables de sí mismos. 
+
+De esta manera estamos fomentando el desarrollo de futuras personas desafiantes a las normas, siendo personas poco coherentes o poco íntegras, que delegan la responsabilidad de sus decisiones etc.
+
+
+### Estilo de crianza autoritario: Imponer bajo el castigo
+
+En el último caso nos encontramos a unos padres que consideran que los niños solo aprenden bajo la imposición de normas restrictivas y que para madurar hay que “sufrir y obedecer”. 
+
+Este estilo de crianza se basa en la ejecución de la fuerza para solucionar los problemas, y sus sistema de recompensa es perder-ganar, los niños pierden pero los padres ganan. 
+
+Realmente esta forma de educar no permite que los niños puedan experimentar sus propios errores o desarrollar su propio criterio individual. 
+
+Aprenden que los padres son los responsables de solucionar los problemas de sus hijos y que confrontar es la única forma de resolver los problemas. Los niños acaban creciendo con ira y resentimiento, ganas de venganza y rebelión. 
+
+
+
+### Estilo de crianza democrático: Cuando todos ganan
+
+En este estilo nos encontramos con unos padres que piensan que sus hijos **son capaces de resolver problemas por sí mismos** y que hay que dejarles elegir para que aprendan sobre las consecuencias de sus decisiones. De esta forma se les da a los hijos el control de sus vidas pero dentro de unos márgenes establecidos. Es una filosofía basada en el ganar-ganar, en el que tanto los padres como los hijos se ven beneficiados. 
+
+De esta manera **los hijos aprenden que son partícipes en la solución de problemas**, en que son responsables de sí mismos, y que tienen que cooperar para poder llegar a acuerdos. 
+
+En otras palabras, los niños que crecen con un estilo democrático se valoran más a sí mismos y suelen ser más competentes socialmente hablando. El estilo democrático reconoce la **autonomía del niño dentro del marco familiar** en el que vive, y esto es uno de los predictores más consistentes de la competencia general del niño tanto a medio plazo como a largo plazo.
