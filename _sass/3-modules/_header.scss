@@ -155,11 +155,14 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  font-size: 21px;
+  font-size: 22px;
+  display: flex;
   
   .nav__icon {
     color: $dark;
     cursor: pointer;
+    text-align: center;
+
     &:hover {
       color: $black;
     }
@@ -168,12 +171,22 @@
   .nav__icon-menu {
     display: none;
     margin-right: 10px;
+
     &:hover {
       color: $black;
     }
     
     @media only screen and (max-width: $desktop) {
       display: inline-block;
+    }
+  }
+
+  @media only screen and (max-width: $desktop) {
+    font-size: 2rem;
+
+    .nav__icon {
+      min-width: 2rem;
+      min-height: 2rem;
     }
   }
 }
