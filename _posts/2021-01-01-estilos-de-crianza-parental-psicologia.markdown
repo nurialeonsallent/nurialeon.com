@@ -19,7 +19,7 @@ Algunas ideas importantes sobre la crianza:
 Por lo general la mayoría de las familias utilizan 3 tipos de enfoques a la hora de educar a sus hijos:
 
 - **estilo permisivo**: basado en dar libertad sin ningún tipo de límite
--**estilo autoritario**: basado en poner límites sin que se tenga libertad de elección
+- **estilo autoritario**: basado en poner límites sin que se tenga libertad de elección
 - **estilo democratico**: basado en ofrecer una libertad pero dentro de unos límites
 
 Cada uno de estos enfoques aproximan al niño o niña a un conjunto de lecciones y formas de aprender sobre lo que significa la cooperación, la responsabilidad, sobre valores y de lo que se espera de él o ella. 
