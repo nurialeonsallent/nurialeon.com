@@ -2,7 +2,7 @@
 layout: post
 title: "Estilos de crianza parental: autoritario, democrático y permisivo"
 subtitle: "¿Cómo afecta el estilo educativo en el desarrollo psicosocial de los niños?"
-date: 2021-07-04 00:00:00 +1
+date: 2021-07-04 00:00:00 +0
 image: nurialeonpsicologabarcelona_crianza.jpg
 published: true
 ---
