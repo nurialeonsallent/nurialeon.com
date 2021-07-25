@@ -10,11 +10,9 @@ image: ansiedad_imagen.jpg
 published: true
 ---
 
-La ansiedad es un estado de alerta en el que tanto el cuerpo como la mente están demasiado activados. Se trata de un sentimiento de miedo, temor e inquietud al sentirse amenazado y puede afectar a la persona de muchas maneras diferentes, con síntomas tanto físicos como psicológicos 
+La ansiedad es un estado de alerta en el que tanto el cuerpo como la mente están demasiado activados. Se trata de un **sentimiento de miedo, temor e inquietud** al sentirse amenazado y puede afectar a la persona de muchas maneras diferentes, con síntomas tanto físicos como psicológicos. 
 
 <!-- more -->
-
-La ansiedad es un estado de alerta en el que tanto el cuerpo como la mente están demasiado activados. Se trata de un **sentimiento de miedo, temor e inquietud** al sentirse amenazado y puede afectar a la persona de muchas maneras diferentes, con síntomas tanto físicos como psicológicos.
 
 La preocupación es una cadena de pensamientos sobre un peligro futuro, donde hay incertidumbre sobre lo que va a pasar y un sentimiento intenso de ansiedad. Cuando la preocupación es disfuncional, **la cadena de pensamientos es muy difícil de controlar sin la ayuda de un psicólog@**. 
 
