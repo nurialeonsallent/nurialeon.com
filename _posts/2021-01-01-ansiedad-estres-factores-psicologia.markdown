@@ -29,7 +29,9 @@ La supervivencia en nuestra sociedad moderna realmente ya no se enfoca en cubrir
 ![Pirámide de Maslow]({{ site.baseurl }}/images/piramidemaslow.jpg)
 *La pirámide de las necesidades humanas de Maslow*
 
-Y ¿cómo se relaciona esto con la ansiedad? Pues **el estrés saludable** es un estado de activación que nos permite actuar y tomar decisiones que nos ayudan a conseguir nuestros objetivos. Si *hay demasiado estrés por las exigencias que nos supone alcanzar nuestros objetivos y se empieza a vivir desde la ansiedad y angustia*, realmente es cuando hay unl problema que necesita terapia. 
+Y ¿cómo se relaciona esto con la ansiedad? Pues **el estrés saludable** es un estado de activación que nos permite actuar y tomar decisiones que nos ayudan a conseguir nuestros objetivos. 
+
+Pero si **hay demasiado estrés** por las exigencias que nos supone alcanzar nuestros objetivos y se empieza a vivir desde la ansiedad y angustia, realmente es cuando hay unl problema que necesita terapia. 
 
 ### ¿Cuáles son los factores que influyen en su desarrollo y mantenimiento?
 
