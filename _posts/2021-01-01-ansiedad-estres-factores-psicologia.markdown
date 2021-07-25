@@ -20,11 +20,11 @@ La preocupación es una cadena de pensamientos sobre un peligro futuro, donde ha
 
 Actualmente en nuestra sociedad es muy habitual tener ansiedad ya que vivimos en una constante presión, competitividad, individualidad y exigencia que nos hace estar siempre en modo “lucha”. 
 
-Ya no vivimos como nuestros antepasados que enfocaban su energía en sobrevivir, encontrar alimento, protegerse de las posibles presas, etc. Ahora estamos inmersos en una *sociedad del rendimiento*, desde pequeños, ya se nos compara y se nos separa por rendimiento, los niños mejores y peores.
+Ya no vivimos como nuestros antepasados que enfocaban su energía en sobrevivir, encontrar alimento, protegerse de las posibles presas, etc. Ahora estamos inmersos en una **sociedad del rendimiento**, desde pequeños, ya se nos compara y se nos exige mucho.
 
-Para sobrevivir (y poder vivir bien) queremos tener un buen trabajo que nos de dinero, un buen piso o casa, reconocimiento social y respeto de los demás, poseer un cuerpo bonito y esbelto, tener estudios y saber idiomas, etc. Estos son los atributos que nos prometen *el éxito en nuestra sociedad*. 
+La realidad es que para sobrevivir (y poder vivir bien hoy en día) queremos tener un buen trabajo que nos de dinero, un buen piso o casa, reconocimiento social y respeto de los demás, poseer un cuerpo bonito y esbelto, tener estudios y saber idiomas, etc. Estos son los atributos que nos prometen *el éxito en nuestra sociedad*. 
 
-La supervivencia en nuestra sociedad moderna realmente ya no se enfoca en cubrir las necesidades básicas sino que nuestras necesidades *(tal y como se indica en la conocida escala de Maslow)* se enfocan más en la **autorrealización, reconocimiento y afiliación social**, que son mucho más complejas de conseguir. 
+La supervivencia en nuestra sociedad moderna realmente ya no se enfoca en cubrir las necesidades básicas o fisiológicas sino que nuestras necesidades *(tal y como se indica en la conocida escala de Maslow)* se enfocan más en la **autorrealización, reconocimiento y afiliación social**, que son mucho más complejas de conseguir. 
 
 ![Pirámide de Maslow]({{ site.baseurl }}/images/piramidemaslow.jpg)
 *La pirámide de las necesidades humanas de Maslow*
