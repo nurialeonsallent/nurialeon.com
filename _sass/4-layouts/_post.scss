@@ -19,8 +19,8 @@
 
     .post-title {
       margin: 10px 0;
-      font-size: 42px;
-      line-height: 42px;
+      font-size: 34px;
+      line-height: 36px;
     }
   }
 }
@@ -64,7 +64,7 @@
     display: table;
     width: 100%;
     min-height: 300px;
-    padding-top: 50%;
+    padding-top: 35vh;
 
     @media only screen and (max-width: $mobile) {
       min-height: 180px;
@@ -155,7 +155,7 @@
         content: "";
         display: table;
         width: 100%;
-        padding-bottom: 65%;
+        padding-bottom: 25vh;
       }
     }
 
