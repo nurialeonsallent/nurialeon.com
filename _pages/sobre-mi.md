@@ -16,7 +16,7 @@ Ya son más de 50 personas las que han pasado por mi consulta.
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/despacho.jpg" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/5ec741eb-e9db-4797-a6ad-055d89de5e2a.jpg" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/img_20210411_165255.jpg" /></div>
-  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_5496.jpg" /></div>
+  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/img_5496.jpg" /></div>
 </div>
 
 ## ¿Cuál es mi formación?
