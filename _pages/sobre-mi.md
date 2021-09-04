@@ -12,8 +12,12 @@ He trabajado con personas en situaciones muy complicadas (duelos, separaciones, 
 
 Ya son más de 50 personas las que han pasado por mi consulta.
 
-![Mi despacho]({{ site.baseurl }}/images/despacho.jpg)
-*Mi despacho, cerca de Sagrada Familia*
+<div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/despacho.jpg" /></div>
+  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/5ec741eb-e9db-4797-a6ad-055d89de5e2a.jpg" /></div>
+  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/img_20210411_165255.jpg" /></div>
+  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_5496.jpg" /></div>
+</div>
 
 ## ¿Cuál es mi formación?
 
@@ -27,6 +31,6 @@ Ya son más de 50 personas las que han pasado por mi consulta.
 
 ## Colaboraciones
 
-Durante la pandemia del Covid-19 tuve la oportunidad de  participar en la definición de un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional. Durante este proyecto, fui una de las *responsables de la definición estratégica del servicio pionero de orientación psicológica y emocional* por teléfono a todos los asegurados nacionales. Asimismo, como psicóloga del proyecto pude ayudar a todas las personas que necesitaban apoyo psicológico.
+Durante la pandemia del Covid-19 tuve la oportunidad de participar en la definición de un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional. Durante este proyecto, fui una de las _responsables de la definición estratégica del servicio pionero de orientación psicológica y emocional_ por teléfono a todos los asegurados nacionales. Asimismo, como psicóloga del proyecto pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
 He participado también en entrevistas en diferentes medios sociales, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).

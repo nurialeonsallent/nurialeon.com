@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  'use strict';
+$(document).ready(function () {
+  "use strict";
 
   var headerOverlay = $(".header__overlay"),
     menuOpenIcon = $(".nav__icon-menu"),
@@ -12,13 +12,13 @@ $(document).ready(function() {
   /* =======================
   // Menu and Search
   ======================= */
-  menuOpenIcon.click(function() {
+  menuOpenIcon.click(function () {
     menuOpen();
-  })
+  });
 
   menuCloseIcon.click(function () {
     menuClose();
-  })
+  });
 
   searchOpenIcon.click(function () {
     searchOpen();
@@ -55,7 +55,7 @@ $(document).ready(function() {
   // Responsive Videos
   ======================= */
   $(".post__content, .page__content").fitVids({
-    customSelector: ['iframe[src*="ted.com"]']
+    customSelector: ['iframe[src*="ted.com"]'],
   });
 
   /* =======================
@@ -63,40 +63,40 @@ $(document).ready(function() {
   ======================= */
   $(".page img, .post img").attr("data-action", "zoom");
   $(".page a img, .post a img").removeAttr("data-action", "zoom");
+  $(".page .carousel img, .post .carousel img").removeAttr(
+    "data-action",
+    "zoom"
+  );
 
   /* =======================
   // Instagram Feed
   ======================= */
   // userId and accessToken from Matthew Elsom (https://codepen.io/matthewelsom/pen/zrrrLN) for example, for which he thanks a lot!
   var instagramFeed = new Instafeed({
-    get: 'user',
+    get: "user",
     limit: 6,
-    resolution: 'standard_resolution',
-    userId: '8987997106',
-    accessToken: '8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9',
+    resolution: "standard_resolution",
+    userId: "8987997106",
+    accessToken: "8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9",
     template:
-      '<li class="instagram-item"><a href="{{link}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>'
+      '<li class="instagram-item"><a href="{{link}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>',
   });
 
-  if ($('#instafeed').length) {
+  if ($("#instafeed").length) {
     instagramFeed.run();
   }
 
   /* =======================
   // Scroll Top Button
   ======================= */
-  $(".top").click(function() {
-    $("html, body")
-      .stop()
-      .animate({ scrollTop: 0 }, "slow", "swing");
+  $(".top").click(function () {
+    $("html, body").stop().animate({ scrollTop: 0 }, "slow", "swing");
   });
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > $(window).height()) {
       $(".top").addClass("is-active");
     } else {
       $(".top").removeClass("is-active");
     }
   });
-
-
 });
