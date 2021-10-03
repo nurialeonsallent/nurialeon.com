@@ -64,9 +64,24 @@ a, button {
 a.action, button.action {
     line-height: 2em;
     white-space: nowrap;
+    border: 1px solid;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
-a.action:before, button.action:before {
+a.action:after, button.action:after {
+    content: "  \203A";
+    font-size: 1.5em;
+}
+
+a.navigation, button.navigation {
+    line-height: 2em;
+    white-space: nowrap;
+    border-bottom: 1px solid;
+}
+
+a.navigation:before, button.navigation:before {
     content: "\2192  ";
 }
 
@@ -307,12 +322,13 @@ ion-icon {
     flex: 1;
     border: 1px solid;
     align-items: center;
+    justify-content: center;
     position: relative;
     color: var(--primary-color);
     background-color: rgba(255, 255, 255, 0.6);
     padding: 1rem;
     border-radius: 4px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
 }
 
@@ -442,10 +458,11 @@ ion-icon {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
+    gap: 1rem;
 }
 
 .contact .buttons > :last-child {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .info .col2 {
@@ -597,7 +614,6 @@ ion-icon {
         gap: 16px;
 
         .price-card {
-            font-size: 1.1rem;
             line-height: 1em;
 
             > .img {
@@ -612,6 +628,11 @@ ion-icon {
 }
 
 @media only screen and (max-width: 767px) {
+
+    a.action, button.action {
+        padding: 2px 8px;
+    }
+
     .main {
         display: grid;
         min-height: 100%;
