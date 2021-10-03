@@ -81,8 +81,9 @@ a.navigation, button.navigation {
     border-bottom: 1px solid;
 }
 
-a.navigation:before, button.navigation:before {
-    content: "\2192  ";
+a.navigation:after, button.navigation:after {
+    content: "  \203A";
+    font-size: 1.5em;
 }
 
 a.back:before, button.back:before {
