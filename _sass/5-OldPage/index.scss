@@ -397,10 +397,11 @@ ion-icon {
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
+    gap: 1rem;
 }
 
 .opinions .more > :last-child {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .contact {
