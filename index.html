@@ -7,19 +7,20 @@ layout: default
         {% include hero.html %}
 
         <div class="pricing">
-            <a class="no-decoration price-card col-1"
-                href="javascript:;" onclick="focusContactForm()"
-                style="background-image: url({{site.baseurl}}/images/online.jpg)">
+            <a class="no-decoration price-card"
+                href="javascript:;" onclick="focusContactForm()">
+                <div class="img"><img src="{{site.baseurl}}/images/online.svg" /></div>
                 <div class="title">Sesión Online</div>
                 <div class="price">37€/h</div>
             </a>
-            <a class="no-decoration price-card col-2"
-                href="javascript:;" onclick="focusContactForm()"
-                style="background-image: url({{site.baseurl}}/images/presencial.jpg)">
+            <a class="no-decoration price-card"
+                href="javascript:;" onclick="focusContactForm()">
+                <div class="img"><img src="{{site.baseurl}}/images/presencial.svg" /></div>
                 <div class="title">Sesión Presencial</div>
                 <div class="price">47€/h</div>
             </a>
         </div>
+
         <div class="info">
             <h2 class="h3">Sobre mí</h2>
             <p>Trabajo con personas que viven situaciones complicadas (duelos, separaciones, pérdida de trabajo, problemas de autoestima, enfermedades, relaciones amorosas, toma de decisiones importantes...). Ya son más de 50 personas las que han confiado en mi.</p>
