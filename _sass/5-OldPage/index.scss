@@ -733,9 +733,8 @@ ion-icon {
     .opinions {
         margin: 0;
 
-        .more > *,
         .more > :last-child {
-            margin: 0.5rem;
+            margin: 0;
         }
     }
 
@@ -744,9 +743,8 @@ ion-icon {
             height: 8rem;
         }
 
-        .buttons > *,
         .buttons > :last-child {
-            margin: 0.5rem;
+            margin: 0;
         }
     }
 }
