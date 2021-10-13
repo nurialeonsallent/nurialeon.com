@@ -8,7 +8,7 @@
           <div class="logo">
             <a class="logo__link no-decoration" href="{{site.baseurl}}/">
             {%if site.data.settings.logo %}
-              <img class="logo__image" src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
+              <img class="logo__image" src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}" width="32" height="32">
             {% else %}
               {{ site.data.settings.title }}
             {% endif %}
