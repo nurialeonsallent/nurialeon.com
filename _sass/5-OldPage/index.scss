@@ -327,7 +327,7 @@ ion-icon {
     position: relative;
     color: var(--primary-color);
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 1rem;
+    padding: 8px;
     border-radius: 4px;
     font-size: 1.1rem;
     text-align: center;
@@ -335,11 +335,12 @@ ion-icon {
 
 .price-card > .img {
     height: 56px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 
     > img {
         max-height: 100%;
         max-width: unset;
+        object-fit: contain;
     }
 }
 
