@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow: hidden auto;
+}
+
 body {
   font-family: $base-font-family;
   font-size: $base-font-size;
