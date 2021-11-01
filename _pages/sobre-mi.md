@@ -21,12 +21,14 @@ Ya son más de 60 personas las que han pasado por mi consulta.
 
 ## ¿Cuál es mi formación?
 
-- **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (cursando actualmente)
+- **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (cursando)
+- **Curso especialización en psicología forense, penal y criminal** en CUM LAUDE (cursando)
 - **Postgrado en Psicopatología clínica** por la Universitat de Barcelona **con un 9,5 de nota final** (2021)
+- **Curso del Colegio de Psicólogos de Catalunya sobre Servicios Sociales en el Ayuntamiento de Barcelona** (2021)
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
 - **Curso de Tratamiento psicológico en el dolor crónico** por el Colegio de Psicólogos de Madrid (2020)
 - **Formación oficial en Mindfulness para la Reducción del Estrés y la Salud** (2019)
-- **Máster en Estrategia y Gestión de marca** por la Barcelona School of Management de la Universitat Pompeu Fabra (2018)
+- **Máster en Estrategia y Gestión de marca** por la Barcelona School of Management de la Universitat Pompeu Fabra con un 8,2 de nota final (2018)
 - **Grado de Psicología** en la Universitat de Barcelona (2011-2017)
 
 ## Colaboraciones
