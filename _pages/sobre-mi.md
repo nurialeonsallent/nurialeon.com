@@ -23,7 +23,7 @@ Ya son más de 60 personas las que han pasado por mi consulta.
 
 - **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (cursando)
 - **Curso especialización en psicología forense, penal y criminal** en CUM LAUDE (cursando)
-- **Postgrado en Psicopatología clínica** por la Universitat de Barcelona **con un 9,5 de nota final** (2021)
+- **Postgrado en Psicopatología clínica** por la Universitat de Barcelona con un 9,5 de nota final (2021)
 - **Curso del Colegio de Psicólogos de Catalunya sobre Servicios Sociales en el Ayuntamiento de Barcelona** (2021)
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
 - **Curso de Tratamiento psicológico en el dolor crónico** por el Colegio de Psicólogos de Madrid (2020)
