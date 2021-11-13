@@ -97,11 +97,24 @@ pre {
   word-break: break-all;
 }
 
+svg {
+  display: inline-block;
+  height: 1em;
+  fill: currentcolor;
+  box-sizing: content-box;
+}
+
+svg.outline, svg .outline {
+  stroke-width: 32px;
+  fill: none;
+  stroke: currentColor;
+}
+
 img,
 .zoom-img-wrap {
   max-width: 100%;
   height: auto;
-  vertical-align: middle;
+  // vertical-align: middle;
   &+em {
     text-align: center;
     display: block;

@@ -96,8 +96,8 @@ a:before, button:before {
     content: "";
 }
 
-ion-icon.vcenter {
-    margin-bottom: -0.2em;
+.vcenter {
+    vertical-align: text-bottom;
 }
 
 .no-decoration {
@@ -265,7 +265,7 @@ ion-icon.vcenter {
         "img networks about-me";
 }
 
-.me img {
+.me > img {
     grid-area: img;
     object-fit: cover;
     align-self: center;
@@ -298,6 +298,10 @@ ion-icon.vcenter {
     align-self: center;
     justify-self: start;
     margin-top: 0.5rem;
+
+    a > img, a > svg {
+        width: 24px;
+    }
 }
 
 .me .about-me {
@@ -307,7 +311,7 @@ ion-icon.vcenter {
     margin-top: 0.5rem;
 }
 
-ion-icon {
+svg {
     font-size: 1.5rem;
 }
 
@@ -376,6 +380,10 @@ ion-icon {
     & > :last-child {
         margin-bottom: 0;
     }
+
+    .stars {
+        font-size: 0;
+    }
 }
 
 .opinions h1 {
@@ -389,11 +397,6 @@ ion-icon {
     font-style: italic;
     border-left: 1px solid var(--primary-color);
     padding-left: 0.5rem;
-}
-
-.opinions ion-icon {
-    color: #eaa80e;
-    font-size: 0.75rem;
 }
 
 .opinions .more {
@@ -598,7 +601,7 @@ ion-icon {
         align-self: end;
     }
 
-    .me img {
+    .me > img {
         min-width: 120px;
         max-width: 120px;
         min-height: 120px;
@@ -724,7 +727,7 @@ ion-icon {
             "footer-space";
     }
 
-    .me img {
+    .me > img {
         width: 150px;
     }
 
