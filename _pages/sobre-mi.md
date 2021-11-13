@@ -37,3 +37,7 @@ Durante la pandemia del Covid-19 tuve la oportunidad de participar en la definic
 
 He participado también en entrevistas en diferentes medios sociales, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
 Además puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando.
+
+## Ubicación
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11969.483224823134!2d2.1746346!3d41.4094687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79d43e1d92f336b9!2zTsO6cmlhIExlw7NuIFBzaWPDs2xvZ2E!5e0!3m2!1sen!2ses!4v1636820825844!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

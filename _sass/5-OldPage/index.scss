@@ -300,7 +300,8 @@ a:before, button:before {
     margin-top: 0.5rem;
 
     a > img, a > svg {
-        width: 24px;
+        width: 32px;
+        padding: 0 4px;
     }
 }
 
