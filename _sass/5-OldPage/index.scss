@@ -73,6 +73,7 @@ a.action, button.action {
 a.action:after, button.action:after {
     content: "  \203A";
     font-size: 1.5em;
+    line-height: 1;
 }
 
 a.navigation, button.navigation {
@@ -84,6 +85,7 @@ a.navigation, button.navigation {
 a.navigation:after, button.navigation:after {
     content: "  \203A";
     font-size: 1.5em;
+    line-height: 1;
 }
 
 a.back:before, button.back:before {
