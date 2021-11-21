@@ -278,6 +278,8 @@ a:before, button:before {
 }
 
 .me .title {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 2rem;
     grid-area: title;
     align-self: center;
