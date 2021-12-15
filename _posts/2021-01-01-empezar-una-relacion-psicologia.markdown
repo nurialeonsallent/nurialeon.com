@@ -12,13 +12,11 @@ La realidad es que se suele pensar que uno de los motivos más habituales en las
 
 <!-- more -->
 
-Si bien es cierto que tener el corazón roto es algo que provoca mucho dolor emocional y muchas personas recurren a terapia para superar ese duelo, también es cierto que sucede todo lo contrario. 
-
-En otras palabras, muchas personas también acuden al psicólogo justo cuando estan empezando una relación de pareja. ¿Por qué? En los siguientes párrafos os cuento en detalle.
+Si bien es cierto que tener el corazón roto es algo que provoca mucho dolor emocional y muchas personas recurren a terapia para superar ese duelo, también es cierto que muchas otras personas también acuden al psicólogo justo cuando estan empezando una relación de pareja. ¿Por qué? En los siguientes párrafos os cuento en detalle.
 
 ### Empezar una relación genera mucha ansiedad
 
-Cuando empezamos una relación de pareja es muy buen momento de iniciar una terapia psicológica tanto de manera individual como de manera conjunta. Los motivos son claros; empezar una relación genera mucha incertidumbre, ansiedad, manejo de expectativas, frustración, incertidumbre, etc. Es como encajar dos piezas de un puzzle que no sabemos si realmente encajan.
+Cuando empezamos una relación de pareja es muy buen momento de iniciar una terapia psicológica tanto de manera individual como de manera conjunta. Los motivos son claros; empezar una relación genera mucha incertidumbre, ansiedad, manejo de expectativas, frustración, etc. Es como encajar dos piezas de un puzzle que no sabemos si realmente encajan.
 
 
 ![Terapia psicológica]({{ site.baseurl }}/images/psicologa_barcelona1.jpg)
