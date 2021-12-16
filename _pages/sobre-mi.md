@@ -12,7 +12,7 @@ He trabajado con muchas personas en situaciones complicadas (vivencia de duelos,
 
 Ya son más de 60 personas las que han pasado por mi consulta.
 
-<div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+<div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_4989.webp" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/despacho.webp" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/5ec741eb-e9db-4797-a6ad-055d89de5e2a.webp" /></div>
