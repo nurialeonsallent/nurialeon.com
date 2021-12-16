@@ -3,7 +3,7 @@ layout: post
 title: "Empezar una relación y sus dificultades"
 subtitle: "Ir a terapia al empezar una relación"
 date: 2021-12-15 00:00:00 +0
-image: terapia_pareja.jpg
+image: terapia_pareja.webp
 published: true
 ---
 
@@ -19,7 +19,7 @@ Si bien es cierto que tener el corazón roto es algo que provoca mucho dolor emo
 Cuando empezamos una relación de pareja es muy buen momento de iniciar una terapia psicológica tanto de manera individual como de manera conjunta. Los motivos son claros; empezar una relación genera mucha incertidumbre, ansiedad, manejo de expectativas, frustración, etc. Es como encajar dos piezas de un puzzle que no sabemos si realmente encajan.
 
 
-![Terapia psicológica]({{ site.baseurl }}/images/psicologa_barcelona1.jpg)
+![Terapia psicológica]({{ site.baseurl }}/images/psicologa_barcelona1.webp)
 *Terapia psicológica*
 
 En los medios de comunicación, películas, libros... se suele reflejar que el  inicio de una pareja es el momento más idílico de la relación, cuando normalmente es justo todo lo contrario. Es un momento en el que hay mucha intensidad emocional y adrenalina, sí, pero también hay miedos que afrontar conjuntamente y suele haber mucha ansiedad. 

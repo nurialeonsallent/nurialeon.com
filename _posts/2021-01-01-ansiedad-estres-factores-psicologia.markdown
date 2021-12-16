@@ -3,7 +3,7 @@ layout: post
 title: "Ansiedad, estrés y factores asociados"
 subtitle: "Qué es la ansiedad y qué factores afectan"
 date: 2021-07-25 00:00:00 +0
-image: ansiedad_imagen.jpg
+image: ansiedad_imagen.webp
 # tags:
 #   - ansiedad
 #   - estrés
@@ -26,7 +26,7 @@ La realidad es que para sobrevivir (y poder vivir bien hoy en día) queremos ten
 
 La supervivencia en nuestra sociedad moderna realmente ya no se enfoca en cubrir las necesidades básicas o fisiológicas sino que nuestras necesidades *(tal y como se indica en la conocida escala de Maslow)* se enfocan más en la **autorrealización, reconocimiento y afiliación social**, que son mucho más complejas de conseguir. 
 
-![Pirámide de Maslow]({{ site.baseurl }}/images/piramidemaslow.jpg)
+![Pirámide de Maslow]({{ site.baseurl }}/images/piramidemaslow.webp)
 *La pirámide de las necesidades humanas de Maslow*
 
 Y ¿cómo se relaciona esto con la ansiedad? Pues **el estrés saludable** es un estado de activación que nos permite actuar y tomar decisiones que nos ayudan a conseguir nuestros objetivos. 

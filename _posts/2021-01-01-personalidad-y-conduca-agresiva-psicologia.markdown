@@ -3,7 +3,7 @@ layout: post
 title: "Agresividad y Personalidad, ¿Cómo se relacionan?"
 subtitle: "Factores de personalidad y conducta violenta"
 date: 2021-06-27 00:00:00 +0
-image: psicologabarcelona_agresividad.jpg
+image: psicologabarcelona_agresividad.webp
 # tags:
 #   - agresividad
 #   - personalidad
@@ -33,7 +33,7 @@ Para este autor:
 
 Según Eynseck en su teoría de la personalidad del delincuente (1967, 1976) las características principales de los delincuentes serían que son *personas activas e impulsivas (alta extraversión), que muestran una alta excitabilidad autónoma (alto neuroticismo) y también un psicoticismo alto.*
 
-![Sangre](https://cdn.pixabay.com/photo/2014/08/22/21/45/child-424772_960_720.jpg)
+![Sangre](https://cdn.pixabay.com/photo/2014/08/22/21/45/child-424772_960_720.webp)
 
  Otro autor importante es  Gray (1972, 1983). Para este autor la delincuencia se relaciona con una ***sensibilidad alta a las señales de recompensa** (relacionada con la impulsividad y el no saber controlarse) y también con una **sensibilidad débil a las señales de castigos** (no percibir que pueden recibir un castigo por eso).*
 

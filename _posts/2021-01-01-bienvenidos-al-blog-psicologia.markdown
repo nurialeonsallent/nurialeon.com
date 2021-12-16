@@ -3,7 +3,7 @@ layout: post
 title: "Bienvenidos a mi Blog"
 subtitle: "Blog de Psicología"
 date: 2021-06-06 00:00:00 +0
-image: blognurialeon.jpg
+image: blognurialeon.webp
 published: true
 ---
 

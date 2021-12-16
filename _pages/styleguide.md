@@ -2,7 +2,7 @@
 layout: page
 title: Style Guide
 permalink: /styleguide/
-image: 08.jpg
+image: 08.webp
 published: false
 ---
 
@@ -88,7 +88,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 ### Images
 
-![]({{site.baseurl}}/images/09.jpg)
+![]({{site.baseurl}}/images/09.webp)
 *Backyard*
 
 ***
