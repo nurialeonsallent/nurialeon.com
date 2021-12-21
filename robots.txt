@@ -1,0 +1,6 @@
+---
+permalink: /robots.txt
+---
+User-agent: *
+Sitemap: {{ site.url | append: site.baseurl | append: '/sitemap.xml' }}
+Disallow: /opinion.html
