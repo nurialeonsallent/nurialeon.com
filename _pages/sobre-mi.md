@@ -23,7 +23,6 @@ Ya son más de 60 personas las que han pasado por mi consulta.
 ## ¿Cuál es mi formación?
 
 - **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (cursando)
-- **Curso especialización en psicología forense, penal y criminal** en CUM LAUDE (cursando)
 - **Postgrado en Psicopatología clínica** por la Universitat de Barcelona con un 9,5 de nota final (2021)
 - **Curso del Colegio de Psicólogos de Catalunya sobre Servicios Sociales en el Ayuntamiento de Barcelona** (2021)
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
@@ -37,6 +36,9 @@ Ya son más de 60 personas las que han pasado por mi consulta.
 Durante la pandemia del Covid-19 tuve la oportunidad de participar en la definición de un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional. Durante este proyecto, fui una de las _responsables de la definición estratégica del servicio pionero de orientación psicológica y emocional_ por teléfono a todos los asegurados nacionales. Asimismo, como psicóloga del proyecto pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
 He participado también en entrevistas en diferentes medios sociales, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
+
+Actualmente también colaboro con un centro médico como psicóloga con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](www.lateralidad.com)
+
 Además puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando.
 
 ## Ubicación
