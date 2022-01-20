@@ -33,11 +33,11 @@ Ya son más de 60 personas las que han pasado por mi consulta.
 
 ## Colaboraciones
 
-Durante la pandemia del Covid-19 tuve la oportunidad de participar en la definición de un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional. Durante este proyecto, fui una de las _responsables de la definición estratégica del servicio pionero de orientación psicológica y emocional_ por teléfono a todos los asegurados nacionales. Asimismo, como psicóloga del proyecto pude ayudar a todas las personas que necesitaban apoyo psicológico.
+Durante la pandemia del Covid-19 tuve la oportunidad de participar en la definición de un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional. Durante este proyecto, fui una de las _responsables de la definición estratégica del servicio pionero de orientación psicológica y emocional_ por teléfono a todos los asegurados nacionales. Asimismo, como *psicóloga del proyecto* pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
 He participado también en entrevistas en diferentes medios sociales, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
 
-Actualmente también colaboro con un centro médico como psicóloga con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)
+Actualmente también colaboro con un *centro médico como psicóloga* con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)
 
 ![Terapia psicológica]({{ site.baseurl }}/images/lateralidad_2.jpg)
 *Centro Médico de Lateralidad  con el que trabajo como psicóloga* 
