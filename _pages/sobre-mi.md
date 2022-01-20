@@ -39,7 +39,7 @@ He participado también en entrevistas en diferentes medios sociales, como por e
 
 Actualmente también colaboro con un centro médico como psicóloga con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)
 
-![Terapia psicológica]({{ site.baseurl }}/images/lateralidad.jpg)
+![Terapia psicológica]({{ site.baseurl }}/images/lateralidad.jpeg)
 *Terapia psicológica* 
 
 Además puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando.
