@@ -37,10 +37,11 @@ Durante la pandemia del Covid-19 tuve la oportunidad de participar en la definic
 
 He participado también en entrevistas en diferentes medios sociales, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
 
-| Actualmente también colaboro con un *centro médico como psicóloga* con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  | ![Terapia psicológica]({{ site.baseurl }}/images/lateralidad_2.jpg)|
-
+Actualmente también colaboro con un *centro médico como psicóloga* con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)
 
 Además puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando.
+
+![Terapia psicológica]({{ site.baseurl }}/images/lateralidad_2.jpg)
 
 ## Ubicación
 
