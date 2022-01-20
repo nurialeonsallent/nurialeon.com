@@ -44,6 +44,48 @@ layout: default
         <div class="opinions">
             <h2 class="h3">Valoraciones</h2>
             <div class="scroll">
+                {% for review in site.data.reviews %}
+                    <p>
+                        <b>{{ review.name }}</b> &nbsp; {{ review.date }} &nbsp;
+                        <span class="stars no-wrap">
+                            {% case review.score %}
+                                {% when 1 %}
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                {% when 2 %}
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                {% when 3 %}
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                {% when 4 %}
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
+                                {% when 5 %}
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
+                            {% endcase %}
+                        </span>
+                        <br/>
+                        {{ review.text }}
+                    </p>
+                {% endfor %}
+
                 <p>
                     <b>M. H.</b> &nbsp; 01/2022 &nbsp;
                     <span class="stars no-wrap">
