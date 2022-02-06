@@ -10,7 +10,7 @@ Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor
 
 He trabajado con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
 
-Ya son más de 60 personas las que han pasado por mi consulta.
+Ya son más de 70 personas las que han pasado por mi consulta.
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_4989.webp" /></div>
@@ -23,6 +23,7 @@ Ya son más de 60 personas las que han pasado por mi consulta.
 ## ¿Cuál es mi formación?
 
 - **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (cursando)
+- **Curso de psicoterapia integradora para el tratamiento de la ansiedad** de Eva Molero (2022)
 - **Postgrado en Psicopatología clínica** por la Universitat de Barcelona con un 9,5 de nota final (2021)
 - **Curso del Colegio de Psicólogos de Catalunya sobre Servicios Sociales en el Ayuntamiento de Barcelona** (2021)
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
@@ -40,7 +41,7 @@ He participado también en entrevistas en diferentes medios sociales, como por e
 Actualmente también colaboro con un *centro médico como psicóloga* con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
 
 
-![Terapia psicológica]({{ site.baseurl }}/images/lateralidad_2.jpg)|
+![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)|
 
 
 Además puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando.
