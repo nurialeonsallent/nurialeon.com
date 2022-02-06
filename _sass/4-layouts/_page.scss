@@ -41,9 +41,18 @@
   margin: 2rem auto 4rem auto;
 
   *:not(.carousel-cell) > img {
-    margin: 30px 0;
-  }
+    margin: 30px auto;
+    display: block;
 
+    &.left {
+      float: left;
+    }
+
+    &.right {
+      float: right;
+    }
+  }
+  
   @media only screen and (max-width: $tablet) {
     margin: 1rem auto 2rem auto;
   }
