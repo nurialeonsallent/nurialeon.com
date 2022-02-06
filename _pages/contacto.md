@@ -3,7 +3,12 @@ layout: page
 title: Contacta Conmigo
 permalink: /contacto/
 ---
+![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_contacto.jpg)
 
-Si quieres contactar conmigo puedes hacerlo a través de mis redes o el formulario de contacto:
+Escríbeme un mensaje a través del formulario de contacto:
 
 {% include contact-form.html %}
+
+
+
+
