@@ -1,0 +1,15 @@
+form.contactForm {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.contactForm .buttons {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.contactForm .buttons > :last-child {
+    margin-left: 1rem;
+}
