@@ -14,11 +14,9 @@ function openWhatsApp(message)
 {
     message = encodeURIComponent(message);
 
-    var url = isMobileOrTablet()
-        ? "https://api.whatsapp.com/send?phone=" + phone() + "&text=" + message
-        : "https://web.whatsapp.com/send?phone=" + phone() + "&text=" + message;
-
+    var url = "https://wa.me/" + phone() + "?text=" + message;
     var win = window.open(url, '_blank');
+    
     win.opener = null;
     win.focus();
 }
