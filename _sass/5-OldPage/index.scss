@@ -1,708 +1,762 @@
 :root {
-    --global-bc: #EAE3DE;
-    --global-tc: #565656;
-    --primary-color: #76323F;
-    --primary-contrast: #FFFFFF;
-    --bar-bc: #874c56;
-    --section-bc: #eee9e5;
-    --scrollbarBG: var(--section-bc);
-    --thumbBG: rgba(175, 99, 112, 0.6);
+  --global-bc: #eae3de;
+  --global-tc: #565656;
+  --primary-color: #76323f;
+  --primary-contrast: #ffffff;
+  --bar-bc: #874c56;
+  --section-bc: #eee9e5;
+  --scrollbarBG: var(--section-bc);
+  --thumbBG: rgba(175, 99, 112, 0.6);
 }
 
 .no-wrap {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .main {
-    display: grid;
-    max-width: 1800px;
+  display: grid;
+  max-width: 1800px;
 }
 
 .index.main {
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 55% 45%;
-    grid-template-areas:
-        "top top"
-        "first-page second-page"
-        "bottom bottom";
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 55% 45%;
+  grid-template-areas:
+    "top top"
+    "first-page second-page"
+    "bottom bottom";
 }
 
 .about-me.main {
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-areas:
-        "top top"
-        "back-nav back-nav"
-        "first-page second-page"
-        "bottom bottom";
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+    "top top"
+    "back-nav back-nav"
+    "first-page second-page"
+    "bottom bottom";
 }
 
 .newopinion.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-    margin: 0;
-    padding: 0;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
 }
 
-a, button {
-    display: inline;
-    color: var(--primary-color);
-    text-decoration: none;
-    border-bottom: 1px dashed;
-    cursor: pointer;
+a,
+button {
+  display: inline;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  cursor: pointer;
 
-    line-height: initial;
-    white-space: initial;
+  line-height: initial;
+  white-space: initial;
 }
 
-a.action, button.action {
-    line-height: 2em;
-    white-space: nowrap;
-    border: 1px solid;
-    padding: 4px 8px;
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.6);
+a.action,
+button.action {
+  line-height: 2em;
+  white-space: nowrap;
+  border: 1px solid;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
-a.action:after, button.action:after {
-    content: "  \203A";
-    font-size: 1.5em;
-    line-height: 1;
+a.action:after,
+button.action:after {
+  content: "  \203A";
+  font-size: 1.5em;
+  line-height: 1;
 }
 
-a.navigation, button.navigation {
-    line-height: 2em;
-    white-space: nowrap;
-    border-bottom: 1px solid;
+a.navigation,
+button.navigation {
+  line-height: 2em;
+  white-space: nowrap;
+  border-bottom: 1px solid;
 }
 
-a.navigation:after, button.navigation:after {
-    content: "  \203A";
-    font-size: 1.5em;
-    line-height: 1;
+a.navigation:after,
+button.navigation:after {
+  content: "  \203A";
+  font-size: 1.5em;
+  line-height: 1;
 }
 
-a.back:before, button.back:before {
-    content: "\2190  ";
+a.back:before,
+button.back:before {
+  content: "\2190  ";
 }
 
-a:before, button:before {
-    content: "";
+a:before,
+button:before {
+  content: "";
 }
 
 .vcenter {
-    vertical-align: text-bottom;
+  vertical-align: text-bottom;
 }
 
 .no-decoration {
-    border: none;
-    text-decoration: none;
-    line-height: unset;
-    color: unset;
+  border: none;
+  text-decoration: none;
+  line-height: unset;
+  color: unset;
 }
 
 .no-decoration:before {
-    content: unset;
+  content: unset;
 }
 
-.main h1, .main h2, .main h3, .main h4 {
-    color: var(--primary-color);
-    margin-top: 0;
+.main h1,
+.main h2,
+.main h3,
+.main h4 {
+  color: var(--primary-color);
+  margin-top: 0;
 }
 
 .main .h3 {
-    font-size: 1.3rem;
-    margin-bottom: 1em; 
+  font-size: 1.3rem;
+  margin-bottom: 1em;
 }
 
 .top-bar {
-    grid-area: top;
-    justify-self: end;
-    width: 100%;
-    padding: 0.5em;
-    text-align: center;
-    font-size: 0.85em;
-    color: var(--primary-contrast);
-    background-color: var(--bar-bc);
+  grid-area: top;
+  justify-self: end;
+  width: 100%;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--primary-contrast);
+  background-color: var(--bar-bc);
 }
 
 .bottom-bar {
-    display: block;
-    grid-area: bottom;
-    justify-self: end;
-    width: 100%;
-    padding: 0.5em;
-    text-align: center;
-    font-size: 0.85em;
-    color: var(--primary-contrast);
-    background-color: var(--bar-bc);
+  display: block;
+  grid-area: bottom;
+  justify-self: end;
+  width: 100%;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--primary-contrast);
+  background-color: var(--bar-bc);
 }
 
 .first-page {
-    grid-area: first-page;
-    padding: 0 4rem 0 8rem;
-    display: grid;
-    grid-gap: 2rem;
-    justify-content: center;
+  grid-area: first-page;
+  padding: 0 4rem 0 8rem;
+  display: grid;
+  grid-gap: 2rem;
+  justify-content: center;
 }
 
 .index .first-page {
-    grid-template-rows: auto auto auto 1fr;
-    grid-template-areas:
-        "me"
-        "pricing"
-        "info"
-        "page_jump";
+  grid-template-rows: auto auto auto 1fr;
+  grid-template-areas:
+    "me"
+    "pricing"
+    "info"
+    "page_jump";
 }
 
 .about-me .first-page {
-    grid-template-rows: auto auto minmax(0, 1fr);
-    grid-template-areas:
-        "info"
-        "studies"
-        "page_jump";
+  grid-template-rows: auto auto minmax(0, 1fr);
+  grid-template-areas:
+    "info"
+    "studies"
+    "page_jump";
 }
 
 .second-page {
-    grid-area: second-page;
-    display: grid;
-    grid-gap: 2rem;
-    padding: 0 8rem 0 4rem;
+  grid-area: second-page;
+  display: grid;
+  grid-gap: 2rem;
+  padding: 0 8rem 0 4rem;
 }
 
 .index .second-page {
-    grid-template-rows: auto auto auto 1fr;
-    grid-template-areas:
-        "opinions"
-        "contact"
-        "page_jump";
+  grid-template-rows: auto auto auto 1fr;
+  grid-template-areas:
+    "opinions"
+    "contact"
+    "page_jump";
 }
 
 .about-me .second-page {
-    grid-template-rows: auto auto auto 1fr;
-    grid-template-areas:
-        "picture"
-        /*"titulos"*/
-        "collaborations"
-        "page_jump";
+  grid-template-rows: auto auto auto 1fr;
+  grid-template-areas:
+    "picture"
+    /*"titulos"*/
+    "collaborations"
+    "page_jump";
 }
 
 .picture {
-    grid-area: picture;
-    text-align: center;
+  grid-area: picture;
+  text-align: center;
 }
 
 .picture img {
-    max-width: #{"min(100%, 600px)"};
+  max-width: #{"min(100%, 600px)"};
 }
 
 .titulos {
-    grid-area: titulos;
+  grid-area: titulos;
 }
 
 .titulos img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .titulos .flex {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .titulos .flex a {
-    flex-grow: 1;
-    flex-basis: 45%;
-    min-width: 100px;
-    max-width: 200px;
+  flex-grow: 1;
+  flex-basis: 45%;
+  min-width: 100px;
+  max-width: 200px;
 }
 
 .back-nav {
-    grid-area: back-nav;
-    align-self: end;
-    margin: 3rem 0 3rem 0;
-    padding: 0 4rem 0 8rem;
+  grid-area: back-nav;
+  align-self: end;
+  margin: 3rem 0 3rem 0;
+  padding: 0 4rem 0 8rem;
 }
 
 .info {
-    grid-area: info;
-    padding: 1rem;
-    background-color: var(--section-bc);
-    border-radius: 4px;
+  grid-area: info;
+  padding: 1rem;
+  background-color: var(--section-bc);
+  border-radius: 4px;
 }
 
 .studies {
-    grid-area: studies;
-    padding: 1rem;
-    background-color: var(--section-bc);
-    border-radius: 4px;
+  grid-area: studies;
+  padding: 1rem;
+  background-color: var(--section-bc);
+  border-radius: 4px;
 }
 
 .collaborations {
-    grid-area: collaborations;
-    padding: 1rem;
-    background-color: var(--section-bc);
-    border-radius: 4px;
+  grid-area: collaborations;
+  padding: 1rem;
+  background-color: var(--section-bc);
+  border-radius: 4px;
 }
 
 .me {
-    grid-area: me;
-    align-self: end;
-    margin: 3rem 0 1rem 0;
-    display: inline-grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-areas:
-        "img title title"
-        "img text text"
-        "img networks about-me";
+  grid-area: me;
+  align-self: end;
+  margin: 3rem 0 1rem 0;
+  display: inline-grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "img title title"
+    "img text text"
+    "img networks about-me";
 }
 
 .me > img {
-    grid-area: img;
-    object-fit: cover;
-    align-self: center;
-    border-radius: 50%;
-    min-width: 200px;
-    max-width: 200px;
-    min-height: 200px;
-    max-height: 200px;
-    margin-right: 25px;
+  grid-area: img;
+  object-fit: cover;
+  align-self: center;
+  border-radius: 50%;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  margin-right: 25px;
 }
 
 .me .title {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 2rem;
-    grid-area: title;
-    align-self: center;
-    margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  grid-area: title;
+  align-self: center;
+  margin-bottom: 0.5rem;
 }
 
 .me .title .subtitle {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .me .text {
-    grid-area: text;
-    align-self: center;
+  grid-area: text;
+  align-self: center;
 }
 
 .me .networks {
-    grid-area: networks;
-    align-self: center;
-    justify-self: start;
-    margin-top: 0.5rem;
+  grid-area: networks;
+  align-self: center;
+  justify-self: start;
+  margin-top: 0.5rem;
 
-    a > img, a > svg {
-        width: 32px;
-        padding: 2px 4px;
-    }
+  a > img,
+  a > svg {
+    width: 32px;
+    padding: 2px 4px;
+  }
 }
 
 .me .about-me {
-    grid-area: about-me;
-    align-self: center;
-    justify-self: end;
-    margin-top: 0.5rem;
+  grid-area: about-me;
+  align-self: center;
+  justify-self: end;
+  margin-top: 0.5rem;
 }
 
 svg {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .pricing {
-    grid-area: pricing;
+  grid-area: pricing;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .price-cards {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 24px;
-}
 
-.price-card {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    border: 1px solid;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: var(--primary-color);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 8px;
-    border-radius: 4px;
-    font-size: 1.1rem;
-    text-align: center;
-}
+    .price-card {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      border: 1px solid;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: var(--primary-color);
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 1.1rem;
+      text-align: center;
 
-.price-card > .img {
-    height: 48px;
-    margin-bottom: 8px;
+      & > .img {
+        height: 48px;
+        margin-bottom: 8px;
 
-    > img {
-        max-height: 100%;
-        max-width: unset;
-        object-fit: contain;
+        > img {
+          max-height: 100%;
+          max-width: unset;
+          object-fit: contain;
+        }
+      }
+
+      & > .title {
+        font-weight: 500;
+      }
+
+      & > .price {
+        white-space: nowrap;
+      }
     }
-}
+  }
 
-.price-card > .title {
-    font-weight: 500;
-}
-
-.price-card > .price {
-    white-space: nowrap;
+  .cite {
+    font-size: 12px;
+  }
 }
 
 .opinions {
-    grid-area: opinions;
-    margin: 3rem 0 1rem 0;
-    padding: 1rem;
-    background-color: var(--section-bc);
-    border-radius: 4px;
+  grid-area: opinions;
+  margin: 3rem 0 1rem 0;
+  padding: 1rem;
+  background-color: var(--section-bc);
+  border-radius: 4px;
 }
 
 .opinions .scroll {
-    overflow-y: scroll;
-    background-color: rgba(255,255,255,0.2);
-    padding: 0.5rem;
-    max-height: 300px;
-    margin-bottom: 1rem;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  max-height: 300px;
+  margin-bottom: 1rem;
 
-    & > :first-child {
-        margin-top: 0;
-    }
+  & > :first-child {
+    margin-top: 0;
+  }
 
-    & > :last-child {
-        margin-bottom: 0;
-    }
+  & > :last-child {
+    margin-bottom: 0;
+  }
 
-    .stars {
-        font-size: 0;
-    }
+  .stars {
+    font-size: 0;
+  }
 }
 
 .opinions h1 {
-    grid-area: title;
+  grid-area: title;
 }
 
 .opinions p {
-    margin-top: 0;
-    margin-right: 1rem;
+  margin-top: 0;
+  margin-right: 1rem;
 
-    font-style: italic;
-    border-left: 1px solid var(--primary-color);
-    padding-left: 0.5rem;
+  font-style: italic;
+  border-left: 1px solid var(--primary-color);
+  padding-left: 0.5rem;
 }
 
 .opinions .more {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  gap: 1rem;
 }
 
 .opinions .more > :last-child {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .contact {
-    grid-area: contact;
+  grid-area: contact;
 }
 
 .info .col2 {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
 }
 
 .sello {
-    padding-right: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sello img {
-    flex: 0 1 auto;
-    max-height: 4.5rem;
+  flex: 0 1 auto;
+  max-height: 4.5rem;
 }
 
 .blog {
-    grid-area: blog;
-    display: grid;
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: auto 1fr;
-    grid-template-areas:
-        "title title"
-        "img post"
-        "img text"
-        "img more";
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.2);
+  grid-area: blog;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "title title"
+    "img post"
+    "img text"
+    "img more";
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-.blog .title { grid-area: title; }
-.blog .img { grid-area: img; max-height: 150px; max-width: 150px; width: 150px; margin-right: 1rem; }
-.blog img { width: 100%; border-radius: 3px; }
-.blog .post { grid-area: post; font-size: 1.1rem; align-self: center; }
-.blog .text { grid-area: text; margin-bottom: 0.5rem; }
-.blog .more { grid-area: more; justify-self: end; }
+.blog .title {
+  grid-area: title;
+}
+.blog .img {
+  grid-area: img;
+  max-height: 150px;
+  max-width: 150px;
+  width: 150px;
+  margin-right: 1rem;
+}
+.blog img {
+  width: 100%;
+  border-radius: 3px;
+}
+.blog .post {
+  grid-area: post;
+  font-size: 1.1rem;
+  align-self: center;
+}
+.blog .text {
+  grid-area: text;
+  margin-bottom: 0.5rem;
+}
+.blog .more {
+  grid-area: more;
+  justify-self: end;
+}
 
 .opinion-form {
-    display: inline-block;
-    flex: 0 1 auto;
-    border-radius: 4px;
-    margin: 2rem 1rem;
-    padding: 1rem;
-    min-width: #{"min(calc(100vw - 1rem), 600px)"};
+  display: inline-block;
+  flex: 0 1 auto;
+  border-radius: 4px;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  min-width: #{"min(calc(100vw - 1rem), 600px)"};
 }
 
 @media only screen and (max-width: 1450px) {
-    .back-nav, .first-page {
-        padding: 0 3rem 0 6rem;
-    }
+  .back-nav,
+  .first-page {
+    padding: 0 3rem 0 6rem;
+  }
 
-    .second-page {
-        padding: 0 6rem 0 3rem;
-    }
+  .second-page {
+    padding: 0 6rem 0 3rem;
+  }
 }
 
 @media only screen and (max-width: 1250px) {
-    .back-nav, .first-page {
-        padding: 0 2rem 0 4rem;
-    }
+  .back-nav,
+  .first-page {
+    padding: 0 2rem 0 4rem;
+  }
 
-    .second-page {
-        padding: 0 4rem 0 2rem;
-    }
+  .second-page {
+    padding: 0 4rem 0 2rem;
+  }
 }
 
 @media only screen and (max-width: 950px) {
-    .back-nav, .first-page {
-        padding: 0 1.5rem 0 3rem;
-    }
+  .back-nav,
+  .first-page {
+    padding: 0 1.5rem 0 3rem;
+  }
 
-    .second-page {
-        padding: 0 3rem 0 1.5rem;
-    }
+  .second-page {
+    padding: 0 3rem 0 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 1250px) {
-    .blog {
-        grid-template-rows: auto auto auto 1fr auto;
-        grid-template-areas:
-            "title title"
-            "img post"
-            "text text"
-            "more more";
-    }
+  .blog {
+    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-areas:
+      "title title"
+      "img post"
+      "text text"
+      "more more";
+  }
 
-    .blog .img { grid-area: img; max-height: 100px; max-width: 100px; width: 100px; margin-right: 1rem; }
+  .blog .img {
+    grid-area: img;
+    max-height: 100px;
+    max-width: 100px;
+    width: 100px;
+    margin-right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 1124px) {
-    .me {
-        margin: 1rem 0 0 0;
-    }
+  .me {
+    margin: 1rem 0 0 0;
+  }
 
-    .tooltip .tooltipcontent.bottom {
-        top: 120% !important;
-    }
+  .tooltip .tooltipcontent.bottom {
+    top: 120% !important;
+  }
 }
 
-@media only screen and (max-width: 1124px) and (min-width: 767px), only screen and (max-width: 550px) {
-    .me {
-        grid-gap: 0;
-        grid-template-columns: auto 1fr;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas:
-            "img title"
-            "img networks"
-            "text text"
-            "about-me about-me";
+@media only screen and (max-width: 1124px) and (min-width: 767px),
+  only screen and (max-width: 550px) {
+  .me {
+    grid-gap: 0;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "img title"
+      "img networks"
+      "text text"
+      "about-me about-me";
+  }
+
+  .info .col2 {
+    display: block;
+  }
+
+  .sello {
+    padding: 0;
+    margin-top: 1.5rem;
+  }
+
+  .me .title {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    align-self: end;
+  }
+
+  .me > img {
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 120px;
+    max-height: 120px;
+    margin-right: 1rem;
+    justify-self: start;
+  }
+
+  .me .networks {
+    align-self: start;
+  }
+
+  .me .text {
+    margin-top: 1rem;
+  }
+
+  .pricing .price-cards {
+    gap: 16px;
+
+    .price-card {
+      line-height: 1em;
+
+      > .img {
+        height: 48px;
+      }
+
+      > .price {
+        margin-top: 6px;
+      }
     }
-
-    .info .col2 {
-        display: block;
-    }
-
-    .sello {
-        padding: 0;
-        margin-top: 1.5rem;
-    }
-
-    .me .title {
-        margin-bottom: 0;
-        font-size: 1.5rem;
-        align-self: end;
-    }
-
-    .me > img {
-        min-width: 120px;
-        max-width: 120px;
-        min-height: 120px;
-        max-height: 120px;
-        margin-right: 1rem;
-        justify-self: start;
-    }
-
-    .me .networks {
-        align-self: start;
-    }
-
-    .me .text {
-        margin-top: 1rem;
-    }
-
-    .pricing {
-        gap: 16px;
-
-        .price-card {
-            line-height: 1em;
-
-            > .img {
-                height: 48px;
-            }
-
-            > .price {
-                margin-top: 6px;
-            }
-        }
-    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  a.action,
+  button.action {
+    padding: 2px 8px;
+  }
 
-    a.action, button.action {
-        padding: 2px 8px;
+  .main {
+    display: grid;
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  .index.main {
+    grid-template-columns: unset;
+    grid-template-rows: 0 auto auto auto;
+    grid-template-areas:
+      "top"
+      "first-page"
+      "second-page"
+      "bottom";
+  }
+
+  .about-me.main {
+    grid-template-columns: unset;
+    grid-template-rows: 0 auto auto auto auto;
+    grid-template-areas:
+      "top"
+      "back-nav"
+      "first-page"
+      "second-page"
+      "bottom";
+  }
+
+  .newopinion.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .opinion-form {
+    margin: 2rem 0;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .top-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .back-nav {
+    margin: 0;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+
+  .first-page,
+  .second-page {
+    padding: 1rem;
+  }
+  .second-page {
+    padding-top: 0;
+  }
+
+  .index .first-page {
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "me"
+      "pricing"
+      "info";
+  }
+
+  .index .second-page {
+    grid-template-rows: auto auto 0;
+    grid-template-areas:
+      "opinions"
+      "contact"
+      "footer-space";
+  }
+
+  .about-me .second-page {
+    grid-template-rows: auto auto 0;
+    grid-template-areas:
+      "collaborations"
+      "picture"
+      /*"titulos"*/
+      "footer-space";
+  }
+
+  .me > img {
+    width: 150px;
+  }
+
+  .opinions .scroll {
+    max-height: 50vh;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .opinions {
+    margin: 0;
+
+    .more > :last-child {
+      margin: 0;
+    }
+  }
+
+  .contact {
+    textarea {
+      height: 8rem;
     }
 
-    .main {
-        display: grid;
-        min-height: 100%;
-        min-width: 100%;
+    .buttons > :last-child {
+      margin: 0;
     }
-
-    .index.main {
-        grid-template-columns: unset;
-        grid-template-rows: 0 auto auto auto;
-        grid-template-areas:
-            "top"
-            "first-page"
-            "second-page"
-            "bottom";
-    }
-
-    .about-me.main {
-        grid-template-columns: unset;
-        grid-template-rows: 0 auto auto auto auto;
-        grid-template-areas:
-            "top"
-            "back-nav"
-            "first-page"
-            "second-page"
-            "bottom";
-    }
-
-    .newopinion.main {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .opinion-form {
-        margin: 2rem 0;
-
-        h1 {
-            font-size: 1.8rem;
-        }
-    }
-
-    .top-bar {
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 9999;
-    }
-
-    .back-nav {
-        margin: 0;
-        margin-top: 3rem;
-        padding: 1rem;
-    }
-
-    .first-page, .second-page {
-        padding: 1rem;
-    }
-    .second-page {
-        padding-top: 0;
-    }
-
-    .index .first-page {
-        grid-template-rows: auto auto auto;
-        grid-template-areas:
-            "me"
-            "pricing"
-            "info";
-    }
-
-    .index .second-page {
-        grid-template-rows: auto auto 0;
-        grid-template-areas:
-            "opinions"
-            "contact"
-            "footer-space";
-    }
-
-    .about-me .second-page {
-        grid-template-rows: auto auto 0;
-        grid-template-areas:
-            "collaborations"
-            "picture"
-            /*"titulos"*/
-            "footer-space";
-    }
-
-    .me > img {
-        width: 150px;
-    }
-
-    .opinions .scroll {
-        max-height: 50vh;
-        margin-left: -1rem;
-        margin-right: -1rem;
-    }
-
-    .opinions {
-        margin: 0;
-
-        .more > :last-child {
-            margin: 0;
-        }
-    }
-
-    .contact {
-        textarea {
-            height: 8rem;
-        }
-
-        .buttons > :last-child {
-            margin: 0;
-        }
-    }
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    .me .title {
-        width: 1px; /* force word-wrap */
-    }
+  .me .title {
+    width: 1px; /* force word-wrap */
+  }
 }
