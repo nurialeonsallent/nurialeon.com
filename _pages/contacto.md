@@ -4,7 +4,9 @@ title: Contacta Conmigo
 permalink: /contacto/
 ---
 
-{% include contact-link.html %}
+<div style="margin-top: 16px; margin-bottom: 40px;">
+    {% include contact-link.html %}
+</div>
 
 Para contactar conmigo puedes enviarme un email con tu consulta a **psicologa@nurialeon.com**.
 

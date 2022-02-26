@@ -41,7 +41,7 @@
 .page {
   margin: 2rem auto 4rem auto;
 
-  *:not(.carousel-cell) > img {
+  p:not(.carousel-cell) > img {
     margin: 30px auto;
     display: block;
 
