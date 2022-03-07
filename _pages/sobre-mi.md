@@ -23,7 +23,8 @@ Ya son más de 70 personas las que han pasado por mi consulta.
 ## ¿Cuál es mi formación?
 
 - **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (cursando)
-- **Curso de psicoterapia integradora para el tratamiento de la ansiedad** de Eva Molero (2022)
+- **Psicoterapia integradora para el tratamiento de la ansiedad** curso de Eva Molero (2022)
+- **Lateralidad y sus repercusiones en el aprendizaje** curso de María del Mar Ferré (2022)
 - **Postgrado en Psicopatología clínica** por la Universitat de Barcelona con un 9,5 de nota final (2021)
 - **Curso del Colegio de Psicólogos de Catalunya sobre Servicios Sociales en el Ayuntamiento de Barcelona** (2021)
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
@@ -32,17 +33,16 @@ Ya son más de 70 personas las que han pasado por mi consulta.
 - **Máster en Estrategia y Gestión de marca** por la Barcelona School of Management de la Universitat Pompeu Fabra con un 8,2 de nota final (2018)
 - **Grado de Psicología** en la Universitat de Barcelona (2011-2017)
 
-## Colaboraciones
+## Colaboraciones y Experiencia Laboral
 
-Durante la pandemia del Covid-19 tuve la oportunidad de participar en la definición de un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional. Durante este proyecto, fui una de las _responsables de la definición estratégica del servicio pionero de orientación psicológica y emocional_ por teléfono a todos los asegurados nacionales. Asimismo, como *psicóloga del proyecto* pude ayudar a todas las personas que necesitaban apoyo psicológico.
+Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la definición de un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional. Durante este proyecto, fui una de las _responsables de la definición estratégica del servicio pionero de orientación psicológica y emocional_ por teléfono a todos los asegurados nacionales. Asimismo, como *psicóloga del proyecto* pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
-He participado también en entrevistas en diferentes medios sociales, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
-
-Actualmente también colaboro con un *centro médico como psicóloga* con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
+Actualmente también colaboro con un *centro de psicomotricidad y lateralidad* con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
 
-Además puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando.
+Además te participado también en entrevistas en diferentes medios sociales, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
+Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También tengo Linkedin, donde puedes ver toda mi trayectoria profesional con más detalle.
 
 ## Ubicación
 
