@@ -35,13 +35,13 @@ Ya son más de 70 personas las que han pasado por mi consulta.
 
 ## Colaboraciones y Experiencia Laboral
 
-Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la definición de un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional. Durante este proyecto, fui una de las _responsables de la definición estratégica del servicio pionero de orientación psicológica y emocional_ por teléfono a todos los asegurados nacionales. Asimismo, como *psicóloga del proyecto* pude ayudar a todas las personas que necesitaban apoyo psicológico.
+Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como *psicóloga* en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
-Actualmente también colaboro con un *centro de psicomotricidad y lateralidad* con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
+Actualmente también colaboro con un **centro de psicomotricidad y lateralidad** con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
 
-Además te participado también en entrevistas en diferentes medios sociales, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
+Además te participado también en entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También tengo Linkedin, donde puedes ver toda mi trayectoria profesional con más detalle.
 
 ## Ubicación
