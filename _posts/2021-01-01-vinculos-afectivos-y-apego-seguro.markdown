@@ -11,7 +11,7 @@ image: infant-g14187b721_1280.jpg
 published: true
 ---
 
-En el post de hoy quiero hablar de la importancia de los vínculos afectivos y del apego seguro. Muy importante mantener relaciones interpersonales sanas. La empatia, el afecto, el deseo de compartir y la capacidad de amar están asociadas al tipo de apego formado durante la infancia y niñez temprana.
+En el post de hoy quiero hablar de la importancia de los vínculos afectivos y del apego seguro. Es muy importante mantener relaciones interpersonales sanas. La empatia, el afecto, el deseo de compartir y la capacidad de amar están asociadas al tipo de apego formado durante la infancia y niñez temprana.
 
 
 <!-- more -->
