@@ -24,7 +24,7 @@ Ya son más de 70 personas las que han pasado por mi consulta.
 
 - **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (cursando)
 - **Psicoterapia integradora para el tratamiento de la ansiedad** curso de Eva Molero (2022)
-- **Lateralidad y sus repercusiones en el aprendizaje** curso de María del Mar Ferré (2022)
+- **Lateralidad y sus repercusiones en el aprendizaje** curso de la Dra. María del Mar Ferré (2022)
 - **Postgrado en Psicopatología clínica** por la Universitat de Barcelona con un 9,5 de nota final (2021)
 - **Curso del Colegio de Psicólogos de Catalunya sobre Servicios Sociales en el Ayuntamiento de Barcelona** (2021)
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
@@ -41,7 +41,7 @@ Actualmente también colaboro con un **centro de psicomotricidad y lateralidad**
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
 
-Además te participado también en entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
+Además he participado también en entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También tengo Linkedin, donde puedes ver toda mi trayectoria profesional con más detalle.
 
 ## Ubicación
