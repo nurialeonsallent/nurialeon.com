@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sesiones Online y Sesiones Presenciales
-permalink: /Sesiones/
+permalink: /sesiones/
 ---
 
 <div style="margin-top: 16px; margin-bottom: 40px;">
