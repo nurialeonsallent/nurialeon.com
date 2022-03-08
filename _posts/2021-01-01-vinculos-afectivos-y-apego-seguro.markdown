@@ -32,31 +32,32 @@ Se puede crear a partir del primer mes de vida y su objetivo es proporcionar seg
 
 La teoría del apego, formulada por J. Bowlby, es una forma de conceptualizar la tendencia de los seres humanos a crear vínculos afectivos con los demás y a crear maneras de expresar emociones de angustia, depresión, enfado cuando son abandonados o viven una separación o pérdida.
 
-La teoría del apego describe las diferentes formas en la que las personas se comportan en sus relaciones. Los modelos afectivos y relacionales los aprendemos en la infancia a traves de nuestras relaciones con nuestros cuidadores. Las relaciones que tenemos con los adultos que nos rodean.
+La teoría del apego describe las diferentes formas en la que las personas se comportan en sus relaciones. Los modelos afectivos y relacionales los aprendemos en la infancia a traves de nuestras relaciones con nuestros cuidadores. 
 
-Desde que nacemos, podemos percibir la forma en que se relacionan nuestros progenitores con nosotros. Por lo tanto, durante la infancia nuestros padres serán la principal figura de apego, aunque puedan aparecer otras figuras como nuestros hermanos, familiares o  amigos. 
+Desde que nacemos, podemos percibir la forma en que se relacionan nuestros progenitores con nosotros. Por lo tanto, durante la infancia nuestros padres serán la principal figura de apego, aunque puedan aparecer otras figuras como nuestros hermanos, familiares o amigos. 
 
 Más adelante, en la adolescencia, nuestros amigos irán ganando terreno en la jerarquía de las figuras de apego y en la adultez temprana, éstos y la pareja estarán al mismo nivel que los padres, hasta que sea nuestra pareja estable la que se convierta en nuestra figura principal de apego *(Lafuente, 1992; López, 1993)*. Por eso es tan relevante su estudio.
 
-Tanto humanos como animales necesitamos sentirnos protegidos tanto físicamente y emocionalmente por otros. Hay una cuestion biológica y evolutiva de supervivencia. Todos buscamos cercanía y generar apego. El apego es necesario para un sano desarrollo físico, el desarrollo emocional, interpersonal, mental… pero sobre todo para que logremos generar resiliencia, hacer frente a las dificultades, a los retos, adversidades… para ser capaces de aprender a hacernos cargo de nosotros mismos sobre nuestras necesidades.
+Tanto humanos como animales necesitamos sentirnos protegidos tanto físicamente y emocionalmente por otros. Hay una cuestion biológica y evolutiva de supervivencia. Todos buscamos cercanía y generar apego. *El apego es necesario para un sano desarrollo físico, el desarrollo emocional, interpersonal, mental…* pero sobre todo para que logremos generar resiliencia, hacer frente a las dificultades, a los retos, adversidades… para ser capaces de aprender a hacernos cargo de nosotros mismos sobre nuestras necesidades.
 
-Bowlby enfatizó que la formación de una relación cálida entre niño y madre es crucial
-para la supervivencia y desarrollo saludable del menor, tanto como lo es la provisión de comida, cuidado infantil, la estimulación y la disciplina. Así, el amor materno en la infancia es tan crucial para la salud mental como lo son las vitaminas y las proteínas en la salud física.
+Bowlby enfatizó que la formación de una relación cálida entre niño y madre es crucial para la supervivencia y desarrollo saludable del menor, tanto como lo es la provisión de comida, cuidado infantil, la estimulación y la disciplina. Así, el amor materno en la infancia es tan crucial para la salud mental como es la alimentación equilibrada en la salud física.
 
 ## Tipos de apego inseguro: ambivalente, evitativo y desorganizado
 
-*Estilo ambivalente:* En este caso el niño está inseguro de si sus progenitores estaran accesibles y si lo ayudarán cuando necesite. Esta pauta de conducta se refuerza cuando el progenitor se muestra accesible en algunas ocasiones y en otras no. También se puede dar por las separaciones y por las amenazas de abandono utilizadas como estrategias de control conductual por parte de los padres.
+**Estilo ambivalente:** En este caso el niño está inseguro de si sus progenitores estaran accesibles y si lo ayudarán cuando necesite. Esta pauta de conducta se refuerza cuando el progenitor se muestra accesible en algunas ocasiones y en otras no. También se puede dar por las separaciones y por las amenazas de abandono utilizadas como estrategias de control conductual por parte de los padres.
 
-*Estilo evitativo:* Se desarrolla cuando el niño no confía en que cuando busque cuidados recibirá respuesta, por el contrario, espera ser ignorado, razón por la cual intenta volverse emocionalmente autosuficiente. Este tipo de apego es resultado del rechazo continuo o la ignorancia de los progenitores cuando el niño se acerca a ellos en busca de alivio y protección.
+**Estilo evitativo:** Se desarrolla cuando el niño no confía en que cuando busque cuidados recibirá respuesta, por el contrario, espera ser ignorado, razón por la cual intenta volverse emocionalmente autosuficiente. Este tipo de apego es resultado del rechazo continuo o la ignorancia de los progenitores cuando el niño se acerca a ellos en busca de alivio y protección.
 
-*Estilo desorganizado*: Es una mezcla entre el apego ansioso y el evitativo en que el niño presenta comportamientos contradictorios e inadecuados. Este actua desorganizado, todos los demás no. Lo que muestra la falta de comportamiento de un apego claro. 
+**Estilo desorganizado**: Es una mezcla entre el apego ansioso y el evitativo en que el niño presenta comportamientos contradictorios e inadecuados. Este actua desorganizado, todos los demás no. Lo que muestra la falta de comportamiento de un apego claro. 
 
 
 ## El apego seguro, el más adaptativo
 
-Finalmente, nos queda el tipo de apego más adaptativo y positivo para el desarrollo del niño. En este caso el niño/a tiene confianza en la disponibilidad, comprensión y ayuda que la figura parental le dará en situaciones que viva. Se siente animado a explorar el mundo y manifiesta una búsqueda activa de contacto.Este tipo de apego evoca sentimientos de pertinencia, de aceptación de sí mismo y de confianza de base. Los padres responden de forma receptiva hacia las necesidades del niño y se muestran disponibles. 
+Finalmente, nos queda el tipo de apego más adaptativo y positivo para el desarrollo del niño. En este caso el niño/a tiene confianza en la disponibilidad, comprensión y ayuda que la figura parental le dará en situaciones que viva. 
+
+El niño o la niña se siente animado a explorar el mundo y manifiesta una búsqueda activa de contacto.Este tipo de apego evoca sentimientos de pertinencia, de aceptación de sí mismo y de confianza de base. Los padres responden de forma receptiva hacia las necesidades del niño y se muestran disponibles. 
 
 
 
-Los estilos suelen prolongarse en la edad adulta y pueden afectar a todo tipo de relaciones, por eso mismo lo mejor es pedir la ayuda de un psicólogo especializado que pueda ayudar a sanar la vinculación y que la persona pueda crear ese vínculo seguro en sus relaciones. 
+Los estilos suelen prolongarse en la edad adulta y pueden afectar a todo tipo de relaciones, por eso mismo lo mejor es pedir la ayuda de un **psicólogo especializado** que pueda ayudar a sanar la vinculación para que la persona pueda crear un vínculo seguro en todas sus relaciones. 
 
