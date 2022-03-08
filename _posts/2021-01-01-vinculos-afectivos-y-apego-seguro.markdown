@@ -56,3 +56,7 @@ para la supervivencia y desarrollo saludable del menor, tanto como lo es la prov
 
 Finalmente, nos queda el tipo de apego más adaptativo y positivo para el desarrollo del niño. En este caso el niño/a tiene confianza en la disponibilidad, comprensión y ayuda que la figura parental le dará en situaciones que viva. Se siente animado a explorar el mundo y manifiesta una búsqueda activa de contacto.Este tipo de apego evoca sentimientos de pertinencia, de aceptación de sí mismo y de confianza de base. Los padres responden de forma receptiva hacia las necesidades del niño y se muestran disponibles. 
 
+
+
+Los estilos suelen prolongarse en la edad adulta y pueden afectar a todo tipo de relaciones, por eso mismo lo mejor es pedir la ayuda de un psicólogo especializado que pueda ayudar a crear ese vínculo seguro. 
+
