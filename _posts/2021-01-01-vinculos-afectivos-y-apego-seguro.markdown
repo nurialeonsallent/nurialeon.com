@@ -32,11 +32,11 @@ Se puede crear a partir del primer mes de vida y su objetivo es proporcionar seg
 
 La teoría del apego, formulada por J. Bowlby, es una forma de conceptualizar la tendencia de los seres humanos a crear vínculos afectivos con los demás y a crear maneras de expresar emociones de angustia, depresión, enfado cuando son abandonados o viven una separación o pérdida.
 
-La teoría del apego describe las diferentes formas en la que las personas se comportan en sus relaciones. Los modelos afectivos y relacionales los aprendemos en la infancia a traves de nuestras relaciones con nuestros cuidadores. 
+La teoría del apego describe las diferentes formas en la que las personas se comportan en sus relaciones. Los modelos afectivos y relacionales los **aprendemos en la infancia a traves de nuestras relaciones con nuestros cuidadores**. 
 
 Desde que nacemos, podemos percibir la forma en que se relacionan nuestros progenitores con nosotros. Por lo tanto, durante la infancia nuestros padres serán la principal figura de apego, aunque puedan aparecer otras figuras como nuestros hermanos, familiares o amigos. 
 
-Más adelante, en la adolescencia, nuestros amigos irán ganando terreno en la jerarquía de las figuras de apego y en la adultez temprana, éstos y la pareja estarán al mismo nivel que los padres, hasta que sea nuestra pareja estable la que se convierta en nuestra figura principal de apego *(Lafuente, 1992; López, 1993)*. Por eso es tan relevante su estudio.
+Más adelante, en la adolescencia, nuestros amigos irán ganando terreno en la jerarquía de las figuras de apego y en la adultez temprana, éstos y la pareja estarán al mismo nivel que los padres, hasta que sea nuestra **pareja estable** la que se convierta en nuestra figura principal de apego *(Lafuente, 1992; López, 1993)*. Por eso es tan relevante su estudio.
 
 Tanto humanos como animales necesitamos sentirnos protegidos tanto físicamente y emocionalmente por otros. Hay una cuestion biológica y evolutiva de supervivencia. Todos buscamos cercanía y generar apego. *El apego es necesario para un sano desarrollo físico, el desarrollo emocional, interpersonal, mental…* pero sobre todo para que logremos generar resiliencia, hacer frente a las dificultades, a los retos, adversidades… para ser capaces de aprender a hacernos cargo de nosotros mismos sobre nuestras necesidades.
 
