@@ -41,8 +41,13 @@ Actualmente también colaboro con un **centro de psicomotricidad y lateralidad**
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
 
-Además he participado también en entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
+También en entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
+
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También tengo Linkedin, donde puedes ver toda mi trayectoria profesional con más detalle.
+
+Actualmente sigo en constante supervisión y estoy realizando prácticas en un [centro de referencia de Barcelona de la Terapia Breve Estratégica](https://www.juliapascual.com/)
+
+
 
 ## Ubicación
 
