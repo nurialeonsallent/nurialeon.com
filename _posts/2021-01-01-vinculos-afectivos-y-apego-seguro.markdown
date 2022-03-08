@@ -11,22 +11,22 @@ image: infant-g14187b721_1280.jpg
 published: true
 ---
 
-En el post de hoy quiero hablar de la importancia de los vínculos afectivos y del apego seguro. Es muy importante mantener relaciones interpersonales sanas. La empatia, el afecto, el deseo de compartir y la capacidad de amar están asociadas al tipo de apego formado durante la infancia y niñez temprana.
+En el post de hoy quiero hablar de la importancia de los vínculos afectivos y del apego seguro. Es muy importante mantener relaciones interpersonales sanas. La empatia, el afecto, la capacidad de amar y el deseo de compartir están asociadas al tipo de apego formado durante la infancia y niñez temprana.
 
 
 <!-- more -->
 
 ## ¿Por qué es importante estudiar los tipos de apego? 
 
-Porque no solamente tenemos apego cuando somos pequeños, de hecho, en la adultez ese vínculo de apego lo volvemos a establecer con personas como la pareja.
+Porque la realidad es que no solamente tenemos apego cuando somos pequeños, de hecho, en la adultez ese vínculo de apego lo volvemos a establecer con personas como la pareja.
 
-En el caso de la infancia, es fundamental tener un tipo de apego seguro ya que eso influye en el funcionamiento de la personalidad a lo largo del ciclo vital, no solo en la infancia, sino tambien en la adolescencia y adultez. Hay autores que afirman que las primeras relaciones de apego tienen una poderosa influencia en el desarrollo de la personalidad y en algunos casos, en el origen de la psicopatología.
+En el caso de la infancia, es fundamental tener un tipo de apego seguro ya que eso influye en el funcionamiento de la personalidad a lo largo del ciclo vital, no solo en esa etapa de la vida, sino tambien en la adolescencia y adultez. Hay autores que afirman que las primeras relaciones de apego tienen una poderosa influencia en el desarrollo de la personalidad y en algunos casos, en el origen de la psicopatología.
 
 ## ¿Qué es el apego? 
 
 El Apego es una relación emocional especial y específica que se establece entre **un niño y la persona que lo cuida**, a la que quiere. 
 
-Se puede crear a partir del primer mes de vida y su objetivo es proporcionar seguridad, protección. El apego se caracteriza por ser perdurable con una persona, producir sentimientos positivos, en el caso de que sea un apego seguro y su pérdida suele generar en la persona una gran ansiedad.
+Se puede crear a partir del primer mes de vida y su objetivo es proporcionar seguridad y protección. El apego se caracteriza por ser perdurable con una persona, producir sentimientos positivos (en el caso de que sea un apego seguro ) y su pérdida suele generar en la persona una gran ansiedad.
 
 ## Teoría del apego 
 
@@ -34,13 +34,13 @@ La teoría del apego, formulada por J. Bowlby, es una forma de conceptualizar la
 
 La teoría del apego describe las diferentes formas en la que las personas se comportan en sus relaciones. Los modelos afectivos y relacionales los **aprendemos en la infancia a traves de nuestras relaciones con nuestros cuidadores**. 
 
-Desde que nacemos, podemos percibir la forma en que se relacionan nuestros progenitores con nosotros. Por lo tanto, durante la infancia nuestros padres serán la principal figura de apego, aunque puedan aparecer otras figuras como nuestros hermanos, familiares o amigos. 
+Desde que nacemos, podemos percibir la forma en que se relacionan nuestros progenitores con nosotros. Por lo tanto, durante la infancia nuestros padres serán la principal figura de apego, aunque puedan aparecer otras figuras como nuestros hermanos, otros familiares o amigos. 
 
-Más adelante, en la adolescencia, nuestros amigos irán ganando terreno en la jerarquía de las figuras de apego y en la adultez temprana, éstos y la pareja estarán al mismo nivel que los padres, hasta que sea nuestra **pareja estable** la que se convierta en nuestra figura principal de apego *(Lafuente, 1992; López, 1993)*. Por eso es tan relevante su estudio.
+Más adelante, en la adolescencia, **nuestros amigos** irán ganando terreno en la jerarquía de las figuras de apego y en la adultez temprana, éstos y la pareja estarán al mismo nivel que los padres, hasta que sea nuestra **pareja estable** la que se convierta en nuestra figura principal de apego *(Lafuente, 1992; López, 1993)*. Por eso es tan relevante su estudio.
 
 Tanto humanos como animales necesitamos sentirnos protegidos tanto físicamente y emocionalmente por otros. Hay una cuestion biológica y evolutiva de supervivencia. Todos buscamos cercanía y generar apego. *El apego es necesario para un sano desarrollo físico, el desarrollo emocional, interpersonal, mental…* pero sobre todo para que logremos generar resiliencia, hacer frente a las dificultades, a los retos, adversidades… para ser capaces de aprender a hacernos cargo de nosotros mismos sobre nuestras necesidades.
 
-Bowlby enfatizó que la formación de una relación cálida entre niño y madre es crucial para la supervivencia y desarrollo saludable del menor, tanto como lo es la provisión de comida, cuidado infantil, la estimulación y la disciplina. Así, el amor materno en la infancia es tan crucial para la salud mental como es la alimentación equilibrada en la salud física.
+Bowlby enfatizó que la formación de una relación cálida entre niño y madre es crucial para la supervivencia y desarrollo saludable del niño, tanto como lo es la provisión de comida, cuidado infantil, la estimulación y la disciplina. Así, el amor materno en la infancia es tan crucial para la salud mental como es la alimentación equilibrada en la salud física.
 
 ## Tipos de apego inseguro: ambivalente, evitativo y desorganizado
 
