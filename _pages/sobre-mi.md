@@ -51,4 +51,7 @@ Actualmente sigo en constante supervisión clínica y estoy realizando práctica
 
 ## Ubicación
 
+La ubicación de mi despacho está muy cerquita de la Sagrada Familia. 
+Metros: L5 (Sant Pau Dos de Maig)
+Bus: 47 - H6 - D50
 {% include map.html %}
