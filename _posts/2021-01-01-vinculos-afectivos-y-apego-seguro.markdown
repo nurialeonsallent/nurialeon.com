@@ -58,5 +58,5 @@ Finalmente, nos queda el tipo de apego más adaptativo y positivo para el desarr
 
 
 
-Los estilos suelen prolongarse en la edad adulta y pueden afectar a todo tipo de relaciones, por eso mismo lo mejor es pedir la ayuda de un psicólogo especializado que pueda ayudar a crear ese vínculo seguro. 
+Los estilos suelen prolongarse en la edad adulta y pueden afectar a todo tipo de relaciones, por eso mismo lo mejor es pedir la ayuda de un psicólogo especializado que pueda ayudar a sanar la vinculación y que la persona pueda crear ese vínculo seguro en sus relaciones. 
 
