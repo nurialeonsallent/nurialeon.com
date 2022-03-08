@@ -19,5 +19,5 @@ En las sesiones online utilizamos la plataforma de google meets o skype. En el c
 
 Mi metodología de trabajo es integradora y ecléctica, combino dierentes técnicas y procedimientos terapéuticos provenientes de distintos sistemas teóricos con el fin de solucionar problemas concretos. Me he formado sobretodo en la terapia cognitivo-conductual, una orientación enfocada en la vinculación del pensamiento y la conducta. Utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento y de exposición, entre otras. 
 
-Además, actualmente sigo en constante supervisión y estoy realizando prácticas en un [centro de referencia de la Terapia Breve Estratégica](https://www.juliapascual.com/)
+Además, actualmente sigo en constante supervisión y estoy realizando prácticas en un [centro de referencia de Barcelona de la Terapia Breve Estratégica](https://www.juliapascual.com/)
 
