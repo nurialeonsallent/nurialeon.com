@@ -11,6 +11,7 @@ permalink: /sesiones/
 ## Sesiones Online y Sesiones Presenciales en Barcelona
 
 Realizo tanto sesiones online como sesiones presenciales. 
+
 En ambos casos las sesiones tienen una **duración de 60 minutos** y siempre os envío **actividades, ejercicios, reflexiones, lecturas**, etc. todo personalizado a cada caso, para que podáis seguir trabajando entre sesión y sesión. 
 
 En las sesiones online utilizamos la plataforma de google meets o skype. En el caso de las sesiones presenciales el despacho está muy cerca de la Sagrada Familia.

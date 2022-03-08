@@ -8,7 +8,7 @@ Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Col·legi O
 
 Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor. Experiencia tanto en consulta privada por mi cuenta propia como en centro médico reconocido trabajando con las mutuas más conocidas a nivel nacional.
 
-He trabajado con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
+He trabajado con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
 
 Ya son más de 70 personas las que han pasado por mi consulta.
 
