@@ -37,17 +37,17 @@ Ya son más de 70 personas las que han pasado por mi consulta.
 
 Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como *psicóloga* en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
-Actualmente también colaboro con un **centro de psicomotricidad y lateralidad** con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
+Actualmente también colaboro con un **centro especializado psicomotricidad y lateralidad** con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada. Puedes ver la web en el siguiente enlace [todas las entrevistas que me han hecho.](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
 
 
-Por otra parte, sigo en constante supervisión clínica y estoy realizando prácticas en el **Centro de Júlia Pascual**, un [centro de referencia de Barcelona de la Terapia Breve Estratégica.](https://www.juliapascual.com/). Durante mi experiencia estoy pudiendo asistir a las sesiones de psicoterapia supervisada por la misma Júlia Pascual, embajadora de la Terapia Breve Estratégica en España, quien me está formando sobre su metología terapéutica.
+Paralelamente, sigo en constante supervisión clínica y estoy realizando prácticas en el **Centro de Júlia Pascual**, un [centro de referencia de Barcelona de la Terapia Breve Estratégica.](https://www.juliapascual.com/). Durante mi experiencia estoy pudiendo asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me está formando sobre su metología terapéutica.
 
-También he realizado entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
 
-Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También tengo Linkedin, donde puedes ver toda mi trayectoria profesional con más detalle.
+Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También tengo [Linkedin] (https://www.linkedin.com/in/nurialeonsallent/), donde puedes ver toda mi trayectoria profesional con más detalle. También he realizado entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
 
+https://www.linkedin.com/in/nurialeonsallent/
 
 
 
