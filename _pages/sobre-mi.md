@@ -49,7 +49,6 @@ Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el c
 
 También he realizado entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
 
-https://www.linkedin.com/in/nurialeonsallent/
 
 
 
