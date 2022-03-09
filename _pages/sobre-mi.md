@@ -51,8 +51,6 @@ También he realizado entrevistas en diferentes medios, como por ejemplo [este a
 
 
 
-
-
 ## Ubicación
 
 La ubicación de mi despacho está muy cerquita de la Sagrada Familia. 
