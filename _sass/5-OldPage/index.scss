@@ -427,7 +427,7 @@ svg {
 .opinions .more {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: flex-end;
   gap: 1rem;
 }
