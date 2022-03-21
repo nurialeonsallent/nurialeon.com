@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ¿Cómo son las sesiones? 
-permalink: /sesiones/
+permalink: /servicios/
 ---
 
 <div style="margin-top: 16px; margin-bottom: 40px;">
