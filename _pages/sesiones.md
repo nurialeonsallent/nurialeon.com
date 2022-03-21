@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sesiones Online 39€ y Sesiones Presenciales 49€
+title: Sesiones 
 permalink: /sesiones/
 ---
 
@@ -19,7 +19,6 @@ Me he formado sobretodo en la **terapia cognitivo-conductual**, una orientación
 
 Las sesiones online tienen una duración de 1 hora y utilizamos la plataforma Skype, Zoom o Google Meet. En este caso el precio es de 39€ la sesión y el pago se realiza mediante bizum o paypal. Además de la sesión siempre os envío material, lecturas, ejercicios personalizados para que sigáis trabajando entre sesión y sesión.
 
-![Terapia psicológica]({{ site.baseurl }}/images/nurialeonfoto.jpg)
 
 
 
