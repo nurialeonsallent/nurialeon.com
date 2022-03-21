@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ¿Cómo son las sesiones? 
+title: ¿Qué servicios ofrezco? 
 permalink: /servicios/
 ---
 
@@ -23,8 +23,10 @@ Las sesiones online tienen una **duración de 1 hora** y utilizamos la plataform
 
 Además de la sesión siempre **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
 
-![Terapia Online]({{site.baseurl}}/images/nurialeonfoto.jpg)
+<!-- 
+![Terapia Online]({{site.baseurl}}/images/sesiononline.jpg)
 *Terapia Online*
+-->
 
 ## Sesión Presencial en Barcelona a 49€
 
