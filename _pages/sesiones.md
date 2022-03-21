@@ -8,16 +8,21 @@ permalink: /sesiones/
     {% include contact-link.html %}
 </div>
 
-## Sesiones Online y Sesiones Presenciales en Barcelona
+## Metodología 
 
-Realizo tanto sesiones online como sesiones presenciales. 
+Mi metodología de trabajo es integradora, combino dierentes técnicas y procedimientos terapéuticos provenientes de distintos sistemas teóricos con el fin de solucionar problemas concretos para cada caso. 
 
-En ambos casos las sesiones tienen una **duración de 60 minutos** y siempre os envío **actividades, ejercicios, reflexiones, lecturas**, etc. todo personalizado a cada caso, para que podáis seguir trabajando entre sesión y sesión. 
+Me he formado sobretodo en la **terapia cognitivo-conductual**, una orientación muy eficaz y con numerosos estudios científicos que la respaldan. También utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento y de exposición, entre otras. Asimismo, tengo formación en orientación psicodinámica, orientación humanista y actualmente estoy en supervisión en un centro de ***terapia breve estratégica**. 
 
-En las sesiones online utilizamos la plataforma de google meets o skype. En el caso de las sesiones presenciales el despacho está muy cerca de la Sagrada Familia.
 
-## Enfoque y Metología de trabajo
+## Sesiones Online a 39€
 
-Mi metodología de trabajo es integradora y ecléctica, combino dierentes técnicas y procedimientos terapéuticos provenientes de distintos sistemas teóricos con el fin de solucionar problemas concretos. Me he formado sobretodo en la terapia cognitivo-conductual, una orientación enfocada en la vinculación del pensamiento y la conducta. Utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento y de exposición, entre otras. 
+Las sesiones online tienen una duración de 1 hora y utilizamos la plataforma Skype, Zoom o Google Meet. En este caso el precio es de 39€ la sesión y el pago se realiza mediante bizum o paypal. Además de la sesión siempre os envío material, lecturas, ejercicios personalizados para que sigáis trabajando entre sesión y sesión.
 
-Además, actualmente sigo en constante supervisión y estoy realizando prácticas en un [centro de referencia de Barcelona de la Terapia Breve Estratégica](https://www.juliapascual.com/).
+![Terapia psicológica]({{ site.baseurl }}/images/nurialeonfoto.jpg)
+
+
+
+## Sesiones Presenciales en Barcelona a 49€
+
+ En el caso de las sesiones presenciales también tienen una duración de 1 hora. El despacho está ubicado en una zona céntrica, en la Calle Castillejos 326, muy cerca de la Sagrada Familia. En este caso el precio es de 49€ la sesión y el pago se realiza mediante bizum o efectivo justo el mismo día de la cita. Siempre después de la sesión os envío material, lecturas, ejercicios personalizados para que sigáis trabajando entre sesión y sesión.
