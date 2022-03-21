@@ -19,7 +19,9 @@ Asimismo, tengo formación en orientación psicodinámica, orientación humanist
 
 ## Sesiones Online a 39€
 
-Las sesiones online tienen una **duración de 1 hora** y utilizamos la plataforma Skype, Zoom o Google Meet. En este caso el precio es de 39€ la sesión y el pago se realiza mediante bizum o paypal. Además de la sesión siempre **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
+Las sesiones online tienen una **duración de 1 hora** y utilizamos la plataforma Skype, Zoom o Google Meet. En este caso el precio es de 39€ la sesión y el pago se realiza mediante bizum o paypal. 
+
+Además de la sesión siempre **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
 
 ![Pirámide de Maslow]({{ site.baseurl }}/images/nurialeonfoto.jpg)
 *Terapia Online*
