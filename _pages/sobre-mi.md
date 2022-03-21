@@ -24,6 +24,7 @@ Ya son más de 70 personas las que han pasado por mi consulta.
 ## ¿Cuál es mi formación?
 
 - **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (cursando)
+- **Máster Psicología Infantil y Juvenil: Técnicas y Estrategias de Intervención** en la UOC (cursando)
 - **Psicoterapia integradora para el tratamiento de la ansiedad** curso de Eva Molero (2022)
 - **Lateralidad y sus repercusiones en el aprendizaje** curso de la Dra. María del Mar Ferré (2022)
 - **Postgrado en Psicopatología clínica** por la Universitat de Barcelona con un 9,5 de nota final (2021)
