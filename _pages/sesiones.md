@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sesiones 
+title: ¿Cómo son las sesiones? 
 permalink: /sesiones/
 ---
 
