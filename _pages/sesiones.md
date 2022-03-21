@@ -17,11 +17,11 @@ Me he formado sobretodo en la **terapia cognitivo-conductual**, una orientación
 
 ## Sesiones Online a 39€
 
-Las sesiones online tienen una duración de 1 hora y utilizamos la plataforma Skype, Zoom o Google Meet. En este caso el precio es de 39€ la sesión y el pago se realiza mediante bizum o paypal. Además de la sesión siempre os envío material, lecturas, ejercicios personalizados para que sigáis trabajando entre sesión y sesión.
+Las sesiones online tienen una **duración de 1 hora** y utilizamos la plataforma Skype, Zoom o Google Meet. En este caso el precio es de 39€ la sesión y el pago se realiza mediante bizum o paypal. Además de la sesión siempre **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
 
 
 
 
 ## Sesiones Presenciales en Barcelona a 49€
 
- En el caso de las sesiones presenciales también tienen una duración de 1 hora. El despacho está ubicado en una zona céntrica, en la Calle Castillejos 326, muy cerca de la Sagrada Familia. En este caso el precio es de 49€ la sesión y el pago se realiza mediante bizum o efectivo justo el mismo día de la cita. Siempre después de la sesión os envío material, lecturas, ejercicios personalizados para que sigáis trabajando entre sesión y sesión.
+ En el caso de las sesiones presenciales también tienen **una duración de 1 hora**. El despacho está ubicado en una zona céntrica, en la Calle Castillejos 326, muy cerca de la Sagrada Familia. En este caso el precio es de 49€ la sesión y el pago se realiza mediante bizum o efectivo justo el mismo día de la cita. Siempre después de la sesión **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
