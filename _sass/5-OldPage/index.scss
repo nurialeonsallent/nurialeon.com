@@ -571,7 +571,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1124px) and (min-width: 767px),
+@media only screen and (max-width: 1124px) and (min-width: 850px),
   only screen and (max-width: 550px) {
   .me {
     grid-gap: 0;
@@ -633,7 +633,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 850px) {
   a.action,
   button.action {
     padding: 2px 8px;
@@ -756,7 +756,35 @@ svg {
 }
 
 @media only screen and (max-width: 550px) {
-  .me .title {
-    width: 1px; /* force word-wrap */
+  .me {
+    margin-top: 0.5rem;
+    grid-template-areas:
+      "img"
+      "title"
+      "networks"
+      "text"
+      "about-me";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+
+    > img, .networks {
+      justify-self: center;
+    }
+
+    > img {
+      width: 150px;
+      max-width: 150px;
+      height: 150px;
+      max-height: 150px;
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+    
+
+    // .title {
+    //   width: 1px; /* force word-wrap */
+    // }
   }
 }
