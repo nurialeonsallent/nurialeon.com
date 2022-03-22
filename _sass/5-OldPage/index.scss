@@ -384,6 +384,7 @@ svg {
 
         > img {
           object-fit: contain;
+          filter: brightness(10);
         }
       }
 
