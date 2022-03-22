@@ -548,7 +548,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1350px) {
   .back-nav,
   .first-page {
     padding: 0 2rem 0 4rem;
@@ -570,7 +570,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1350px) {
   .blog {
     grid-template-rows: auto auto auto 1fr auto;
     grid-template-areas:
@@ -589,7 +589,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 1270px) {
   .me {
     margin: 2rem 0 0 0;
   }
@@ -599,8 +599,8 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1124px) and (min-width: 850px),
-  only screen and (max-width: 550px) {
+@media only screen and (max-width: 1270px) and (min-width: 850px),
+  only screen and (max-width: 650px) {
   .me {
     grid-gap: 0;
     grid-template-columns: auto 1fr;
@@ -779,7 +779,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
   .me {
     margin-top: 0.5rem;
     grid-template-areas:
@@ -818,7 +818,7 @@ svg {
     padding: 8px;
 
     .title {
-      margin-top: 1rem;
+      margin-top: 0.5rem;
     }
   }
 }
