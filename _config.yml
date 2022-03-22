@@ -33,4 +33,4 @@ sass:
   style: compressed
 
 exclude:
-    - node_modules
+  - node_modules
