@@ -36,11 +36,10 @@ Siempre después de la sesión **os envío material, lecturas, ejercicios person
 <img src="{{site.baseurl}}/images/sesionpresencial.jpg" width="150" height="150" class="circle" />
 </div>
 
-### Ubicación
 
-La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **Calle Castillejos 326**.
-
-- Metro: L5 (Sant Pau Dos de Maig)
-- Bus: 47 - H6 - D50
-
-{% include map.html %}
+<p>
+    <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
+    <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nurialeon_contacto.jpg" /></div>
+    <div class="carousel-cell"><img src="{{ site.baseurl }}/images/sesiones_terapia.jpg" /></div>
+    </div>
+</p>
