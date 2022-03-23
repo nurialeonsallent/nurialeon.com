@@ -210,3 +210,8 @@ fieldset {
 input[type=radio] {
     margin: 0.4rem;
 }
+
+.circle {
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+}
