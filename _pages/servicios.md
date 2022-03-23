@@ -33,3 +33,12 @@ Además de la sesión siempre **os envío material, lecturas, ejercicios persona
  En el caso de las sesiones presenciales también tienen **una duración de 1 hora**. El despacho está ubicado en una zona céntrica, en la Calle Castillejos 326, muy cerca de la Sagrada Familia. En este caso el precio es de 49€ la sesión y el pago se realiza mediante bizum o efectivo justo el mismo día de la cita. 
  
  Siempre después de la sesión **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
+
+### Ubicación
+
+La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **Calle Castillejos 326**.
+
+- Metro: L5 (Sant Pau Dos de Maig)
+- Bus: 47 - H6 - D50
+
+{% include map.html %}
