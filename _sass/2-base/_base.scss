@@ -85,9 +85,11 @@ pre {
   word-break: break-all;
 }
 
+.svg,
 svg {
   display: inline-block;
   height: 1em;
+  width: auto;
   fill: currentcolor;
   box-sizing: content-box;
 }

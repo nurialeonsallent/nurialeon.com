@@ -1,12 +1,12 @@
 :root {
   --global-bc: #eae3de;
   --global-tc: #565656;
-  --primary-color: #76323f;
+  --primary-color: hsl(349, 40%, 33%);
   --primary-contrast: #ffffff;
-  --bar-bc: #874c56;
+  --primary-color-light: hsl(349, 37%, 44%);
   --section-bc: #eee9e5;
   --scrollbarBG: var(--section-bc);
-  --thumbBG: rgba(175, 99, 112, 0.6);
+  --thumbBG: hsla(349, 32%, 54%, 0.6);
 }
 
 .no-wrap {
@@ -50,6 +50,7 @@ button {
   padding: 0;
 }
 
+.a,
 a,
 button {
   display: inline;
@@ -62,6 +63,7 @@ button {
   white-space: initial;
 }
 
+.a.action,
 a.action,
 button.action {
   line-height: 2em;
@@ -72,6 +74,7 @@ button.action {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.a.action:after,
 a.action:after,
 button.action:after {
   content: "  \203A";
@@ -79,6 +82,7 @@ button.action:after {
   line-height: 1;
 }
 
+.a.navigation,
 a.navigation,
 button.navigation {
   line-height: 2em;
@@ -86,6 +90,7 @@ button.navigation {
   border-bottom: 1px solid;
 }
 
+.a.navigation:after,
 a.navigation:after,
 button.navigation:after {
   content: "  \203A";
@@ -93,11 +98,13 @@ button.navigation:after {
   line-height: 1;
 }
 
+.a.back:before,
 a.back:before,
 button.back:before {
   content: "\2190  ";
 }
 
+.a:before,
 a:before,
 button:before {
   content: "";
@@ -139,7 +146,7 @@ button:before {
   text-align: center;
   font-size: 0.85em;
   color: var(--primary-contrast);
-  background-color: var(--bar-bc);
+  background-color: var(--primary-color-light);
 }
 
 .bottom-bar {
@@ -151,7 +158,7 @@ button:before {
   text-align: center;
   font-size: 0.85em;
   color: var(--primary-contrast);
-  background-color: var(--bar-bc);
+  background-color: var(--primary-color-light);
 }
 
 .first-page {
@@ -339,47 +346,71 @@ svg {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 24px;
 
     .price-card {
-      display: flex;
-      flex-direction: column;
       flex: 1;
-      border: 1px solid;
+      min-width: fit-content;
+      max-width: 300px;
+
+      display: grid;
+      grid-template-areas:
+        "img title"
+        "img price"
+        "img more";
+      grid-auto-columns: auto 1fr;
       align-items: center;
-      justify-content: center;
+      justify-items: center;
+
       position: relative;
       color: var(--primary-color);
       background-color: rgba(255, 255, 255, 0.6);
-      padding: 8px;
+      padding: 16px;
       border-radius: 4px;
       font-size: 1.1rem;
       text-align: center;
 
       & > .img {
-        height: 48px;
-        margin-bottom: 8px;
+        grid-area: img;
+        margin-right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 72px;
+        width: 72px;
+        padding: 12px;
+        border-radius: 100%;
+        background-color: var(--primary-color-light);
 
         > img {
-          max-height: 100%;
-          max-width: unset;
           object-fit: contain;
+          filter: brightness(10);
         }
       }
 
       & > .title {
-        font-weight: 500;
+        grid-area: title;
+        font-weight: 600; // 500 doesn't work on android/ios
       }
 
       & > .price {
+        grid-area: price;
         white-space: nowrap;
+      }
+
+      > .more {
+        grid-area: more;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
       }
     }
   }
 
   .cite {
     font-size: 12px;
+    text-align: center;
+    padding: 0 8px;
   }
 }
 
@@ -520,7 +551,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1350px) {
   .back-nav,
   .first-page {
     padding: 0 2rem 0 4rem;
@@ -542,7 +573,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1350px) {
   .blog {
     grid-template-rows: auto auto auto 1fr auto;
     grid-template-areas:
@@ -561,9 +592,9 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 1270px) {
   .me {
-    margin: 1rem 0 0 0;
+    margin: 2rem 0 0 0;
   }
 
   .tooltip .tooltipcontent.bottom {
@@ -571,8 +602,8 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1124px) and (min-width: 767px),
-  only screen and (max-width: 550px) {
+@media only screen and (max-width: 1270px) and (min-width: 850px),
+  only screen and (max-width: 650px) {
   .me {
     grid-gap: 0;
     grid-template-columns: auto 1fr;
@@ -617,14 +648,10 @@ svg {
   }
 
   .pricing .price-cards {
-    gap: 16px;
+    gap: 8px;
 
     .price-card {
       line-height: 1em;
-
-      > .img {
-        height: 48px;
-      }
 
       > .price {
         margin-top: 6px;
@@ -633,7 +660,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 850px) {
   a.action,
   button.action {
     padding: 2px 8px;
@@ -755,8 +782,49 @@ svg {
   }
 }
 
-@media only screen and (max-width: 550px) {
-  .me .title {
-    width: 1px; /* force word-wrap */
+@media only screen and (max-width: 650px) {
+  .me {
+    margin-top: 0.5rem;
+    grid-template-areas:
+      "img"
+      "title"
+      "networks"
+      "text"
+      "about-me";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+
+    > img, .networks {
+      justify-self: center;
+    }
+
+    > img {
+      width: 150px;
+      max-width: 150px;
+      height: 150px;
+      max-height: 150px;
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .pricing .price-cards .price-card {
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+        "img"
+        "title"
+        "price"
+        "more";
+    padding: 8px;
+
+    .img {
+      margin: 0;
+    }
+
+    .title {
+      margin-top: 0.5rem;
+    }
   }
 }

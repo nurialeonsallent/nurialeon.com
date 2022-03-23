@@ -10,13 +10,15 @@ function isMobileOrTablet()
 function phone() { return "3465" + 0 + [00] + "1" + 1 + "672"; }
 function email() { return "cont" + "" + ['act'] + "o" + "@nurialeon.com"; }
 
-function openWhatsApp(message) 
+function openWhatsapp(message) 
 {
-    message = encodeURIComponent(message);
-
-    var url = "https://wa.me/" + phone() + "?text=" + message;
-    var win = window.open(url, '_blank');
+    var url = "https://wa.me/" + phone();
     
+    if (message != null && message !== "") {
+        url += "?text=" + encodeURIComponent(message);
+    }
+
+    var win = window.open(url, '_blank');
     win.opener = null;
     win.focus();
 }
@@ -34,6 +36,10 @@ function openEmail()
 
 function openCall()
 {
+    if (!isMobileOrTablet()) {
+        return
+    }
+
     var url = "tel:+" + phone();
     var win = window.open(url, '_blank');
     win.opener = null;
@@ -62,7 +68,7 @@ function formOnSubmit(formName)
         message = `Hola Núria, soy ${name} (${contact}).
 ${text}`;
 
-        openWhatsApp(message);
+        openWhatsapp(message);
         return false;
     }
 

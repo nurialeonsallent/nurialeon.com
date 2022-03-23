@@ -51,14 +51,3 @@ Paralelamente, sigo en constante supervisión clínica y estoy realizando práct
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También tengo [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde puedes ver toda mi trayectoria profesional con más detalle. 
 
 También he realizado entrevistas en diferentes medios, como por ejemplo [este artículo en el que hablo de autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/).
-
-
-
-## Ubicación
-
-La ubicación de mi despacho está muy cerquita de la Sagrada Familia. 
-
-
-Metro: L5 (Sant Pau Dos de Maig)
-Bus: 47 - H6 - D50
-{% include map.html %}
