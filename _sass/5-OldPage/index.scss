@@ -351,7 +351,7 @@ svg {
 
     .price-card {
       flex: 1;
-      min-width: 200px;
+      min-width: fit-content;
       max-width: 300px;
 
       display: grid;
@@ -373,6 +373,7 @@ svg {
 
       & > .img {
         grid-area: img;
+        margin-right: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -809,7 +810,6 @@ svg {
   }
 
   .pricing .price-cards .price-card {
-    min-width: auto;
     grid-auto-columns: 1fr;
     grid-template-areas:
         "img"
@@ -817,6 +817,10 @@ svg {
         "price"
         "more";
     padding: 8px;
+
+    .img {
+      margin: 0;
+    }
 
     .title {
       margin-top: 0.5rem;
