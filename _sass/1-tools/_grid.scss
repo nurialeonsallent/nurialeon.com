@@ -135,7 +135,7 @@ $mq: (
 
 .columnas-2 {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 16px;
@@ -155,6 +155,7 @@ $mq: (
 
     @media only screen and (max-width: 650px) {
       flex-basis: auto;
+      min-width: min-content;
     }
   }
 }
