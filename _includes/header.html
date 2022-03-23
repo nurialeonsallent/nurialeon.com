@@ -4,48 +4,90 @@
       <div class="col col-12">
         <!-- begin header -->
         <header class="header">
-
           <div class="logo">
             <a class="logo__link no-decoration" href="{{site.baseurl}}/">
-            {%if site.data.settings.logo %}
-              <img class="logo__image" src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}" width="32" height="32">
-            {% else %}
-              {{ site.data.settings.title }}
-            {% endif %}
+              {%if site.data.settings.logo %}
+              <img
+                class="logo__image"
+                src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}"
+                alt="{{ site.data.settings.title }}"
+                width="32"
+                height="32"
+              />
+              {% else %} {{ site.data.settings.title }} {% endif %}
             </a>
           </div>
 
           <nav class="main-nav">
-
             <div class="main-nav__box">
               <div class="nav-icon__close">
-                <img role="button" aria-label="Close" src="{{site.baseurl}}/images/icons/close.svg" alt="Close" width="32" height="32">
+                <img
+                  role="button"
+                  aria-label="Close"
+                  src="{{site.baseurl}}/images/icons/close.svg"
+                  alt="Close"
+                  width="32"
+                  height="32"
+                />
               </div>
 
               <ul class="nav__list list-reset">
                 <li class="nav__item">
-                  <a href="{{site.baseurl}}/" class="nav__link no-decoration">Inicio</a>
+                  <a href="{{site.baseurl}}/" class="nav__link no-decoration"
+                    >Inicio</a
+                  >
                 </li>
                 <li class="nav__item">
-                  <a href="{{site.baseurl}}/sobre-mi/" class="nav__link no-decoration">Sobre mí</a>
+                  <a
+                    href="{{site.baseurl}}/sobre-mi/"
+                    class="nav__link no-decoration"
+                    >Sobre mí</a
+                  >
                 </li>
                 <li class="nav__item">
-                  <a href="{{site.baseurl}}/servicios/" class="nav__link no-decoration">Servicios</a>
+                  <a
+                    href="{{site.baseurl}}/servicios/"
+                    class="nav__link no-decoration"
+                    >Servicios</a
+                  >
                 </li>
                 <li class="nav__item">
-                  <a href="{{site.baseurl}}/blog/" class="nav__link no-decoration">Blog</a>
+                  <a
+                    href="{{site.baseurl}}/blog/"
+                    class="nav__link no-decoration"
+                    >Blog</a
+                  >
                 </li>
                 <li class="nav__item">
-                  <a href="{{site.baseurl}}/contacto/" class="nav__link no-decoration">Contacto</a>
+                  <a
+                    href="{{site.baseurl}}/contacto/"
+                    class="nav__link no-decoration"
+                    >Contacto</a
+                  >
                 </li>
               </ul>
-
             </div>
           </nav>
 
           <div class="nav-buttons">
-            <img class="nav__icon nav__icon-menu" role="button" aria-label="Menu" src="{{site.baseurl}}/images/icons/menu.svg" alt="Menu" width="32" height="32">
-            <img class="nav__icon nav__icon-search" role="button" aria-label="Search" src="{{site.baseurl}}/images/icons/search.svg" alt="search" width="32" height="32">
+            <img
+              class="nav__icon nav__icon-menu"
+              role="button"
+              aria-label="Menu"
+              src="{{site.baseurl}}/images/icons/menu.svg"
+              alt="Menu"
+              width="32"
+              height="32"
+            />
+            <img
+              class="nav__icon nav__icon-search"
+              role="button"
+              aria-label="Search"
+              src="{{site.baseurl}}/images/icons/search.svg"
+              alt="search"
+              width="32"
+              height="32"
+            />
           </div>
 
           <div class="header__overlay"></div>
@@ -58,7 +100,45 @@
     <div class="container">
       <div class="row">
         <div class="col col-12">
-          {{ site.data.settings.phone }} &nbsp;-&nbsp; {{ site.data.settings.email }}
+          <a
+            class="no-decoration no-wrap location"
+            href="https://g.page/r/Cbk285IdPtR5EAg"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              class="vcenter"
+              src="{{site.baseurl}}/images/icons/location.svg"
+              width="18"
+              height="18"
+            />
+            {{ site.data.settings.location }}</a
+          >
+          &nbsp; &nbsp;
+          <a
+            class="no-decoration no-wrap"
+            href="javascript:;"
+            onclick="openWhatsapp()"
+            ><img
+              class="vcenter"
+              src="{{site.baseurl}}/images/icons/phoneFill.svg"
+              width="18"
+              height="18"
+            />
+            {{ site.data.settings.phone }}</a
+          >
+          &nbsp; &nbsp;
+          <a
+            class="no-decoration no-wrap"
+            href="javascript:;"
+            onclick="openEmail()"
+            ><img
+              class="vcenter"
+              src="{{site.baseurl}}/images/icons/emailFill.svg"
+              width="18"
+              height="18"
+            />
+            {{ site.data.settings.email }}</a
+          >
         </div>
       </div>
     </div>

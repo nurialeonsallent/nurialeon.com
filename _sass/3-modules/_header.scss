@@ -13,6 +13,13 @@
   padding: 0.2rem;
   font-size: 0.9rem;
   font-weight: 300;
+
+  @media only screen and (max-width: 650px) {
+    line-height: 1.75;
+    .location {
+      display: block;
+    }
+  }
 }
 
 .header {
