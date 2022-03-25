@@ -1,13 +1,63 @@
 <!-- begin footer -->
 <footer class="footer">
   <div class="container">
-    <div class="copyright">
-      <span class="no-wrap">Copyright &copy; {{site.time | date: '%Y'}}</span><br/>
-      <a class="noarrow no-wrap" href="{{site.baseurl}}/">www.nurialeon.com</a>
-      <p>
-        {% include contact-link.html %}
-      </p>
+    <p>{% include contact-link.html %}</p>
+    <div class="columns">
+      <div class="left-column">
+        <div class="copyright">
+          <span class="no-wrap"
+            >Copyright &copy; {{site.time | date: '%Y'}}</span
+          >
+          <a class="noarrow no-wrap" href="{{site.baseurl}}/"
+            >www.nurialeon.com</a
+          >
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="contacts">
+          <a
+            class="no-decoration no-wrap location"
+            href="https://g.page/r/Cbk285IdPtR5EAg"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              class="vcenter"
+              src="{{site.baseurl}}/images/icons/location.svg"
+              alt="location icon"
+              width="18"
+              height="18"
+            />
+            {{ site.data.settings.location }}</a
+          >
+          <a
+            class="no-decoration no-wrap"
+            href="javascript:;"
+            onclick="openWhatsapp()"
+            ><img
+              class="vcenter"
+              src="{{site.baseurl}}/images/icons/phoneFill.svg"
+              alt="phone icon"
+              width="18"
+              height="18"
+            />
+            {{ site.data.settings.phone }}</a
+          >
+          <a
+            class="no-decoration no-wrap"
+            href="javascript:;"
+            onclick="openEmail()"
+            ><img
+              class="vcenter"
+              src="{{site.baseurl}}/images/icons/emailFill.svg"
+              alt="email icon"
+              width="18"
+              height="18"
+            />
+            {{ site.data.settings.email }}</a
+          >
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 </footer>
 <!-- end footer -->

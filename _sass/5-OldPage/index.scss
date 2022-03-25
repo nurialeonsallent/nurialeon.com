@@ -61,6 +61,7 @@ button {
 
   line-height: initial;
   white-space: initial;
+  font-weight: normal;
 }
 
 .a.action,
@@ -346,7 +347,7 @@ svg {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 24px;
 
     .price-card {
@@ -451,6 +452,7 @@ svg {
   margin-right: 1rem;
 
   font-style: italic;
+  font-size: 0.95rem;
   border-left: 1px solid var(--primary-color);
   padding-left: 0.5rem;
 }
