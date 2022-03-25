@@ -52,7 +52,7 @@ Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde t
 
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También he realizado entrevistas en diferentes medios, como por ejemplo:
 
-- Entrevista sobre [agresividad] (https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
+- Entrevista sobre [agresividad](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
 - Entrevista sobre [autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/)
 - Entrevista sobre [inteligencia emocional](https://lateralidad.com/todas-las-emociones-son-necesarias-y-tienen-que-ser-escuchadas/)
 - Entrevista sobre [Estilos de crianza parental](https://lateralidad.com/es-fundamental-que-los-padres-sepan-identificar-en-que-estilo-de-crianza-estan-educando-a-sus-hijos/)
