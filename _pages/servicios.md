@@ -8,11 +8,13 @@ permalink: /servicios/
     {% include contact-link.html %}
 </div>
 
-Mi metodología de trabajo es integradora, combino dierentes técnicas y procedimientos terapéuticos provenientes de distintos sistemas teóricos con el fin de solucionar problemas concretos para cada caso. 
+Mi metodología de trabajo es integradora, combino dierentes técnicas y procedimientos terapéuticos provenientes de distintos sistemas teóricos con el fin de solucionar problemas concretos para cada caso. En las sesiones, utilizo todo el conocimiento adquirido para que consigamos junt@s soluciones eficaces a tus problemas cotidianos, aprendas estrategias para mejorar tu autoestima, tus relaciones y tu vida en general.
 
 Me he formado sobretodo en la **terapia cognitivo-conductual**, una orientación muy eficaz y con numerosos estudios científicos que la respaldan. También utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento y de exposición, entre otras. 
 
 Asimismo, tengo formación en *orientación psicodinámica, orientación humanista* y actualmente estoy en supervisión en un centro de *terapia breve estratégica*. 
+
+
 
 ## Sesión Online a 39€
 
