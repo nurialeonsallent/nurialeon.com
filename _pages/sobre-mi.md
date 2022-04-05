@@ -50,7 +50,7 @@ Asimismo actualmente soy psicóloga colaboradora del [programa de coaching de re
 
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle. 
 
-## Medios de comunicación
+## Medios de Comunicación
 
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También he realizado entrevistas en diferentes medios, como por ejemplo:
 
