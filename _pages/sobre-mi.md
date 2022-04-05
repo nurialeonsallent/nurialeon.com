@@ -35,7 +35,7 @@ Ya son más de 70 personas las que han pasado por mi consulta.
 - **Máster en Estrategia y Gestión de marca** por la Barcelona School of Management de la Universitat Pompeu Fabra con un 8,2 de nota final (2018)
 - **Grado de Psicología** en la Universitat de Barcelona (2011-2017)
 
-## Colaboraciones y experiencia Laboral
+## Colaboraciones y Experiencia Laboral
 
 Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como *psicóloga* en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
@@ -44,7 +44,9 @@ Actualmente también colaboro con un [**centro especializado psicomotricidad y l
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
 
 
-Paralelamente, sigo en constante supervisión clínica y estoy realizando prácticas en el **Centro de Júlia Pascual**, un **[centro de referencia de Barcelona de la Terapia Breve Estratégica](https://www.juliapascual.com/).** Durante mi experiencia estoy pudiendo asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me está formando sobre su metología terapéutica.
+Paralelamente, sigo en constante supervisión clínica y estoy realizando prácticas en el **Centro de Júlia Pascual**, un **[centro de referencia de Barcelona de la Terapia Breve Estratégica](https://www.juliapascual.com/).** Durante mi experiencia estoy pudiendo asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me está formando sobre su metología terapéutica. 
+
+Asimismo actualmente soy psicóloga colaboradora del [programa de coaching de relaciones](https://beatrizsilvacoach.com/) junto a la coach certificada Beatriz Silva. 
 
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle. 
 
