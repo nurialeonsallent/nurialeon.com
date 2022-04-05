@@ -52,7 +52,8 @@ Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde t
 
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También he realizado entrevistas en diferentes medios, como por ejemplo:
 
+- Artículo sobre [el efecto del covid19 en la salud mental](https://www.latorredebarcelona.com/la-nevera/com-ha-afectat-la-covid-19-a-la-salut-mental/)
 - Entrevista sobre [Agresividad](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
-- Entrevista sobre [Autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/)
 - Entrevista sobre [Inteligencia emocional](https://lateralidad.com/todas-las-emociones-son-necesarias-y-tienen-que-ser-escuchadas/)
 - Entrevista sobre [Estilos de crianza parental](https://lateralidad.com/es-fundamental-que-los-padres-sepan-identificar-en-que-estilo-de-crianza-estan-educando-a-sus-hijos/)
+- Entrevista sobre [Autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/)
