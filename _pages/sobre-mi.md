@@ -19,7 +19,7 @@ Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor
 
 He trabajado con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
 
-Ya son más de 70 personas las que han pasado por mi consulta.
+Ya son más de 80 personas las que han pasado por mi consulta.
 
 ## ¿Cuál es mi formación?
 
