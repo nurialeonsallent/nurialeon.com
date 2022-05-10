@@ -9,12 +9,15 @@ Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Col·legi O
 Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor. Experiencia tanto en consulta privada por mi cuenta propia como en centro médico reconocido trabajando con las mutuas más conocidas a nivel nacional.
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
+ <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nuria_psico_058.jpg" /></div>
+ <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nuria_psico_019.jpg" /></div>
  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG-8643.jpg" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_4989.webp" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/despacho.webp" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/5ec741eb-e9db-4797-a6ad-055d89de5e2a.webp" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_8329.JPG" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/img_5496.webp" /></div>
+  
 </div>
 
 He trabajado con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
