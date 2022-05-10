@@ -41,9 +41,4 @@ Siempre después de la sesión **os envío material, lecturas, ejercicios person
 </div>
 
 
-<p>
-    <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
-    <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nurialeon_contacto.jpg" /></div>
-    <div class="carousel-cell"><img src="{{ site.baseurl }}/images/sesiones_terapia.jpg" /></div>
-    </div>
-</p>
+![Terapia psicológica]({{ site.baseurl }}/images/nuria_psico_019.jpg)
