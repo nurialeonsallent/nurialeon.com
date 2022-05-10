@@ -10,7 +10,7 @@ Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nuria_psico_058.jpg" /></div>
- <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nuria_psico_019.jpg" /></div>
+ <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nuria_psico_030.jpg" /></div>
  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG-8643.jpg" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_4989.webp" /></div>
   <div class="carousel-cell"><img src="{{ site.baseurl }}/images/despacho.webp" /></div>
