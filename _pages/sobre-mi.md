@@ -45,7 +45,7 @@ Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinaci
 Actualmente también colaboro con un [**centro especializado psicomotricidad y lateralidad**](https://www.lateralidadypsicologiallorens.com/) con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada.   
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
-*Psicóloga experimentada en lateralidad infantojuvenil*
+*Psicóloga Infantojuvenil experimentada en lateralidad cruzada*
 
 
 Paralelamente, sigo en constante supervisión clínica y estoy realizando prácticas en el **Centro de Júlia Pascual**, un [centro de referencia de Barcelona de la Terapia Breve Estratégica](https://www.juliapascual.com/). Durante mi experiencia estoy pudiendo asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me está formando sobre su metología terapéutica. 
