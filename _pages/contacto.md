@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contacta Conmigo
+excerpt: Puedes contactar conmigo enviando un email con tu consulta a psicologa@nurialeon.com, seguirme en mis redes sociales o escribirme un mensaje a través del formulario de contacto.
 permalink: /contacto/
 ---
 
@@ -8,7 +9,7 @@ permalink: /contacto/
     {% include contact-link.html %}
 </div>
 
-Para contactar conmigo puedes enviarme un email con tu consulta a **psicologa@nurialeon.com**.
+Puedes contactar conmigo enviando un email con tu consulta a **psicologa@nurialeon.com**.
 
 También puedes seguirme en mis redes sociales o escribirme un mensaje a través del formulario de contacto:
 

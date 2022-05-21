@@ -1,6 +1,7 @@
 ---
 layout: page
 title: ¿Qué servicios ofrezco? 
+excerpt: Sesiones de psicología presenciales en Barcelona (sagrada familia) por 49€ y Sesiones online por 39€ (Skype, Zoom o Google Meet).
 permalink: /servicios/
 ---
 
@@ -15,8 +16,6 @@ En las sesiones, utilizo todo el conocimiento adquirido para que consigamos junt
 Me he formado sobretodo en la **terapia cognitivo-conductual**, una orientación muy eficaz y con numerosos estudios científicos que la respaldan. También utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento y de exposición, entre otras. 
 
 Asimismo, tengo formación en *orientación psicodinámica, orientación humanista* y actualmente estoy en supervisión en un centro de **terapia breve estratégica**. 
-
-
 
 ## Sesión Online a 39€
 
