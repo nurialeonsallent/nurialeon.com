@@ -5,26 +5,7 @@ layout: default
 <div class="index main">
     <div class="first-page">
         {% include hero.html %}
-
-        <div class="pricing">
-            <div class="price-cards">
-                <a class="no-decoration price-card card"
-                    href="javascript:;" onclick="focusContactForm()">
-                    <div class="img"><img src="{{site.baseurl}}/images/online.svg" alt="Sesión Online" width="76" height="48" /></div>
-                    <div class="title">Sesión Online</div>
-                    <div class="price">39€/h*</div>
-                    <div class="a more">Leer más</div>
-                </a>
-                <a class="no-decoration price-card card"
-                    href="javascript:;" onclick="focusContactForm()">
-                    <div class="img"><img src="{{site.baseurl}}/images/presencial.svg" alt="Sesión Presencial" width="63" height="48" /></div>
-                    <div class="title">Sesión Presencial</div>
-                    <div class="price">49€/h*</div>
-                    <div class="a more">Leer más</div>
-                </a>
-            </div>
-        <span class="cite">*precio IVA incluido.</span>
-        </div>
+        {% include pricing.html %}
 
         <div class="info">
             <h2 class="h3">Psicóloga Online y Presencial en Barcelona</h2>
@@ -47,57 +28,9 @@ layout: default
 
     </div>
     <div class="second-page">
-        <div class="opinions">
-            <h2 class="h3">Testimonios</h2>
-            <div class="scroll" style="max-height: 300px; overflow-y: scroll">
-                {% for review in site.data.reviews %}
-                    <p>
-                        <b>{{ review.name }}</b> &nbsp; {{ review.date }} &nbsp;
-                        <span class="stars no-wrap">
-                            {% case review.score %}
-                                {% when 1 %}
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                {% when 2 %}
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                {% when 3 %}
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                {% when 4 %}
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/emptyStar.svg" alt="{{ review.score }}" width="12" height="12">
-                                {% when 5 %}
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                                    <img src="{{site.baseurl}}/images/icons/star.svg" alt="{{ review.score }}" width="12" height="12">
-                            {% endcase %}
-                        </span>
-                        <br/>
-                        {{ review.text }}
-                    </p>
-                {% endfor %}
-            </div>
-            <div class="more">
-                <!-- <a class="action" href="opinion.html">Escribir Valoración</a> -->
-                <a class="action" href="https://g.page/r/Cbk285IdPtR5EAg" target="_blank" rel="noopener noreferrer">Ver valoraciones en Google</a>
-                <a class="action" href="https://trabeja.com/cat/p/nuria-leon-sallent#opinions" target="_blank" rel="noopener noreferrer">Ver valoraciones en Trabeja</a>
-            </div>
-        </div>
+        
+        {% include opinions.html %}
+
         <div class="contact">
             <div class="marker" id="gotoContactForm"></div>
             <h2 class="h3">Reserva tu Sesión, Contacta Conmigo</h2>

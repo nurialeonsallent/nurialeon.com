@@ -95,8 +95,8 @@ layout: default
         <a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a>
       </h2>
       <p class="prev__excerpt">
-        {% if page.previous.description %}
-          {{ page.previous.description }}
+        {% if page.previous.excerpt %}
+          {{ page.previous.excerpt }}
         {% else %}
           {{ page.previous.content | strip_html | truncate: 110 }}
         {% endif %}
@@ -113,8 +113,8 @@ layout: default
         <i class="ion ion-md-arrow-forward"></i>
       </h2>
       <p class="next__excerpt">
-        {% if page.next.description %}
-          {{ page.next.description }}
+        {% if page.next.excerpt %}
+          {{ page.next.excerpt }}
         {% else %}
           {{ page.next.content | strip_html | truncate: 110 }}
         {% endif %}

@@ -1,0 +1,53 @@
+.opinions {
+  grid-area: opinions;
+  margin: 3rem 0 1rem 0;
+  padding: 1rem;
+  background-color: var(--section-bc);
+  border-radius: 4px;
+}
+
+.opinions .scroll {
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  max-height: 300px;
+  margin-bottom: 1rem;
+
+  & > :first-child {
+    margin-top: 0;
+  }
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+
+  .stars {
+    font-size: 0;
+  }
+}
+
+.opinions .title {
+  margin-top: 0;
+}
+
+.opinions p {
+  margin-top: 0;
+  margin-right: 1rem;
+
+  font-style: italic;
+  font-size: 0.95rem;
+  border-left: 1px solid var(--primary-color);
+  padding-left: 0.5rem;
+}
+
+.opinions .more {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.opinions .more > :last-child {
+  margin-left: 1rem;
+}

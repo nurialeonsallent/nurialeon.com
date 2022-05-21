@@ -1,0 +1,187 @@
+<div class="opinions">
+  <h3 class="title">Opiniones</h3>
+  <div class="scroll" style="max-height: 300px; overflow-y: scroll">
+    {% for review in site.data.reviews %}
+    <p>
+      <b>{{ review.name }}</b> &nbsp; {{ review.date }} &nbsp;
+      <span class="stars no-wrap">
+        {% case review.score %} {% when 1 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        {% when 2 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        {% when 3 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        {% when 4 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        {% when 5 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="12"
+          height="12"
+        />
+        {% endcase %}
+      </span>
+      <br />
+      {{ review.text }}
+    </p>
+    {% endfor %}
+  </div>
+  <div class="more">
+    <!-- <a class="action" href="opinion.html">Escribir Valoración</a> -->
+    <a
+      class="action"
+      href="https://g.page/r/Cbk285IdPtR5EAg"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Ver valoraciones en Google</a
+    >
+    <a
+      class="action"
+      href="https://trabeja.com/cat/p/nuria-leon-sallent#opinions"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Ver valoraciones en Trabeja</a
+    >
+  </div>
+</div>
