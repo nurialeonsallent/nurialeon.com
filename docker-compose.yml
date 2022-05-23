@@ -2,7 +2,7 @@ version: '3'
 
 services:
   site:
-    image: jekyll/jekyll:3.8.6
+    image: jekyll/jekyll:stable
     command: jekyll serve --verbose --force_polling
     ports:
       - 4000:4000
