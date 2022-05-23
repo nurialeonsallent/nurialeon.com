@@ -49,7 +49,7 @@ webp:
   img_dir: ["/images"]
 
   # Whether to search in nested directories or not
-  nested: true
+  nested: false
 
   # add ".gif" to the format list to generate webp for animated gifs as well
   formats: [".jpeg", ".jpg", ".png", ".tiff"]
