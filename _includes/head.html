@@ -37,11 +37,4 @@
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: ' | ' | append: site.data.settings.title }}{% else %}{{ site.data.settings.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}" />
   <meta name="twitter:image" content="{{ site.url | append: site.baseurl | append: '/images/meta-img.jpg' }}" />
-
-  <style>
-    {% capture include_to_scssify %}
-      {% include main.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-  </style>
 </head>
