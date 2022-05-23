@@ -8,55 +8,140 @@
     "img title title"
     "img text text"
     "img networks about-me";
-}
 
-.me > img {
-  grid-area: img;
-  object-fit: cover;
-  align-self: center;
-  border-radius: 50%;
-  min-width: 200px;
-  max-width: 200px;
-  min-height: 200px;
-  max-height: 200px;
-  margin-right: 25px;
-}
+  > img {
+    grid-area: img;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    margin-right: 25px;
+  }
 
-.me .title {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 2rem;
-  grid-area: title;
-  align-self: center;
-  margin-bottom: 0.5rem;
-  margin-top: 0;
-}
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    grid-area: title;
+    align-self: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
 
-.me .title .subtitle {
-  font-weight: normal;
-}
+  .title .subtitle {
+    font-weight: normal;
+  }
 
-.me .text {
-  grid-area: text;
-  align-self: center;
-}
+  .text {
+    grid-area: text;
+    align-self: center;
+  }
 
-.me .networks {
-  grid-area: networks;
-  align-self: center;
-  justify-self: start;
-  margin-top: 0.5rem;
+  .networks {
+    grid-area: networks;
+    align-self: center;
+    justify-self: start;
+    margin-top: 0.5rem;
 
-  a > img,
-  a > svg {
-    width: 32px;
-    padding: 2px 4px;
+    a > img,
+    a > svg {
+      width: 32px;
+      padding: 2px 4px;
+    }
+  }
+
+  .about-me {
+    grid-area: about-me;
+    align-self: center;
+    justify-self: end;
+    margin-top: 0.5rem;
   }
 }
 
-.me .about-me {
-  grid-area: about-me;
-  align-self: center;
-  justify-self: end;
-  margin-top: 0.5rem;
+@media only screen and (max-width: 1270px) {
+  .me {
+    margin: 2rem 0 0 0;
+  }
+
+  .tooltip .tooltipcontent.bottom {
+    top: 120% !important;
+  }
+}
+
+@media only screen and (max-width: 1270px) and (min-width: 850px),
+  only screen and (max-width: 650px) {
+  .me {
+    grid-gap: 0;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "img title"
+      "img networks"
+      "text text"
+      "about-me about-me";
+
+    .title {
+      margin-bottom: 0;
+      font-size: 1.5rem;
+      align-self: end;
+    }
+
+    > img {
+      min-width: 120px;
+      max-width: 120px;
+      min-height: 120px;
+      max-height: 120px;
+      margin-right: 1rem;
+      justify-self: start;
+    }
+
+    .networks {
+      align-self: start;
+    }
+
+    .text {
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .me > img {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .me {
+    margin-top: 0.5rem;
+    grid-template-areas:
+      "img"
+      "title"
+      "networks"
+      "text"
+      "about-me";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    justify-items: center;
+
+    align-items: center;
+
+    > img,
+    .networks {
+      justify-self: center;
+    }
+
+    > img {
+      width: 100vw;
+      max-width: 100vw;
+      height: 200px;
+      max-height: 200px;
+      margin: -1.5rem -1rem;
+      margin-bottom: 1rem;
+      border-radius: 0;
+    }
+  }
 }
