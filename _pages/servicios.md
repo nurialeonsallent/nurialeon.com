@@ -39,6 +39,8 @@ Siempre después de la sesión **os envío material, lecturas, ejercicios person
 <img src="{{site.baseurl}}/images/sesionpresencial.jpg" width="150" height="150" class="circle" />
 </div>
 
+### Ubicación
+
 La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **Calle Castillejos 326**.
 
 - Metro: L5 (Sant Pau Dos de Maig)
