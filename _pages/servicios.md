@@ -32,12 +32,18 @@ Además de la sesión siempre **os envío material, lecturas, ejercicios persona
 
 <div class="columnas-2 sesion-card card">
 <div class="content" markdown="1">
-En el caso de las sesiones presenciales también tienen **una duración de 1 hora**. El despacho está ubicado en una zona céntrica, en la Calle Castillejos 326, muy cerca de la Sagrada Familia. En este caso el precio es de 49€ la sesión y el pago se realiza mediante bizum o efectivo justo el mismo día de la cita. 
+En el caso de las sesiones presenciales también tienen **una duración de 1 hora**. El despacho está ubicado en una zona céntrica, muy cerca de la Sagrada Familia. En este caso el precio es de 49€ la sesión y el pago se realiza mediante bizum o efectivo justo el mismo día de la cita.
  
 Siempre después de la sesión **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
 </div>
 <img src="{{site.baseurl}}/images/sesionpresencial.jpg" width="150" height="150" class="circle" />
 </div>
 
+La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **Calle Castillejos 326**.
+
+- Metro: L5 (Sant Pau Dos de Maig)
+- Bus: 47 - H6 - D50
+
+{% include map.html %}
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nuria_psico_019.jpg)
