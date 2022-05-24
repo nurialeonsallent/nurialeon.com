@@ -6,9 +6,10 @@ markdown: kramdown
 excerpt_separator: <!-- more -->
 permalink: pretty
 plugins:
+  - jekyll/tagging
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll/tagging
+  - jekyll-webp
 
 paginate: 3
 paginate_path: "/blog/:num"
@@ -16,7 +17,7 @@ paginate_path: "/blog/:num"
 # Pages Path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
       permalink: /:basename:output_ext
 
@@ -34,3 +35,10 @@ sass:
 
 exclude:
   - node_modules
+
+webp:
+  enabled: true
+  quality: 75
+  img_dir: ["/images"]
+  nested: true
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
