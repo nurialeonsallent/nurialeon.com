@@ -1,9 +1,7 @@
 ---
-layout: page-no-title
-permalink: /new/
+layout: home
+permalink: /
 ---
-
-<div style="margin-top: 1rem"></div>
 
 {% include hero.html %}
 
@@ -11,6 +9,7 @@ permalink: /new/
 
 {% include pricing.html %}
 
+<div class="section" markdown="1">
 ### Psicóloga Online y Presencial en Barcelona
 
 Trabajo con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión…).
@@ -25,15 +24,19 @@ Más de 80 personas ya han pasado por mi consulta. Mi formación más relevante 
 - Máster en Estrategia y Gestión de Marca por la Barcelona School of Management Pompeu Fabra
 - Grado de Psicología en la Universitat de Barcelona
 
-<img src="{{site.baseurl}}/images/sello_colegial.webp" alt="Sello Colegial" width="162" height="72" data-action="zoom" />
+<img class="sello-colegial" src="{{site.baseurl}}/images/sello_colegial.webp" alt="Sello Colegial" width="162" height="72" data-action="zoom" />
+</div>
 
-<div style="margin-top: 2rem"></div>
+<div class="columns-2">
 
 {% include opinions.html %}
 
+<div class="contact" markdown="1">
 ### Reserva tu Sesión, Contacta Conmigo
 
 Para contactar conmigo puedes enviarme un email con tu consulta a **psicologa@nurialeon.com**.
 También puedes seguirme en mis redes sociales o escribirme un mensaje a través del formulario de contacto:
 
 {% include contact-form.html %}
+</div>
+</div>
