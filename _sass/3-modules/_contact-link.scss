@@ -1,16 +1,13 @@
-.contact {
-  .contact__list {
-    li {
-      margin-left: 15px;
-      display: inline-block;
+.networks {
+  margin-bottom: 2rem;
 
-      a {
-        font-size: 18px;
-        color: $gray;
-        &:hover {
-          color: $dark;
-        }
-      }
-    }
+  .tooltip .tooltipcontent.bottom {
+    top: 100%;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
   }
 }
