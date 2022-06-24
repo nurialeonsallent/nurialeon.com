@@ -8,7 +8,7 @@ function isMobileOrTablet()
 }
 
 function phone() { return "3465" + 0 + [00] + "1" + 1 + "672"; }
-function email() { return "cont" + "" + ['act'] + "o" + "@nurialeon.com"; }
+function email() { return "psico" + "" + ['log'] + "a" + "@nurialeon.com"; }
 
 function openWhatsapp(message) 
 {

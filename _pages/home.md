@@ -34,7 +34,7 @@ Más de 80 personas ya han pasado por mi consulta. Mi formación más relevante 
 <div class="contact" markdown="1">
 ### Reserva tu Sesión, Contacta Conmigo
 
-Para contactar conmigo puedes enviarme un email con tu consulta a **psicologa@nurialeon.com**.
+Para contactar conmigo puedes enviarme un email con tu consulta a [psicologa@nurialeon.com](javascript:openEmail()).
 También puedes seguirme en mis redes sociales o escribirme un mensaje a través del formulario de contacto:
 
 {% include contact-form.html %}
