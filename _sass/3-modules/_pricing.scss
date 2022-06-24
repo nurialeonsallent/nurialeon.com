@@ -11,6 +11,10 @@
     justify-content: center;
     gap: 24px;
 
+    @media only screen and (max-width: 650px) {
+      gap: 1rem;
+    }
+
     .price-card {
       flex: 1;
       min-width: fit-content;
