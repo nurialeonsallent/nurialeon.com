@@ -54,8 +54,6 @@ Paralelamente, sigo en constante supervisión clínica y estoy realizando práct
 ![Terapia psicológica]({{ site.baseurl }}/images/juliapascualnurialeon.jpg)
 *Núria León y Júlia Pascual en el Colegio de Psicólogos de Catalunya*
 
-Asimismo actualmente soy psicóloga colaboradora del [programa de coaching de relaciones](https://beatrizsilvacoach.com/programa-individual/).
-
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle. 
 
 ## Medios de Comunicación
