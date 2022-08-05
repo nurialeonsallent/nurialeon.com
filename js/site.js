@@ -59,13 +59,19 @@ function formButtonClicked(name)
 
 function formOnSubmit(formName)
 {
+    const name = contactForm.Nombre.value;
+    const telefono = contactForm.Telefono.value;
+    const email = contactForm.Email.value;
+    const text = contactForm.Mensaje.value;
+
+    if (!telefono || !email) {
+        alert('Por favor introduce el Teléfono o Email de contacto');
+        return false;
+    }
+
     if (formMethod == "whatsapp")
     {
-        name = contactForm.Nombre.value;
-        contact = contactForm.Contacto.value;
-        text = contactForm.Mensaje.value;
-
-        message = `Hola Núria, soy ${name} (${contact}).
+        const message = `Hola Núria, soy ${name} (${email}, ${telefono}).
 ${text}`;
 
         openWhatsapp(message);
