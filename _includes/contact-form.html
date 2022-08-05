@@ -1,7 +1,7 @@
 <div class="marker" id="gotoContactForm"></div>
 <form class="contactForm" id="contactForm" method="POST" onsubmit="return formOnSubmit('contact')">
     <input type="text" name="Nombre" placeholder="Nombre y Apellidos" aria-label="Nombre y Apellidos" autocomplete="off" required />
-    <input type="text" name="Telefono" placeholder="Teléfono de contacto" aria-label="Teléfono de contacto" autocomplete="off" required />
+    <input type="text" name="Telefono" placeholder="Teléfono de contacto" aria-label="Teléfono de contacto" minlength="9" autocomplete="off" required />
     <input type="text" name="Email" placeholder="Email de contacto" aria-label="Email de contacto" autocomplete="off" required />
     <textarea name="Mensaje" placeholder="Escribe tu consulta aquí. &#10;Si quieres reservar una cita, escribe también la fecha/hora deseada." aria-label="Escribe tu consulta aquí. &#10;Si quieres reservar una cita, escribe también la fecha/hora deseada." autocomplete="off" required></textarea>
     <div class="buttons">
