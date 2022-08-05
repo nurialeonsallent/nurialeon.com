@@ -64,7 +64,7 @@ function formOnSubmit(formName)
     const email = contactForm.Email.value;
     const text = contactForm.Mensaje.value;
 
-    if (!telefono || !email) {
+    if (!telefono && !email) {
         alert('Por favor introduce el Teléfono o Email de contacto');
         return false;
     }
