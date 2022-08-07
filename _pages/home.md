@@ -5,10 +5,6 @@ permalink: /
 
 {% include hero.html %}
 
-<div style="margin-top: 2rem"></div>
-
-{% include pricing.html %}
-
 <div class="section" markdown="1">
 ### Psicóloga Online y Presencial en Barcelona
 
