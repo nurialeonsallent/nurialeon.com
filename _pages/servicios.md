@@ -15,7 +15,8 @@ En las sesiones, utilizo todo el conocimiento adquirido para que consigamos junt
 
 Me he formado sobre todo en la **terapia cognitivo-conductual**, una orientación muy eficaz y con numerosos estudios científicos que la respaldan. También utilizo técnicas de reestructuración cognitiva y estrategias de afrontamiento, entre otras.
 
-Así mismo, tengo formación en *orientación humanista* y actualmente estoy en supervisión en un centro de **terapia breve estratégica**.
+
+Así mismo, tengo formación en **orientación humanista** y actualmente estoy en supervisión en un centro de **terapia breve estratégica**. La terapia breve estratégica es un modelo de intervención focal que se centra en resolver y dar soluciones a problemas complejos mediante herramientas simples. Por otra parte, se busca producir un cambio en la manera de percibir y construir la realidad, consiguiendo una nueva forma de gestionar la realidad, aparte de mejorar la autoestima.
 
 ## Sesión Online a 45€
 
