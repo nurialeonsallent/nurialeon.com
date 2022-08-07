@@ -23,7 +23,9 @@ Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor
 
 Trabajo con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
 
-Ya son más de 80 personas las que han pasado por mi consulta.
+Ya son más de 100 de personas las que han pasado por mi consulta.
+
+<img class="sello-colegial" src="{{site.baseurl}}/images/sello_colegial.webp" alt="Sello Colegial" width="162" height="72" data-action="zoom" />
 
 ## ¿Cuál es mi formación?
 
@@ -39,11 +41,11 @@ Ya son más de 80 personas las que han pasado por mi consulta.
 - **Máster en Estrategia y Gestión de marca** por la Barcelona School of Management de la Universitat Pompeu Fabra con un 8,2 de nota final (2018)
 - **Grado de Psicología** en la Universitat de Barcelona (2011-2017)
 
-## Colaboraciones y Experiencia Laboral
+## Colaboraciones y Experiencia
 
 Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como *psicóloga* en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
-Actualmente también colaboro con un [**centro especializado psicomotricidad y lateralidad**](https://www.lateralidadypsicologiallorens.com/) con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada.   
+Actualmente también colaboro con un [**centro especializado psicomotricidad y lateralidad**](https://www.lateralidadypsicologiallorens.com/) con pacientes que tienen dificultades de aprendizaje y problemas de lateralidad cruzada.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
 *Psicóloga Infantojuvenil experimentada en lateralidad cruzada*
