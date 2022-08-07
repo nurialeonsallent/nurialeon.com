@@ -47,5 +47,3 @@ La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **Call
 - Bus: 47 - H6 - D50
 
 {% include map.html %}
-
-![Terapia psicológica]({{ site.baseurl }}/images/nuria_psico_019.jpg)

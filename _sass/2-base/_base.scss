@@ -106,7 +106,7 @@ svg .outline {
 
 img,
 .zoom-img-wrap {
-  max-width: 100%;
+  max-width: min(700px, 100%);
   height: auto;
   // vertical-align: middle;
   & + em {
