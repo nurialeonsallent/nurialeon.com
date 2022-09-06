@@ -41,14 +41,15 @@ Cuentan que desde entonces, muchas veces uno se encuentra con la furia, ciega, c
 
 ## ¿Cómo gestionar la tristeza o la ira? 
 
-Fue una misma paciente la que me habló por primera vez sobre esta historia y me quedé fascinada. Desde que descubrí los libros de este autor, mi forma de entender la psicología y la terapia ha cambiado. Desde que empecé a ejercer como psicóloga he podido observar y comprender la complejidad del ser humano a la hora de sentir sus emociones. Si bien es cierto que existen emociones con matices muy diferentes, muchas veces una emoción puede ir con otra de la mano, o incluso lo que aparentemente parece una cosa, puede ser otra. 
+Fue una misma paciente la que me habló por primera vez sobre esta historia y me quedé fascinada. Desde que descubrí los libros de este autor, mi forma de entender la psicología y la terapia ha cambiado. Desde que empecé a ejercer como psicóloga he podido observar y comprender la complejidad del ser humano a la hora de sentir sus emociones. 
+
+Si bien es cierto que existen emociones con matices muy diferentes, muchas veces una emoción puede ir con otra de la mano, o incluso lo que aparentemente parece una cosa, puede ser otra. 
 
 
+Si hablamos de tristeza y furia, podemos entender con este cuento que son realmente emociones primas hermanas. Muchas veces la furia contenida puede acabar desarrollando una tristeza, y puede que una tristeza profunda lo que nos quiere transmitir es que ha habido muchas furias encubiertas. 
 
-*La pirámide de las necesidades humanas de Maslow*
-Si hablamos de tristeza y furia, podemos entender con este cuento que son realmente emociones primas hermanas. Muchas veces la furia contenida puede acabar desarrollando una tristeza, y puede que una tristeza profunda lo que nos quiere transmitir es que ha habido muchas furias encubiertas. Hay veces que uno acumula y acumula emociones de rabia y enfado, pero si esta contención la mantenemos en el tiempo se acabará convirtiendo en una depresión y profunda tristeza. 
+Hay veces que uno acumula y acumula emociones de rabia y enfado, pero si esta contención la mantenemos en el tiempo se acabará convirtiendo en una depresión y profunda tristeza. 
 
 
-
-Lo mejor es pedir la ayuda de un **psicólogo especializado** que pueda ayudar a sanar la vinculación para que la persona pueda crear un vínculo seguro en todas sus relaciones. 
+Lo mejor es pedir la ayuda de un **psicólogo especializado** que pueda ayudar a gestionar  crear un vínculo seguro en todas sus relaciones. 
 
