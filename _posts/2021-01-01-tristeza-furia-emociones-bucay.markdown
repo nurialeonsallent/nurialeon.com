@@ -49,7 +49,7 @@ Si hablamos de tristeza y furia, que serían las dos emociones generales del cen
 
 ## Gestionar las emociones de forma saludable
 
-Hay veces que uno acumula y acumula emociones de rabia y enfado, pero si esta contención la mantenemos a largo plazo, acabará convirtiendose en una depresión y una tristeza profunda. La identificación y la validación son dos de los primeros pasos para empezar a gestionar mejor lo que sentimos.
+Hay veces que uno acumula y acumula emociones de rabia y enfado, pero si esta contención la mantenemos a largo plazo, acabará convirtiendose en una depresión y una tristeza profunda. **La identificación y la validación** son dos de los primeros pasos para empezar a gestionar mejor lo que sentimos. Aun así no sería suficiente para poder gestionarlas de forma saludable.
 
-Pedir la ayuda de un **psicólogo especializado** es lo mejor para que pueda ayudar a identificar, validar y transitar junt@s las emociones desde la aceptación y el no juicio. Las emociones no son malas en sí, todas tienen su función y son adaptativas, nos ofrecen un mensaje que hay que descubrir.
+Pedir la ayuda de un **psicólogo especializado** es lo mejor para que pueda ayudar a identificar, validar y transitar junt@s las emociones desde la aceptación y el no juicio. Las emociones no son malas en sí, todas tienen su función y son adaptativas, nos ofrecen un mensaje que hay que escuchar para poder resolverlo. 
 
