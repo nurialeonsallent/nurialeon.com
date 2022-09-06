@@ -40,15 +40,14 @@ Como todos sabemos, si hay algo que a la tristeza no le gusta es quedar al desnu
 
 Fue una misma paciente la que me habló por primera vez sobre esta historia y me quedé fascinada. Desde que descubrí los libros de este autor, mi forma de entender la psicología y la terapia ha cambiado. Desde que empecé a ejercer como psicóloga he podido observar y comprender la complejidad del ser humano a la hora de sentir sus emociones. 
 
-Si bien es cierto que existen emociones con matices muy diferentes, muchas veces una emoción puede ir con otra de la mano, o incluso lo que aparentemente parece una cosa, puede ser otra. 
+Si bien es cierto que existen emociones con matices muy diferentes, muchas veces una emoción puede ir con otra de la mano, o incluso lo que aparentemente parece una cosa, puede ser otra. Os adjunto este vocabulario emocional para que empecéis a identificar mejor los distintos matices en aquello que sentís. No siempre las emociones son las mismas, habrá veces en las que sentiremos rabia, en otros momentos frustración y a veces hostilidad. Todas estas emociones forman parte de la ira, aunque no todas significan lo mismo.
 
 ![Rueda de emociones ]({{ site.baseurl }}/images/Rueda-de-las-emociones-ninos.jpg)
 *Rueda de emociones*
 
-Si hablamos de tristeza y furia, podemos entender con este cuento que son realmente emociones primas hermanas. Muchas veces la furia contenida puede acabar desarrollando una tristeza, y puede que una tristeza profunda lo que nos quiere transmitir es que ha habido muchas furias encubiertas. 
+Si hablamos de tristeza y furia, que serían las dos emociones generales del centro de la rueda, podemos entender con este cuento que son realmente emociones primas hermanas. Muchas veces la furia contenida puede acabar desarrollando una tristeza, y puede que una tristeza profunda lo que nos quiere transmitir es que ha habido muchas furias contenidas. 
 
-Hay veces que uno acumula y acumula emociones de rabia y enfado, pero si esta contención la mantenemos en el tiempo se acabará convirtiendo en una depresión y profunda tristeza. 
+Hay veces que uno acumula y acumula emociones de rabia y enfado, pero si esta contención la mantenemos a largo plazo, acabará convirtiendose en una depresión y una tristeza profunda. La identificación y la validación son dos de los primeros pasos para empezar a gestionar mejor lo que sentimos.
 
-
-Lo mejor es pedir la ayuda de un **psicólogo especializado** que pueda ayudar a gestionar  crear un vínculo seguro en todas sus relaciones. 
+Pedir la ayuda de un **psicólogo especializado** es lo mejor para que pueda ayudar a identificar, validar y transitar junt@s las emociones desde la aceptación y el no juicio. Las emociones no son malas en sí, todas tienen su función y son adaptativas, nos ofrecen un mensaje que hay que descubrir.
 
