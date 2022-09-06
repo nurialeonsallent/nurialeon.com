@@ -47,6 +47,8 @@ Si bien es cierto que existen emociones con matices muy diferentes, muchas veces
 
 Si hablamos de tristeza y furia, que serían las dos emociones generales del centro de la rueda, podemos entender con este cuento que son realmente emociones primas hermanas. Muchas veces la furia contenida puede acabar desarrollando una tristeza, y puede que una tristeza profunda lo que nos quiere transmitir es que ha habido muchas furias contenidas. 
 
+## Gestionar las emociones de forma positiva
+
 Hay veces que uno acumula y acumula emociones de rabia y enfado, pero si esta contención la mantenemos a largo plazo, acabará convirtiendose en una depresión y una tristeza profunda. La identificación y la validación son dos de los primeros pasos para empezar a gestionar mejor lo que sentimos.
 
 Pedir la ayuda de un **psicólogo especializado** es lo mejor para que pueda ayudar a identificar, validar y transitar junt@s las emociones desde la aceptación y el no juicio. Las emociones no son malas en sí, todas tienen su función y son adaptativas, nos ofrecen un mensaje que hay que descubrir.
