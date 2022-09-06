@@ -13,7 +13,6 @@ published: true
 
 Hoy quiero dedicar este artículo y esta reflexión al maravilloso cuento que Jorge Bucay nos regala en su libro “Cuentos para pensar”. A continuación lo podéis leer:
 
-
 <!-- more -->
 
 ## Cuento: La tristeza y la furia
@@ -43,6 +42,8 @@ Fue una misma paciente la que me habló por primera vez sobre esta historia y me
 
 Si bien es cierto que existen emociones con matices muy diferentes, muchas veces una emoción puede ir con otra de la mano, o incluso lo que aparentemente parece una cosa, puede ser otra. 
 
+![Rueda de emociones ]({{ site.baseurl }}/images/Rueda-de-las-emociones-ninos.jpg)
+*Rueda de emociones*
 
 Si hablamos de tristeza y furia, podemos entender con este cuento que son realmente emociones primas hermanas. Muchas veces la furia contenida puede acabar desarrollando una tristeza, y puede que una tristeza profunda lo que nos quiere transmitir es que ha habido muchas furias encubiertas. 
 
