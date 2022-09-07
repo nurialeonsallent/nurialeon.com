@@ -1,5 +1,5 @@
 <div class="opinions">
-  <h3 class="title">Reseñas ({{ site.data.reviews.length }})</h3>
+  <h3 class="title">Reseñas ({{ site.data.reviews | size }})</h3>
   <div class="scroll" style="max-height: min(45vh, 300px); overflow-y: scroll">
     {% for review in site.data.reviews %}
     <p>
