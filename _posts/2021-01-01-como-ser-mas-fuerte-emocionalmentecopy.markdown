@@ -11,15 +11,12 @@ image: emociones.jpg
 published: true
 ---
 
-En el post de hoy quiero hablar de la importancia de los vínculos afectivos y del apego seguro. Es muy importante mantener relaciones interpersonales sanas. La empatia, el afecto, la capacidad de amar y el deseo de compartir están asociadas al tipo de apego formado durante la infancia y niñez temprana.
-
+En la vida todos nos encontramos con situaciones fáciles y también difíciles con las que lidiar. Eso es algo que nos pasa a todos, aunque a veces creamos que los demás tienen una vida más fácil que nosotros. No es así, eso es un sesgo mental que hacemos y que no se basa en la evidencia.
 
 <!-- more -->
 
 ## Psicología aplicada para la vida: ser más fuerte emocionalmente
 
-
-En la vida todos nos encontramos con situaciones fáciles y también difíciles con las que lidiar. Eso es algo que nos pasa a todos, aunque a veces creamos que los demás tienen una vida más fácil que nosotros. No es así, eso es un sesgo mental que hacemos y que no se basa en la evidencia.
 
 
 Un hecho real y objetivo es que la vida no es lineal ni plana y está llena de obstáculos. La pregunta es, ¿cómo afrontas tú tus problemas? ¿Te entrenas mentalmente para ser más fuerte?
