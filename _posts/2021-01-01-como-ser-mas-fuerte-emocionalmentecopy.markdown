@@ -50,5 +50,5 @@ Permítete estar mal, llorar, gritar, no hacer nada. Está bien. Lo importante e
 Si has perdido el trabajo, puedes buscar un consultor que te ayude a prepararte un buen CV. Si has sufrido un desamor, puedes hablar con un psicólogo de parejas. Todo lo que pueda ayudarte tienes que hacerlo.
 
 
-Por eso mismo lo mejor es pedir la ayuda de un **psicólogo especializado** que pueda ayudar a sanar la vinculación para que la persona pueda crear un vínculo seguro en todas sus relaciones. 
+Por eso mismo lo mejor es pedir la ayuda de un **psicólogo especializado** que pueda ayudar a gestionar tus situaciones difíciles. 
 
