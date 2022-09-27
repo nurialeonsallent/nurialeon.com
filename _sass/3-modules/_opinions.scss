@@ -8,9 +8,9 @@
 
 .opinions .scroll {
   overflow-y: scroll;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.75);
   padding: 0.5rem;
-  max-height: 300px;
+  max-height: #{'min(50vh, 350px)'};
   margin-bottom: 1rem;
 
   & > :first-child {
@@ -32,12 +32,14 @@
 
 .opinions p {
   margin-top: 0;
-  margin-right: 1rem;
+  margin-right: 0;
 
   font-style: italic;
   font-size: 0.95rem;
-  border-left: 1px solid var(--primary-color);
+  line-height: 1.15em;
+  border-left: 2px solid var(--primary-color-light);
   padding-left: 0.5rem;
+  padding-right: 0.25rem;
 }
 
 .opinions .more {

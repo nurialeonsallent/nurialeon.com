@@ -1,6 +1,6 @@
 <div class="opinions">
   <h3 class="title">Reseñas ({{ site.data.reviews | size }})</h3>
-  <div class="scroll" style="max-height: min(45vh, 300px); overflow-y: scroll">
+  <div class="scroll">
     {% for review in site.data.reviews %}
     <p>
       <b>{{ review.name }}</b> &nbsp; {{ review.date }} &nbsp;
@@ -9,156 +9,156 @@
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         {% when 2 %}
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         {% when 3 %}
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         {% when 4 %}
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/emptyStar.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         {% when 5 %}
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         <img
           src="{{site.baseurl}}/images/icons/star.svg"
           alt="{{ review.score }}"
-          width="12"
-          height="12"
+          width="14"
+          height="14"
         />
         {% endcase %}
       </span>
