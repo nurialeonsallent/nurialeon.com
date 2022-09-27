@@ -143,8 +143,10 @@ hr {
 
 // scrollbars
 .scroll::-webkit-scrollbar {
-  width: auto;
-  height: auto;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  -webkit-overflow-scrolling: auto;
 }
 
 .scroll::-webkit-scrollbar-track {
@@ -172,9 +174,8 @@ hr {
 }
 
 .scroll {
-  -webkit-overflow-scrolling: auto !important;
-  scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background) !important;
-  scrollbar-width: auto !important;
+  scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
+  scrollbar-width: auto;
 }
 
 .marker {
