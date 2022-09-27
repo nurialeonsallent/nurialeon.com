@@ -8,8 +8,10 @@
 
 .opinions .scroll {
   overflow-y: scroll;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.5rem;
   padding: 0.5rem;
+  padding-right: 0;
   max-height: #{'min(50vh, 350px)'};
   margin-bottom: 1rem;
 
