@@ -2,39 +2,6 @@
 layout: default
 ---
 
-<!-- Structured Data -->
-{% assign review_sum = 0 %}
-{% assign review_count = site.data.reviews | size %}
-{% for review in site.data.reviews %}
-  {% assign review_sum = review_sum | plus: review.score %}
-{% endfor %}
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AggregateRating",
-    "itemReviewed": {
-      "@type": "MedicalBusiness",
-      "image": "{{ site.url | append: site.baseurl | append: '/images/meta-img.jpg' }}",
-      "name": "Núria León Psicóloga",
-      "telephone": "{{ site.data.settings.phone }}",
-      "url": "{{ site.data.settings.gmaps }}",
-      "priceRange": "$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Barcelona",
-        "addressRegion": "Barcelona",
-        "addressCountry": "ES",
-        "postalCode": "08025",
-        "streetAddress": "{{ site.data.settings.location }}"
-      }
-    },
-    "ratingValue": "{{ review_sum | times: 20 | divided_by: review_count  }}",
-    "bestRating": "100",
-    "ratingCount": "{{ site.data.reviews | size | plus: 17 }}"
-  }
-</script>
-
 <div class="home container">
   <div class="row">
     <!-- begin page -->
