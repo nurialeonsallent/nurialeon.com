@@ -1,7 +1,42 @@
+- name: M. M.
+  score: 5
+  date: 10/2022
+  text: Nuria es una PROFESIONAL. Te ayuda, te enseña y te acompaña en todo el proceso. Es un aprendizaje constante. Te hace ver y entender las cosas de manera muy fácil y en un ambiente muy acogedor. Sin duda, muy recomendable!
+
+- name: A. H.
+  score: 5
+  date: 10/2022
+  text: Crea un espacio de confianza que te permite abrirte totalmente. Además, te envía actividades entre sesiones que son de gran utilidad. Es muy buena haciendo su trabajo, la recomiendo muchísimo.
+
+- name: I. B.
+  score: 5
+  date: 10/2022
+  text: Amb la Núria he fet molt bon treball. M'ha ajudat a canviar maneres de pensar que tenia molt interioritzades i que no em servien. Totalment recomanable.
+
+- name: E. C.
+  score: 5
+  date: 10/2022
+  text: Desde el minuto uno te da tal confianza que hace que puedas abrirte totalmente sin ningún miedo, aprovechando al máximo las sesiones. Grandes consejos, gran profesional.
+
+- name: A. C.
+  score: 5
+  date: 10/2022
+  text: Desde la primera sesión con Núria supe que mi vida iba a cambiar a mejor. Núria es una profesional de 10, te observa sin juzgarte para poder dar con los ejercicios y las técnicas que te van a funcionar a ti. En mi caso me encanta leer e hicimos más de una lectura para reflexionar, esto me ha permitido ver la lectura como una herramienta de autoconocimiento. Después de 4 meses septiembre estuve mi primer mes sin sesión, un mes que ha estado lleno de novedades, de vueltas a la rutina, de retos, de movimiento, pero un mes que sin duda en el que he podido ser testigo de que todo lo que he aprendido me ha servido para poder afrontarlo todo y ser feliz de manera consciente. Gracias a la terapia con Núria también he podido volver a escribir.
+
+- name: C. B.
+  score: 5
+  date: 09/2022
+  text: Vaig començar amb la Núria fa mig any i des d'aleshores m'ha ajudat moltíssim. Des del primer moment m'he sentit molt còmode per obrir-me a ella i poder així treballar juntes. La recomanaria sempre, és una gran professional!
+
 - name: K. D.
   score: 5
   date: 09/2022
   text: Al principio me costó tomar la decisión de ir al psicólogo por una mala experiencia personal. Pero ahora me alegro de haberlo hecho y sobre todo de haber dado con Núria, que sin duda es una gran profesional, capaz de hacerte sentir cómoda y crear un ambiente seguro y de confianza. Llevo unos meses con ella, pero poco a poco ya comienzo a ver cambios y aunque el proceso es largo, es un placer tenerla de acompañante.
+
+- name: S. D.
+  score: 5
+  date: 08/2022
+  text: Empecé con Nuria hace poco tiempo, pero no puedo estar más contenta. Te ayuda a descifrar lo que sientes y no lo que crees que sientes, te acompaña en el proceso y te hace reflexionar sobre ello. Las sesiones pasan volando porque crea un clima en el que te sientes totalmente entendida y segura. Te ayuda a conocer tus emociones y a comprender porque actuamos como actuamos. Además, te envía actividades para que no dejes de trabajar, avanzar en el proceso y conocerte cada día más. Nuria me ha enseñado a afrontar los problemas y no evitarlos.
 
 - name: A. B.
   score: 5
