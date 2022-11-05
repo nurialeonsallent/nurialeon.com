@@ -29,7 +29,7 @@ Además, después de la sesión siempre **os envío material, lecturas, ejercici
 <img src="{{site.baseurl}}/images/sesiononline.jpg" width="150" height="150" class="circle" />
 </div>
 
-## Sesión Presencial en Barcelona a 60€
+## Sesión Presencial en Barcelona a 55€
 
 <div class="columnas-2 sesion-card card">
 <div class="content" markdown="1">
