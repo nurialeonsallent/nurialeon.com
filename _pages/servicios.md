@@ -33,6 +33,7 @@ Además, después de la sesión siempre **os envío material, lecturas, ejercici
 
 <div class="columnas-2 sesion-card card">
 <div class="content" markdown="1">
+
 En el caso de las sesiones presenciales también tienen **una duración de 55 minutos**. El despacho está ubicado en una zona céntrica, muy cerca de la Sagrada Familia. En este caso el precio es de 60€ la sesión y el pago se realiza mediante bizum, paypal o efectivo el mismo día de la cita.
 
 Siempre después de la sesión **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
@@ -40,7 +41,9 @@ Siempre después de la sesión **os envío material, lecturas, ejercicios person
 <img src="{{site.baseurl}}/images/sesionpresencial.jpg" width="150" height="150" class="circle" />
 </div>
 
-En el caso de que estés buscando terapia de pareja o familiar, por favor contactame a través del formulario y te informaré de los precios y la metodología.
+<br/>
+
+Si estás buscando terapia de pareja o familiar, por favor contáctame a través del formulario y te informaré de los precios y la metodología.
 
 ### Ubicación
 
