@@ -18,7 +18,7 @@ Me he formado sobre todo en la **terapia cognitivo-conductual**, una orientació
 
 Así mismo, tengo formación en **orientación humanista** y actualmente estoy en supervisión en un centro de **terapia breve estratégica**. La terapia breve estratégica es un modelo de intervención focal que se centra en resolver y dar soluciones a problemas complejos mediante herramientas simples. Por otra parte, se busca producir un cambio en la manera de percibir y construir la realidad, consiguiendo una nueva forma de gestionar la realidad, aparte de mejorar la autoestima.
 
-## Sesión Individual Online a 50€
+## Sesión Individual Online a 45€
 
 <div class="columnas-2 sesion-card card">
 <div class="content" markdown="1">
