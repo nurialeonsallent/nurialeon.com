@@ -12,7 +12,7 @@ Trabajo con muchas personas en situaciones complicadas (vivencia de duelos, sepa
 
 También acompaño a personas que quieran mejorar aspectos de su vida, conocerse mejor y en general ser más felices.
 
-Más de 80 personas ya han pasado por mi consulta. Mi formación más relevante es:
+Más de 100 personas ya han pasado por mi consulta. Mi formación más relevante es:
 
 - Máster de Psicología General Sanitaria en Centro Universitario Europeo (acabando)
 - Máster Psicología Infantil y Juvenil: Técnicas y Estrategias de Intervención en la UOC (cursando)
