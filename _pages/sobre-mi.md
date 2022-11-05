@@ -55,7 +55,7 @@ Actualmente también colaboro con un *centro especializado psicomotricidad y lat
 *Psicóloga Infantojuvenil experimentada en lateralidad cruzada*
 
 
-Paralelamente, sigo en constante supervisión clínica y estoy realizando prácticas en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi experiencia estoy pudiendo asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me está formando sobre su metología terapéutica. 
+Paralelamente, sigo en constante supervisión clínica y he estado 6 meses en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi experiencia he podido asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica. 
 
 ![Terapia psicológica]({{ site.baseurl }}/images/juliapascualnurialeon.jpg)
 *Núria León y Júlia Pascual en el Colegio de Psicólogos de Catalunya*
