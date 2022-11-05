@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ¿Qué servicios ofrezco? 
-excerpt: Sesiones de psicología presenciales en Barcelona (Sagrada Familia) por 55€ y Sesiones online por 45€ (Skype, Zoom o Google Meet).
+excerpt: Sesiones de psicología presenciales en Barcelona (Sagrada Familia) por 60€ y Sesiones online por 45€ (Skype, Zoom o Google Meet).
 permalink: /servicios/
 ---
 
@@ -33,7 +33,7 @@ Además, después de la sesión siempre **os envío material, lecturas, ejercici
 
 <div class="columnas-2 sesion-card card">
 <div class="content" markdown="1">
-En el caso de las sesiones presenciales también tienen **una duración de 55 minutos**. El despacho está ubicado en una zona céntrica, muy cerca de la Sagrada Familia. En este caso el precio es de 55€ la sesión y el pago se realiza mediante bizum, paypal o efectivo el mismo día de la cita.
+En el caso de las sesiones presenciales también tienen **una duración de 55 minutos**. El despacho está ubicado en una zona céntrica, muy cerca de la Sagrada Familia. En este caso el precio es de 60€ la sesión y el pago se realiza mediante bizum, paypal o efectivo el mismo día de la cita.
 
 Siempre después de la sesión **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
 </div>
