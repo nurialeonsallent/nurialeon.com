@@ -36,7 +36,7 @@ Ya son más de 100 de personas las que han pasado por mi consulta.
 - **Máster en Estrategia y Gestión de marca** por la Barcelona School of Management de la Universitat Pompeu Fabra con un 8,2 de nota final (2018)
 - **Grado de Psicología** en la Universitat de Barcelona (2011-2017)
 
-## Otra formación
+## Otra formación complementaria
 - **Psicoterapia integradora para el tratamiento de la ansiedad** curso de Eva Molero (2022)
 - **Lateralidad y sus repercusiones en el aprendizaje** curso de la Dra. María del Mar Ferré (2022)
 - **Curso del Colegio de Psicólogos de Catalunya sobre Servicios Sociales en el Ayuntamiento de Barcelona** (2021)
