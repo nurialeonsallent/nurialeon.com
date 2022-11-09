@@ -3,7 +3,7 @@ layout: post
 title: "¿Cómo ser más positivo y fuerte mentalmente?"
 subtitle: "Psicología aplicada"
 date: 2022-09-11 00:00:00 +0
-image: emociones.jpg
+image: emociones.webp
 # tags:
 #   - fortaleza
 #   - emociones

@@ -3,7 +3,7 @@ layout: post
 title: "La tristeza y la furia: Un cuento de Jorge Bucay"
 subtitle: "Cuando dos emociones suelen ir de la mano "
 date: 2022-09-06 00:00:00 +0
-image: tristeza_furia_jorgebucay.jpg
+image: tristeza_furia_jorgebucay.webp
 # tags:
 #   - tristeza
 #   - rabia
@@ -42,7 +42,7 @@ Fue una misma paciente la que me habló por primera vez sobre esta historia y me
 
 Si bien es cierto que existen emociones con matices muy diferentes, muchas veces una emoción puede ir con otra de la mano, o incluso lo que aparentemente parece una cosa, puede ser otra. Os adjunto este vocabulario emocional para que empecéis a identificar mejor los distintos matices en aquello que sentís. No siempre las emociones son las mismas, habrá veces en las que sentiremos rabia, en otros momentos frustración y a veces hostilidad. Todas estas emociones forman parte de la ira, aunque no todas significan lo mismo.
 
-![Rueda de emociones ]({{ site.baseurl }}/images/Rueda-de-las-emociones-ninos.jpg)
+![Rueda de emociones ]({{ site.baseurl }}/images/Rueda-de-las-emociones-ninos.webp)
 *Rueda de emociones*
 
 Si hablamos de tristeza y furia, que serían las dos emociones generales del centro de la rueda, podemos entender con este cuento que son realmente emociones primas hermanas. Muchas veces la furia contenida puede acabar desarrollando una tristeza, y puede que una tristeza profunda lo que nos quiere transmitir es que ha habido muchas furias contenidas. 

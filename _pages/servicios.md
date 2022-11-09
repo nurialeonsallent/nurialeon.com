@@ -26,7 +26,7 @@ Las sesiones online tienen una **duración de 55 minutos** y utilizamos la plata
 
 Además, después de la sesión siempre **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
 </div>
-<img src="{{site.baseurl}}/images/sesiononline.jpg" width="150" height="150" class="circle" />
+<img src="{{site.baseurl}}/images/sesiononline.webp" width="150" height="150" class="circle" />
 </div>
 
 ## Sesión Presencial en Barcelona a 60€
@@ -38,7 +38,7 @@ En el caso de las sesiones presenciales también tienen **una duración de 55 mi
 
 Siempre después de la sesión **os envío material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
 </div>
-<img src="{{site.baseurl}}/images/sesionpresencial.jpg" width="150" height="150" class="circle" />
+<img src="{{site.baseurl}}/images/sesionpresencial.webp" width="150" height="150" class="circle" />
 </div>
 
 <br/>

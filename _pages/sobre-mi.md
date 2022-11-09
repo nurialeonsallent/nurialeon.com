@@ -10,15 +10,14 @@ Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Col·legi O
 Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor. Experiencia tanto en consulta privada por mi cuenta propia como en centro médico reconocido trabajando con las mutuas más conocidas a nivel nacional.
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
- <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nuria_psico_058.jpg" /></div>
- <div class="carousel-cell"><img src="{{ site.baseurl }}/images/nuria_psico_030.jpg" /></div>
- <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG-8643.jpg" /></div>
-  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_4989.webp" /></div>
-  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/despacho.webp" /></div>
-  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/5ec741eb-e9db-4797-a6ad-055d89de5e2a.webp" /></div>
-  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/IMG_8329.JPG" /></div>
-  <div class="carousel-cell"><img src="{{ site.baseurl }}/images/img_5496.webp" /></div>
-  
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_058.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_030.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/IMG-8643.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/IMG_4989.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/despacho.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/5ec741eb-e9db-4797-a6ad-055d89de5e2a.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/IMG_8329.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/img_5496.webp" /></div>
 </div>
 
 Trabajo con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
@@ -37,6 +36,7 @@ Ya son más de 100 de personas las que han pasado por mi consulta.
 - **Grado de Psicología** en la Universitat de Barcelona (2011-2017)
 
 ## Otra formación complementaria
+
 - **Psicoterapia integradora para el tratamiento de la ansiedad** curso de Eva Molero (2022)
 - **Lateralidad y sus repercusiones en el aprendizaje** curso de la Dra. María del Mar Ferré (2022)
 - **Curso del Colegio de Psicólogos de Catalunya sobre Servicios Sociales en el Ayuntamiento de Barcelona** (2021)
@@ -44,23 +44,21 @@ Ya son más de 100 de personas las que han pasado por mi consulta.
 - **Curso de Tratamiento psicológico en el dolor crónico** por el Colegio de Psicólogos de Madrid (2020)
 - **Formación oficial en Mindfulness para la Reducción del Estrés y la Salud** (2019)
 
-
 ## Colaboraciones y Experiencia
 
 Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como *psicóloga* en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico.
 
 Actualmente también colaboro con un *centro especializado psicomotricidad y lateralidad* sobretodo con niños y adolescentes, que tienen dificultades de aprendizaje y problemas de lateralidad cruzada.
 
-![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.jpg)
+![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.webp)
 *Psicóloga Infantojuvenil experimentada en lateralidad cruzada*
 
+Paralelamente, sigo en constante supervisión clínica y he estado 6 meses en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi experiencia he podido asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica.
 
-Paralelamente, sigo en constante supervisión clínica y he estado 6 meses en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi experiencia he podido asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica. 
-
-![Terapia psicológica]({{ site.baseurl }}/images/juliapascualnurialeon.jpg)
+![Terapia psicológica]({{ site.baseurl }}/images/juliapascualnurialeon.webp)
 *Núria León y Júlia Pascual en el Colegio de Psicólogos de Catalunya*
 
-Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle. 
+Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle.
 
 ## Medios de Comunicación
 

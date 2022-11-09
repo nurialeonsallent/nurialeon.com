@@ -9,7 +9,6 @@ plugins:
   - jekyll/tagging
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-webp
 
 paginate: 3
 paginate_path: "/blog/:num"
@@ -35,10 +34,3 @@ sass:
 
 exclude:
   - node_modules
-
-webp:
-  enabled: true
-  quality: 75
-  img_dir: ["/images"]
-  nested: true
-  formats: [".jpeg", ".jpg", ".png", ".tiff"]
