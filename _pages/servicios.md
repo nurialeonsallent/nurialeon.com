@@ -47,7 +47,7 @@ Si estás buscando terapia de pareja o familiar, por favor contáctame a través
 
 ### Ubicación
 
-La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **Carrer del Rosselló 396**.
+La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **{{ site.data.settings.location }}**.
 
 - Metro: L2 (Sagrada Familia)
 - Metro: L5 (Sagrada Familia)
