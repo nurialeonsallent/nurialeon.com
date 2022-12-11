@@ -17,7 +17,7 @@ Más de 100 personas ya han pasado por mi consulta. Mi formación más relevante
 - **Máster de Psicología General Sanitaria** en Centro Universitario Europeo
 - **Máster en Terapia Breve y Comunicación Estrategica** en Institut Gestalt (cursando)
 - **Postgrado en Psicopatología clínica** en la Universitat de Barcelona con un 9,5 de nota final
-- **Máster Psicología Infantil y Juvenil: Técnicas y Estrategias de Intervención en la UOC** (cursando)
+- **Máster Psicología Infantil y Juvenil**: Técnicas y Estrategias de Intervención en la UOC (cursando)
 - **Máster en Estrategia y Gestión de Marca** por la Barcelona School of Management Pompeu Fabra
 - **Grado de Psicología** en la Universitat de Barcelona
 
