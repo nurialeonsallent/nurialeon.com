@@ -6,7 +6,7 @@ permalink: /
 {% include hero.html %}
 
 <div class="section" markdown="1">
-### Psicóloga Online y Presencial en Barcelona
+## Psicóloga Online y Presencial en Barcelona
 
 Trabajo con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión…).
 
@@ -29,7 +29,7 @@ Más de 100 personas ya han pasado por mi consulta. Mi formación más relevante
 {% include opinions.html %}
 
 <div class="contact" markdown="1">
-### Reserva tu Sesión, Contacta Conmigo
+## Reserva tu Sesión, Contacta Conmigo
 
 Para contactar conmigo puedes enviarme un email con tu consulta a [psicologa@nurialeon.com](javascript:openEmail()).
 También puedes seguirme en mis redes sociales o escribirme un mensaje a través del formulario de contacto:
