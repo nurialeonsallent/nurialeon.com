@@ -11,12 +11,12 @@ permalink: /servicios/
 
 Mi metodología de trabajo es integradora, combino dierentes técnicas y procedimientos terapéuticos provenientes de distintos sistemas teóricos con el fin de solucionar problemas concretos para cada caso.
 
-En las sesiones, utilizo todo el conocimiento adquirido para que consigamos junt@s soluciones eficaces a tus problemas cotidianos, aprendas estrategias para mejorar tu autoestima, tus relaciones y tu vida en general.
+En las sesiones, utilizo todos los conocimientos adquiridos para que consigamos soluciones eficaces a tus problemas, aprendas estrategias para mejorar tu vida en general.
 
-Me he formado sobre todo en la **terapia cognitivo-conductual**, una orientación muy eficaz y con numerosos estudios científicos que la respaldan. También utilizo técnicas de reestructuración cognitiva y estrategias de afrontamiento, entre otras.
+Me he formado sobre todo en **terapia cognitivo-conductual** y **terapia breve estratégica**, dos orientaciones muy eficaces y con numerosos estudios científicos que las respaldan. También utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento, técnicas humanistas, ejercicios de coaching, entre otras.
 
 
-Así mismo, tengo formación en **orientación humanista** y actualmente estoy en supervisión en un centro de **terapia breve estratégica**. La terapia breve estratégica es un modelo de intervención focal que se centra en resolver y dar soluciones a problemas complejos mediante herramientas simples. Por otra parte, se busca producir un cambio en la manera de percibir y construir la realidad, consiguiendo una nueva forma de gestionar la realidad, aparte de mejorar la autoestima.
+La terapia breve estratégica es un modelo de intervención focal que se centra en resolver y dar soluciones a problemas complejos mediante herramientas simples. Por otra parte, se busca producir un cambio en la manera de percibir y construir la realidad, consiguiendo una nueva forma de gestionar la realidad, aparte de mejorar la autoestima.
 
 ## Sesión Online a 45€
 
