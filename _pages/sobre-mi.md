@@ -46,9 +46,9 @@ Ya son más de 100 de personas las que han pasado por mi consulta.
 
 ## Colaboraciones y Experiencia
 
-Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como *psicóloga* en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico.
+Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como *psicóloga* en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico durante el momento de la pandemia.
 
-Actualmente también colaboro con un *centro especializado psicomotricidad y lateralidad* sobretodo con niños y adolescentes, que tienen dificultades de aprendizaje y problemas de lateralidad cruzada.
+También he trabajado en un *centro especializado en psicomotricidad y lateralidad* con familias y niños y adolescentes con dificultades de aprendizaje, tdah, autismo y problemas de lateralidad cruzada.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.webp)
 *Psicóloga Infantojuvenil experimentada en lateralidad cruzada*
