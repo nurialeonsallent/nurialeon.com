@@ -8,13 +8,13 @@ permalink: /
 <div class="section" markdown="1">
 ## Psicóloga Online y Presencial en Barcelona
 
-Trabajo con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión…).
+Ayudo a muchas personas en situaciones complejas (vivencia de duelos, separaciones, problemas de autoestima, enfermedades o diagnósticos clínicos, dolor crónico, pérdida de empleo, embarazo, aborto, agresividad, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión, trastornos…). Soy especialista en psicoterapia para adultos y jóvenes.
 
-También acompaño a personas que quieran mejorar aspectos de su vida, conocerse mejor y en general ser más felices.
+También acompaño a personas que quieran conseguir objetivos, mejorar aspectos de su vida, conocerse mejor y en general ser más felices.
 
 Más de 100 personas ya han pasado por mi consulta. Mi formación más relevante es:
 
-- **Máster de Psicología General Sanitaria** en Centro Universitario Europeo
+- **Máster de Psicología General Sanitaria** en Centro Universitario Europeo con un 9 de nota final
 - **Máster en Terapia Breve y Comunicación Estrategica** en Institut Gestalt (cursando)
 - **Postgrado en Psicopatología clínica** en la Universitat de Barcelona con un 9,5 de nota final
 - **Máster Psicología Infantil y Juvenil**: Técnicas y Estrategias de Intervención en la UOC (cursando)

@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Sobre mí
-excerpt: Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Col·legi Oficial de Psicòlegs de Catalunya. Pertenezco a la sección de Psicología Clínica de la Salud y Psicoterapia y también a la sección de Psicología y Coaching del COPC.
+excerpt: Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Col·legi Oficial de Psicòlegs de Catalunya. Ayudo a muchas personas en situaciones complejas (vivencia de duelos, separaciones, problemas de autoestima, enfermedades o diagnósticos clínicos, dolor crónico, pérdida de empleo, embarazo, aborto, agresividad, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión, trastornos…). Soy especialista en psicoterapia para adultos y jóvenes.
 permalink: /sobre-mi/
 ---
 
-Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Col·legi Oficial de Psicòlegs de Catalunya. Pertenezco a la sección de Psicología Clínica de la Salud y Psicoterapia y también a la sección de Psicología y Coaching del COPC.
+¡Hola! Soy Núria León y vivo en Barcelona. Me considero una apasionada en general, pero sobre todo de la mente y de la música. Me gradué en psicología por la Universitat de Barcelona y mi número de colegiada por el Col·legi Oficial de Psicòlegs de Catalunya es el 26792. Pertenezco a la sección de Psicología Clínica de la Salud y Psicoterapia Sanitaria.
 
-Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor. Experiencia tanto en consulta privada por mi cuenta propia como en centro médico reconocido trabajando con las mutuas más conocidas a nivel nacional.
+Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor. Tengo años de experiencia con todo tipo de casos y con todo tipo de edades, aunque mi especialidad son los adultos y los jóvenes. He trabajado tanto en consulta privada por mi cuenta como en varios centros médicos reconocidos.
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
   <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_058.webp" /></div>
@@ -20,7 +20,7 @@ Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor
   <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/img_5496.webp" /></div>
 </div>
 
-Trabajo con muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
+Ayudo a muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
 
 Ya son más de 100 de personas las que han pasado por mi consulta.
 
@@ -53,7 +53,7 @@ Actualmente también colaboro con un *centro especializado psicomotricidad y lat
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.webp)
 *Psicóloga Infantojuvenil experimentada en lateralidad cruzada*
 
-Paralelamente, sigo en constante supervisión clínica y he estado 6 meses en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi experiencia he podido asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica.
+Paralelamente, siempre estoy en constante supervisión clínica y recientemente he estado 9 meses colaborando en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi experiencia he podido asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/juliapascualnurialeon.webp)
 *Núria León y Júlia Pascual en el Colegio de Psicólogos de Catalunya*
