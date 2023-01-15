@@ -8,7 +8,7 @@ permalink: /
 <div class="section" markdown="1">
 ## Psicóloga Online y Presencial en Barcelona
 
-Ayudo a muchas personas en situaciones complejas (vivencia de duelos, separaciones, problemas de autoestima, enfermedades o diagnósticos clínicos, dolor crónico, pérdida de empleo, embarazo, aborto, agresividad, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión, trastornos…). Soy especialista en psicoterapia para adultos y jóvenes.
+Ayudo a muchas personas en situaciones complejas (vivencia de duelos, separaciones, problemas de autoestima, enfermedades o diagnósticos clínicos, dolor crónico, pérdida de empleo, embarazos, abortos, agresividad, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión, problemas de conducta alimentaria, miedos…). Soy especialista en psicoterapia para adultos y jóvenes.
 
 También acompaño a personas que quieran conseguir objetivos, mejorar aspectos de su vida, conocerse mejor y en general ser más felices.
 
