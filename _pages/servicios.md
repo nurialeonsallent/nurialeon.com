@@ -13,7 +13,7 @@ Mi metodología de trabajo es integradora, combino dierentes técnicas y procedi
 
 En las sesiones, utilizo todos los conocimientos adquiridos para que consigamos soluciones eficaces a tus problemas, aprendas estrategias para mejorar tu vida en general.
 
-Ayudo a adultos y jóvenes que sufren de:
+Ayudo a todo tipo de personas, sobretodo he trabajado con adultos y jóvenes que sufren todo tipo de problemas, como por ejemplo:
 - Problemas de Autoestima
 - Gestión emocional y crecimiento personal
 - Ansiedad, Depresión
