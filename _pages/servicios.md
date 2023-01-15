@@ -13,20 +13,19 @@ Mi metodología de trabajo es integradora, combino dierentes técnicas y procedi
 
 En las sesiones, utilizo todos los conocimientos adquiridos para que consigamos soluciones eficaces a tus problemas, aprendas estrategias para mejorar tu vida en general.
 
-Ayudo a adultos y adolescentes que sufren de:
+Ayudo a adultos y jóvenes que sufren de:
 - Problemas de Autoestima
-- Problemas de agresividad o ira
 - Gestión emocional y crecimiento personal
-- Duelos no resueltos
 - Ansiedad, Depresión
+- Problemas de pareja o familiares
+- Problemas de agresividad o ira
+- Duelos no resueltos
+- Problemas de Estrés
 - Problemas de la conducta alimentaria
 - Bullying o Mobbing
-- Problemas de pareja o familiares
 - Enfermedades crónicas o terminales
-- Problemas de Estrés
 
-- 
-
+También acompaño a personas que quieran conseguir objetivos, sacarse oposiciones, tomar una gran decisión, mejorar aspectos de su vida, conocerse mejor y en general ser más felices.
 
 Me he formado sobre todo en **terapia cognitivo-conductual** y **terapia breve estratégica**, dos orientaciones muy eficaces y con numerosos estudios científicos que las respaldan. También utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento, técnicas humanistas, ejercicios de coaching, entre otras.
 
