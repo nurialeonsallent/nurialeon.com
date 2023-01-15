@@ -29,9 +29,6 @@ También acompaño a personas que quieran conseguir objetivos, sacarse oposicion
 
 Me he formado sobre todo en **terapia cognitivo-conductual** y **terapia breve estratégica**, dos orientaciones muy eficaces y con numerosos estudios científicos que las respaldan. También utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento, técnicas humanistas, ejercicios de coaching, entre otras.
 
-
-La terapia breve estratégica es un modelo de intervención focal que se centra en resolver y dar soluciones a problemas complejos mediante herramientas simples. Por otra parte, se busca producir un cambio en la manera de percibir y construir la realidad, consiguiendo una nueva forma de gestionar la realidad, aparte de mejorar la autoestima.
-
 ## Sesión Online a 45€
 
 <div class="columnas-2 sesion-card card">
