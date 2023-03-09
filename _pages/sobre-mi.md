@@ -60,12 +60,9 @@ Paralelamente, siempre estoy en constante supervisión clínica y recientemente 
 
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle.
 
-## Medios de Comunicación
+## Medios de comunicación
 
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También he realizado entrevistas en diferentes medios, como por ejemplo:
 
 - Artículo en una revista local sobre [el efecto del covid19 en la salud mental](https://www.latorredebarcelona.com/la-nevera/com-ha-afectat-la-covid-19-a-la-salut-mental/)
-- Entrevista para centro médico sobre [Agresividad](https://lateralidad.com/la-agresividad-siempre-tiene-un-proposito/)  
-- Entrevista para centro médico sobre [Inteligencia emocional](https://lateralidad.com/todas-las-emociones-son-necesarias-y-tienen-que-ser-escuchadas/)
-- Entrevista centro médico sobre [Estilos de crianza parental](https://lateralidad.com/es-fundamental-que-los-padres-sepan-identificar-en-que-estilo-de-crianza-estan-educando-a-sus-hijos/)
-- Entrevista sobre [Autoestima e imagen corporal](https://www.esteticainfo.com/complejos-yo-liberate-y-encuentra-tu-felicidad/)
+
