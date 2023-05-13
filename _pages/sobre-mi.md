@@ -10,14 +10,9 @@ permalink: /sobre-mi/
 Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor. Tengo años de experiencia con todo tipo de casos y con todo tipo de edades, aunque mi especialidad son los adultos y los jóvenes. He trabajado tanto en consulta privada por mi cuenta como en varios centros médicos reconocidos.
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
-  <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_058.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_030.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/IMG-8643.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/IMG_4989.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/despacho.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/5ec741eb-e9db-4797-a6ad-055d89de5e2a.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/IMG_8329.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/img_5496.webp" /></div>
+<div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_057.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_078.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_030.webp" /></div><div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_047.webp" /></div>
 </div>
 
 Ayudo a muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
