@@ -23,7 +23,7 @@ Ya son más de 100 de personas las que han pasado por mi consulta.
 
 ## ¿Cuál es mi formación más relevante?
 
-- **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo 
+- **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo
 - **Máster en Terapia Breve y Comunicación Estrategica en Institut Gestalt** (cursando)
 - **Máster Psicología Infantil y Juvenil**: Técnicas y Estrategias de Intervención en la UOC (cursando)
 - **Postgrado en Psicopatología clínica** por la Universitat de Barcelona con un 9,5 de nota final (2021)
@@ -41,17 +41,17 @@ Ya son más de 100 de personas las que han pasado por mi consulta.
 
 ## Colaboraciones y Experiencia
 
-Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como *psicóloga* en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico durante el momento de la pandemia.
+Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como _psicóloga_ en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico durante el momento de la pandemia.
 
-También he trabajado en un *centro especializado en psicomotricidad y lateralidad* con familias y niños y adolescentes con dificultades de aprendizaje, tdah, autismo y problemas de lateralidad cruzada.
+También he trabajado en un _centro especializado en psicomotricidad y lateralidad_ con familias y niños y adolescentes con dificultades de aprendizaje, tdah, autismo y problemas de lateralidad cruzada.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.webp)
-*Psicóloga Infantojuvenil experimentada en lateralidad cruzada*
+_Psicóloga Infantojuvenil experimentada en lateralidad cruzada_
 
 Paralelamente, siempre estoy en constante supervisión clínica y recientemente he estado 9 meses colaborando en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi experiencia he podido asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/juliapascualnurialeon.webp)
-*Núria León y Júlia Pascual en el Colegio de Psicólogos de Catalunya*
+_Núria León y Júlia Pascual en el Colegio de Psicólogos de Catalunya_
 
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle.
 
@@ -60,4 +60,3 @@ Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde t
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También he realizado entrevistas en diferentes medios, como por ejemplo:
 
 - Artículo en una revista local sobre [el efecto del covid19 en la salud mental](https://www.latorredebarcelona.com/la-nevera/com-ha-afectat-la-covid-19-a-la-salut-mental/)
-
