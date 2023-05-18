@@ -2,30 +2,30 @@
 layout: post
 title: "Ira y agresividad: aprendiendo a gestionarlas"
 subtitle: "La ira y la agresividad"
-date: 2022-03-08 00:00:00 +0
-image: infant-g14187b721_1280.webp
-# tags:
-#   - ira
-#   - emociones
-#   - rabia
-published: false 
+date: 2023-05-18 00:00:00 +0
+image: ira-agresividad/IRA_111.jpg
+tags:
+  - ira
+  - emociones
+  - rabia
+published: true
+---
 
-En primer lugar, considero necesario aclarar ambos conceptos para poder entender como funcionan. La **agresividad, por lo general, diríamos que es la tendencia a atacar o a actuar de modo agresivo. La agresividad es el resultado de un proceso psicológico complejo que implica la acción de muchos pensamientos, emociones y sobre todo conductas.
-
+En primer lugar, considero necesario aclarar ambos conceptos para poder entender como funcionan. La agresividad, por lo general, diríamos que es la tendencia a atacar o a actuar de modo agresivo. La agresividad es el resultado de un proceso psicológico complejo que implica la acción de muchos pensamientos, emociones y sobre todo conductas.
 
 <!-- more -->
 
 ## ¿Qué es la agresividad?
 
-La palabra agresividad deriva de la palabra latina aggressare que significa aproximarse, atacar. El Diccionario de Lengua Española de la Real Academia Española (RAE), en su vigésima segunda edición (RAE, vigésima segunda edición), define la agresividad como la “tendencia a actuar o a responder violentamente”. 
+La palabra agresividad deriva de la palabra latina aggressare que significa aproximarse, atacar. El Diccionario de Lengua Española de la Real Academia Española (RAE), define la agresividad como la “tendencia a actuar o a responder violentamente”. 
 
-Durante años y años la agresividad nos garantizaba parte de la supervivencia. Y la realidad es que a día de hoy todos los humanos en algún momento podemos actuar con agresividad. Y no solo adultos, sino que niños también y es algo que forma parte de nuestra condición y evolución. Aun así, es necesario identificarla y controlarla para poder vivir tranquilamente y tener relaciones plenas.
+Durante años y años la agresividad nos ha garantizado parte de la supervivencia. Y la realidad es que a día de hoy todos los humanos en algún momento podemos actuar con agresividad. Y no solo adultos, sino que niños también y es algo que forma parte de nuestra condición y evolución. Aun así, es necesario identificarla y controlarla para poder vivir tranquilamente y tener relaciones plenas.
 
 ## ¿Qué es la ira?
 
-La ira es Sentimiento de indignación que causa enojo. Es un estado emocional caracterizado por sentimientos de enfado, de intensidad elevada. La ira es una emoción básica y universal que todos los humanos podemos sentir en determinadas situaciones. De hecho nos ayuda también a sobrevivir y al igual que todas las demás emociones, la ira también tiene su función. Por lo general, sentimos ira cuando nos exponemos a situaciones que nos parecen injustas o que atentan contra nosotros. Cualquier situación, en función de la valoración que se haga sobre ella, puede desencadenar ira. Cuando sentimos ira estamos reaccionando a una situación que nos parece injusta, maleducada, inadecuada, etc.
+La ira es un sentimiento de indignación que causa enojo. Es un estado emocional caracterizado por sentimientos de enfado, de intensidad elevada. La ira es una emoción básica y universal que todos los humanos podemos sentir en determinadas situaciones. De hecho nos ayuda también a sobrevivir y al igual que todas las demás emociones, la ira también tiene su función. Por lo general, sentimos ira cuando nos exponemos a situaciones que nos parecen injustas o que atentan contra nosotros. Cualquier situación, en función de la valoración que se haga sobre ella, puede desencadenar ira. Cuando sentimos ira estamos reaccionando a una situación que nos parece injusta, maleducada, inadecuada, etc.
 
-![Terapia psicológica]({{ site.baseurl }}/images/foto_ira_1.jpg)
+![Terapia psicológica]({{ site.baseurl }}/images/ira-agresividad/foto_ira_1.jpg)
 
 
 ¿Por qué es importante trabajar la gestión de la ira con un psicólogo especializado? Esto es fundamental, ya que el comportamiento agresivo y la mala gestión de la ira complica las relaciones sociales que vamos estableciendo a lo largo de nuestro desarrollo y dificulta, por tanto, nuestra correcta integración en cualquier ambiente, es decir afecta a nuestro desarrollo personal y social. El trabajo en consecuencia a seguir es la socialización de la conducta agresiva, es decir, corregir el comportamiento agresivo para que derive hacia un estilo de comportamiento más asertivo, pausado y calmado.
@@ -45,15 +45,15 @@ Por eso, podríamos decir que la función de la ira es protegernos, para evitar 
 
 La ira bien gestionada puede ser adaptativa o beneficiosa, tal y como he explicado nos ayuda a protegernos y a poner límites en el caso de que sea necesario. Pero la ira mal regulada, o una ira excesiva, puede traernos muchas dificultades para sentirnos plenos y también afectará a nuestro entorno social. Paradójicamente, son nuestros seres queridos los que suelen vivir las mayores consecuencias de esa mala gestión emocional de la ira. Además, está demostrado que sentir ira excesiva nos puede traer también problemas cardiovasculares y de tensión arterial. ¿Pero cómo controlar la ira? 
 
-![Terapia psicológica]({{ site.baseurl }}/images/ira_foto_2_webp.jpg)
+![Terapia psicológica]({{ site.baseurl }}/images/ira-agresividad/foto_ira_2.jpg)
 
 ## Consejos para la gestión de la ira
 
 El primer paso principal es entender que las personas podemos reaccionar de tres maneras cuando sentimos la ira: dejarnos llevar por ella (respuesta agresiva), ignorarla y pasar de ella (respuesta pasiva) o comunicarla de una forma educada una vez la hemos podido regular (asertiva). 
 
-- La respuesta pasiva hace que esa ira no desaparezca, pero se vuelve en nuestra contra (ira hacia dentro). En mi consulta veo a muchas personas con esta tendencia y el resultado de ignorar la ira de forma sostenida en el tiempo tiene efectos muy negativos en nuestra salud psicológica (pensamientos suicidas, autolesiones, tristeza profunda, aislamiento, entre otras). 
-- La respuesta agresiva, aparentemente, nos da la sensación de que al expresar la ira (ira hacia fuera) nos vamos a aliviar. Pero no suele ocurrir eso, ya que la agresividad atrae más agresividad. Esta respuesta además suele fomentar que el otro también la responda de forma agresiva. 
-- La respuesta asertiva sería la más saludable porque al aprender a regularla (autoregulación emocional) nos permite encontrar ese equilibrio entre sentirnos bien con nosotros mismos y también con los demás.
+- La **respuesta pasiva** hace que esa ira no desaparezca, pero se vuelve en nuestra contra (ira hacia dentro). En mi consulta veo a muchas personas con esta tendencia y el resultado de ignorar la ira de forma sostenida en el tiempo tiene efectos muy negativos en nuestra salud psicológica (pensamientos suicidas, autolesiones, tristeza profunda, aislamiento, entre otras). 
+- La **respuesta agresiva**, aparentemente, nos da la sensación de que al expresar la ira (ira hacia fuera) nos vamos a aliviar. Pero no suele ocurrir eso, ya que la agresividad atrae más agresividad. Esta respuesta además suele fomentar que el otro también la responda de forma agresiva. 
+- La **respuesta asertiva** sería la más saludable porque al aprender a regularla (autoregulación emocional) nos permite encontrar ese equilibrio entre sentirnos bien con nosotros mismos y también con los demás.
 
 Por ese mismo motivo, diría que **el primer paso es identificar nuestro estilo de respuesta habitual**. 
 

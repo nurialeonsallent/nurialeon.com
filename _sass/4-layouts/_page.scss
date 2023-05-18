@@ -40,7 +40,13 @@
 
 .page {
   margin: 2rem auto 4rem auto;
+  
+  @media only screen and (max-width: $tablet) {
+    margin: 1rem auto 2rem auto;
+  }
+}
 
+.page, .post {
   p:not(.carousel-cell) > img {
     margin: 30px auto;
     display: block;
@@ -52,10 +58,6 @@
     &.right {
       float: right;
     }
-  }
-  
-  @media only screen and (max-width: $tablet) {
-    margin: 1rem auto 2rem auto;
   }
 }
 

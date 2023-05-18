@@ -2,8 +2,7 @@ version: '3'
 
 services:
   site:
-    build:
-      dockerfile: Dockerfile
+    image: jekyll/jekyll:latest
     command: jekyll serve --verbose --force_polling
     ports:
       - 4000:4000
