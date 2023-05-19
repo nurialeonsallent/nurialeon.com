@@ -17,7 +17,7 @@ Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor
 
 Ayudo a muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
 
-Ya son más de 100 de personas las que han pasado por mi consulta.
+Ya son centenares de personas las que han pasado por mi consulta y han resuelto sus problemas de forma eficaz.
 
 <img class="sello-colegial" src="{{site.baseurl}}/images/sello_colegial.webp" alt="Sello Colegial" width="162" height="72" data-action="zoom" />
 
