@@ -4,10 +4,6 @@ title: "Ira y agresividad: aprendiendo a gestionarlas"
 subtitle: "La ira y la agresividad"
 date: 2023-05-18 00:00:00 +0
 image: ira-agresividad/IRA_111.jpg
-tags:
-  - ira
-  - emociones
-  - rabia
 published: true
 ---
 
