@@ -4,10 +4,6 @@ title: "La importancia de los lazos afectivos y los tipos de apego"
 subtitle: "La teoría del apego"
 date: 2022-03-08 00:00:00 +0
 image: infant-g14187b721_1280.webp
-# tags:
-#   - apego
-#   - vinculos
-#   - personalidad
 published: true
 ---
 
