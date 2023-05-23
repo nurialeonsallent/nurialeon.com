@@ -29,7 +29,7 @@ También acompaño a personas que quieran conseguir objetivos, sacarse oposicion
 
 Me he formado sobre todo en **terapia cognitivo-conductual** y **terapia breve estratégica**, dos orientaciones muy eficaces y con numerosos estudios científicos que las respaldan. También utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento, técnicas humanistas, ejercicios de coaching, entre otras.
 
-## Sesiones Online a 55€
+## Sesión Online a 55€
 
 <div class="columnas-2 sesion-card card">
 <div class="content" markdown="1">
@@ -40,7 +40,7 @@ Además, después de la sesión siempre **os envío material, lecturas, ejercici
 <img src="{{site.baseurl}}/images/sesiononline.webp" width="150" height="150" class="circle" />
 </div>
 
-## Sesiones Presenciales a 65€ en Barcelona
+## Sesión Presencial en Barcelona a 65€
 
 <div class="columnas-2 sesion-card card">
 <div class="content" markdown="1">
