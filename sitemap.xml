@@ -1,0 +1,15 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	{% assign all_pages = site.html_pages | concat: site.posts | where_exp:'doc','doc.url != "/404.html"' %}
+	{% for page in all_pages %}
+		{% unless page.hidden %}
+		<url>
+			<loc>{{ site.url | append: site.baseurl | append: page.url | xml_escape }}</loc>
+			<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+		</url>
+		{% endunless %}
+	{% endfor %}
+</urlset>
+
