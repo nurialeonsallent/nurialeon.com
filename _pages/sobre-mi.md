@@ -31,9 +31,9 @@ Ya son centenares de personas las que han pasado por mi consulta y han resuelto 
 - **Grado de Psicología** en la Universitat de Barcelona (2011-2017)
 
 ## Otra formación complementaria
-
-- **Psicoterapia integradora para el tratamiento de la ansiedad** curso de Eva Molero (2022)
-- **Lateralidad y sus repercusiones en el aprendizaje** curso de la Dra. María del Mar Ferré (2022)
+- **Los Trastornos Alimentarios y su Intervención Eficaz desde la Terapia Breve Estratégica** (2023)
+- **Psicoterapia integradora para el tratamiento de la ansiedad** (2022)
+- **Lateralidad y sus repercusiones en el aprendizaje** (2022)
 - **Servicios Sociales en el Ayuntamiento de Barcelona**: Curso del Colegio de Psicólogos de Catalunya (2021)
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
 - **Curso de Tratamiento psicológico en el dolor crónico** por el Colegio de Psicólogos de Madrid (2020)

@@ -25,7 +25,7 @@ Ayudo a todo tipo de personas, sobretodo he trabajado con adultos y jóvenes que
 - Bullying o Mobbing
 - Enfermedades crónicas o terminales
 
-También acompaño a personas que quieran conseguir objetivos, sacarse oposiciones, tomar una gran decisión, mejorar aspectos de su vida, conocerse mejor y en general ser más felices.
+También acompaño a personas que quieran conseguir objetivos, sacarse oposiciones, tomar grandes decisiones, mejorar aspectos de su vida, conocerse mejor y en general ser más felices. También atiendo a muchos profesionales que trabajan bajo mucha presión y estrés.
 
 Me he formado sobre todo en **terapia cognitivo-conductual** y **terapia breve estratégica**, dos orientaciones muy eficaces y con numerosos estudios científicos que las respaldan. También utilizo técnicas de reestructuración cognitiva, estrategias de afrontamiento, técnicas humanistas, ejercicios de coaching, entre otras.
 
