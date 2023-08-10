@@ -3,7 +3,7 @@ layout: post
 title: "¿Como gestionar las emociones?"
 subtitle: "Entender las emociones "
 date: 2023-08-10 00:00:00 +0
-image: emocionesintensas.jpg
+image: emocionesintensas.webp
 
 published: true
 ---
@@ -36,7 +36,7 @@ Como vemos, todas las emociones desempeñan una función determinada en la gesti
 
 No existe el concepto de emociones positivas o negativas, sino que más bien podemos hablar de las emociones agradables y las emociones desagradables. 
 
-![Emociones Básicas]({{ site.baseurl }}/images/emocionesbasica.jpg)
+![Emociones Básicas]({{ site.baseurl }}/images/emocionesbasica.webp)
 
 Todas son válidas y nos ayudan a adaptarnos mejor al medio. En los setenta se estableció claramente la existencia de, al menos, seis emociones innatas, básicas y universales, que son:
 
