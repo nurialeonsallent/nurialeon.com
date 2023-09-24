@@ -2,8 +2,9 @@ version: '3'
 
 services:
   site:
-    image: jekyll/jekyll:latest
-    command: jekyll serve --verbose --force_polling
+    build:
+      dockerfile: Dockerfile
+    command: jekyll serve --verbose --force_polling --incremental
     ports:
       - 4000:4000
     volumes:
