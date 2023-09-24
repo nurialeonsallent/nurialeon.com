@@ -23,8 +23,9 @@ Ya son centenares de personas las que han pasado por mi consulta y han resuelto 
 
 ## ¿Cuál es mi formación más relevante?
 
-- **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo
-- **Máster en Terapia Breve y Comunicación Estrategica en Institut Gestalt** (cursando)
+
+- **Máster en Terapia Breve y Comunicación Estrategica en Institut Gestalt** (2022-2023)
+- **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (2022)
 - **Máster Psicología Infantil y Juvenil**: Técnicas y Estrategias de Intervención en la UOC (cursando)
 - **Postgrado en Psicopatología clínica** por la Universitat de Barcelona con un 9,5 de nota final (2021)
 - **Máster en Estrategia y Gestión de marca** por la Barcelona School of Management de la Universitat Pompeu Fabra con un 8,2 de nota final (2018)
@@ -43,19 +44,24 @@ Ya son centenares de personas las que han pasado por mi consulta y han resuelto 
 
 Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como _psicóloga_ en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico durante el momento de la pandemia.
 
-También he trabajado en un _centro especializado en psicomotricidad y lateralidad_ con familias y niños y adolescentes con dificultades de aprendizaje, tdah, autismo y problemas de lateralidad cruzada.
+También he trabajado en un _centro especializado en psicomotricidad y lateralidad_ con familias, niños y adolescentes con dificultades de aprendizaje, tdah, autismo y problemas de lateralidad cruzada.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.webp)
 _Psicóloga Infantojuvenil experimentada en lateralidad cruzada_
 
-Paralelamente, siempre estoy en constante supervisión clínica y recientemente he estado 9 meses colaborando en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi experiencia he podido asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica.
+Paralelamente, siempre estoy en constante supervisión clínica y durante el 2022 estuve 9 meses colaborando en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi colaboración pude asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/juliapascualnurialeon.webp)
-_Núria León y Júlia Pascual en el Colegio de Psicólogos de Catalunya_
+_Júlia Pascual y Núria León en el Colegio de Psicólogos de Catalunya_
+
+Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**.
+
+![Terapia psicológica]({{ site.baseurl }}/images/copc-terapia-breve.jpeg)
+_Adela Resurrección, Júlia Pascual, Santiago del Olmo y Núria León en una conferencia sobre terapia breve estratégica en el Colegio de Psicólogos de Catalunya_
 
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle.
 
-## Medios de comunicación
+## Medios de Comunicación
 
 Puedes seguirme en todas mis redes sociales en las que vas a encontrar todo el contenido, entrevistas y reflexiones que voy publicando. También he realizado entrevistas en diferentes medios, como por ejemplo:
 

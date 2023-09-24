@@ -11,3 +11,4 @@ services:
     volumes:
       - .:/srv/jekyll
       - ./vendor/bundle:/usr/local/bundle
+    restart: always
