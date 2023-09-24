@@ -3,10 +3,7 @@ layout: post
 title: "Miedos y ansiedad. Aprende a gestionarlos"
 subtitle: "Cómo gestionar los miedos"
 date: 2023-09-24 00:00:00 +0
-image: ansiedad_imagen.webp
-# tags:
-#   - ansiedad
-#   - estrés
+image: FOTO_MIEDO_PORTADA.jpg
 published: true
 ---
 
@@ -22,6 +19,8 @@ Como psicóloga puedo afirmar que la manifestación de la ansiedad es muy subjet
 ### Ansiedad: Tu cuerpo y mente están sobreactivados
 
 Cuando no tenemos ningún trastorno de ansiedad, nuestro cuerpo y mente funciona de la siguiente manera: la alarma del miedo sólo se dispara en el momento apropiado, ante un verdadero peligro, no ante la posibilidad o el recuerdo de un peligro. Dicho con otras palabras,  podemos estar cerca de un león o ver un león en la tele, el miedo debería ser diferente y por lo tanto provocar una reacción distinta. En cambio, cuando tenemos trastornos de ansiedad, el miedo se convierte en limitador porque no nos permite vivir con plena libertad, es excesivo y puede aparecer sin un peligro real o concreto. El miedo es nuestro sistema de alarma, cuya función es avisarnos de un peligro o de una amenaza. Y cuando este sistema de señales y alarmas no está bien regulado es cuando el miedo empieza a convertirse en un problema. Pero lo que debe quedar claro es que el miedo, en sí, no es una emoción negativa,  ya que el miedo es necesario para la vida.
+
+![Ansiedad]({{ site.baseurl }}/images/MIEDO_FOTO.jpg)
 
 Las personas cuantas más estrategias hagan para evitar el miedo más miedo tendrán. Cuando una persona siente miedo y pide ayuda, se siente aliviado al momento pero a la larga va a ser perjudicial porque no se va a ver nunca capaz de enfrentarse a aquello él mismo. Ayudar al otro cuando siente síntomas de ansiedad en verdad lo empeora, es una paradoja. Por eso es muy importante ponerse en manos de un profesional y no acudir a otras personas en busca de ayuda, ya que seguramente la ayuda que te ofrecerán va a mantener y agravar tu ansiedad. También es cierto que cuanto más control quiera tener la persona sobre su ansiedad, menos control va a tener en realidad. Desde la terapia breve estratégica, consideramos que las soluciones que intentan las personas para dejar de sentir ansiedad es lo que hace mantener al trastorno o al estado de ansiedad.  
 
