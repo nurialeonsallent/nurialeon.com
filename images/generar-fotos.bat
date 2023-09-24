@@ -1,2 +1,1 @@
-npm install -g webp-converter-cli
-webpc -r
+npx webp-converter-cli -r
