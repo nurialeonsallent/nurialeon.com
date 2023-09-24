@@ -3,7 +3,7 @@ layout: post
 title: "Miedos y ansiedad. Aprende a gestionarlos"
 subtitle: "Cómo gestionar los miedos"
 date: 2023-09-24 00:00:00 +0
-image: FOTO_MIEDO_PORTADA.jpg
+image: MIEDO_FOTO_PORTADA.jpg
 published: true
 ---
 
