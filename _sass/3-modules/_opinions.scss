@@ -7,28 +7,21 @@
 }
 
 .opinions .scroll {
-  overflow-y: scroll;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 0.5rem;
-  padding-right: 0;
-  max-height: #{'min(50vh, 350px)'};
   margin-bottom: 1rem;
+}
 
-  & > :first-child {
-    margin-top: 0;
-  }
+.opinions iframe {
+  height: 400px;
+  max-height: #{'min(50vh, 400px)'};
 
-  & > :last-child {
-    margin-bottom: 0;
-  }
-
-  .stars {
-    font-size: 0;
-  }
+  width: calc(100% + 16px);
+  margin-left: -16px;
+  margin-right: -8px;
 }
 
 .opinions .title {
   margin-top: 0;
+  display: none;
 }
 
 .opinions p {
@@ -48,6 +41,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
   gap: 1rem;
 }
 
