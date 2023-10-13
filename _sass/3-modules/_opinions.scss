@@ -30,12 +30,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  }
+    column-gap: 16px;
 
-  .rating {
-    display: flex;
-    font-size: 24px;
-    margin-left: 16px;
+    .rating {
+      display: flex;
+      font-size: 24px;
+    }
   }
 
   .action {
