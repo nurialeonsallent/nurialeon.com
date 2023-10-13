@@ -34,7 +34,13 @@
 
     .rating {
       display: flex;
+      justify-content: center;
+      align-items: center;
       font-size: 24px;
+      .count {
+        font-size: 14px;
+          color: #858585;
+      }
     }
   }
 
