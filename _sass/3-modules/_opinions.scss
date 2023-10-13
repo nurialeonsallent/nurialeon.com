@@ -1,4 +1,5 @@
 .opinions {
+  position: relative;
   grid-area: opinions;
   margin: 0;
   padding: 1rem;
@@ -6,45 +7,50 @@
   border-radius: 4px;
 }
 
-.opinions .scroll {
-  margin-bottom: 1rem;
-}
-
-.opinions iframe {
-  height: 400px;
-  max-height: #{'min(50vh, 400px)'};
-
-  width: calc(100% + 16px);
-  margin-left: -16px;
-  margin-right: -8px;
-}
-
 .opinions .title {
   margin-top: 0;
   display: none;
 }
 
-.opinions p {
-  margin-top: 0;
-  margin-right: 0;
-
-  font-style: italic;
-  font-size: 0.95rem;
-  line-height: 1.15em;
-  border-left: 2px solid var(--primary-color-light);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.opinions .more {
+.opinions .header {
+  height: auto;
+  background-color: rgb(246, 244, 242);
   display: flex;
+  padding: 8px;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
   align-items: center;
-  gap: 1rem;
+  border-radius: 8px;
+
+  .logos {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .rating {
+    display: flex;
+    font-size: 24px;
+    margin-left: 24px;
+  }
+
+  .action {
+    background: #3480dc;
+    color: white;
+    border-radius: 50px;
+    padding: 4px 12px;
+    font-weight: 500;
+  }
 }
 
-.opinions .more > :last-child {
-  margin-left: 1rem;
+.opinions iframe {
+  height: 350px;
+  max-height: #{"min(50vh, 350px)"};
+
+  width: calc(100% + 16px);
+  margin-left: -16px;
+  margin-right: -8px;
+  margin-bottom: 1rem;
 }
