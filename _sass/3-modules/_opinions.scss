@@ -12,13 +12,13 @@
   display: none;
 }
 
-.opinions .header {
+.opinions .links {
   height: auto;
   background-color: rgb(246, 244, 242);
   display: flex;
   gap: 16px;
   padding: 8px;
-  margin-bottom: 8px;
+  margin-top: 8px;
   flex-direction: row;
   align-items: center;
   border-radius: 8px;
@@ -48,11 +48,10 @@
 }
 
 .opinions iframe {
-  height: 350px;
-  max-height: #{"min(50vh, 350px)"};
+  height: 400px;
+  max-height: #{"min(50vh, 400px)"};
 
   width: calc(100% + 16px);
   margin-left: -16px;
   margin-right: -8px;
-  margin-bottom: 1rem;
 }
