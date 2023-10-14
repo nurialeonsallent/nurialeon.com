@@ -9,7 +9,25 @@
 
 .opinions .title {
   margin-top: 0;
-  display: none;
+}
+
+.opinions iframe {
+  height: 350px;
+  max-height: #{"min(50vh, 350px)"};
+
+  width: calc(100% + 16px);
+  margin-left: -16px;
+  margin-right: -8px;
+  margin-top: -4px;
+}
+
+.opinions .post-shadow {
+  background: linear-gradient(0deg, rgba(0,0,0,0.35), transparent);
+    width: calc(100% - 48px);
+    height: 40px;
+    margin-top: -44px;
+    z-index: 999;
+    position: absolute;
 }
 
 .opinions .links {
@@ -51,14 +69,4 @@
     padding: 4px 12px;
     font-weight: 500;
   }
-}
-
-.opinions iframe {
-  height: 400px;
-  max-height: #{"min(50vh, 400px)"};
-
-  width: calc(100% + 16px);
-  margin-left: -16px;
-  margin-right: -8px;
-  margin-top: -4px;
 }
