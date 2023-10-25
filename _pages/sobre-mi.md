@@ -5,9 +5,9 @@ excerpt: Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Co
 permalink: /sobre-mi/
 ---
 
-¡Hola! Soy Núria León y vivo en Barcelona. Me considero una apasionada en general, pero sobre todo de la mente y de la música. Me gradué en psicología por la Universitat de Barcelona y mi número de colegiada por el Col·legi Oficial de Psicòlegs de Catalunya es el 26792. Pertenezco a la sección de Psicología Clínica de la Salud y Psicoterapia Sanitaria.
+Soy Núria León y vivo en Barcelona. Soy psicóloga por la Universitat de Barcelona y mi número de colegiada es el 26792 por el Col·legi Oficial de Psicòlegs de Catalunya. Pertenezco a la sección de Psicología Clínica de la Salud y Psicoterapia Sanitaria.
 
-Desde hace tiempo, ayudo a otras personas a superar dificultades y a vivir mejor. Tengo años de experiencia con todo tipo de casos y con todo tipo de edades, aunque mi especialidad son los adultos y los jóvenes. He trabajado tanto en consulta privada por mi cuenta como en varios centros médicos reconocidos.
+Mi trayectoria profesional está enfocada en ayudar a personas a superar dificultades y a vivir mejor. Tengo muchos años de experiencia con todo tipo de casos y con todo tipo de edades, aunque mi especialidad son los adultos y los jóvenes. He trabajado tanto en consulta privada por mi cuenta como en varios centros médicos reconocidos.
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
 <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_057.webp" /></div>
@@ -44,7 +44,7 @@ Ya son centenares de personas las que han pasado por mi consulta y han resuelto 
 
 Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como _psicóloga_ en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico durante el momento de la pandemia.
 
-También he trabajado en un _centro especializado en psicomotricidad y lateralidad_ con familias, niños y adolescentes con dificultades de aprendizaje, tdah, autismo y problemas de lateralidad cruzada.
+También he trabajado en un _centro especializado en psicomotricidad y lateralidad_ con familias, niños y adolescentes con dificultades de aprendizaje, tdah, autismo y problemas de lateralidad cruzada. A lo largo de esos años, no solo pude trabajar con niños y adolescentes sino también con familias que necesitaban pautas y asesoramiento psicológico. 
 
 
 
@@ -59,7 +59,7 @@ _Júlia Pascual y Núria León en el Colegio de Psicólogos de Catalunya_
 -->
 
 
-Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**.
+Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**. Esta metodología de intervención el pasado solamente se utiliza con el objetivo de saber lo que no ha funcionado para el paciente, de manera que se puedan plantear nuevas perspectivas. Este tipo de tratamiento es muy eficaz en trastornos de alimentación, fobias, ataques de pánico, hipocondría, depresión, trastornos obsesivos compulsivos y problemas psicosomáticos.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/copc-terapia-breve.jpeg)
 _Adela Resurrección, Júlia Pascual, Santiago del Olmo y Núria León en una conferencia sobre terapia breve estratégica en el Colegio de Psicólogos de Catalunya_
