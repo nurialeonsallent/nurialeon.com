@@ -1,9 +1,172 @@
 <div class="opinions">
-  <h2 class="title">Reseñas</h2>
-  <iframe
-    src="https://widgets.sociablekit.com/google-reviews/iframe/209282"
-    frameborder="0"
-  ></iframe>
+  <h2 class="title">Reseñas ({{ site.data.reviews | size | plus: 27 }})</h2>
+  <div class="scroll">
+    {% for review in site.data.reviews %}
+    <p>
+      <b>{{ review.name }}</b> &nbsp; {{ review.date }} &nbsp;
+      <span class="stars no-wrap">
+        {% case review.score %} {% when 1 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        {% when 2 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        {% when 3 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        {% when 4 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/emptyStar.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        {% when 5 %}
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        <img
+          src="{{site.baseurl}}/images/icons/star.svg"
+          alt="{{ review.score }}"
+          width="14"
+          height="14"
+        />
+        {% endcase %}
+      </span>
+      <br />
+      {{ review.text }}
+    </p>
+    {% endfor %}
+  </div>
   <div class="post-shadow"></div>
   <div class="links">
     <a
