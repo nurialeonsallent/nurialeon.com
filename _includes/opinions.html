@@ -1,187 +1,33 @@
 <div class="opinions">
-  <h2 class="title">Reseñas ({{ site.data.reviews | size | plus: 27 }})</h2>
-  <div class="scroll">
-    {% for review in site.data.reviews %}
-    <p>
-      <b>{{ review.name }}</b> &nbsp; {{ review.date }} &nbsp;
-      <span class="stars no-wrap">
-        {% case review.score %} {% when 1 %}
-        <img
+  <h2 class="title">Reseñas</h2>
+  <iframe
+    src="https://widgets.sociablekit.com/google-reviews/iframe/209282"
+    frameborder="0"
+  ></iframe>
+  <div class="post-shadow"></div>
+  <div class="links">
+    <a
+      class="no-decoration logos"
+      href="https://g.page/r/Cbk285IdPtR5EAg"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src="{{site.baseurl}}/images/google-reviews.png" width="100" />
+      <span class="rating"
+        >4.9<img
           src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        {% when 2 %}
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        {% when 3 %}
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        {% when 4 %}
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/emptyStar.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        {% when 5 %}
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        <img
-          src="{{site.baseurl}}/images/icons/star.svg"
-          alt="{{ review.score }}"
-          width="14"
-          height="14"
-        />
-        {% endcase %}
-      </span>
-      <br />
-      {{ review.text }}
-    </p>
-    {% endfor %}
-  </div>
-  <div class="more">
-    <!-- <a class="action" href="opinion.html">Escribir Valoración</a> -->
+          width="24"
+          height="24"
+        /><span class="count">(+100)</span></span
+      >
+    </a>
     <a
       class="action"
       href="https://g.page/r/Cbk285IdPtR5EAg"
       target="_blank"
       rel="noopener noreferrer"
-      >Ver más reseñas en Google Maps</a
-    >
-    <a
-      class="action"
-      href="https://trabeja.com/cat/p/nuria-leon-sallent#opinions"
-      target="_blank"
-      rel="noopener noreferrer"
-      >Ver más reseñas en Trabeja</a
+      >Ver más Reseñas</a
     >
   </div>
+  <!-- https://www.sociablekit.com/app/users/widgets/update_embed/209282 -->
 </div>
