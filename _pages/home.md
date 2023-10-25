@@ -12,7 +12,7 @@ Ayudo a muchas personas en situaciones complejas (vivencia de duelos, separacion
 
 También acompaño a personas que quieran conseguir objetivos, mejorar aspectos de su vida, conocerse mejor y en general ser más felices.
 
-Cientos de personas que ya han pasado por mi consulta y han resuelto sus problemas con éxito. Mi formación más relevante es:
+Cientos de personas ya han pasado por mi consulta y han resuelto sus problemas con éxito. Mi formación más relevante es:
 
 - **Máster en Terapia Breve y Comunicación Estratégica** en Institut Gestalt
 - **Máster de Psicología General Sanitaria** en Centro Universitario Europeo 
