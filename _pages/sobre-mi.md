@@ -19,7 +19,7 @@ Ayudo a muchas personas en situaciones complicadas (vivencia de duelos, separaci
 
 Ya son centenares de personas las que han pasado por mi consulta y han resuelto sus problemas de forma eficaz.
 
-<img class="sello-colegial" src="{{site.baseurl}}/images/sello_colegial.webp" alt="Sello Colegial" width="162" height="72" data-action="zoom" />
+<img class="sello-colegial" src="{{site.baseurl}}/images/sello_colegial.webp" alt="Sello Colegial" width="220" height="100" data-action="zoom" />
 
 ## ¿Cuál es mi formación más relevante?
 
@@ -59,10 +59,11 @@ _Júlia Pascual y Núria León en el Colegio de Psicólogos de Catalunya_
 -->
 
 
-Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**. Esta metodología de intervención el pasado solamente se utiliza con el objetivo de saber lo que no ha funcionado para el paciente, de manera que se puedan plantear nuevas perspectivas. Este tipo de tratamiento es muy eficaz en trastornos de alimentación, fobias, ataques de pánico, hipocondría, depresión, trastornos obsesivos compulsivos y problemas psicosomáticos.
-
+Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**. 
 ![Terapia psicológica]({{ site.baseurl }}/images/copc-terapia-breve.jpeg)
 _Adela Resurrección, Júlia Pascual, Santiago del Olmo y Núria León en una conferencia sobre terapia breve estratégica en el Colegio de Psicólogos de Catalunya_
+
+El modelo estratégico de intervención intenta entender el cómo funciona el problema del paciente, no tanto en la causa, de manera que se puedan plantear nuevas perspectivas. Este tipo de tratamiento es muy eficaz en trastornos de alimentación, fobias, ataques de pánico, hipocondría, depresión, trastornos obsesivos compulsivos y problemas psicosomáticos.
 
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle.
 
