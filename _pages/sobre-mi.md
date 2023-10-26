@@ -63,7 +63,7 @@ Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Es
 ![Terapia psicológica]({{ site.baseurl }}/images/copc-terapia-breve.jpeg)
 _Adela Resurrección, Júlia Pascual, Santiago del Olmo y Núria León en una conferencia sobre terapia breve estratégica en el Colegio de Psicólogos de Catalunya_
 
-El modelo estratégico de intervención intenta entender el cómo funciona el problema del paciente, no tanto en la causa, de manera que se puedan plantear nuevas perspectivas. Este tipo de tratamiento es muy eficaz en trastornos de alimentación, fobias, ataques de pánico, hipocondría, depresión, trastornos obsesivos compulsivos y problemas psicosomáticos.
+El modelo estratégico de intervención intenta entender el cómo funciona el problema del paciente, no tanto en la causa si no en el cómo, con el objetivo de  plantear nuevas perspectivas. Este tipo de tratamiento es muy eficaz en trastornos de alimentación, fobias, ataques de pánico, hipocondría, depresión, trastornos obsesivos compulsivos y problemas psicosomáticos.
 
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle.
 
