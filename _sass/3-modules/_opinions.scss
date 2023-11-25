@@ -21,11 +21,43 @@
   margin-top: -4px;
 }
 
+.opinions .scroll {
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+  padding-right: 0;
+  max-height: #{'min(50vh, 350px)'};
+
+  & > :first-child {
+    margin-top: 0;
+  }
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+
+  .stars {
+    font-size: 0;
+  }
+
+  p {
+    margin-top: 0;
+    margin-right: 0;
+  
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.15em;
+    border-left: 2px solid var(--primary-color-light);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
 .opinions .post-shadow {
   background: linear-gradient(0deg, rgba(0,0,0,0.20), transparent);
-    width: calc(100% - 48px);
+    width: calc(100% - 32px);
     height: 20px;
-    margin-top: -24px;
+    margin-top: -20px;
     z-index: 999;
     position: absolute;
 }
