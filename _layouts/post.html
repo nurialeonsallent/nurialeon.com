@@ -1,26 +1,28 @@
 ---
 layout: default
 ---
+
 <div class="container">
   <div class="post-title-box">
     <div class="row">
       <div class="col col-10 push-1 col-11 push-t-1 col-m-12 push-m-0">
         <span class="post__date">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%d/%m/%Y'}}</time>
+          <time datetime="{{ page.date | date_to_xmlschema }}"
+            >{{page.date | date: '%d/%m/%Y'}}</time
+          > - Publicado por <a href="{{site.data.authors[page.author].link}}">{{site.data.authors[page.author].name}}</a>
         </span>
 
         <h1 class="post-title">{{ page.title | escape }}</h1>
 
         <div class="post__info">
-          <div class="post__author">
-            <span>Publicado por</span>
-            <a href="{{ site.baseurl }}/sobre-mi/" class="author-name">{{site.data.settings.author.name}}</a>
-          </div>
-
           {% if page.tags.size >= 1 %}
           <div class="post__tags">
             {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="post__tags-tag">{{ tag }}</a>
+            <a
+              href="{{ site.baseurl }}/tag/{{ tag | downcase }}"
+              class="post__tags-tag"
+              >{{ tag }}</a
+            >
             {% endfor %}
           </div>
           {% endif %}
@@ -29,96 +31,121 @@ layout: default
     </div>
   </div>
 
-  {% assign no-image = nil %}
-  {% if page.image %}
-    <div class="post__head">
-      <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
-    </div>
-  {% else %}
-    {% assign no-image = 'post-no-image' %}
-  {% endif %}
-
+  {% assign no-image = nil %} {% if page.image %}
+  <div class="post__head">
+    <div
+      class="post-image"
+      style="background-image: url({{site.baseurl}}/images/{{page.image}})"
+    ></div>
   </div>
+  {% else %} {% assign no-image = 'post-no-image' %} {% endif %}
+</div>
 
-
-  <div class="container">
+<div class="container">
   <div class="row">
     <!-- begin post -->
     <article class="post {{ no-image }} col col-10 col-t-10 col-m-12">
-
       <div class="post__content">
         {% if page.subtitle %}
-          <h2 class="post-content__subtitle">{{ page.subtitle }}</h2>
-        {% endif %}
-        {{ content }}
+        <h2 class="post-content__subtitle">{{ page.subtitle }}</h2>
+        {% endif %} {{ content }}
       </div>
-
       <div class="post__share">
-        <!-- <span class="share__title">Comparte este Artículo:</span> -->
-        <ul class="share__list list-reset">
-          <li class="share__item">
-            <a class="no-decoration share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-              title="Compartir en Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
-          </li>
-
-          <li class="share__item">
-            <a class="no-decoration share__twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-              title="Compartir en Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
-          </li>
-
-          <li class="share__item">
-            <a class="no-decoration share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.excerpt | uri_escape }}&source={{ site.title | uri_escape }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Compartir en LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
-          </li>
-
-          <li class="share__item">
-            <a class="no-decoration share__pinterest" href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}/images/{{ page.image }}&amp;description={{ page.title | uri_escape }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Compartir en Pinterest"
-              rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
-          </li>
-        </ul>
+        <span class="share__title">Comparte este Artículo:</span>
+        <div class="share__list list-reset">
+          <a
+            class="no-decoration share__facebook"
+            href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Compartir en Facebook"
+            rel="nofollow"
+            ><img
+              src="{{site.baseurl}}/images/icons/facebook.svg"
+              alt="facebook"
+              width="24"
+              height="24"
+          /></a>
+          <a
+            class="no-decoration share__linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.excerpt | uri_escape }}&source={{ site.title | uri_escape }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Compartir en LinkedIn"
+            rel="nofollow"
+            ><img
+              src="{{site.baseurl}}/images/icons/linkedin.svg"
+              alt="linkedin"
+              width="24"
+              height="24"
+          /></a>
+        </div>
       </div>
+      <a
+        class="post__author-bottom card no-decoration"
+        href="{{site.baseurl}}{{site.data.authors[page.author].link}}"
+      >
+        <div class="columnas-2">
+          <div
+            class="img circle"
+            style="--img: url('{{site.baseurl}}{{site.data.authors[page.author].img}}')"
+          ></div>
+          <div class="content">
+            <div class="written-by">Publicado por:</div>
+            <div class="author-name">
+              {{site.data.authors[page.author].name}}
+            </div>
+            <div class="author-description">
+              {{site.data.authors[page.author].description}}
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="author-navigation navigation">
+            Más sobre {{site.data.authors[page.author].name}}
+          </button>
+        </div>
+      </a>
     </article>
     <!-- end post -->
-    </div>
   </div>
+</div>
 
-  <div class="container">
+<div class="container">
+  <h2>Otros posts sugeridos:</h2>
   <div class="post__navigation">
     {% if page.previous.url %}
     <div class="prev">
-      <a class="no-decoration post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"></a>
+      <a
+        class="no-decoration post__nav__image"
+        href="{{ site.baseurl }}{{page.previous.url}}"
+        style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"
+      ></a>
       <h2 class="post__nav__title">
         <i class="ion ion-md-arrow-back"></i>
-        <a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a>
+        <a class="no-decoration" href="{{ site.baseurl }}{{page.previous.url}}"
+          >{{page.previous.title}}</a
+        >
       </h2>
-      <p class="prev__excerpt">
-        {% if page.previous.excerpt %}
-          {{ page.previous.excerpt }}
-        {% else %}
-          {{ page.previous.content | strip_html | truncate: 110 }}
-        {% endif %}
-      </p>
+      <div class="prev__excerpt">
+        {% if page.previous.excerpt %} {{ page.previous.excerpt }} {% else %} {{
+        page.previous.content | strip_html | truncate: 110 }} {% endif %}
+      </div>
     </div>
-    {% endif %}
-
-    {% if page.next.url %}
+    {% endif %} {% if page.next.url %}
     <div class="next">
-      <a class="no-decoration post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
+      <a
+        class="no-decoration post__nav__image"
+        href="{{ site.baseurl }}{{page.next.url}}"
+        style="background-image: url({{site.baseurl}}/images/{{page.next.image}})"
+      >
       </a>
       <h2 class="post__nav__title">
-        <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
+        <a class="no-decoration" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
         <i class="ion ion-md-arrow-forward"></i>
       </h2>
-      <p class="next__excerpt">
-        {% if page.next.excerpt %}
-          {{ page.next.excerpt }}
-        {% else %}
-          {{ page.next.content | strip_html | truncate: 110 }}
-        {% endif %}
-      </p>
+      <div class="next__excerpt">
+        {% if page.next.excerpt %} {{ page.next.excerpt }} {% else %} {{
+        page.next.content | strip_html | truncate: 110 }} {% endif %}
+      </div>
     </div>
     {% endif %}
   </div>

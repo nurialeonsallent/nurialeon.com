@@ -8,6 +8,7 @@ image: psicologabarcelona_agresividad.webp
 #   - agresividad
 #   - personalidad
 published: true
+author: nuria
 ---
 
 En primer lugar es necesario definir algunos conceptos básicos como, conducta antisocial y conducta delictiva, ya que son diferentes. Por conducta antisocial se entiende cualquier conducta o comportamiento que implique infringir las normas sociales. 

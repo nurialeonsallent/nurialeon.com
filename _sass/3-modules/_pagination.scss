@@ -10,22 +10,32 @@
 
 .pagination__list {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 8px;
+  font-size: 24px;
 
   .next-link,
   .previous-link,
-  .disabled {
+  .active-link,
+  .count-number {
     display: inline-block;
-    width: 140px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 12px;
-    letter-spacing: 1px;
+    padding: 16px 24px;
+    font-size: 16px;
     text-transform: uppercase;
     transition: all .35s;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     background: $white;
+    border-bottom: none;
+
+    &.disabled {
+      pointer-events: none;
+    }
+
+    &.active-link {
+      font-weight: bolder;
+      background: hsl(346, 40%, 75%);
+      color: white;
+    }
   }
 
   .next-link,
@@ -42,19 +52,6 @@
     cursor: not-allowed;
   }
 
-  .counter-box {
-    
-    a, span {
-      padding: 0 5px;
-      font-size: 15px;
-      color: $dark;
-    }
-
-    .active-link {
-      font-weight: 700;
-    }
-  }
-
   @media only screen and (max-width: $mobile) {
     flex-direction: column;
 
@@ -63,7 +60,12 @@
     .disabled {
       margin: 10px 0;
     }
-
   }
+}
 
+.counter-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
 }

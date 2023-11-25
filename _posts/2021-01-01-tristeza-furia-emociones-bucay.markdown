@@ -9,6 +9,7 @@ image: tristeza_furia_jorgebucay.webp
 #   - rabia
 #   - ansiedad
 published: true
+author: nuria
 ---
 
 Hoy quiero dedicar este artículo y esta reflexión al maravilloso cuento que Jorge Bucay nos regala en su libro “Cuentos para pensar”. A continuación lo podéis leer:

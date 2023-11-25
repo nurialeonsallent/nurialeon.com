@@ -14,7 +14,7 @@ En nuestro centro estamos en la búsqueda constante de mejorar y crecer, por eso
 <div class="columnas-2">
 <img src="{{site.baseurl}}/images/nuria_foto_equipo1.jpg" width="300" />
 <div class="content" markdown="1">
-Fundadora del centro y Psicóloga General Sanitaria. Colegiada 26792. Especialista en todo tipo de problemas emocionales y psicológicos (autoestima, estrés, depresión, ansiedad, inestabilidad emocional, duelos, rupturas, problemas familiares, etc.) He ayudado a centenares de personas con éxito. Actualmente sigo en formación y estoy en constante supervisión clínica. 
+Fundadora del centro y Psicóloga General Sanitaria. Colegiada 26792. Especialista en todo tipo de problemas emocionales y psicológicos (autoestima, estrés, depresión, ansiedad, inestabilidad emocional, duelos, rupturas, problemas familiares, etc). Estoy en constante formación y supervisión clínica. 
 
 Mi formación más relevante:
 - **Máster en Terapia Breve y Comunicación Estrategica** en Institut Gestalt (2022-2023)
@@ -31,7 +31,6 @@ Mi formación más relevante:
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
 - **Curso de Tratamiento psicológico en el dolor crónico** por el Colegio de Psicólogos de Madrid (2020)
 - **Formación Oficial en Mindfulness para la Reducción del Estrés y la Salud** (2019)
-
 </div>
 </div>
 
@@ -50,6 +49,5 @@ Montse es terapeuta gestalt y coach estratégica, está sobretodo especializada 
 - **Programación Neurolingüística** en Institut Integratiu (2021-2022)
 - **Formación C.A.I** Fundación CAI por Cristobal Gutierrez (2013-2016)
 - **Formada en Sexualidad Femenina** (2020)
-
 </div>
 </div>

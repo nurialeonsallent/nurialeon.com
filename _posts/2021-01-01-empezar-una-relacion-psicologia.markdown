@@ -5,6 +5,7 @@ subtitle: "Ir a terapia al empezar una relación"
 date: 2021-12-15 00:00:00 +0
 image: terapia_pareja.webp
 published: true
+author: nuria
 ---
 
 La realidad es que se suele pensar que uno de los motivos más habituales en las consultas de los psicólogos es la ruptura de pareja. Sin embargo esto solo es una creencia popular que dista bastante de la realidad.  

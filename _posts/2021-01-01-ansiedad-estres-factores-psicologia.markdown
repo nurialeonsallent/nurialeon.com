@@ -4,10 +4,11 @@ title: "Ansiedad, estrés y factores asociados"
 subtitle: "Qué es la ansiedad y qué factores afectan"
 date: 2021-07-25 00:00:00 +0
 image: ansiedad_imagen.webp
-# tags:
-#   - ansiedad
-#   - estrés
+tags:
+  - ansiedad
+  - estrés
 published: true
+author: nuria
 ---
 
 La ansiedad es un estado de alerta en el que tanto el cuerpo como la mente están demasiado activados. Se trata de un **sentimiento de miedo, temor e inquietud** al sentirse amenazado y puede afectar a la persona de muchas maneras diferentes, con síntomas tanto físicos como psicológicos. 

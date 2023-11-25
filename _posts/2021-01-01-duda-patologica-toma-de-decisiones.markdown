@@ -6,6 +6,7 @@ date: 2023-10-08 00:00:00 +0
 image: duda_patologica_2.jpg
 
 published: true
+author: nuria
 ---
 
 Tener dudas es algo habitual entre los seres humanos y aunque muchas veces hacernos preguntas puede parecer sensato y lógico, en la mayoría de las ocasiones pensar demasiado nos bloquea a la hora de tomar una decisión.

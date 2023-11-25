@@ -4,7 +4,9 @@ title: "Miedos y ansiedad. Aprende a gestionarlos"
 subtitle: "Cómo gestionar los miedos"
 date: 2023-09-24 00:00:00 +0
 image: MIEDO_FOTO_PORTADA.jpg
+tags: ira
 published: true
+author: nuria
 ---
 
 Todas las emociones son necesarias porque nos condicionan regulando nuestra conducta y nos dan mucha información sobre nosotros mismos.  Padecer ansiedad significa tener demasiada activación en el sistema nervioso y en el sistema límbico, como si estuviéramos en modo lucha por un constante peligro. 

@@ -5,6 +5,9 @@ subtitle: "La ira y la agresividad"
 date: 2023-05-18 00:00:00 +0
 image: ira-agresividad/IRA_111.jpg
 published: true
+tags: ira agresividad
+author: nuria
+author: nuria
 ---
 
 En primer lugar, considero necesario aclarar ambos conceptos para poder entender como funcionan. La agresividad, por lo general, diríamos que es la tendencia a atacar o a actuar de modo agresivo. La agresividad es el resultado de un proceso psicológico complejo que implica la acción de muchos pensamientos, emociones y sobre todo conductas.
