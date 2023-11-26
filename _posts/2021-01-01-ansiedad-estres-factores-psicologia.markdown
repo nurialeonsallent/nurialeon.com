@@ -6,7 +6,7 @@ date: 2021-07-25 00:00:00 +0
 image: ansiedad_imagen.webp
 tags:
   - ansiedad
-  - estrés
+  - estres
 published: true
 author: nuria
 ---
