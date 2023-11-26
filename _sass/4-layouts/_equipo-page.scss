@@ -40,6 +40,10 @@
       grid-area: content;
     }
 
+    .member__navigation {
+      float: right;
+    }
+
     @media only screen and (max-width: $tablet) {
       grid-template-areas:
         "name"

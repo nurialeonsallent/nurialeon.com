@@ -9,7 +9,7 @@ En nuestro centro estamos en la búsqueda constante de mejorar y crecer, por eso
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
     <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/equipo/equipo0.webp" /></div>
-    <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/equipo/equipo1.webp" /></div>
+    <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/equipo/equipo1.webp" /></div>
 </div>
 
 AQUI FALTA UN PARRAFO O ALGO QUE SINO QUEDAN MUY JUNTOS EL CARRUSEL Y ESTA SECCION SIGUIENTE
@@ -27,6 +27,10 @@ Otra formación relevante:
 - **Curso de Estimulación Cognitiva** de Fundació Pere Farrés (2020)
 - **Curso de Tratamiento psicológico en el dolor crónico** por el Colegio de Psicólogos de Madrid (2020)
 - **Formación Oficial en Mindfulness para la Reducción del Estrés y la Salud** (2019)
+
+<button class="member__navigation navigation">
+Más sobre mí
+</button>
 </div>
 </div>
 
