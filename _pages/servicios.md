@@ -26,6 +26,7 @@ Ayudamos a todo tipo de personas, sobretodo trabajamos con adultos y jóvenes qu
 - Autoestima corporal
 - Bullying o Mobbing
 - Enfermedades crónicas o terminales
+- ...etc
 
 También acompañamos a personas que quieran conseguir objetivos, como por ejemplo: sacarse oposiciones, tomar grandes decisiones, mejorar aspectos de su vida, conocerse mejor y en general ser más felices. También atendemos a muchos profesionales que trabajan bajo mucha presión y estrés.
 
