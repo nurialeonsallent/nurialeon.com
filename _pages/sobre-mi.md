@@ -10,9 +10,10 @@ Soy Núria León y vivo en Barcelona. Soy psicóloga por la Universitat de Barce
 Mi trayectoria profesional está enfocada en ayudar a personas a superar dificultades y a vivir mejor. Tengo muchos años de experiencia con todo tipo de casos y con todo tipo de edades, aunque mi especialidad son los adultos y los jóvenes. He trabajado tanto en consulta privada por mi cuenta como en varios centros médicos reconocidos.
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
-<div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_057.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_078.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_030.webp" /></div><div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_047.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_030.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_078.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_057.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_047.webp" /></div>
 </div>
 
 Ayudo a muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
@@ -23,7 +24,6 @@ Ya son centenares de personas las que han pasado por mi consulta y han resuelto 
 
 ## ¿Cuál es mi formación más relevante?
 
-
 - **Máster en Terapia Breve y Comunicación Estrategica en Institut Gestalt** (2022-2023)
 - **Máster de Psicología General Sanitaria** en Centro Universitario Superior Europeo (2022)
 - **Máster Psicología Infantil y Juvenil**: Técnicas y Estrategias de Intervención en la UOC (cursando)
@@ -32,6 +32,7 @@ Ya son centenares de personas las que han pasado por mi consulta y han resuelto 
 - **Grado de Psicología** en la Universitat de Barcelona (2011-2017)
 
 ## Otra formación complementaria
+
 - **Los Trastornos Alimentarios y su Intervención Eficaz desde la Terapia Breve Estratégica** (2023)
 - **Psicoterapia integradora para el tratamiento de la ansiedad** (2022)
 - **Lateralidad y sus repercusiones en el aprendizaje** (2022)
@@ -44,9 +45,7 @@ Ya son centenares de personas las que han pasado por mi consulta y han resuelto 
 
 Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinacional de salud **Teladoc Health** y definir un proyecto de psicología para algunas de las mutuas de salud más importantes a nivel nacional, incluída AXA. Durante todo el proyecto, fui la **responsable de la definición estratégica del servicio pionero de orientación psicológica y emocional** . Asimismo, estuve trabajando como _psicóloga_ en el proyecto y pude ayudar a todas las personas que necesitaban apoyo psicológico durante el momento de la pandemia.
 
-También he trabajado en un _centro especializado en psicomotricidad y lateralidad_ con familias, niños y adolescentes con dificultades de aprendizaje, tdah, autismo y problemas de lateralidad cruzada. A lo largo de esos años, no solo pude trabajar con niños y adolescentes sino también con familias que necesitaban pautas y asesoramiento psicológico. 
-
-
+También he trabajado en un _centro especializado en psicomotricidad y lateralidad_ con familias, niños y adolescentes con dificultades de aprendizaje, TDAH, autismo y problemas de lateralidad cruzada. A lo largo de esos años, no solo pude trabajar con niños y adolescentes sino también con familias que necesitaban pautas y asesoramiento psicológico.
 
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.webp)
 _Psicóloga Infantojuvenil experimentada en lateralidad cruzada_
@@ -58,12 +57,11 @@ Paralelamente, siempre estoy en constante supervisión clínica y durante el 202
 _Júlia Pascual y Núria León en el Colegio de Psicólogos de Catalunya_
 -->
 
-
-Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**. 
-![Terapia psicológica]({{ site.baseurl }}/images/copc-terapia-breve.jpeg)
+Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**.
+![Terapia psicológica]({{ site.baseurl }}/images/copc-terapia-breve.webp)
 _Adela Resurrección, Júlia Pascual, Santiago del Olmo y Núria León en una conferencia sobre terapia breve estratégica en el Colegio de Psicólogos de Catalunya_
 
-El modelo estratégico de intervención intenta entender el cómo funciona el problema del paciente, no tanto en la causa, de manera que se puedan plantear nuevas perspectivas. Este tipo de tratamiento es muy eficaz en trastornos de alimentación, fobias, ataques de pánico, hipocondría, depresión, trastornos obsesivos compulsivos y problemas psicosomáticos.
+El modelo estratégico de intervención intenta entender el cómo funciona el problema del paciente, no tanto en la causa si no en el cómo, con el objetivo de plantear nuevas perspectivas. Este tipo de tratamiento es muy eficaz en trastornos de alimentación, fobias, ataques de pánico, hipocondría, depresión, trastornos obsesivos compulsivos y problemas psicosomáticos.
 
 Puedes ver mi [Linkedin](https://www.linkedin.com/in/nurialeonsallent/), donde tengo toda mi trayectoria profesional con más detalle.
 

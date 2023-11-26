@@ -9,7 +9,7 @@ permalink: /servicios/
     {% include contact-link.html %}
 </div>
 
-La metodología de trabajo es integradora, combinamos dierentes técnicas y procedimientos terapéuticos provenientes de distintos sistemas teóricos con el fin de solucionar problemas concretos para cada caso.
+La metodología de trabajo es integradora, combinamos diferentes técnicas y procedimientos terapéuticos provenientes de distintos sistemas teóricos con el fin de solucionar problemas concretos para cada caso.
 
 En las sesiones, utilizamos todos los conocimientos adquiridos para que consigamos soluciones eficaces a tus problemas, aprendas estrategias para mejorar tu vida en general.
 
@@ -26,6 +26,7 @@ Ayudamos a todo tipo de personas, sobretodo trabajamos con adultos y jóvenes qu
 - Autoestima corporal
 - Bullying o Mobbing
 - Enfermedades crónicas o terminales
+- ...etc
 
 También acompañamos a personas que quieran conseguir objetivos, como por ejemplo: sacarse oposiciones, tomar grandes decisiones, mejorar aspectos de su vida, conocerse mejor y en general ser más felices. También atendemos a muchos profesionales que trabajan bajo mucha presión y estrés.
 

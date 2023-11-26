@@ -5,6 +5,7 @@ subtitle: "Blog de Psicología"
 date: 2021-06-06 00:00:00 +0
 image: blognurialeon.webp
 published: true
+author: nuria
 ---
 
 Ya hacía tiempo que sentía la necesidad de escribir un blog para poder compartir con vosotros algunas de las anécdotas, experiencias, ideas, reflexiones, etc. que suelo tener en mi experiencia como psicóloga. 

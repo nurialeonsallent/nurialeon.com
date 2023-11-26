@@ -5,6 +5,9 @@ subtitle: "¿Cómo afecta el estilo educativo en el desarrollo psicosocial de lo
 date: 2021-07-04 00:00:00 +0
 image: nurialeonpsicologabarcelona_crianza.webp
 published: true
+tags:
+  - crianza
+author: nuria
 ---
 
 Los estilos educativos son las pautas de crianza dirigidas a los niños y niñas para lograr su adaptación completa en la sociedad en la que vivimos. Dicho de otra forma, el estilo educativo incluye todos aquellos patrones que enseñamos a nuestros hijos para que puedan desarrollarse como seres humanos completos.

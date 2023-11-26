@@ -1,1 +1,1 @@
-npx webp-converter-cli -r
+npx --yes @yukioru/cwebp-cli -r -q 95

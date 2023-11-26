@@ -5,6 +5,9 @@ subtitle: "La teoría del apego"
 date: 2022-03-08 00:00:00 +0
 image: infant-g14187b721_1280.webp
 published: true
+tags:
+  - relaciones
+author: nuria
 ---
 
 En el post de hoy quiero hablar de la importancia de los vínculos afectivos y del apego seguro. Es muy importante mantener relaciones interpersonales sanas. La empatia, el afecto, la capacidad de amar y el deseo de compartir están asociadas al tipo de apego formado durante la infancia y niñez temprana.

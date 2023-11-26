@@ -4,11 +4,10 @@ title: "¿Cómo ser más positivo y fuerte mentalmente?"
 subtitle: "Psicología aplicada"
 date: 2022-09-11 00:00:00 +0
 image: emociones.webp
-# tags:
-#   - fortaleza
-#   - emociones
-#   - resiliencia
+tags:
+  - emociones
 published: true
+author: nuria
 ---
 
 En la vida todos nos encontramos con situaciones fáciles y también difíciles con las que lidiar. Eso es algo que nos pasa a todos, aunque a veces creamos que los demás tienen una vida más fácil que nosotros. No es así, eso es un sesgo mental que hacemos y que no se basa en la evidencia.
