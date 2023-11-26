@@ -123,6 +123,10 @@
 .post__author-bottom {
   margin-top: 16px;
 
+  &.card {
+    flex-direction: column;
+  }
+
   .img {
     background-size: cover;
     background-image: var(--img);

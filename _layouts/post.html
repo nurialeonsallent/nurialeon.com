@@ -9,7 +9,7 @@ layout: default
         <span class="post__date">
           <time datetime="{{ page.date | date_to_xmlschema }}"
             >{{page.date | date: '%d/%m/%Y'}}</time
-          > - Publicado por <a href="{{site.data.authors[page.author].link}}">{{site.data.authors[page.author].name}}</a>
+          > - Escrito por <a href="{{site.data.authors[page.author].link}}">{{site.data.authors[page.author].name}}</a>
         </span>
 
         <h1 class="post-title">{{ page.title | escape }}</h1>
@@ -89,7 +89,7 @@ layout: default
             style="--img: url('{{site.baseurl}}{{site.data.authors[page.author].img}}')"
           ></div>
           <div class="content">
-            <div class="written-by">Publicado por:</div>
+            <div class="written-by">Escrito por</div>
             <div class="author-name">
               {{site.data.authors[page.author].name}}
             </div>
