@@ -21,8 +21,7 @@ Hacemos supervisiones clínicas de forma conjunta y también con otros profesion
 
 **Fundadora y Directora del centro. Psicóloga Sanitaria.** Especialista en todo tipo de problemas emocionales y psicológicos. Terapeuta breve estratégica también formada en terapia cognitivo conductual. Estoy en constante formación y supervisión clínica.
 
-Psicóloga especialista en **adultos, parejas, familias y adolescentes.** 
-
+Psicóloga especialista en **adultos, parejas, familias y adolescentes**.
 
 Puedo ayudarte en todo tipo de problema psicológico o emocional: autoestima, ansiedad, depresión, duelos, rupturas de pareja, conflictos en pareja, toma de decisiones, problemas familiares, miedos, estrés post traumático, fobias, duelos, conducta alimentaria, autolesiones...
 
@@ -33,9 +32,9 @@ Puedo ayudarte en todo tipo de problema psicológico o emocional: autoestima, an
 - **Máster en Estrategia y Gestión de Marca** por la Barcelona School of Management Pompeu Fabra
 - **Grado de Psicología** en la Universitat de Barcelona
 
-<button class="member__navigation navigation">
+<a href="{{site.baseurl}}/sobre-mi" class="member__navigation navigation">
 Más sobre mí
-</button>
+</a>
 </div>
 </div>
 

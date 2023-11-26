@@ -4,8 +4,7 @@ title: "¿Como gestionar las emociones?"
 subtitle: "Entender las emociones "
 date: 2023-08-10 00:00:00 +0
 image: emocionesintensas.webp
-tags:
-  - emociones
+# tags: emociones
 excerpt: Los humanos experimentamos infinidad de emociones y aun así nos cuesta mucho describir con palabras lo que son. De hecho, estamos condenados a sentir emociones a diario, ya que estar vivo implica sentir.  Las emociones nos aportan mucha información relacionada con nuestro bienestar y nos informan de si estamos satisfaciendo o frustrando nuestras metas o necesidades.
 published: true
 author: nuria

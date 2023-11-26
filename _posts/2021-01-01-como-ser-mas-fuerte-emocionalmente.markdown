@@ -4,8 +4,7 @@ title: "¿Cómo ser más positivo y fuerte mentalmente?"
 subtitle: "Psicología aplicada"
 date: 2022-09-11 00:00:00 +0
 image: emociones.webp
-tags:
-  - emociones
+# tags: emociones
 published: true
 author: nuria
 ---

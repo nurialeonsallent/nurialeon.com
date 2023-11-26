@@ -4,9 +4,7 @@ title: "Ansiedad, estrés y factores asociados"
 subtitle: "Qué es la ansiedad y qué factores afectan"
 date: 2021-07-25 00:00:00 +0
 image: ansiedad_imagen.webp
-tags:
-  - ansiedad
-  - estres
+# tags: ansiedad estres
 published: true
 author: nuria
 ---

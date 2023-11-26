@@ -4,9 +4,7 @@ title: "¿Cómo tomar buenas decisiones? "
 subtitle: "Supera el bloqueo de tus dudas"
 date: 2023-10-08 00:00:00 +0
 image: duda_patologica_2.webp
-tags:
-  - emociones
-  - duda
+# tags: emociones duda
 published: true
 author: nuria
 ---
