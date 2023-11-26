@@ -3,7 +3,7 @@ layout: post
 title: "Ira y agresividad: aprendiendo a gestionarlas"
 subtitle: "La ira y la agresividad"
 date: 2023-05-18 00:00:00 +0
-image: ira-agresividad/IRA_111.jpg
+image: ira-agresividad/IRA_111.webp
 published: true
 tags: ira agresividad
 author: nuria
@@ -24,7 +24,7 @@ Durante años y años la agresividad nos ha garantizado parte de la supervivenci
 
 La ira es un sentimiento de indignación que causa enojo. Es un estado emocional caracterizado por sentimientos de enfado, de intensidad elevada. La ira es una emoción básica y universal que todos los humanos podemos sentir en determinadas situaciones. De hecho nos ayuda también a sobrevivir y al igual que todas las demás emociones, la ira también tiene su función. Por lo general, sentimos ira cuando nos exponemos a situaciones que nos parecen injustas o que atentan contra nosotros. Cualquier situación, en función de la valoración que se haga sobre ella, puede desencadenar ira. Cuando sentimos ira estamos reaccionando a una situación que nos parece injusta, maleducada, inadecuada, etc.
 
-![Terapia psicológica]({{ site.baseurl }}/images/ira-agresividad/foto_ira_1.jpg)
+![Terapia psicológica]({{ site.baseurl }}/images/ira-agresividad/foto_ira_1.webp)
 
 
 ¿Por qué es importante trabajar la gestión de la ira con un psicólogo especializado? Esto es fundamental, ya que el comportamiento agresivo y la mala gestión de la ira complica las relaciones sociales que vamos estableciendo a lo largo de nuestro desarrollo y dificulta, por tanto, nuestra correcta integración en cualquier ambiente, es decir afecta a nuestro desarrollo personal y social. El trabajo en consecuencia a seguir es la socialización de la conducta agresiva, es decir, corregir el comportamiento agresivo para que derive hacia un estilo de comportamiento más asertivo, pausado y calmado.
@@ -44,7 +44,7 @@ Por eso, podríamos decir que la función de la ira es protegernos, para evitar 
 
 La ira bien gestionada puede ser adaptativa o beneficiosa, tal y como he explicado nos ayuda a protegernos y a poner límites en el caso de que sea necesario. Pero la ira mal regulada, o una ira excesiva, puede traernos muchas dificultades para sentirnos plenos y también afectará a nuestro entorno social. Paradójicamente, son nuestros seres queridos los que suelen vivir las mayores consecuencias de esa mala gestión emocional de la ira. Además, está demostrado que sentir ira excesiva nos puede traer también problemas cardiovasculares y de tensión arterial. ¿Pero cómo controlar la ira? 
 
-![Terapia psicológica]({{ site.baseurl }}/images/ira-agresividad/foto_ira_2.jpg)
+![Terapia psicológica]({{ site.baseurl }}/images/ira-agresividad/foto_ira_2.webp)
 
 ## Consejos para la gestión de la ira
 

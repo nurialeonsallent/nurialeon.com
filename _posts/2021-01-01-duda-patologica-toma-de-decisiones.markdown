@@ -3,7 +3,7 @@ layout: post
 title: "¿Cómo tomar buenas decisiones? "
 subtitle: "Supera el bloqueo de tus dudas"
 date: 2023-10-08 00:00:00 +0
-image: duda_patologica_2.jpg
+image: duda_patologica_2.webp
 
 published: true
 author: nuria
@@ -24,7 +24,7 @@ Una duda es la indeterminación entre dos decisiones: ¿Me quedo a vivir en Barc
 Aparentemente, hacerse el tipo de preguntas de A o B puede parecer adecuado, ya que nuestra lógica a la hora de tomar una decisión es analizar los pros y los contras, las ventajas y las desventajas, las oportunidades y las amenazas de cada una de las opciones, para así valorar la mejor opción. Sin embargo, cuando analizamos demasiado nuestras opciones, nuestras dudas se hacen cada vez mayores y no resolvemos la indecisión, al contrario, la aumentamos.
 
 
-![Dudas]({{ site.baseurl }}/images/duda_patologica.jpg)
+![Dudas]({{ site.baseurl }}/images/duda_patologica.webp)
 
 
 
@@ -35,7 +35,7 @@ Hay una frase que resume perfectamente esta paradoja: **“Quién tenga un reloj
 
 Este dicho nos refleja claramente el autoengaño que supone tener dos relojes; aunque aparentemente tener dos relojes tendría que darnos el doble de seguridad, no sucede así. Si tenemos dos relojes nunca vamos a saber con exactitud la hora que es, así que siempre es mejor tener solamente un reloj, con un reloj es suficiente. Y esto se puede aplicar en todas las situaciones de duda. 
 
-![Relojes]({{ site.baseurl }}/images/duda_patologica_reloj.jpg)
+![Relojes]({{ site.baseurl }}/images/duda_patologica_reloj.webp)
 
 Por otra parte, sobre la toma de decisión, hay una cosa que sí es clara: es que *si no tomas una decisión tu, alguien la tomará por ti*, o si no una persona en sí, la tomará el contexto o las circunstancias de la vida. Puedes decidir no decidir, y entonces decidirán otros por ti. Por eso es muy importante a la hora de tomar decisiones asumir que va a haber algo de riesgo, algo de peligro y algo de error tomes la decisión que tomes. Pero si eres capaz de asumir ese riesgo, ya tendrás parte de la batalla ganada. 
 
