@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Nuestro Equipo
-excerpt: FALTA AQUI RESUMEN PARA GOOGLE
 permalink: /equipo/
 class: equipo__page
 ---
