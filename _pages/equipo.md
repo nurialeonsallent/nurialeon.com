@@ -15,7 +15,7 @@ En nuestro centro estamos en la búsqueda constante de mejorar y crecer, por eso
 AQUI FALTA UN PARRAFO O ALGO QUE SINO QUEDAN MUY JUNTOS EL CARRUSEL Y ESTA SECCION SIGUIENTE
 
 <div class="member">
-<img class="member__img" src="{{site.baseurl}}/images/equipo/nuria.webp" width="300" />
+<img class="member__img" src="{{site.baseurl}}/images/equipo/nuria.webp" width="350" />
 <h2 class="member__name">Núria León</h2>
 <div class="member__content" markdown="1">
 Fundadora del centro y Psicóloga General Sanitaria. Colegiada 26792. Especialista en todo tipo de problemas emocionales y psicológicos (autoestima, estrés, depresión, ansiedad, inestabilidad emocional, duelos, rupturas, problemas familiares, etc). Estoy en constante formación y supervisión clínica.
@@ -35,7 +35,7 @@ Más sobre mí
 </div>
 
 <div class="member">
-<img class="member__img" src="{{site.baseurl}}/images/equipo/montse.webp" width="300" />
+<img class="member__img" src="{{site.baseurl}}/images/equipo/montse.webp" width="350" />
 <h2 class="member__name">Montse Fraile</h2>
 <div class="member__content" markdown="1">
 Especialista en desarrollo personal experta en terapia de las emociones. Docente en Institut Superior de Psicología de Barcelona (ISEP) y experta en acompañamiento emocional. Montse es una persona con mucha trayectoria profesional, ha realizado numerosos talleres de autoconocimiento y es una gran comunicadora. Actualmente sigue en formación y está en constante supervisión clínica.

@@ -59,16 +59,6 @@ $(document).ready(function () {
   });
 
   /* =======================
-  // Zoom Image
-  ======================= */
-  $(".page img, .post img").attr("data-action", "zoom");
-  $(".page a img, .post a img").removeAttr("data-action", "zoom");
-  $(".page .carousel img, .post .carousel img").removeAttr(
-    "data-action",
-    "zoom"
-  );
-
-  /* =======================
   // Instagram Feed
   ======================= */
   // userId and accessToken from Matthew Elsom (https://codepen.io/matthewelsom/pen/zrrrLN) for example, for which he thanks a lot!
