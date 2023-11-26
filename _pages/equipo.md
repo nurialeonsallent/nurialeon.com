@@ -43,6 +43,7 @@ Más sobre mí
 <img class="member__img" src="{{site.baseurl}}/images/equipo/montse.webp" width="350" />
 <h2 class="member__name">Montse Fraile</h2>
 <div class="member__content" markdown="1">
+
 **Terapeuta Gestalt y Breve Estratégica.** Especialista en desarrollo personal y experta en terapia de las emociones. Colabora como docente en Institut Superior de Psicología de Barcelona (ISEP) y es experta en acompañamiento emocional. 
 
 Montse es una persona con mucha trayectoria profesional, ha realizado numerosos talleres de autoconocimiento y gestión de emociones y es una gran comunicadora. Actualmente sigue en formación y está en constante supervisión clínica. **Terapeuta de adultos.**
