@@ -6,6 +6,9 @@ date: 2023-09-24 00:00:00 +0
 image: MIEDO_FOTO_PORTADA.webp
 tags: ira
 published: true
+tags:
+  - ansiedad
+  - miedos
 author: nuria
 ---
 

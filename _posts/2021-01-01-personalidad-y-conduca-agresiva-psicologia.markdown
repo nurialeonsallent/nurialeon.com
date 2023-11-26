@@ -4,9 +4,9 @@ title: "Agresividad y Personalidad, ¿Cómo se relacionan?"
 subtitle: "Factores de personalidad y conducta violenta"
 date: 2021-06-27 00:00:00 +0
 image: psicologabarcelona_agresividad.webp
-# tags:
-#   - agresividad
-#   - personalidad
+tags:
+  - agresividad
+  - personalidad
 published: true
 author: nuria
 ---

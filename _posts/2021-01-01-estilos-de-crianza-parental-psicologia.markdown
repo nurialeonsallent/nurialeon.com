@@ -5,6 +5,8 @@ subtitle: "¿Cómo afecta el estilo educativo en el desarrollo psicosocial de lo
 date: 2021-07-04 00:00:00 +0
 image: nurialeonpsicologabarcelona_crianza.webp
 published: true
+tags:
+  - crianza
 author: nuria
 ---
 

@@ -4,10 +4,9 @@ title: "La tristeza y la furia: Un cuento de Jorge Bucay"
 subtitle: "Cuando dos emociones suelen ir de la mano "
 date: 2022-09-06 00:00:00 +0
 image: tristeza_furia_jorgebucay.webp
-# tags:
-#   - tristeza
-#   - rabia
-#   - ansiedad
+tags:
+  - emociones
+  - ansiedad
 published: true
 author: nuria
 ---

@@ -5,8 +5,7 @@ subtitle: "La ira y la agresividad"
 date: 2023-05-18 00:00:00 +0
 image: ira-agresividad/IRA_111.webp
 published: true
-tags: ira agresividad
-author: nuria
+tags: agresividad emociones
 author: nuria
 ---
 

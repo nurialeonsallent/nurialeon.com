@@ -4,7 +4,8 @@ title: "¿Como gestionar las emociones?"
 subtitle: "Entender las emociones "
 date: 2023-08-10 00:00:00 +0
 image: emocionesintensas.webp
-
+tags:
+  - emociones
 published: true
 author: nuria
 ---

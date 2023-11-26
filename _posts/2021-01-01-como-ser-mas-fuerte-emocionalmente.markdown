@@ -5,9 +5,7 @@ subtitle: "Psicología aplicada"
 date: 2022-09-11 00:00:00 +0
 image: emociones.webp
 tags:
-  - fortaleza
   - emociones
-  - resiliencia
 published: true
 author: nuria
 ---
