@@ -16,7 +16,7 @@ Hacemos supervisiones clínicas de forma conjunta y también con otros profesion
 
 <div class="member">
 <img class="member__img" src="{{site.baseurl}}/images/equipo/nuria.webp" width="350" />
-<h2 class="member__name">Núria León</h2>
+<h2 class="member__name" id="nuria">Núria León</h2>
 <div class="member__content" markdown="1">
 
 **Fundadora y Directora del centro. Psicóloga Sanitaria.** Especialista en todo tipo de problemas emocionales y psicológicos. Terapeuta breve estratégica también formada en terapia cognitivo conductual. Estoy en constante formación y supervisión clínica.
@@ -41,7 +41,7 @@ Más sobre mí
 
 <div class="member">
 <img class="member__img" src="{{site.baseurl}}/images/equipo/montse.webp" width="350" />
-<h2 class="member__name">Montse Fraile</h2>
+<h2 class="member__name" id="montse">Montse Fraile</h2>
 <div class="member__content" markdown="1">
 
 **Terapeuta Gestalt y Breve Estratégica.** Especialista en desarrollo personal y experta en terapia de las emociones. Colabora como docente en Institut Superior de Psicología de Barcelona (ISEP) y es experta en acompañamiento emocional. 
