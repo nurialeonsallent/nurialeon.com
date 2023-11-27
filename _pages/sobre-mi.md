@@ -10,9 +10,9 @@ Soy Núria León y vivo en Barcelona. Soy psicóloga por la Universitat de Barce
 Mi trayectoria profesional está enfocada en ayudar a personas a superar dificultades y a vivir mejor. Tengo muchos años de experiencia con todo tipo de casos y con todo tipo de edades, aunque mi especialidad son los adultos y los jóvenes. He trabajado tanto en consulta privada por mi cuenta como en varios centros médicos reconocidos.
 
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'>
-  <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_030.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img src="{{ site.baseurl }}/images/nuria_psico_057.webp" /></div>
   <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_078.webp" /></div>
-  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_057.webp" /></div>
+  <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_030.webp" /></div>
   <div class="carousel-cell" style="display: none"><img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_047.webp" /></div>
 </div>
 
