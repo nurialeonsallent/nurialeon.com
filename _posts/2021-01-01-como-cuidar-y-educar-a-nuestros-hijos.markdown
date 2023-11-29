@@ -16,7 +16,7 @@ Carl Gustavo Jung decía que si hay algo que deseamos cambiar en el niño, debem
 
 Muchas veces queremos poner límites a nuestros hijos, pero nosotros no sabemos ponerlos, queremos que gestionen sus emociones, cuando nosotros no sabemos hacerlo, queremos que aprendan a respetarse y a respetarnos, cuando somos nosotros que no nos respetamos, queremos que estén en calma y nosotros no sabemos calmarnos y así podría continuar con una larga lista de incongruencias…  
 
-![Pirámide de Maslow]({{ site.baseurl }}/images/foto_familia.jpg)
+![Foto familia]({{ site.baseurl }}/images/foto_familia.jpg)
 
 
 Nos empeñamos en pensar que somos nosotros los adultos los que debemos corregir o educar a nuestros niños, pero no podemos olvidar que nuestros hijos también nos enseñan sobre la vida y que en el viaje a la maternidad o paternidad aprendemos muchas cosas.
