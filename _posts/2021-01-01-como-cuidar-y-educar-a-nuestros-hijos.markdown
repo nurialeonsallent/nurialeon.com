@@ -6,7 +6,7 @@ image: familia_unida.jpg
 author: montse
 published: true
 ---
-Si preguntamos a la mayoría de los padres qué es lo que desean para sus hijos, probablemente todos contestarán su felicidad, porque la realidad es que lo que más anhelamos es que nuestros hijos vivan en alegría y paz. Y, ¿cuál es el secreto para que nuestros hijos vivan como nos gustaría a los padres y madres? La principal clave es que, sobre todo nosotros, los adultos, **estemos en paz.**  
+Si preguntamos a la mayoría de los padres qué es lo que desean para sus hijos, probablemente todos contestarán su felicidad, porque la realidad es que lo que más anhelamos es que nuestros hijos vivan en alegría y paz. Y, ¿cuál es el secreto para que nuestros hijos vivan felices? La principal clave es que, sobre todo nosotros, los adultos, **estemos en paz.**  
 
 <!-- more -->
 
