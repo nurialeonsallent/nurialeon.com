@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Claves para educar y cuidar a nuestro hijos"
+title: "Claves para educar y cuidar a nuestros hijos"
 date: 2023-11-29 00:00:00 +0
 image: familia_unida.jpg
 author: montse
 published: true
 ---
+
 Si preguntamos a la mayoría de los padres qué es lo que desean para sus hijos, probablemente todos contestarán su felicidad, porque la realidad es que lo que más anhelamos es que nuestros hijos vivan en alegría y paz. Y, ¿cuál es el secreto para que nuestros hijos vivan felices? La principal clave es que, sobre todo nosotros, los adultos, **estemos en paz.**  
 
 <!-- more -->
