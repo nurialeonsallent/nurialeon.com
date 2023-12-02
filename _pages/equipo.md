@@ -15,7 +15,7 @@ En nuestro centro estamos en la búsqueda constante de mejorar y crecer, por eso
 Hacemos supervisiones clínicas de forma conjunta y también con otros profesionales especialistas. Estudiamos cada caso para poder ofrecer el mejor servicio y el mejor acompañamiento. Ambas nos hemos especializado en terapia breve estratégica, una corriente muy eficaz que resuelve y da soluciones a problemas complejos mediante herramientas y tareas simples pero planificadas. 
 
 <div class="member">
-<img class="member__img" src="{{site.baseurl}}/images/equipo/nuria.webp" width="350" />
+<img class="member__img" alt="Núria León" src="{{site.baseurl}}/images/equipo/nuria.webp" width="350" />
 <h2 class="member__name" id="nuria">Núria León</h2>
 <div class="member__content" markdown="1">
 
@@ -39,7 +39,7 @@ Más sobre mí
 </div>
 
 <div class="member">
-<img class="member__img" src="{{site.baseurl}}/images/equipo/montse.webp" width="350" />
+<img class="member__img" alt="Montse Fraile" src="{{site.baseurl}}/images/equipo/montse.webp" width="350" />
 <h2 class="member__name" id="montse">Montse Fraile</h2>
 <div class="member__content" markdown="1">
 
