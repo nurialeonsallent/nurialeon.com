@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ¿Qué servicios ofrecemos?
-excerpt: Sesiones de psicología presenciales en Barcelona (Sagrada Familia) por 65€ y Sesiones online por 55€ (Skype, Zoom o Google Meet).
+excerpt: Sesiones de Psicología Presenciales en Barcelona por 65€ y Sesiones Online por 55€.
 permalink: /servicios/
 ---
 
@@ -61,9 +61,10 @@ También realizamos **terapia de pareja y familiar**, si estás interesad@ por f
 
 ### Ubicación
 
-La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **{{ site.data.settings.location }}**.
+La ubicación de mi despacho está muy cerquita de Verdaguer y la Sagrada Familia, en **{{ site.data.settings.location }}**.
 
-- Metro: L2 (Sagrada Familia)
-- Metro: L5 (Sagrada Familia)
+- Metro: L5 (Verdaguer)
+- Metro: L4 (Verdaguer)
 
 {% include map.html %}
+

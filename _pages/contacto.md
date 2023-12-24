@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contacta Conmigo
-excerpt: Puedes contactar conmigo enviando un email con tu consulta a psicologa@nurialeon.com, seguirme en mis redes sociales o escribirme un mensaje a través del formulario de contacto.
 permalink: /contacto/
+excerpt: Puedes contactar conmigo enviando un email con tu consulta a psicologa@nurialeon.com, seguirme en mis redes sociales o escribirme un mensaje a través del formulario de contacto.
 ---
 
 <div style="margin-top: 16px; margin-bottom: 40px;">
@@ -17,10 +17,9 @@ También puedes seguirme en mis redes sociales o escribirme un mensaje a través
 
 ### Ubicación
 
-La ubicación de mi despacho está muy cerquita de la Sagrada Familia, en **{{ site.data.settings.location }}**.
+La ubicación de mi despacho está muy cerquita de Verdaguer y la Sagrada Familia, en **{{ site.data.settings.location }}**.
 
-- Metro: L2 (Sagrada Familia)
-- Metro: L5 (Sagrada Familia)
+- Metro: L5 (Verdaguer)
+- Metro: L4 (Verdaguer)
 
 {% include map.html %}
-

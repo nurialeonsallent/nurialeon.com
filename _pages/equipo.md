@@ -3,6 +3,7 @@ layout: page
 title: Nuestro Equipo
 permalink: /equipo/
 class: equipo__page
+excerpt: "En el Centro Núria León, contamos con varios profesionales: Núria León y Montse Fraile."
 ---
 
 En nuestro centro estamos en la búsqueda constante de mejorar y crecer, por eso actualmente hemos ampliado el equipo. Trabajamos conjuntamente y supervisamos casos, para asegurarnos que el servicio de acompañamiento que ofrecemos sea el mejor para cada persona.

@@ -43,6 +43,11 @@
     flex-direction: column;
     align-items: start;
 
+    a {
+      display: inline-flex;
+      flex-wrap: nowrap;
+    }
+
     img {
       margin-right: 8px;
       filter: brightness(0.25);
