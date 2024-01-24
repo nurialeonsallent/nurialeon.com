@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Consejos principales para crecer en pareja"
-subtitle: "Cuidar el vínculo, el primero paso"
+subtitle: 
 date: 2024-01-23 00:00:00 +0
 image: imagen_pareja.jpg
 # tags: ansiedad estres
