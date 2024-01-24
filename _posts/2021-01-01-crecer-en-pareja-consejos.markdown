@@ -9,7 +9,7 @@ published: true
 author: montse
 ---
 
-Dice la terapia breve estratégica que todos los problemas son de relación la relación de uno
+Dice la terapia breve estratégica que todos los problemas son de relación: la relación de uno
 con uno mismo , de uno con los demás y de uno con el mundo y toda relación implica
 comunicación, por lo tanto muchos de las soluciones pasan por una buena comunicación.
 
