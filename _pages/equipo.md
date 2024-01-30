@@ -58,3 +58,8 @@ Montse puede ayudarte en: gestión emocional, baja autoestima, acompañamiento d
 
 </div>
 </div>
+
+
+
+
+En el centro también contamos con la colaboración de una nutricionista especializada en trastornos de conducta alimentaria y en psiconutrición, con quien realizamos un seguimiento conjunto a nivel psicológico y a nivel nutricional en caso de necesidad.
