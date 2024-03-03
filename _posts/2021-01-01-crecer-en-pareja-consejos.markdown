@@ -3,7 +3,7 @@ layout: post
 title: "Consejos principales para crecer en pareja"
 subtitle: 
 date: 2024-01-23 00:00:00 +0
-image: imagen_pareja.jpg
+image: imagen_pareja.webp
 # tags: ansiedad estres
 published: true
 author: montse
@@ -20,7 +20,7 @@ comunicación, por lo tanto muchas de las soluciones pasan por una buena comunic
 Si reflexionamos sobre la relación y comunicación que tenemos con nosotr@s mism@s, nos daremos cuenta de que es fundamental empezar a solucionar nuestra propia relación para poder crear vínculos sanos con los demás, porque el amor sano a los demás está relacionado directamente con el amor que te tienes a ti mism@. Te invito a que observes cómo te hablas, como es tu descanso, si tu foco está en ti o en los demás, como te tratas cuando te equivocas, como es la imagen de ti mism@. Frida Kahlo decía “enamórate de ti, de la vida y luego de quien tú quieras”. 
 
 La relación con uno mismo afecta directamente a la relación con la pareja y por eso desde la terapia breve estratégica, podemos mejorar las dos relaciones. El amor de pareja es un reto progresivo de amor a lo real, a lo real del otro y a lo real de la relación.
-![Pareja]({{ site.baseurl }}/images/foto_pareja2.jpg)
+![Pareja]({{ site.baseurl }}/images/foto_pareja2.webp)
 
 ## Crisis de pareja para el crecimiento personal
 

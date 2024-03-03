@@ -3,7 +3,7 @@ layout: post
 title: "Psiconutrición, emociones y conducta alimentaria"
 subtitle: 
 date: 2024-01-30 00:00:00 +0
-image: psiconutricion.jpg
+image: psiconutricion.webp
 # tags: ansiedad estres
 published: true
 author: nuria
@@ -20,7 +20,7 @@ La psiconutrición estudia y conoce la diferencia entre el hambre emocional y el
 
 En cambio, el hambre emocional es cuando nos alimentamos para cubrir necesidades emocionales y para sentirnos mejor anímicamente. Por este motivo, los psicólogos somos especialistas también en la conducta alimentaria, ya que podemos abordar este problema tratando primero el estado emocional y psicológico para poder entender mejor esa relación alimentaria. Muchas veces, estamos tristes o ansiosos y sentimos un deseo inmediato de comer algo dulce, ya que de alguna manera nos ofrece alivio y consuelo. Buscar en la comida obtener sensaciones agradables es algo que aparentemente no debería de ser dañino, pero si siempre nos alimentamos para cubrir nuestras necesidades emocionales puede aparecer el sentimiento de culpa después. Y es así cuando entramos en una dinámica dañina en la que comemos porque nos sentimos mal, y nos sentimos mal porque hemos comido. Una vez estamos en esta dinámica autodestructiva es muy difícil salir de ella sin ayuda de un profesional.
 
-![Foto familia]({{ site.baseurl }}/images/nutricion_centro.jpg)
+![Foto familia]({{ site.baseurl }}/images/nutricion_centro.webp)
 
 ## Desajustes alimentarios y la relación con las emociones
 Muchos de los problemas de la dinámica alimentaria se originan por una mala gestión de emociones. Cuando nos sentimos mal y acudimos a la comida para sentir placer, cuando comemos para dejar de sentir dolor, para evadirnos, para encontrar consuelo… es cuando puede empezar a haber un desajuste alimenticio. Nuestras emociones además tienen un gran poder a la hora de elegir los alimentos, no es casualidad que nos llamen más un tipo de alimentos que otros. Por eso, es necesario aceptar que lo que comemos influye en nuestras emociones y nuestras emociones influyen en lo que comemos. Todas las emociones son básicas y adaptativas, en vez de querer evitarlas con la comida es importante acudir a un profesional para poder entenderlas y manejarlas mejor. 

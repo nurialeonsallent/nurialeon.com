@@ -2,7 +2,7 @@
 layout: post
 title: "¿Cómo dejar de amargarse la vida? Aprende las claves para no sufrir "
 date: 2023-11-26 00:00:00 +0
-image: foto_articulo_resolver.jpg
+image: foto_articulo_resolver.webp
 published: true
 author: montse
 ---
@@ -20,7 +20,7 @@ Con la terapia breve estratégica conseguimos desbloquear esas incoherencias y e
 
 La terapia breve estratégica en un modelo de resolución de conflictos. Uno de los grandes sabios modernos, Karl Popper, acuñó una cita que parece creada expresamente para definir el objetivo del enfoque estratégico: **“la vida en un continuo resolver problemas”.**
 
-![Terapia para no amargarse]({{ site.baseurl }}/images/articulo_amargarse.jpg)
+![Terapia para no amargarse]({{ site.baseurl }}/images/articulo_amargarse.webp)
 
 
 Cuando tenemos un **“problema”** necesitamos introducir un cambio, aunque muchas veces lo que nuestra lógica nos dice, puede no ser lo más eficiente para ese cambio, por eso desde la terapia breve estratégica aconsejamos buscar un terapeuta especialista para conseguir desbloquear el problema y hacer las cosas diferentes. 
