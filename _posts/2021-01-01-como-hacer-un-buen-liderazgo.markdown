@@ -23,7 +23,7 @@ Liderar es una destreza y una habilidad que se construye si tenemos intención y
 
 Un líder eficaz es cuando empieza también a sentir en lugar de sólo pensar, a mirar en lugar de mandar, a escuchar en lugar de hablar, también cuando prioriza la flexibilidad a la rigidez, cuando la facilidad de empatizar está antes que la dificultad de captar al otro. 
 
-![Liderazgo]({{ site.baseurl }}/images/foto_liderazgo2.webp)
+![Liderazgo]({{ site.baseurl }}/images/foto_liderazgo_2.webp)
 
 
 En cuanto un líder empieza a ver lo bueno de los demás, a fijarse en lo que sí la gente hace bien, de repente empieza a ver cosas que nunca antes había visto en el compañero. Todas las personas tenemos potencial y lo podremos desarrollar si se nos ofrece el entorno y contexto adecuado. Cuando se construye un buen contexto, el líder empieza a influenciar a las personas y ellas sacan lo mejor de sí mismas.
