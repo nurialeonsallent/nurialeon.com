@@ -22,7 +22,7 @@ Hacemos supervisiones clínicas de forma conjunta y también con otros profesion
 
 **Fundadora y Directora del centro. Psicóloga Sanitaria.** Especialista en todo tipo de problemas emocionales y psicológicos. Terapeuta breve estratégica también formada en terapia cognitivo conductual. Estoy en constante formación y supervisión clínica.
 
-Psicóloga especialista en **adultos, parejas, familias y adolescentes**.
+**Psicóloga Sanitaria especialista en adultos, parejas, familias y adolescentes**.
 
 Puedo ayudarte en todo tipo de problema psicológico o emocional: autoestima, ansiedad, depresión, duelos, rupturas de pareja, conflictos en pareja, toma de decisiones, problemas familiares, miedos, estrés post traumático, fobias, duelos, conducta alimentaria, autolesiones...
 
@@ -46,7 +46,9 @@ Más sobre mí
 
 **Terapeuta Gestalt y Breve Estratégica.** Especialista en desarrollo personal y experta en terapia de las emociones. Colabora como docente en Institut Superior de Psicología de Barcelona (ISEP) y es experta en acompañamiento emocional. 
 
-Montse es una persona con mucha trayectoria profesional, ha realizado numerosos talleres de autoconocimiento y gestión de emociones y es una gran comunicadora. Actualmente sigue en formación y está en constante supervisión clínica. **Terapeuta de adultos.**
+Montse es una persona con mucha trayectoria profesional, ha realizado numerosos talleres de autoconocimiento y gestión de emociones y es una gran comunicadora. Actualmente sigue en formación y está en constante supervisión clínica. 
+
+**Terapeuta de adultos y Terapeuta de parejas.**
 
 Montse puede ayudarte en: gestión emocional, baja autoestima, acompañamiento durante la crianza y la maternidad o paternidad, problemas laborales (desmotivación, clima laboral, liderazgo), autoconocimiento, relaciones conflictivas amorosas, crecimiento en pareja y problemas familiares. 
 

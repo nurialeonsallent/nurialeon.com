@@ -15,11 +15,12 @@ En las sesiones, utilizamos todos los conocimientos adquiridos para que consigam
 
 Ayudamos a todo tipo de personas, sobretodo trabajamos con adultos y jóvenes que sufren todo tipo de problemas, como por ejemplo:
 - Problemas de Autoestima
+- Ansiedad, Depresión
 - Timidez
 - Fobia social
+- Bloqueo emocional, toma de decisiones
 - Gestión emocional y crecimiento personal
-- Ansiedad, Depresión
-- Problemas de pareja o familiares
+- Problemas de Pareja o familiares
 - Problemas de agresividad o ira
 - Duelos no resueltos
 - Fobias, Hipocondría o miedos
@@ -27,10 +28,11 @@ Ayudamos a todo tipo de personas, sobretodo trabajamos con adultos y jóvenes qu
 - Trastornos de la conducta alimentaria
 - Autoestima corporal 
 - Bullying o Mobbing
-- Enfermedades crónicas o terminales
-- Rituales, manías
+- Enfermedades crónicas 
+- Rituales, Manías
 - Acompañamiento en situaciones complicadas
-- Etc...
+- Maternidad, Paternidad, Crianza
+- Orientación Laboral
 
 También acompañamos a personas que quieran conseguir objetivos, como por ejemplo: sacarse oposiciones, tomar grandes decisiones, mejorar aspectos de su vida, conocerse mejor y en general ser más felices. También atendemos a muchos profesionales que trabajan bajo mucha presión y estrés.
 
