@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "El arte de liderar"
-subtitle: 
 date: 2024-03-03 00:00:00 +0
 image: foto_liderazgo.webp
 published: true
