@@ -10,3 +10,9 @@ montse:
   description: Terapeuta Gestalt y Breve Estratégica. Especialista en desarrollo personal y experta en terapia de las emociones. Colabora como docente en Institut Superior de Psicología de Barcelona (ISEP) y es experta en acompañamiento emocional. Ha realizado numerosos talleres de autoconocimiento y gestión de emociones y es una gran comunicadora.
   img: /images/equipo/montse.webp
   link: /equipo/#montse
+
+iris:
+  name: Iris Torres
+  description: Nutricionista especializada en Trastornos de la Conducta Alimentaria (TCA) y en Nutrición Clínica. Coach Nutricional, realiza consultas de alimentación y psiconutrición en el Centro Núria León.
+  img: /images/equipo/iris.webp
+  link: /equipo/#iris

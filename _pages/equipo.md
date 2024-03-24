@@ -61,7 +61,8 @@ Montse puede ayudarte en: gestión emocional, baja autoestima, acompañamiento d
 </div>
 </div>
 
+<br />
+<br />
+<br />
 
-
-
-En el centro también contamos con la colaboración de una nutricionista especializada en trastornos de conducta alimentaria y en psiconutrición, con quien realizamos un seguimiento conjunto a nivel psicológico y a nivel nutricional en caso de necesidad.
+En el centro también contamos con la colaboración de Iris Torres, **nutricionista especializada en trastornos de conducta alimentaria (TCA) y en psiconutrición**, con quien realizamos un abordaje conjunto a nivel psicológico y a nivel nutricional para poder abordar cada problema de una forma más eficaz.
