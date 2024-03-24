@@ -23,8 +23,8 @@ Hay una relación muy estrecha entre las emociones y la alimentación, y estos e
 Te explico cómo abordar estas situaciones a partir de la reconexión con nuestras emociones y sensaciones. Hablamos de la relación hambre-saciedad.
 
 Primero vamos a definir estos dos términos:
-- Hablamos de hambre, sensación que nos produce nuestro cuerpo de forma fisiológica cuando nos faltan nutrientes.
-- La saciedad, por lo contrario, es la sensación de plenitud cuando no necesitamos más nutrientes.
+- Hablamos de **hambre**, sensación que nos produce nuestro cuerpo de forma fisiológica cuando nos faltan nutrientes.
+- La **saciedad**, por lo contrario, es la sensación de plenitud cuando no necesitamos más nutrientes.
 
 ![Alimentación]({{ site.baseurl }}/images/comida_psicologia.jpg)
 
@@ -36,10 +36,10 @@ Por lo tanto, el momento de comer no empieza en el primer bocado que nos llevamo
 
 Desde la psiconutrición, trabajamos el saber reconectar con nuestras sensaciones. Para poder tener un mejor control de la alimentación hemos de saber:
 
-- Identificar la sensación de hambre y saber diferenciar entre hambre emocional (cuando comemos desde una compulsión o necesidad emocional) y hambre fisiológica (cuando comemos porque nuestro organismo nos pide energía).
-- Alimentación consciente: saber escuchar a nuestro cuerpo antes, durante y después de cada comida.
-- Evitar dietas restrictivas.
-- Gestión emocional e identificación de emociones.
+- **Identificar la sensación de hambre y saber diferenciar entre hambre emocional** (cuando comemos desde una compulsión o necesidad emocional) y hambre fisiológica (cuando comemos porque nuestro organismo nos pide energía).
+- **Alimentación consciente**: saber escuchar a nuestro cuerpo antes, durante y después de cada comida.
+- **Evitar dietas restrictivas.**
+- **Gestión emocional e identificación de emociones.**
 
 Si quieres saber más, ponte en contacto con nuestro equipo y empieza a trabajar estos aspectos de tu vida con la ayuda de una **psicóloga y nutricionista especialistas** de forma conjunta y simultánea.
 
