@@ -8,7 +8,7 @@ published: true
 author: iris
 ---
 
-En pleno 2024 estamos sobreexpuestos a múltiples estímulos (redes sociales, publicidad, anuncios, etc.) que afecta a nuestras elecciones y a veces activamos el piloto automático para seguir con nuestras obligaciones, pero ¿estamos atentos a las señales y necesidades más simples y básicas de nuestro cuerpo?
+En pleno 2024 estamos sobreexpuestos a múltiples estímulos (redes sociales, publicidad, anuncios, etc.) que afectan a nuestras elecciones y a veces activamos el piloto automático para seguir con nuestras obligaciones, pero ¿estamos atentos a las señales y necesidades más simples y básicas de nuestro cuerpo?
 
 <!-- more -->
 
