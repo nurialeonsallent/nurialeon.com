@@ -1,0 +1,56 @@
+---
+layout: post
+title: "Dolor crónico y emociones ¿Cómo convivir con él?"
+subtitle: 
+date: 2024-03-26 00:00:00 +0
+image: dolor_psicologa_barcelona.jpg
+published: true
+author: nuria
+---
+
+Existen patologías médicas que pueden afectar mucho a la calidad de vida de cualquier persona. La vivencia del dolor es muy subjetiva y muchas veces estas personas se sienten solas e incomprendidas. Cuando tienes una enfermedad diagnosticada o un problema médico, puedes exponerte a situaciones crónicas de dolor y también a una alta cantidad de psicofármacos.
+
+<!-- more -->
+
+
+En el artículo de hoy explicaré algunas ideas para que puedas entender mejor tu dolor crónico y algunos consejos para mejorar tu calidad de vida a nivel psicológico.
+
+### Gestión del dolor desde la psicoterapia cognitiva conductual
+
+Cuando estamos ante una persona que padece dolor crónico debido a una enfermedad o algún problema médico, es fundamental que la perspectiva de la salud global de la persona siempre sea multidisciplinar. 
+
+Desde la psicoterapia podemos abordar temas como el manejo de las crisis de dolor, el descanso, la calidad de vida, la higiene del sueño, los buenos hábitos, la canalización y gestión de emociones, la distracción y la focalización de la atención, los pensamientos negativos asociados al proceso de enfermedad, mejorar la autoestima y las habilidades comunicativas, etc. Pero nunca podremos asumir la responsabilidad farmacológica y no podemos obviar la relevancia del trabajo en equipo con otras disciplinas.
+
+![Dolor]({{ site.baseurl }}/images/dolor_cronico_psicologa.jpg)
+
+Por eso mismo, el primer objetivo de la psicoterapia cognitiva conductual en estos casos es conocer bien la realidad de la persona, ya que el dolor es una experiencia subjetiva de difícil diagnóstico y difícil medición. Muchas veces los pacientes se sienten solos e incomprendidos y es fundamental ofrecerles un espacio de aceptación y apoyo. 
+
+En muchos pacientes se observa una frustración constante ya que su vivencia no suele ser compartida ni reconocida por otras personas, y eso a veces les lleva a sentirse solos y con poco apoyo y validación. Es importante que sepas que no estás sol@, el dolor es algo real y que puede afectar mucho a tu calidad de vida.
+
+### Gestión de emociones y manejo de la atención
+
+Exponerse a situaciones de **dolor crónico** siempre puede fomentar episodios de **ansiedad y de depresión**, que muchas veces algunos profesionales identifican como causas del problema y no como consecuencias. Es fundamental que no confundas la causa de la consecuencia, la realidad puede ser mucho más compleja y es importante que valides tu experiencia con el dolor, que hables de ello si lo necesitas y que seas muy amable contig@ mism@.
+
+Una persona que convive con dolor puede también que tenga problemas relacionales con sus seres más queridos, ya que el dolor puede interferir en el estado emocional de la persona, que muchas veces no se sienta bien, se sienta incomprendido y a menudo el entorno social y familiar no sabe cómo manejar esas situaciones. Es importante que hables con tus seres queridos de cómo te sientes.
+
+Si este es tu caso considero relevante que hables de tu dolor y que seas tú quien guíe un poco a tus seres queridos, porque muchas veces ellos no van a entender tu situación y no van a saber cómo ayudarte. No podemos esperar que los demás comprendan algo que no han experimentado y este va a ser tu mayor reto personal. 
+
+### Consejos para llevar mejor las crisis
+
+- **Relajación y mindfulness:** la vivencia del dolor puede generar tensión en el cuerpo y también estados de ansiedad. Por eso es importante aprender a autorregular la respiración mediante ejercicios de relajación. Hay numerosas técnicas efectivas que pueden ayudar a que la persona aprenda a autorregularse de forma saludable y consiga reducir sus niveles de tensión. Una respiración lenta y consciente es una buena herramienta para autorregular tus emociones.
+
+- **Distracción y refocalización de la atención:** A día de hoy sabemos que la atención es un proceso cognitivo muy importante en cualquier estado emocional de la persona. Cuando hay un problema de dolor crónico o incluso cualquier otra patología, puede ser habitual que se hiper focalice la atención en esas sensaciones desagradables y en el dolor en sí. Y sabemos que la paradoja de la atención es que si lo observamos excesivamente es más probable que seamos más conscientes de esa experiencia y por lo tanto empeore. Por eso la distracción es una buena herramienta, es importante entrenar la atención en otras cosas, otras vivencias, otras sensaciones agradables corporales, en el placer, en los sentidos primarios, en ocio, en hobbies…
+
+- **Experiencias sensitiva y el placer:** Cuando hay una vivencia de dolor, teniendo en cuenta el punto anterior, es habitual olvidarnos de otras experiencias sensitivas placenteras, por eso es bueno fomentar esas experiencias corporales sensitivas: bien mediante masajes, aromas, fisioterapia, alimentación… Cualquier vivencia que pueda ayudarte a sentir con todos tus sentidos, siempre y cuando los profesionales médicos no te digan lo contrario.
+
+- **Terapia cognitivo-conductual**: mediante la terapia cognitiva conductual podremos conseguir identificar esos pensamientos más negativos y automáticos que seguramente te hacen estar en ese bloqueo mental y emocional. Mediante el diálogo socrático conseguimos revertir ese diálogo para empezar a poner luz donde hay tanta oscuridad.
+
+- **Escritura terapéutica:** Se trata de una herramienta muy poderosa de canalización, siempre y cuando se haga de una determinada manera y estés orientado por un buen especialista en terapia o psicología. Muchas veces la escritura puede ser una vía de canalización de emociones, pero volviendo al tema de la atención es importante que sea una vía de escape y no una vía de hiperfocalización. 
+
+
+En el centro trabajamos con personas que padecen dolor crónico o que tienen patologías médicas complejas, con el fin de ayudarles a manejar mejor sus emociones y mejorar su calidad de vida. 
+
+Confiamos en la eficacia de la terapia y en el acompañamiento emocional para cualquier tipo de persona que quiera mejorar su bienestar. No dudes en contactar con nosotr@s si necesitas a alguien especialista. **Contacta con nosotros** si te sientes identificad@, podemos ayudarte a mejorar tu calidad de vida con nuestros psicólogos y terapeutas del Centro.
+
+
+
