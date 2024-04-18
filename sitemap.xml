@@ -7,7 +7,7 @@
 		{% unless page.hidden %}
 		<url>
 			<loc>{{ site.url | append: site.baseurl | append: page.url | xml_escape }}</loc>
-			<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+			<changefreq>weekly</changefreq>
 		</url>
 		{% endunless %}
 	{% endfor %}
