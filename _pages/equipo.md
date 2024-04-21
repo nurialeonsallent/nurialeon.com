@@ -68,7 +68,7 @@ Montse puede ayudarte en: gestión emocional, baja autoestima, acompañamiento d
 
 
 
-**Nutricionista especializada en trastornos de conducta alimentaria** con quien realizamos un abordaje de psiconutrición a nivel psicológico y a nivel nutricional para poder abordar cada problema de una forma más eficaz. Actualmente sigue en formación y está en constante aprendizaje.
+**Nutricionista especializada en trastornos de conducta alimentaria**. Realizamos un abordaje de psiconutrición a nivel psicológico y a nivel nutricional para poder abordar cada problema de una forma más eficaz. Actualmente sigue en formación y está en constante aprendizaje.
 
 Iris puede ayudarte si tienes una mala relación alimentaria y también si te identificas con: restricción alimentaria, compensaciones, atracones, anorexia, bulímia, TCA, autoestima corporal, miedo a engordar, miedo a comer algunos alimentos, y en general si quieres mejorar tu relación con la comida.
 
