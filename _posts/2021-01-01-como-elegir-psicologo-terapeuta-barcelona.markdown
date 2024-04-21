@@ -3,7 +3,7 @@ layout: post
 title: "¿Cómo elegir a un buen psicólogo o terapeuta?"
 subtitle: 
 date: 2024-04-21 00:00:00 +0
-image: elegir_psicologo_terapeuta.jpg
+image: elegir_psicologo_terapeuta.webp
 published: true
 author: nuria
 ---
@@ -21,7 +21,7 @@ Una **formación académica extensa** siempre es mejor ya que te aseguras de que
 
 De la misma manera, cuanta más formación de calidad mejor, es la manera de asegurarte de que esa persona cumple con la formación necesaria para poder atenderte y ayudarte. Recuerda que acudir a terapia psicológica o hacer un proceso terapéutico de acompañamiento, tiene que ir más allá de una simple conversación. El psicólogo o terapeuta tiene que tener muchas herramientas y recursos para poder ayudarte a salir del bloqueo o para poder ofrecerte el tipo de ayuda que necesitas, y eso requiere de un conocimiento profundo sobre el comportamiento humano y de su complejidad. Así que cuanta más formación tenga el profesional mejor a la hora de elegir un psicólogo o terapeuta.
 
-![Foto terapia]({{ site.baseurl }}/images/psicologo_terapeuta.jpg)
+![Foto terapia]({{ site.baseurl }}/images/psicologo_terapeuta.webp)
 
 Por otro lado, la **corriente terapéutica** es muy importante ya que los problemas no se abordan de la misma manera desde todos los modelos terapéuticos. Que tenga un modelo basado en la evidencia científica siempre va a ser mejor para poder realizar una intervención o un acompañamiento adecuado y eficaz. Es fundamental que el profesional se decante por algún modelo terapéutico concreto, aunque también es relevante si conoce más de uno y si los integra en su terapia o tratamiento. 
 
