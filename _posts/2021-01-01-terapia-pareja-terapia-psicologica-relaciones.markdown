@@ -3,7 +3,7 @@ layout: post
 title: "¿Cómo tener relaciones de pareja saludables?"
 subtitle: 
 date: 2024-04-18 00:00:00 +0
-image: terapia_pareja_psicologia.jpg
+image: terapia_pareja_psicologia.webp
 published: true
 author: montse
 ---
@@ -19,7 +19,7 @@ Si somos honestos, pocos ámbitos de nuestras vidas están tan llenos de expecta
 ¿Qué es una relación sana? Lo que realmente se le llama una relación sana es cuando dejamos de responsabilizar al otro de nuestro bienestar, ya que eso es una responsabilidad personal y nos toca atenderla de forma individual primero. 
 La felicidad personal depende principalmente de nuestra actitud y disposición ante lo que nos toca vivir. Dejar de victimizarse es una de los primeros pasos y es realmente importante coger nuestra responsabilidad. 
 
-![Foto pareja]({{ site.baseurl }}/images/terapia_pareja_barcelona.jpg)
+![Foto pareja]({{ site.baseurl }}/images/terapia_pareja_barcelona.webp)
 
 La responsabilidad en la pareja es la capacidad de respuesta que tenemos en todo momento. Uno es más feliz cuando deja de quejarse y lamentarse y se posiciona generando acciones orientadas a una conciencia mucho mayor, pero a veces no es fácil conseguirlo y por eso la terapia psicológica puede ayudarte a conseguirlo. 
 

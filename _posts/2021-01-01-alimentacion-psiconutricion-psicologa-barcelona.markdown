@@ -3,7 +3,7 @@ layout: post
 title: "Hambre y saciedad: atender las señales de nuestro cuerpo"
 subtitle: 
 date: 2024-03-24 00:00:00 +0
-image: alimentacion_psicologa_barcelona.jpg
+image: alimentacion_psicologa_barcelona.webp
 published: true
 author: iris
 ---
@@ -26,7 +26,7 @@ Primero vamos a definir estos dos términos:
 - Hablamos de **hambre**, sensación que nos produce nuestro cuerpo de forma fisiológica cuando nos faltan nutrientes.
 - La **saciedad**, por lo contrario, es la sensación de plenitud cuando no necesitamos más nutrientes.
 
-![Alimentación]({{ site.baseurl }}/images/comida_psicologia.jpg)
+![Alimentación]({{ site.baseurl }}/images/comida_psicologia.webp)
 
 El hambre no debe confundirse con el apetito que nos referiremos como el deseo psicológico de comer por placer. Todas estas sensaciones están condicionadas y asociadas a experiencias sensoriales como el olor, presentación de los alimentos, color, textura, recuerdos, etc., que nos condiciona en la elección. 
 
