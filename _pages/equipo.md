@@ -61,8 +61,26 @@ Montse puede ayudarte en: gestión emocional, baja autoestima, acompañamiento d
 </div>
 </div>
 
-<br />
-<br />
-<br />
+<div class="member">
+<img class="member__img" alt="Iris Torres" src="{{site.baseurl}}/images/equipo/iris.webp" width="350" />
+<h2 class="member__name" id="iris">Iris Torres</h2>
+<div class="member__content" markdown="1">
 
-En el centro también contamos con la colaboración de Iris Torres, **nutricionista especializada en trastornos de conducta alimentaria (TCA) y en psiconutrición**, con quien realizamos un abordaje conjunto a nivel psicológico y a nivel nutricional para poder abordar cada problema de una forma más eficaz.
+
+
+**Nutricionista especializada en trastornos de conducta alimentaria** con quien realizamos un abordaje de psiconutrición a nivel psicológico y a nivel nutricional para poder abordar cada problema de una forma más eficaz. Actualmente sigue en formación y está en constante aprendizaje.
+
+Iris puede ayudarte si tienes una mala relación alimentaria y también si te identificas con: restricción alimentaria, compensaciones, atracones, anorexia, bulímia, TCA, autoestima corporal, miedo a engordar, miedo a comer algunos alimentos, y en general si quieres mejorar tu relación con la comida.
+
+- **Experta en Trastornos de la Conducta Alimentaria** (Norte Salud Psiconutrición)
+- **Curso de Nutrición y Dietética aplicada en personas con diabetes** (Codinucat y SJD)
+- **Máster Oficial en Nutrición Clínica Universidad Europea de Madrid** (2022-2023)
+- **Curso Coaching Nutricional Institute Nutritional Coaching** (2022)
+- **Grado en Nutrición Humana y Dietética en Universitat de Barcelona** (2018-2022)
+
+
+
+
+
+</div>
+</div>
