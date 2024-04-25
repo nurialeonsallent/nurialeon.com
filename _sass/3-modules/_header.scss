@@ -136,12 +136,13 @@
 
     & > .nav__link {
       display: flex !important;
+      align-items: center;
       gap: 8px;
 
       .arrow {
         flex-shrink: 0;
         transition: all 0.3s;
-        transform: rotate(-90deg);
+        transform: rotate(180deg);
       }
     }
 
@@ -150,8 +151,10 @@
     }
 
     @media only screen and (max-width: $desktop) {
-      &[data-open="false"] > .nav__list {
-        display: none;
+      &[data-open="false"] {
+        & > .nav__list {
+          display: none;
+        }
       }
 
       &[data-open="true"] {
@@ -161,7 +164,7 @@
           color: $brand-color !important;
 
           .arrow {
-            transform: rotate(0);
+            transform: rotate(0deg);
           }
         }
 
@@ -175,10 +178,6 @@
       &:hover {
         & > .nav__link {
           color: $brand-color !important;
-
-          .arrow {
-            transform: rotate(0);
-          }
         }
 
         & > .nav__list {
