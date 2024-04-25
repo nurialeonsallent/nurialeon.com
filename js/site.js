@@ -116,3 +116,8 @@ function triggerCaptcha(question, expectedResponses)
 
     return true;
 }
+
+function toggleMenuSection(sectionId) {
+    const el = document.getElementById(sectionId)
+    el.data.open = !el.data.open
+}

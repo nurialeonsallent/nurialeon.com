@@ -131,6 +131,70 @@
     display: none;
   }
 
+  .nav__section {
+    position: relative;
+
+    &[data-open="false"] > .nav__list {
+      display: none;
+    }
+
+    & > .nav__link {
+      display: flex !important;
+      gap: 8px;
+
+      .text {
+        flex-grow: 1;
+      }
+
+      .arrow {
+        flex-shrink: 0;
+        transition: all 0.3s;
+        transform: rotate(-90deg);
+      }
+    }
+
+    &[data-open="true"] {
+      border-left: 2px solid $brand-color;
+
+      & > .nav__link {
+        color: $brand-color !important;
+
+        .arrow {
+          transform: rotate(0);
+        }
+      }
+
+      & > .nav__list {
+        display: block;
+      }
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        & > .nav__link {
+          color: $brand-color !important;
+
+          .arrow {
+            transform: rotate(0);
+          }
+        }
+
+        & > .nav__list {
+          display: block;
+          position: absolute;
+          top: 40px;
+          background: #ebe5e0;
+          padding: 10px 20px;
+          display: flex;
+          flex-direction: column;
+          min-width: 200px;
+          width: max-content;
+          box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+
   .nav__list {
     white-space: nowrap;
 
@@ -139,15 +203,18 @@
 
       .nav__link {
         display: inline-block;
-        padding: 10px 30px;
+        text-align: left;
+        padding: 10px 10px 10px 20px;
         font-size: 14px;
         font-weight: 700;
         letter-spacing: 0.5px;
         text-transform: uppercase;
         color: $dark;
 
-        &:hover {
-          color: $black;
+        @media (hover: hover) and (pointer: fine) {
+          &:hover {
+            color: $brand-color !important;
+          }
         }
       }
     }
@@ -172,6 +239,7 @@
 
       .nav__list .nav__item .nav__link {
         display: block;
+        width: 100%;
       }
     }
 
