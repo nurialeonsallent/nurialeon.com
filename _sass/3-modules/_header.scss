@@ -184,7 +184,7 @@
           position: absolute;
           top: 40px;
           background: #ebe5e0;
-          padding: 10px 20px;
+          padding: 10px 5px;
           display: flex;
           flex-direction: column;
           min-width: 200px;
@@ -204,7 +204,7 @@
       .nav__link {
         display: inline-block;
         text-align: left;
-        padding: 10px 10px 10px 20px;
+        padding: 10px 30px;
         font-size: 14px;
         font-weight: 700;
         letter-spacing: 0.5px;
@@ -240,6 +240,7 @@
       .nav__list .nav__item .nav__link {
         display: block;
         width: 100%;
+        padding: 10px 10px 10px 20px;
       }
     }
 
