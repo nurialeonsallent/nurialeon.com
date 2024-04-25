@@ -159,6 +159,7 @@
 
       &[data-open="true"] {
         border-left: 2px solid $brand-color;
+        margin-left: -2px;
 
         & > .nav__link {
           color: $brand-color !important;
