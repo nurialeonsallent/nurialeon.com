@@ -138,10 +138,6 @@
       display: flex !important;
       gap: 8px;
 
-      .text {
-        flex-grow: 1;
-      }
-
       .arrow {
         flex-shrink: 0;
         transition: all 0.3s;
