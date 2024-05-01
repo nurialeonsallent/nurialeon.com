@@ -1,0 +1,57 @@
+---
+import HeaderLink from "./HeaderLink.astro"
+import MenuIcon from "~/icons/menu.astro"
+
+import { SITE_TITLE } from "../consts"
+---
+
+<nav class="group/nav nav" data-nav data-open="0">
+  <div class="bar">
+    <button class="menu-button" data-menu-button
+      ><MenuIcon class="text-[32px]" /></button
+    >
+    <a href="/" class="grow lg:grow-0">{SITE_TITLE}</a>
+    <div class="menu">
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="/blog">Blog</HeaderLink>
+      <HeaderLink href="/about">About</HeaderLink>
+    </div>
+  </div>
+  <div class="backdrop" data-menu-button></div>
+</nav>
+<style>
+  .nav {
+    @apply flex items-center justify-center bg-white;
+  }
+
+  .bar {
+    @apply flex min-h-11 w-full max-w-screen-xl items-center justify-center gap-8 px-4 sm:min-h-12;
+  }
+
+  .menu-button {
+    @apply lg:hidden;
+  }
+
+  .menu {
+    @apply z-20 transition-all max-lg:group-data-[open=0]/nav:-translate-x-full;
+    @apply fixed left-0 top-0 flex h-screen w-[300px] grow flex-col items-center justify-center bg-red-500;
+    @apply lg:relative lg:h-auto lg:w-auto lg:flex-row lg:bg-transparent;
+  }
+
+  .backdrop {
+    @apply fixed left-0 top-0 z-10 hidden h-screen w-screen backdrop-blur-sm transition-all max-lg:group-data-[open=1]/nav:block;
+  }
+</style>
+<script>
+  const buttons = document.querySelectorAll("[data-menu-button]")
+
+  const nav: HTMLElement | null = document.querySelector("[data-nav]")
+
+  if (buttons.length && nav) {
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        nav.dataset.open = nav.dataset.open === "0" ? "1" : "0"
+      })
+    })
+  }
+</script>
