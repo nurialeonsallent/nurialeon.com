@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "nurialeon.com",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -23,5 +23,9 @@
     "react-dom": "^18.3.1",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0"
   }
 }
