@@ -6,7 +6,6 @@ import EmailIcon from "~/icons/email.astro"
 ---
 
 <header class="sticky top-0">
-  <Nav pathname={Astro.url.pathname} client:load />
   <ul class="contact-bar">
     <li>
       <LocationIcon class="icon" />
@@ -21,6 +20,7 @@ import EmailIcon from "~/icons/email.astro"
       <span>psicologa@nurialeon.com</span>
     </li>
   </ul>
+  <Nav pathname={Astro.url.pathname} client:load />
 </header>
 <style>
   .contact-bar {
