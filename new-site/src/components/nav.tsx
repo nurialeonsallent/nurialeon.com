@@ -49,7 +49,7 @@ export default function ({ pathname }: { pathname: string }) {
             </button>
           </li>
           {menu.map((s, i) => (
-            <MenuSection pathname={pathname} section={s} />
+            <MenuSection key={i} pathname={pathname} section={s} />
           ))}
         </ul>
       </div>
@@ -69,23 +69,25 @@ function MenuSection({
   section: MenuSectionType[0]
 }>) {
   const isCurrentInside = matchUrl(content, pathname)
-  const [isOpen, setOpen] = useState(isCurrentInside)
+  const [isOpen, setOpen] = useState(false)
   const isCollapsible = typeof content !== "string"
   return (
     <li
       className="group/li relative w-auto"
       data-open={isCollapsible ? isOpen : undefined}
+      data-current={isCollapsible ? isCurrentInside : undefined}
     >
       <div
         data-open={isCollapsible ? isOpen : undefined}
-        className="absolute left-1 top-0 z-10 hidden h-full w-1 rounded bg-brand max-lg:data-[open=true]:block"
+        data-current={isCollapsible ? isCurrentInside : undefined}
+        className="absolute left-1 top-0 z-10 hidden h-full w-1 rounded bg-brand max-lg:data-[current=true]:block max-lg:data-[open=true]:block"
       ></div>
       <NavLink
-        current={matchUrl(content, pathname)}
+        active={isCurrentInside}
         href={isCollapsible ? "#" : content}
         data-collapsible={isCollapsible}
         onClick={() => setOpen((o) => !o)}
-        className={`${isCurrentInside && "text-brand"} ${isCollapsible && "lg:group-hover/li:bg-white lg:group-hover/li:text-brand"}`}
+        className={`${isCurrentInside && "text-brand"} ${isCollapsible && "lg:group-hover/li:bg-white lg:group-hover/li:text-brand lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand"}`}
       >
         {title}
         {isCollapsible && (
@@ -94,10 +96,10 @@ function MenuSection({
       </NavLink>
       {isCollapsible && (
         <ul
-          className={`left-0 top-full ml-4 hidden w-[300px] flex-col bg-white max-lg:group-data-[open=true]/li:flex lg:z-10 lg:ml-0 lg:shadow-2xl lg:group-hover/li:absolute lg:group-hover/li:flex`}
+          className={`left-0 top-full ml-4 hidden w-[300px] flex-col bg-white group-data-[open=true]/li:flex max-lg:group-data-[current=true]/li:flex lg:z-10 lg:ml-0 lg:shadow-2xl lg:group-hover/li:absolute lg:group-hover/li:flex lg:group-data-[open=true]/li:absolute`}
         >
-          {content.map((c) => (
-            <MenuSection pathname={pathname} section={c} />
+          {content.map((c, i) => (
+            <MenuSection key={i} pathname={pathname} section={c} />
           ))}
         </ul>
       )}
@@ -117,20 +119,20 @@ function NavLink({
   children,
   href,
   className,
-  current,
+  active,
   ...props
 }: PropsWithChildren<{
   className?: string
   href: string
-  current: boolean
+  active: boolean
   onClick?: () => void
 }>) {
   return (
     <a
       {...props}
       href={href}
-      className={`${className ?? ""} group/a inline-block w-full px-8 py-3 text-left font-semibold uppercase tracking-wider hover:text-brand aria-[current=page]:text-brand max-lg:pr-1`}
-      aria-current={current ? "page" : "false"}
+      className={`${className ?? ""} group/a inline-block w-full px-8 py-3 text-left font-semibold uppercase tracking-wider aria-[current=page]:text-brand hover:text-brand max-lg:pr-1`}
+      aria-current={active ? "page" : "false"}
     >
       <span className="relative">
         {children}
