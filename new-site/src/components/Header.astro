@@ -1,12 +1,12 @@
 ---
-import Nav from "./nav.astro"
+import Nav from "./nav"
 import LocationIcon from "~/icons/location.astro"
 import PhoneIcon from "~/icons/phone.astro"
 import EmailIcon from "~/icons/email.astro"
 ---
 
 <header class="sticky top-0">
-  <Nav />
+  <Nav pathname={Astro.url.pathname} client:load />
   <ul class="contact-bar">
     <li>
       <LocationIcon class="icon" />

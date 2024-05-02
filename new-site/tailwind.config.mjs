@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import plugin from "tailwindcss/plugin"
 
 import * as defaultTheme from "tailwindcss/defaultTheme"
 
@@ -14,5 +15,12 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addVariant }) {
+      addVariant("hover", [
+        "@media (hover: hover) { &:hover }",
+        "@media (hover: none) { &:active }",
+      ])
+    }),
+  ],
 }
