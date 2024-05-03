@@ -11,7 +11,8 @@ export default {
         brand: "#7d3647",
       },
       fontFamily: {
-        body: ["Roboto", ...defaultTheme.fontFamily.sans],
+        body: [...defaultTheme.fontFamily.sans],
+        title: ["Roboto", ...defaultTheme.fontFamily.sans],
       },
     },
   },

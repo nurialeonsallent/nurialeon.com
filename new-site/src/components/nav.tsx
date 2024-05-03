@@ -28,7 +28,7 @@ export default function ({ pathname }: { pathname: string }) {
 
   return (
     <nav
-      className="group/nav flex items-center justify-center bg-neutral-100"
+      className="group/nav font-title flex items-center justify-center bg-neutral-100"
       data-nav
       data-open={isGlobalMenuOpen}
     >

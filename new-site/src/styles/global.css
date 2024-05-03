@@ -23,16 +23,41 @@
 @layer components {
   html,
   body {
+    line-height: 1.5;
     @apply font-body;
   }
 
   h1,
   .h1 {
-    @apply my-4 text-4xl font-bold text-brand sm:text-6xl;
+    @apply font-title mb-4 mt-12 text-4xl font-bold text-brand sm:text-6xl;
   }
 
   h2,
   .h2 {
-    @apply my-4 text-2xl font-bold text-brand sm:text-4xl;
+    @apply font-title mb-4 mt-12 text-2xl font-bold text-brand sm:text-4xl;
+  }
+
+  strong {
+    @apply font-bold text-neutral-800;
+  }
+
+  article {
+    @apply text-base;
+
+    ul > li {
+      @apply ml-4 list-disc;
+    }
+
+    p {
+      @apply my-4;
+    }
+
+    p:has(img) {
+      @apply my-8 flex flex-col items-center;
+    }
+
+    img + em {
+      @apply mt-2 text-sm text-neutral-500;
+    }
   }
 }
