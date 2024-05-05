@@ -42,7 +42,7 @@
   }
 
   article {
-    @apply px-3 text-base lg:p-0;
+    @apply mx-3 text-base;
 
     h1 {
       @apply mt-0;

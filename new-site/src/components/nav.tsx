@@ -4,12 +4,12 @@ import CloseIcon from "~/icons/close"
 
 import { SITE_TITLE } from "../consts"
 import { useState, type PropsWithChildren, type ReactNode } from "react"
+import LogoIcon from "~/icons/logo"
 
 type MenuSectionType = [ReactNode, string | [ReactNode, string][]][]
 
 const menu = [
   [<>Inicio</>, "/"],
-  ["Servicios", "/servicios"],
   [
     "Terapia",
     [
@@ -19,7 +19,24 @@ const menu = [
       ["Terapia D", "/d"],
     ],
   ],
-  ["Sobre mí", "/sobre-mi"],
+  [
+    "Tratamientos",
+    [
+      ["Tratamientos A", "/ta"],
+      ["Tratamientos B", "/tb"],
+      ["Tratamientos C", "/tc"],
+      ["Tratamientos D", "/td"],
+    ],
+  ],
+  [
+    "Centro",
+    [
+      ["Equipo", "/equipo"],
+      ["Sobre mí", "/sobre-mi"],
+    ],
+  ],
+  ["Blog", "/blog"],
+  ["Contacto", "/contacto"],
 ] satisfies MenuSectionType
 
 export default function ({ pathname }: { pathname: string }) {
@@ -32,17 +49,23 @@ export default function ({ pathname }: { pathname: string }) {
       data-nav
       data-open={isGlobalMenuOpen}
     >
-      <div className="flex min-h-11 w-full max-w-screen-xl items-center justify-center gap-8 px-4 sm:min-h-12">
-        <button onClick={toggleGlobalMenu} className="lg:hidden">
+      <div className="flex min-h-11 w-full max-w-screen-xl items-center justify-center gap-8 sm:min-h-12">
+        <a
+          href="/"
+          className="flex grow items-center justify-start gap-2 pl-2 lg:pl-4"
+        >
+          <LogoIcon className="text-[32px]" />
+          <span className="text-base font-semibold text-brand">
+            {SITE_TITLE}
+          </span>
+        </a>
+        <button onClick={toggleGlobalMenu} className="pr-4 lg:hidden">
           <MenuIcon className="text-[32px]" />
         </button>
-        <a href="/" className="grow lg:grow-0">
-          {SITE_TITLE}
-        </a>
-        <ul className="fixed left-0 top-0 z-20 flex h-screen w-[90vw] max-w-[90vw] grow flex-col  bg-white transition-all max-lg:group-data-[open=false]/nav:-translate-x-[101%] lg:relative lg:h-auto lg:w-auto lg:flex-row lg:items-center lg:justify-center lg:border-0 lg:bg-transparent">
+        <ul className="fixed right-0 top-0 z-20 flex h-screen w-[90vw] max-w-[90vw] grow flex-col  bg-white transition-all max-lg:group-data-[open=false]/nav:translate-x-[101%] lg:relative lg:h-auto lg:w-auto lg:max-w-[900px] lg:flex-row lg:items-center lg:justify-between lg:border-0 lg:bg-transparent lg:pr-4">
           <li>
             <button
-              className="min-h-11 w-full px-4 py-2 pb-8 text-right lg:hidden"
+              className="w-full px-4 py-4 pt-14 text-right lg:hidden"
               onClick={toggleGlobalMenu}
             >
               <CloseIcon className="text-[32px]" />
@@ -131,7 +154,7 @@ function NavLink({
     <a
       {...props}
       href={href}
-      className={`${className ?? ""} group/a inline-block w-full px-8 py-3 text-left font-semibold uppercase tracking-wider aria-[current=page]:text-brand hover:text-brand max-lg:pr-1`}
+      className={`${className ?? ""} group/a inline-block w-full px-8 py-3 text-left font-semibold uppercase tracking-wider aria-[current=page]:text-brand hover:text-brand max-lg:pr-1 lg:px-4`}
       aria-current={active ? "page" : "false"}
     >
       <span className="relative">
