@@ -1,7 +1,7 @@
 ---
 title: Sobre mí
 excerpt: Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Col·legi Oficial de Psicòlegs de Catalunya. Ayudo a muchas personas en situaciones complejas (vivencia de duelos, separaciones, problemas de autoestima, enfermedades o diagnósticos clínicos, dolor crónico, pérdida de empleo, embarazo, aborto, agresividad, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión, trastornos…). Soy especialista en psicoterapia para adultos y jóvenes.
-permalink: /sobre-mi/
+slug: /sobre-mi/
 ---
 
 Soy Núria León y vivo en Barcelona. Soy psicóloga por la Universitat de Barcelona y mi número de colegiada es el 26792 por el Col·legi Oficial de Psicòlegs de Catalunya. Pertenezco a la sección de Psicología Clínica de la Salud y Psicoterapia Sanitaria.
@@ -46,7 +46,7 @@ Durante la pandemia del Covid-19 tuve la oportunidad de trabajar en la multinaci
 
 También he trabajado en un _centro especializado en psicomotricidad y lateralidad_ con familias, niños y adolescentes con dificultades de aprendizaje, TDAH, autismo y problemas de lateralidad cruzada. A lo largo de esos años, no solo pude trabajar con niños y adolescentes sino también con familias que necesitaban pautas y asesoramiento psicológico.
 
-![Terapia psicológica](@images/nurialeon_lateralidad.webp)
+![Terapia psicológica](lateralidad.webp)
 _Psicóloga Infantojuvenil experimentada en lateralidad cruzada_
 
 <!--

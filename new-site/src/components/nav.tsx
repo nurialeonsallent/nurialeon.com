@@ -28,7 +28,7 @@ export default function ({ pathname }: { pathname: string }) {
 
   return (
     <nav
-      className="group/nav font-title flex items-center justify-center bg-neutral-100"
+      className="group/nav flex items-center justify-center bg-neutral-100 font-title"
       data-nav
       data-open={isGlobalMenuOpen}
     >
@@ -39,7 +39,7 @@ export default function ({ pathname }: { pathname: string }) {
         <a href="/" className="grow lg:grow-0">
           {SITE_TITLE}
         </a>
-        <ul className="fixed left-0 top-0 z-20 flex h-screen w-[90vw] max-w-[90vw] grow flex-col border-r-2 border-neutral-100 bg-white transition-all max-lg:group-data-[open=false]/nav:-translate-x-full lg:relative lg:h-auto lg:w-auto lg:flex-row lg:items-center lg:justify-center lg:border-0 lg:bg-transparent">
+        <ul className="fixed left-0 top-0 z-20 flex h-screen w-[90vw] max-w-[90vw] grow flex-col  bg-white transition-all max-lg:group-data-[open=false]/nav:-translate-x-[101%] lg:relative lg:h-auto lg:w-auto lg:flex-row lg:items-center lg:justify-center lg:border-0 lg:bg-transparent">
           <li>
             <button
               className="min-h-11 w-full px-4 py-2 pb-8 text-right lg:hidden"
@@ -69,7 +69,7 @@ function MenuSection({
   section: MenuSectionType[0]
 }>) {
   const isCurrentInside = matchUrl(content, pathname)
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState<boolean | "">("")
   const isCollapsible = typeof content !== "string"
   return (
     <li
@@ -86,17 +86,17 @@ function MenuSection({
         active={isCurrentInside}
         href={isCollapsible ? "#" : content}
         data-collapsible={isCollapsible}
-        onClick={() => setOpen((o) => !o)}
+        onClick={() => setOpen((o) => (o === "" ? !isCurrentInside : !o))}
         className={`${isCurrentInside && "text-brand"} ${isCollapsible && "lg:group-hover/li:bg-white lg:group-hover/li:text-brand lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand"}`}
       >
         {title}
         {isCollapsible && (
-          <MenuSectionIcon className="ml-2 rotate-180 transition-all max-lg:group-data-[open=true]/li:rotate-0" />
+          <MenuSectionIcon className="ml-2 rotate-180 transition-all max-lg:group-data-[current=true]/li:group-data-[open='']/li:rotate-0 max-lg:group-data-[open=true]/li:rotate-0" />
         )}
       </NavLink>
       {isCollapsible && (
         <ul
-          className={`left-0 top-full ml-4 hidden w-[300px] flex-col bg-white group-data-[open=true]/li:flex max-lg:group-data-[current=true]/li:flex lg:z-10 lg:ml-0 lg:shadow-2xl lg:group-hover/li:absolute lg:group-hover/li:flex lg:group-data-[open=true]/li:absolute`}
+          className={`left-0 top-full ml-4 hidden w-[300px] flex-col bg-white group-data-[open=true]/li:flex max-lg:group-data-[current=true]/li:group-data-[open='']/li:flex lg:z-10 lg:ml-0 lg:shadow-2xl lg:group-hover/li:absolute lg:group-hover/li:flex lg:group-data-[open=true]/li:absolute`}
         >
           {content.map((c, i) => (
             <MenuSection key={i} pathname={pathname} section={c} />
@@ -136,7 +136,7 @@ function NavLink({
     >
       <span className="relative">
         {children}
-        <div className="absolute -bottom-2 left-0 right-0 h-1 bg-brand opacity-0 transition-all group-data-[collapsible=false]/a:group-aria-[current=page]/a:opacity-100 lg:group-aria-[current=page]/a:opacity-100 lg:group-hover/li:group-data-[collapsible=true]/a:group-aria-[current=page]/a:opacity-0"></div>
+        <div className="absolute -bottom-2 left-0 right-0 h-1 bg-brand opacity-0 transition-all group-data-[collapsible=false]/a:group-aria-[current=page]/a:opacity-100 lg:group-aria-[current=page]/a:opacity-100 lg:group-data-[open=true]/li:group-data-[collapsible=true]/a:group-aria-[current=page]/a:opacity-0 lg:group-hover/li:group-data-[collapsible=true]/a:group-aria-[current=page]/a:opacity-0"></div>
       </span>
     </a>
   )
