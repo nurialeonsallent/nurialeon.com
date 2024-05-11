@@ -1,7 +1,10 @@
 ---
+import SocialNetworks from "./socialNetworks.astro"
+
 const today = new Date()
 ---
 
-<footer class="mt-8 text-center">
-  &copy; {today.getFullYear()} nurialeon.com
+<footer class="mt-8 flex flex-col justify-center items-center">
+  <SocialNetworks />
+  <span>&copy; {today.getFullYear()} nurialeon.com</span>
 </footer>
