@@ -10,7 +10,7 @@ import SocialNetworks from "~/components/socialNetworks.astro"
     <div class="content">
       <div class="text">
         <h1>Centro Núria León</h1>
-        <h2>Psicología y Terapia</h2>
+        <h2 class="max-sm:text-2xl text-neutral-700">Psicología y Terapia</h2>
         <SocialNetworks />
         <p>
           Ayudo a muchas personas en situaciones complejas (vivencia de duelos,
@@ -32,10 +32,11 @@ import SocialNetworks from "~/components/socialNetworks.astro"
       </div>
     </div>
   </div>
+  <p>Prueba</p>
 </Layout>
 <style>
   .hero {
-    @apply flex items-center justify-center border-b-2 border-neutral-200 bg-neutral-100 p-4;
+    @apply flex items-center justify-center border-b-2 border-neutral-300 bg-neutral-200 p-4;
 
     .content {
       @apply flex max-w-screen-xl grow flex-col-reverse items-center justify-center gap-y-4 lg:flex-row;
