@@ -1,0 +1,33 @@
+---
+import { reviews } from "~/content/reviews"
+import Star from "~/icons/star.astro"
+---
+
+<div class="flex justify-center">
+  <div class="flex max-w-screen-xl">
+    <button>&lt;</button>
+    <div
+      class="p-2 grow flex flex-col flex-wrap gap-2 overflow-x-auto snap-x snap-mandatory items-start max-h-[60vh] lg:max-h-[450px] overflow-y-hidden"
+    >
+      {
+        reviews.map((r) => (
+          <div class="shrink-0 max-w-[80vw] flex flex-col border rounded-lg bg-neutral-100 snap-center p-2 lg:max-w-[300px]">
+            <span>
+              {r.name} - {r.date}{" "}
+              {new Array(r.score).fill(0).map(() => (
+                <Star />
+              ))}
+            </span>
+            <span class="mt-2">{r.text}</span>
+          </div>
+        ))
+      }
+    </div>
+    <button>&gt;</button>
+  </div>
+</div>
+<style>
+  button {
+    @apply hidden shrink-0 bg-white p-4 text-4xl shadow-lg lg:block;
+  }
+</style>

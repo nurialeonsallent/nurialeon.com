@@ -62,7 +62,7 @@ export default function ({ pathname }: { pathname: string }) {
         <button onClick={toggleGlobalMenu} className="pr-4 lg:hidden">
           <MenuIcon className="text-[32px]" />
         </button>
-        <ul className="fixed right-0 top-0 z-20 flex h-screen w-[90vw] max-w-[90vw] grow flex-col bg-white transition-all max-lg:overflow-x-auto max-lg:pb-14 max-lg:group-data-[open=false]/nav:translate-x-[101%] lg:relative lg:h-auto lg:w-auto lg:max-w-[900px] lg:flex-row lg:items-center lg:justify-between lg:border-0 lg:bg-transparent lg:pr-4">
+        <ul className="fixed right-0 top-0 z-30 flex h-screen w-[90vw] max-w-[90vw] grow flex-col bg-white transition-all max-lg:overflow-x-auto max-lg:pb-14 max-lg:group-data-[open=false]/nav:translate-x-[101%] lg:relative lg:h-auto lg:w-auto lg:max-w-[900px] lg:flex-row lg:items-center lg:justify-between lg:border-0 lg:bg-transparent lg:pr-4">
           <li>
             <button
               className="w-full px-4 py-4 pt-14 text-right lg:hidden"
@@ -77,7 +77,7 @@ export default function ({ pathname }: { pathname: string }) {
         </ul>
       </div>
       <div
-        className="fixed left-0 top-0 z-10 hidden h-screen w-screen backdrop-blur-sm transition-all max-lg:group-data-[open=true]/nav:block"
+        className="fixed left-0 top-0 z-20 hidden h-screen w-screen backdrop-blur-sm transition-all max-lg:group-data-[open=true]/nav:block"
         onClick={toggleGlobalMenu}
       ></div>
     </nav>
@@ -103,7 +103,7 @@ function MenuSection({
       <div
         data-open={isCollapsible ? isOpen : undefined}
         data-current={isCollapsible ? isCurrentInside : undefined}
-        className="bg-brand-500 absolute left-1 top-0 z-10 hidden h-full w-1 rounded max-lg:data-[current=true]:block max-lg:data-[open=true]:block"
+        className="bg-brand-500 absolute left-1 top-0 z-20 hidden h-full w-1 rounded max-lg:data-[current=true]:block max-lg:data-[open=true]:block"
       ></div>
       <NavLink
         active={isCurrentInside}
@@ -119,7 +119,7 @@ function MenuSection({
       </NavLink>
       {isCollapsible && (
         <ul
-          className={`left-0 top-full ml-4 hidden w-[300px] flex-col bg-white group-data-[open=true]/li:flex max-lg:group-data-[current=true]/li:group-data-[open='']/li:flex lg:z-10 lg:ml-0 lg:shadow-2xl lg:group-hover/li:absolute lg:group-hover/li:flex lg:group-data-[open=true]/li:absolute`}
+          className={`left-0 top-full ml-4 hidden w-[300px] flex-col bg-white group-data-[open=true]/li:flex max-lg:group-data-[current=true]/li:group-data-[open='']/li:flex lg:z-20 lg:ml-0 lg:shadow-2xl lg:group-hover/li:absolute lg:group-hover/li:flex lg:group-data-[open=true]/li:absolute`}
         >
           {content.map((c, i) => (
             <MenuSection key={i} pathname={pathname} section={c} />
