@@ -29,12 +29,12 @@
 
   h1,
   .h1 {
-    @apply mb-4 mt-12 font-title text-4xl font-bold text-brand sm:mb-8 sm:mt-16 sm:text-6xl;
+    @apply text-brand-500 mb-4 mt-12 font-title text-4xl font-bold sm:mb-8 sm:mt-16 sm:text-6xl;
   }
 
   h2,
   .h2 {
-    @apply mb-4 mt-12 font-title text-3xl font-bold text-brand sm:mb-6 sm:mt-16 sm:text-4xl;
+    @apply text-brand-500 mb-4 mt-12 font-title text-3xl font-bold sm:mb-6 sm:mt-16 sm:text-4xl;
   }
 
   strong {
@@ -65,7 +65,7 @@
     }
 
     a {
-      @apply text-brand underline underline-offset-4;
+      @apply text-brand-500 underline underline-offset-4;
     }
   }
 }

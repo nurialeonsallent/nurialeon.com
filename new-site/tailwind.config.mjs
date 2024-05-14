@@ -8,7 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        brand: "#7d3647",
+        brand: {
+          400: "hsl(345.63deg 39.66% 43.1%)",
+          500: "hsl(345.63deg 39.66% 35.1%)",
+          600: "hsl(345.63deg 39.66% 27.1%)",
+        },
       },
       fontFamily: {
         body: [...defaultTheme.fontFamily.sans],

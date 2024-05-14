@@ -9,6 +9,7 @@ export default function (props: { className?: string }) {
         display: "inline-block",
         height: "1em",
         verticalAlign: "text-top",
+        flexShrink: 0,
       }}
       {...props}
     >
