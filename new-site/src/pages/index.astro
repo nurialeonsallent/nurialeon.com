@@ -34,6 +34,78 @@ import Reviews from "~/components/reviews.astro"
     </div>
   </div>
   <h2>Contenido</h2>
+  <div class="lg:max-w-screen-xl mx-auto">
+    <div
+      class="flex gap-2 overflow-x-auto px-2 pb-8 snap-x snap-mandatory lg:flex-wrap lg:gap-4 lg:justify-center"
+    >
+      <a href="#" class="terapia-card">
+        <div>
+          <h2>Terapia Individual</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+      </a>
+      <a href="#" class="terapia-card">
+        <div>
+          <h2>Terapia de Parejas</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+      </a>
+      <a href="#" class="terapia-card">
+        <div>
+          <h2>Terapia Online</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+      </a>
+      <!-- <div class="terapia-card">
+        <div>
+          <h2>Psicología Sanitaria / Clinica</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+      </div> -->
+      <a href="#" class="terapia-card">
+        <div>
+          <h2>Psico-Nutrición</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+      </a>
+      <!-- <div class="terapia-card">
+        <div>
+          <h2>Coaching / Acompañamiento</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
   <h2>Contenido</h2>
   <h2>Contenido</h2>
   <Reviews />
@@ -63,6 +135,34 @@ import Reviews from "~/components/reviews.astro"
           @apply h-[300px] object-contain sm:h-[450px] lg:-mb-[100px] lg:h-[600px];
         }
       }
+    }
+  }
+
+  .terapia-card {
+    @apply flex w-[60vw] shrink-0 snap-center flex-col justify-center gap-4 rounded-lg bg-neutral-100 p-4 shadow-lg lg:w-0 lg:grow;
+
+    h2 {
+      @apply m-0 text-center text-xl;
+    }
+
+    h3 {
+      @apply m-0 text-center text-base text-neutral-500;
+    }
+
+    hr {
+      @apply h-[2px] bg-red-500;
+    }
+
+    ul {
+      @apply text-[0px];
+    }
+
+    ul > li {
+      @apply inline text-sm before:content-[',_'] first:before:content-[''];
+    }
+
+    a {
+      @apply w-full self-end rounded-md bg-brand-500 px-4 py-2 text-center font-medium text-white active:bg-brand-600 hover:bg-brand-400;
     }
   }
 </style>
