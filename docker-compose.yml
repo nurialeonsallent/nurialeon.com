@@ -4,6 +4,7 @@ services:
   site:
     build:
       dockerfile: Dockerfile
+      context: .
     command: jekyll serve --watch --force_polling --livereload
     ports:
       - 4000:4000
@@ -11,4 +12,5 @@ services:
     volumes:
       - .:/srv/jekyll
       - ./vendor/bundle:/usr/local/bundle
+      - /srv/jekyll/new-site/ # ignore new site folder
     restart: always
