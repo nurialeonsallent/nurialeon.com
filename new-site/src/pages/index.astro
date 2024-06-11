@@ -4,6 +4,7 @@ import Layout from "~/layouts/BaseLayout.astro"
 import heroImage from "@images/hero.png"
 import SocialNetworks from "~/components/socialNetworks.astro"
 import Reviews from "~/components/reviews.astro"
+import EmailIcon from "~/icons/email.astro"
 ---
 
 <Layout>
@@ -35,9 +36,11 @@ import Reviews from "~/components/reviews.astro"
     </div>
   </div>
   <div class="lg:max-w-screen-xl mx-auto">
-    <div class="flex flex-wrap gap-4 p-4 pb-8 lg:gap-4 justify-center">
+    <div
+      class="flex flex-wrap gap-x-4 gap-y-12 p-4 py-12 lg:gap-4 justify-center"
+    >
       <a href="#" class="terapia-card">
-        <div class="icon"></div>
+        <div class="icon"><EmailIcon /></div>
         <div class="title">
           <h2>Terapia Individual</h2>
           <h3>65€/h</h3>
@@ -47,9 +50,10 @@ import Reviews from "~/components/reviews.astro"
           <li>Problemas personales</li>
           <li>Lo que sea</li>
         </ul>
+        <button>Leer más</button>
       </a>
       <a href="#" class="terapia-card">
-        <div class="icon"></div>
+        <div class="icon"><EmailIcon /></div>
         <div class="title">
           <h2>Terapia de Parejas</h2>
           <h3>65€/h</h3>
@@ -59,9 +63,10 @@ import Reviews from "~/components/reviews.astro"
           <li>Problemas personales</li>
           <li>Lo que sea</li>
         </ul>
+        <button>Leer más</button>
       </a>
       <a href="#" class="terapia-card">
-        <div class="icon"></div>
+        <div class="icon"><EmailIcon /></div>
         <div class="title">
           <h2>Terapia Online</h2>
           <h3>65€/h</h3>
@@ -75,9 +80,10 @@ import Reviews from "~/components/reviews.astro"
           <li>Problemas personales</li>
           <li>Lo que sea</li>
         </ul>
+        <button>Leer más</button>
       </a>
       <a href="#" class="terapia-card">
-        <div class="icon"></div>
+        <div class="icon"><EmailIcon /></div>
         <div class="title">
           <h2>Psico-Nutrición</h2>
           <h3>65€/h</h3>
@@ -87,6 +93,7 @@ import Reviews from "~/components/reviews.astro"
           <li>Problemas personales</li>
           <li>Lo que sea</li>
         </ul>
+        <button>Leer más</button>
       </a>
       <!-- <div class="terapia-card">
         <div>
@@ -101,15 +108,13 @@ import Reviews from "~/components/reviews.astro"
       </div> -->
     </div>
   </div>
-</Layout>
 
-<h2>Contenido</h2>
-<h2>Contenido</h2>
-<Reviews />
+  <Reviews />
+</Layout>
 
 <style>
   .hero {
-    @apply flex items-center justify-center bg-neutral-200 p-4 lg:mb-20;
+    @apply flex items-center justify-center border-b-2 border-neutral-300 bg-neutral-200 p-4 lg:mb-20;
 
     h1 {
       @apply text-nowrap;
@@ -140,14 +145,14 @@ import Reviews from "~/components/reviews.astro"
   }
 
   .terapia-card {
-    @apply to-brand-100 border-brand-300 flex grow flex-col items-center justify-start gap-4 rounded-lg border-2 bg-gradient-to-t from-neutral-200 p-4 shadow-lg sm:basis-1/3 lg:basis-0;
+    @apply border-brand-300 bg-brand-50 flex grow flex-col items-center justify-start gap-2 rounded-lg border-2 p-2 transition-all hover:border-brand-400 hover:shadow-lg sm:basis-1/3  lg:basis-0 lg:gap-4 lg:p-4;
 
     .icon {
-      @apply -mt-12 block h-16 w-16 rounded-full bg-brand-400;
+      @apply -mt-10 flex h-12 w-12 items-center justify-center rounded-full bg-brand-400 text-2xl text-white lg:-mt-12 lg:h-16 lg:w-16;
     }
 
     .title {
-      @apply flex gap-4;
+      @apply flex items-center justify-center gap-4;
     }
 
     h2 {
@@ -159,7 +164,7 @@ import Reviews from "~/components/reviews.astro"
     }
 
     p {
-      @apply grow text-base;
+      @apply grow text-sm lg:text-base;
     }
 
     ul {
@@ -167,11 +172,11 @@ import Reviews from "~/components/reviews.astro"
     }
 
     ul > li {
-      @apply inline text-sm before:content-[',_'] first:before:content-[''];
+      @apply inline text-xs italic before:content-[',_'] first:before:content-[''] lg:text-sm;
     }
 
-    a {
-      @apply w-full self-end rounded-md bg-brand-500 px-4 py-2 text-center font-medium text-white active:bg-brand-600 hover:bg-brand-400;
+    button {
+      @apply border-brand-300 w-full self-end rounded-md border-2 bg-white px-4 py-2 text-center font-medium text-brand-500;
     }
   }
 </style>
