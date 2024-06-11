@@ -61,12 +61,12 @@
       @apply my-4;
     }
 
-    p:has(img) {
-      @apply my-8 flex flex-col items-center;
+    img {
+      @apply mx-auto my-8;
     }
 
     img + em {
-      @apply mt-2 text-center text-sm text-neutral-500;
+      @apply -mt-6 mb-8 block text-center text-sm text-neutral-500;
     }
 
     a {

@@ -4,29 +4,13 @@ excerpt: Psicóloga por la Universitat de Barcelona colegiada nº26792 por el Co
 slug: /sobre-mi/
 ---
 
+import { Image } from "astro:assets"
+
 Soy Núria León y vivo en Barcelona. Soy psicóloga por la Universitat de Barcelona y mi número de colegiada es el 26792 por el Col·legi Oficial de Psicòlegs de Catalunya. Pertenezco a la sección de Psicología Clínica de la Salud y Psicoterapia Sanitaria.
 
 Mi trayectoria profesional está enfocada en ayudar a personas a superar dificultades y a vivir mejor. Tengo muchos años de experiencia con todo tipo de casos y con todo tipo de edades, aunque mi especialidad son los adultos y los jóvenes. He trabajado tanto en consulta privada por mi cuenta como en varios centros médicos reconocidos.
 
-![Nuria Leon](nuria.webp)
-
-<div
-  class="carousel"
-  data-flickity='{ "imagesLoaded": true, "wrapAround": true, "autoPlay": true }'
->
-  <div class="carousel-cell" style="display: none">
-    <img src="{{ site.baseurl }}/images/nuria_psico_057.webp" />
-  </div>
-  <div class="carousel-cell" style="display: none">
-    <img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_078.webp" />
-  </div>
-  <div class="carousel-cell" style="display: none">
-    <img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_030.webp" />
-  </div>
-  <div class="carousel-cell" style="display: none">
-    <img loading="lazy" src="{{ site.baseurl }}/images/nuria_psico_047.webp" />
-  </div>
-</div>
+<Image alt="Núria León" src={import("nuria.webp")} width="700" />
 
 Ayudo a muchas personas en situaciones complicadas (vivencia de duelos, separaciones, enfermedades o diagnósticos clínicos, agresividad, pérdida de empleo, problemas de autoestima, problemas familiares, relaciones amorosas difíciles, toma de decisiones importantes, ansiedad, depresión...).
 
