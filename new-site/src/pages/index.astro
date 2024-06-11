@@ -34,11 +34,8 @@ import Reviews from "~/components/reviews.astro"
       </div>
     </div>
   </div>
-  <h2>Contenido</h2>
   <div class="lg:max-w-screen-xl mx-auto">
-    <div
-      class="flex gap-2 overflow-x-auto px-2 pb-8 snap-x snap-mandatory lg:flex-wrap lg:gap-4 lg:justify-center"
-    >
+    <div class="flex flex-wrap gap-4 p-4 pb-8 lg:gap-4 justify-center">
       <a href="#" class="terapia-card">
         <div>
           <h2>Terapia Individual</h2>
@@ -66,7 +63,11 @@ import Reviews from "~/components/reviews.astro"
           <h2>Terapia Online</h2>
           <h3>65€</h3>
         </div>
-        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <p>
+          Si vienes solo, este tipo de terapia es para ti. Si vienes solo, este
+          tipo de terapia es para ti. Si vienes solo, este tipo de terapia es
+          para ti
+        </p>
         <ul>
           <li>Problemas personales</li>
           <li>Lo que sea</li>
@@ -113,7 +114,7 @@ import Reviews from "~/components/reviews.astro"
 </Layout>
 <style>
   .hero {
-    @apply flex items-center justify-center bg-neutral-200 p-4;
+    @apply flex items-center justify-center bg-neutral-200 p-4 lg:mb-16;
 
     h1 {
       @apply text-nowrap;
@@ -144,7 +145,7 @@ import Reviews from "~/components/reviews.astro"
   }
 
   .terapia-card {
-    @apply flex w-[60vw] shrink-0 snap-center flex-col justify-center gap-4 rounded-lg bg-neutral-100 p-4 shadow-lg lg:w-0 lg:grow;
+    @apply flex grow snap-center flex-col justify-center gap-4 rounded-lg border bg-neutral-100 p-4 shadow-lg sm:basis-1/3 lg:basis-0;
 
     h2 {
       @apply m-0 text-center text-xl;
