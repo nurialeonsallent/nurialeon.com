@@ -4,8 +4,11 @@ import Layout from "~/layouts/BaseLayout.astro"
 import heroImage from "@images/hero.png"
 import SocialNetworks from "~/components/socialNetworks.astro"
 import Reviews from "~/components/reviews.astro"
-import EmailIcon from "~/icons/email.astro"
 import GoIcon from "~/icons/go.astro"
+import IndividualIcon from "~/icons/individual.astro"
+import ParejaIcon from "~/icons/pareja2.astro"
+import OnlineIcon from "~/icons/online.astro"
+import PsiconutricionIcon from "~/icons/psiconutricion.astro"
 ---
 
 <Layout>
@@ -41,7 +44,7 @@ import GoIcon from "~/icons/go.astro"
       class="flex flex-wrap gap-x-4 gap-y-10 p-4 py-10 lg:gap-4 justify-center"
     >
       <a href="#" class="terapia-card">
-        <div class="icon"><EmailIcon /></div>
+        <div class="icon"><IndividualIcon /></div>
         <div class="title">
           <h2>Terapia Individual</h2>
           <h3>65€</h3>
@@ -54,7 +57,7 @@ import GoIcon from "~/icons/go.astro"
         <button>Leer más <GoIcon /></button>
       </a>
       <a href="#" class="terapia-card">
-        <div class="icon"><EmailIcon /></div>
+        <div class="icon"><ParejaIcon /></div>
         <div class="title">
           <h2>Terapia de Parejas</h2>
           <h3>65€</h3>
@@ -67,7 +70,7 @@ import GoIcon from "~/icons/go.astro"
         <button>Leer más <GoIcon /></button>
       </a>
       <a href="#" class="terapia-card">
-        <div class="icon"><EmailIcon /></div>
+        <div class="icon"><OnlineIcon /></div>
         <div class="title">
           <h2>Terapia Online</h2>
           <h3>65€</h3>
@@ -75,9 +78,7 @@ import GoIcon from "~/icons/go.astro"
         <p>
           Si vienes solo, este tipo de terapia es para ti. Si vienes solo, este
           tipo de terapia es para ti. Si vienes solo, este tipo de terapia es
-          para ti. Si vienes solo, este tipo de terapia es para ti. Si vienes
-          solo, este tipo de terapia es para ti. Si vienes solo, este tipo de
-          terapia es para ti
+          para ti
         </p>
         <ul>
           <li>Problemas personales</li>
@@ -86,15 +87,16 @@ import GoIcon from "~/icons/go.astro"
         <button>Leer más <GoIcon /></button>
       </a>
       <a href="#" class="terapia-card">
-        <div class="icon"><EmailIcon /></div>
+        <div class="icon"><PsiconutricionIcon /></div>
         <div class="title">
           <h2>Psico-Nutrición</h2>
           <h3>65€</h3>
         </div>
         <p>Si vienes solo, este tipo de terapia es para ti</p>
         <ul>
-          <li>Problemas personales</li>
-          <li>Lo que sea</li>
+          <li>TCA</li>
+          <li>Hambre emocional</li>
+          <li>etc</li>
         </ul>
         <button>Leer más <GoIcon /></button>
       </a>
