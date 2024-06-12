@@ -5,6 +5,7 @@ import heroImage from "@images/hero.png"
 import SocialNetworks from "~/components/socialNetworks.astro"
 import Reviews from "~/components/reviews.astro"
 import EmailIcon from "~/icons/email.astro"
+import GoIcon from "~/icons/go.astro"
 ---
 
 <Layout>
@@ -37,63 +38,65 @@ import EmailIcon from "~/icons/email.astro"
   </div>
   <div class="lg:max-w-screen-xl mx-auto">
     <div
-      class="flex flex-wrap gap-x-4 gap-y-12 p-4 py-12 lg:gap-4 justify-center"
+      class="flex flex-wrap gap-x-4 gap-y-10 p-4 py-10 lg:gap-4 justify-center"
     >
       <a href="#" class="terapia-card">
         <div class="icon"><EmailIcon /></div>
         <div class="title">
           <h2>Terapia Individual</h2>
-          <h3>65€/h</h3>
+          <h3>65€</h3>
         </div>
         <p>Si vienes solo, este tipo de terapia es para ti</p>
         <ul>
           <li>Problemas personales</li>
           <li>Lo que sea</li>
         </ul>
-        <button>Leer más</button>
+        <button>Leer más <GoIcon /></button>
       </a>
       <a href="#" class="terapia-card">
         <div class="icon"><EmailIcon /></div>
         <div class="title">
           <h2>Terapia de Parejas</h2>
-          <h3>65€/h</h3>
+          <h3>65€</h3>
         </div>
         <p>Si vienes solo, este tipo de terapia es para ti</p>
         <ul>
           <li>Problemas personales</li>
           <li>Lo que sea</li>
         </ul>
-        <button>Leer más</button>
+        <button>Leer más <GoIcon /></button>
       </a>
       <a href="#" class="terapia-card">
         <div class="icon"><EmailIcon /></div>
         <div class="title">
           <h2>Terapia Online</h2>
-          <h3>65€/h</h3>
+          <h3>65€</h3>
         </div>
         <p>
           Si vienes solo, este tipo de terapia es para ti. Si vienes solo, este
           tipo de terapia es para ti. Si vienes solo, este tipo de terapia es
-          para ti
+          para ti. Si vienes solo, este tipo de terapia es para ti. Si vienes
+          solo, este tipo de terapia es para ti. Si vienes solo, este tipo de
+          terapia es para ti
         </p>
         <ul>
           <li>Problemas personales</li>
           <li>Lo que sea</li>
         </ul>
-        <button>Leer más</button>
+        <button>Leer más <GoIcon /></button>
       </a>
       <a href="#" class="terapia-card">
         <div class="icon"><EmailIcon /></div>
         <div class="title">
           <h2>Psico-Nutrición</h2>
-          <h3>65€/h</h3>
+          <h3>65€</h3>
         </div>
         <p>Si vienes solo, este tipo de terapia es para ti</p>
         <ul>
           <li>Problemas personales</li>
           <li>Lo que sea</li>
         </ul>
-        <button>Leer más</button>
+        <button>Leer más <GoIcon /></button>
       </a>
       <!-- <div class="terapia-card">
         <div>
@@ -145,14 +148,14 @@ import EmailIcon from "~/icons/email.astro"
   }
 
   .terapia-card {
-    @apply border-brand-300 bg-brand-50 flex grow flex-col items-center justify-start gap-2 rounded-lg border-2 p-2 transition-all hover:border-brand-400 hover:shadow-lg sm:basis-1/3  lg:basis-0 lg:gap-4 lg:p-4;
+    @apply flex grow flex-col items-center justify-start gap-2 rounded-lg border-2 border-brand-300 bg-brand-50 transition-all hover:border-brand-400 hover:shadow-lg sm:basis-1/3 lg:basis-0 lg:gap-4;
 
     .icon {
-      @apply -mt-10 flex h-12 w-12 items-center justify-center rounded-full bg-brand-400 text-2xl text-white lg:-mt-12 lg:h-16 lg:w-16;
+      @apply -mt-6 flex h-12 w-12 items-center justify-center rounded-full border border-brand-300 bg-brand-400 text-2xl text-white lg:-mt-7 lg:h-14 lg:w-14;
     }
 
     .title {
-      @apply flex items-center justify-center gap-4;
+      @apply flex items-center justify-center gap-4 px-2 lg:px-4;
     }
 
     h2 {
@@ -160,15 +163,15 @@ import EmailIcon from "~/icons/email.astro"
     }
 
     h3 {
-      @apply m-0 shrink-0 text-lg text-neutral-500;
+      @apply m-0 shrink-0 text-lg text-neutral-600;
     }
 
     p {
-      @apply grow text-sm lg:text-base;
+      @apply grow px-2 text-sm lg:px-4 lg:text-base;
     }
 
     ul {
-      @apply text-[0px];
+      @apply px-2 text-[0px] lg:px-4;
     }
 
     ul > li {
@@ -176,7 +179,7 @@ import EmailIcon from "~/icons/email.astro"
     }
 
     button {
-      @apply border-brand-300 w-full self-end rounded-md border-2 bg-white px-4 py-2 text-center font-medium text-brand-500;
+      @apply w-full rounded-b-lg border-t-2 border-brand-300 bg-white px-4 py-2 text-center font-medium text-brand-500;
     }
   }
 </style>
