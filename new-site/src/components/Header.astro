@@ -1,0 +1,40 @@
+---
+import Nav from "./nav"
+import LocationIcon from "~/icons/location.astro"
+import PhoneIcon from "~/icons/phone.astro"
+import EmailIcon from "~/icons/email.astro"
+---
+
+<header class="sticky top-0">
+  <div class="contact-bar">
+    <a href="https://g.page/r/Cbk285IdPtR5EAg" target="_blank" rel="noopener">
+      <LocationIcon class="icon" />
+      <span>Bailèn 141, Esc. Izq. Entr. 6, 08037 Barcelona</span>
+    </a>
+    <a href="https://wa.me/34650011672" target="_blank" rel="noopener">
+      <PhoneIcon class="icon" />
+      <span>+34 650 011 672</span>
+    </a>
+    <a href="mailto:psicologa@nurialeon.com" rel="noopener">
+      <EmailIcon class="icon" />
+      <span>psicologa@nurialeon.com</span>
+    </a>
+  </div>
+  <Nav pathname={Astro.url.pathname} client:load />
+</header>
+<style>
+  .contact-bar {
+    @apply bg-brand-500 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 px-4 py-1 text-sm text-white sm:py-2;
+
+    a {
+      @apply flex items-center gap-1;
+
+      .icon {
+        @apply text-lg;
+      }
+      span {
+        @apply text-center leading-none;
+      }
+    }
+  }
+</style>

@@ -1,0 +1,72 @@
+---
+
+---
+
+<div class="marker" id="gotoContactForm"></div>
+<form method="POST" action="https://formspree.io/f/xvowdevg">
+  <input
+    type="text"
+    name="Nombre"
+    placeholder="Nombre y Apellidos"
+    aria-label="Nombre y Apellidos"
+    autocomplete="off"
+    required
+  />
+  <input
+    type="text"
+    name="Telefono"
+    placeholder="Teléfono de contacto"
+    aria-label="Teléfono de contacto"
+    minlength="9"
+    autocomplete="off"
+  />
+  <input
+    type="text"
+    name="Email"
+    placeholder="Email de contacto"
+    aria-label="Email de contacto"
+    autocomplete="off"
+  />
+  <textarea
+    name="Mensaje"
+    placeholder="Escribe tu consulta aquí. 
+Si quieres reservar una cita, escribe también la fecha/hora deseada."
+    autocomplete="off"
+    required></textarea>
+  <button type="submit">Contactar</button>
+</form>
+<style>
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    @apply -m-3 mt-2 bg-neutral-200 p-4 md:rounded-lg;
+  }
+
+  input,
+  button,
+  textarea {
+    background-color: white;
+    outline: none;
+    padding: 0.5rem;
+    @apply border-brand-500 rounded-md border;
+
+    &:focus {
+      box-shadow: 0 0 5px rgba(135, 76, 86, 0.8);
+    }
+
+    /* &:required:invalid {
+      border-color: #e02f40;
+    } */
+  }
+
+  textarea {
+    min-height: 120px;
+  }
+
+  button {
+    align-items: center;
+    justify-items: center;
+    @apply hover:bg-brand-400 active:bg-brand-600 bg-brand-500 rounded-md text-center font-medium text-white md:px-16 lg:self-center;
+  }
+</style>

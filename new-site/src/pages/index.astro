@@ -1,0 +1,187 @@
+---
+import { Picture } from "astro:assets"
+import Layout from "~/layouts/BaseLayout.astro"
+import heroImage from "@images/hero.png"
+import SocialNetworks from "~/components/socialNetworks.astro"
+import Reviews from "~/components/reviews.astro"
+import GoIcon from "~/icons/go.astro"
+import IndividualIcon from "~/icons/individual.astro"
+import ParejaIcon from "~/icons/pareja2.astro"
+import OnlineIcon from "~/icons/online.astro"
+import PsiconutricionIcon from "~/icons/psiconutricion.astro"
+---
+
+<Layout>
+  <div class="hero">
+    <div class="content">
+      <div class="text">
+        <h1>Centro Núria León</h1>
+        <h2 class="max-sm:text-2xl text-neutral-700">Psicología y Terapia</h2>
+        <SocialNetworks />
+        <p>
+          TEST Esto es una Introducción. TEST Esto es una Introducción. TEST
+          Esto es una Introducción. TEST Esto es una Introducción. TEST Esto es
+          una Introducción. TEST Esto es una Introducción. TEST Esto es una
+          Introducción. TEST Esto es una Introducción. TEST Esto es una
+          Introducción. TEST Esto es una Introducción. TEST Esto es una
+          Introducción. TEST Esto es una Introducción. TEST Esto es una
+          Introducción. TEST Esto es una Introducción. TEST Esto es una
+          Introducción.
+        </p>
+      </div>
+      <div class="image">
+        <Picture
+          class="img"
+          src={heroImage}
+          height={600}
+          alt="Nuria Leon, fundadora del Centro"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="lg:max-w-screen-xl mx-auto">
+    <div
+      class="flex flex-wrap gap-x-4 gap-y-10 p-4 py-10 lg:gap-4 justify-center"
+    >
+      <a href="#" class="terapia-card">
+        <div class="icon"><IndividualIcon /></div>
+        <div class="title">
+          <h2>Terapia Individual</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+        <button>Leer más <GoIcon /></button>
+      </a>
+      <a href="#" class="terapia-card">
+        <div class="icon"><ParejaIcon /></div>
+        <div class="title">
+          <h2>Terapia de Parejas</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+        <button>Leer más <GoIcon /></button>
+      </a>
+      <a href="#" class="terapia-card">
+        <div class="icon"><OnlineIcon /></div>
+        <div class="title">
+          <h2>Terapia Online</h2>
+          <h3>65€</h3>
+        </div>
+        <p>
+          Si vienes solo, este tipo de terapia es para ti. Si vienes solo, este
+          tipo de terapia es para ti. Si vienes solo, este tipo de terapia es
+          para ti
+        </p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+        <button>Leer más <GoIcon /></button>
+      </a>
+      <a href="#" class="terapia-card">
+        <div class="icon"><PsiconutricionIcon /></div>
+        <div class="title">
+          <h2>Psico-Nutrición</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>TCA</li>
+          <li>Hambre emocional</li>
+          <li>etc</li>
+        </ul>
+        <button>Leer más <GoIcon /></button>
+      </a>
+      <!-- <div class="terapia-card">
+        <div>
+          <h2>Coaching / Acompañamiento</h2>
+          <h3>65€</h3>
+        </div>
+        <p>Si vienes solo, este tipo de terapia es para ti</p>
+        <ul>
+          <li>Problemas personales</li>
+          <li>Lo que sea</li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+
+  <Reviews />
+</Layout>
+
+<style>
+  .hero {
+    @apply flex items-center justify-center border-b-2 border-neutral-300 bg-neutral-200 p-4 lg:mb-20;
+
+    h1 {
+      @apply text-nowrap;
+    }
+
+    .content {
+      @apply flex max-w-screen-xl grow flex-col-reverse items-center justify-center gap-y-4 lg:flex-row;
+
+      .text {
+        @apply flex flex-col items-center justify-center gap-0 sm:gap-4;
+        > * {
+          @apply m-0;
+        }
+
+        p {
+          @apply mt-4 lg:mt-8;
+        }
+      }
+
+      .image {
+        @apply flex shrink-0 justify-center pt-2 lg:p-5;
+
+        .img {
+          @apply h-[300px] object-contain sm:h-[450px] lg:-mb-[100px] lg:h-[600px];
+        }
+      }
+    }
+  }
+
+  .terapia-card {
+    @apply flex grow flex-col items-center justify-start gap-2 rounded-lg border-2 border-brand-300 bg-brand-50 transition-all hover:border-brand-400 hover:shadow-lg sm:basis-1/3 lg:basis-0 lg:gap-4;
+
+    .icon {
+      @apply -mt-6 flex h-12 w-12 items-center justify-center rounded-full bg-brand-400 text-2xl text-white lg:-mt-7 lg:h-14 lg:w-14;
+    }
+
+    .title {
+      @apply flex items-center justify-center gap-4 px-2 lg:px-4;
+    }
+
+    h2 {
+      @apply m-0 text-xl;
+    }
+
+    h3 {
+      @apply m-0 shrink-0 text-lg text-neutral-600;
+    }
+
+    p {
+      @apply grow px-2 text-sm lg:px-4 lg:text-base;
+    }
+
+    ul {
+      @apply px-2 text-[0px] lg:px-4;
+    }
+
+    ul > li {
+      @apply inline text-xs italic before:content-[',_'] first:before:content-[''] lg:text-sm;
+    }
+
+    button {
+      @apply w-full rounded-b-lg border-t-2 border-brand-300 bg-white px-4 py-2 text-center font-medium text-brand-500;
+    }
+  }
+</style>
