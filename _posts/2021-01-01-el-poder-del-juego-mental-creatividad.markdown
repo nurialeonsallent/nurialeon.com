@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "El poder del juego en nuestras vidas"
+title: "El poder de divertirnos en nuestras vidas"
 subtitle: 
 date: 2024-06-19 00:00:00 +0
 image: jugar_nurialeon.jpg
