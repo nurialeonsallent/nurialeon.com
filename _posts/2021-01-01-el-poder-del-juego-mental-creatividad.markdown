@@ -26,6 +26,9 @@ Jugar es lo que nos permite evadirnos de las responsabilidades y de las preocupa
 
 A medida que vamos creciendo muchas veces pensamos que jugar es una actividad poco productiva y muy infantil. Pero los adultos podemos jugar también de otras formas. Es fundamental conectar de vez en cuando con la sensación lúdica, con la emoción y aventura en nuestras vidas, ya que sino muchas veces entramos en una rutina agotadora y mecánica que nos lleva a la desmotivación y al desaliento. 
 
+![Diversión]({{ site.baseurl }}/images/juego_diversion.jpg)
+
+
 Metafóricamente hablando la vida es como un juego, nos invita a observar, estar atentos, a ver los obstáculos y encontrar los retos, estamos constantemente moviendo fichas como por ejemplo a la hora de decidir, apostar, tomar decisiones. Si sacamos la creatividad, estamos literalmente creando y eso nos lleva a responsabilizarnos de nuestras vidas.  
 
 ## Propiedades del juego y el arte del "Como si" 
