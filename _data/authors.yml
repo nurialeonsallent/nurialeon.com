@@ -1,23 +1,23 @@
 nuria:
   name: Núria
-  description: Fundadora y Directora del centro. Psicóloga Sanitaria colegiada 26792. Terapeuta breve estratégica también formada en terapia cognitivo conductual. Especialista en todo tipo de problemas emocionales y psicológicos (autoestima, estrés, depresión, ansiedad, inestabilidad emocional, duelos, rupturas, problemas familiares, etc).
+  description: Fundadora del centro y Psicóloga General Sanitaria. Colegiada 26792. Terapeuta breve estratégica y terapeuta cognitivo conductual. Especialista en todo tipo de problemas emocionales y psicológicos. Ha atendido a centenares de pacientes con éxito. 
   img: /images/equipo/nuria.webp
   link: /sobre-mi
 
 montse:
   name: Montse
-  description: Terapeuta Gestalt y Breve Estratégica en el Centro Núria León. Especialista en desarrollo personal y experta en terapia de las emociones. Colabora como docente en Institut Superior de Psicología de Barcelona (ISEP) y es experta en acompañamiento emocional. Ha realizado numerosos talleres de autoconocimiento y gestión de emociones y es una gran comunicadora.
+  description: Terapeuta Gestalt y Breve Estratégica. Especialista en desarrollo personal y experta en terapia de las emociones y autoestima. Colabora con el centro ISEP y ha realizado numerosos talleres de gestión emocional. 
   img: /images/equipo/montse.webp
   link: /equipo/#montse
 
-elisenda:
-  name: Elisenda
-  description: Psicóloga Sanitaria colegiada 29785. Especialista en ansiedad y depresión. Ha trabajado en varios centros médicos como psicóloga sanitaria y puede ayudarte en todo tipo de problema psicológico clínico en el Centro Núria León.
-  img: /images/equipo/elisenda.webp
-  link: /equipo/#elisenda
-
 iris:
   name: Iris
-  description: Nutricionista especializada en Trastornos de la Conducta Alimentaria (TCA) y en Nutrición Clínica. Coach Nutricional, realiza un servicio de nutrición complementario a la terapia psicológica en el Centro Núria León.
+  description: Nutricionista colegiada especializada en Trastornos de la Conducta Alimentaria (TCA) y en Nutrición Clínica. Coach Nutricional, realiza consultas de alimentación y psiconutrición en el Centro Núria León.
   img: /images/equipo/iris.webp
   link: /equipo/#iris
+
+elisenda:
+  name: Elisenda
+  description: Psicóloga Sanitaria Colegiada 29785. Especialista en ansiedad y depresión. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso. Psicóloga anitaria de adultos y familias. 
+  img: /images/equipo/montse.webp
+  link: /equipo/#montse
