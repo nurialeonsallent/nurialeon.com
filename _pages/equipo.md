@@ -69,6 +69,7 @@ Ha trabajado en varios centros médicos como psicóloga sanitaria. Su enfoque te
 
 Elisenda puede ayudarte en todo tipo de problema psicológico clínico: ansiedad, depresión, trauma, apego, duelos, fobias, miedos, TOC, TCA, estrés post traumático, autolesiones, pensamientos de suicidio...
 
+- **Tratamiento psicológico del trauma en psicoterapia** en Centre GRAT (2024)
 - **Intervención breve Centrada en las Soluciones** en Institut d'Estudis de la Sexualitat i la Parella (2024)
 - **Postgrado en Cognitivo Social** en la Universidad de Barcelona (2022)
 - **Máster en Psicología General Sanitaria** en la Universidad Autónoma de Barcelona (2020-2022)
