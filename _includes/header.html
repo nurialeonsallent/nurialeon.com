@@ -37,6 +37,36 @@
                     >Inicio</a
                   >
                 </li>
+                <!-- <li
+                  id="menu-terapia"
+                  class="nav__section nav__item"
+                  data-open="false"
+                >
+                  <button
+                    class="nav__link no-decoration"
+                    type="button"
+                    onclick="toggleMenuSection('menu-terapia')"
+                  >
+                    <span class="text">Terapia</span
+                    ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="arrow" viewBox="0 0 448 512"><path stroke="currentColor" fill="currentColor" d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/></svg>
+                  </button>
+                  <ul class="nav__list">
+                    <li class="nav__item">
+                      <a
+                        href="{{site.baseurl}}/servicios/"
+                        class="nav__link no-decoration"
+                        >Terapia Individual</a
+                      >
+                    </li>
+                    <li class="nav__item">
+                      <a
+                        href="{{site.baseurl}}/servicios/"
+                        class="nav__link no-decoration"
+                        >Otros servicios</a
+                      >
+                    </li>
+                  </ul>
+                </li> -->
                 <li class="nav__item">
                   <a
                     href="{{site.baseurl}}/servicios/"
@@ -121,10 +151,7 @@
             />
             <span>{{ site.data.settings.location }}</span></a
           >
-          <a
-            class="no-decoration"
-            href="javascript:;"
-            onclick="openWhatsapp()"
+          <a class="no-decoration" href="javascript:;" onclick="openWhatsapp()"
             ><img
               class="vcenter"
               src="{{site.baseurl}}/images/icons/phoneFill.svg"
@@ -134,10 +161,7 @@
             />
             <span>{{ site.data.settings.phone }}</span></a
           >
-          <a
-            class="no-decoration"
-            href="javascript:;"
-            onclick="openEmail()"
+          <a class="no-decoration" href="javascript:;" onclick="openEmail()"
             ><img
               class="vcenter"
               src="{{site.baseurl}}/images/icons/emailFill.svg"

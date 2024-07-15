@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    touch-action: manipulation; /* disable double tap zoom */
+    -webkit-tap-highlight-color: transparent; /* no black overlay on tap target */
+    overflow-wrap: break-word; /* avoid overflows caused by long words */
+    word-break: break-word; /* avoid overflows caused by long words */
+    min-width: 0; /* some input elements have min-width by browser defaults */
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    font-display: fallback;
+    src: local("Roboto"), url("/fonts/roboto.ttf");
+  }
+}
+
+@layer components {
+  html,
+  body {
+    line-height: 1.5;
+    @apply bg-neutral-50 font-body;
+  }
+
+  h1,
+  .h1 {
+    @apply mb-4 mt-12 font-title text-4xl font-bold text-brand-500 sm:mb-8 sm:mt-16 sm:text-6xl;
+  }
+
+  h2,
+  .h2 {
+    @apply mb-4 mt-12 font-title text-3xl font-bold text-brand-500 sm:mb-6 sm:mt-16 sm:text-4xl;
+  }
+
+  h3,
+  .h3 {
+    @apply mb-4 mt-12 font-title text-2xl font-bold text-brand-500 sm:mb-6 sm:mt-16 sm:text-3xl;
+  }
+
+  strong {
+    @apply font-bold text-neutral-800;
+  }
+
+  article {
+    @apply mx-3 text-base md:text-justify;
+
+    h1 {
+      @apply mt-0;
+    }
+
+    ul > li {
+      @apply ml-4 list-disc;
+    }
+
+    p {
+      @apply my-4;
+    }
+
+    img {
+      @apply mx-auto my-8;
+    }
+
+    img + em {
+      @apply mx-auto -mt-6 mb-8 block text-center text-sm italic text-neutral-500 md:w-2/3;
+    }
+
+    a {
+      @apply text-brand-500 underline underline-offset-4;
+    }
+  }
+}

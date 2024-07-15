@@ -3,7 +3,7 @@ layout: post
 title: "Dolor crónico y emociones ¿Cómo convivir con él?"
 subtitle: 
 date: 2024-03-26 00:00:00 +0
-image: dolor_psicologa_barcelona.jpg
+image: dolor_psicologa_barcelona.webp
 published: true
 author: nuria
 ---
@@ -21,7 +21,7 @@ Cuando estamos ante una persona que padece dolor crónico debido a una enfermeda
 
 Desde la psicoterapia podemos abordar temas como el manejo de las crisis de dolor, el descanso, la calidad de vida, la higiene del sueño, los buenos hábitos, la canalización y gestión de emociones, la distracción y la focalización de la atención, los pensamientos negativos asociados al proceso de enfermedad, mejorar la autoestima y las habilidades comunicativas, etc. Pero nunca podremos asumir la responsabilidad farmacológica y no podemos obviar la relevancia del trabajo en equipo con otras disciplinas.
 
-![Dolor]({{ site.baseurl }}/images/dolor_cronico_psicologa.jpg)
+![Dolor]({{ site.baseurl }}/images/dolor_cronico_psicologa.webp)
 
 Por eso mismo, el primer objetivo de la psicoterapia cognitiva conductual en estos casos es conocer bien la realidad de la persona, ya que el dolor es una experiencia subjetiva de difícil diagnóstico y difícil medición. Muchas veces los pacientes se sienten solos e incomprendidos y es fundamental ofrecerles un espacio de aceptación y apoyo. 
 

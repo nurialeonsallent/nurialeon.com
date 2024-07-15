@@ -1,0 +1,45 @@
+---
+import Location from "~/icons/location.astro"
+import SocialNetworks from "./socialNetworks.astro"
+import Phone from "~/icons/phone.astro"
+import Email from "~/icons/email.astro"
+
+const today = new Date()
+---
+
+<footer
+  class="mt-8 flex flex-col justify-center items-center bg-neutral-200 px-3 pt-8 pb-24 gap-8"
+>
+  <SocialNetworks />
+  <p class="flex flex-col items-start">
+    <a
+      class="link"
+      href="https://g.page/r/Cbk285IdPtR5EAg"
+      target="_blank"
+      rel="noopener"
+    >
+      <Location class="text-xl" />
+      <span>Bailèn 141, Esc. Izq. Entr. 6, 08037 Barcelona</span></a
+    >
+    <a
+      class="link"
+      href="https://wa.me/34650011672"
+      target="_blank"
+      rel="noopener"
+    >
+      <Phone class="text-xl" />
+      <span>+34 650 011 672</span></a
+    >
+    <a class="link" href="mailto:psicologa@nurialeon.com" rel="noopener">
+      <Email class="text-xl" />
+      <span>psicologa@nurialeon.com</span>
+    </a>
+  </p>
+  <span>&copy; {today.getFullYear()} nurialeon.com</span>
+</footer>
+
+<style>
+  .link {
+    @apply flex items-center gap-1;
+  }
+</style>

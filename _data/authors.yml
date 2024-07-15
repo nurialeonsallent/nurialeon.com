@@ -1,18 +1,23 @@
 nuria:
-  name: Núria León
-  description: Fundadora del centro y Psicóloga General Sanitaria. Colegiada 26792. Terapeuta breve estratégica también formada en terapia cognitivo conductual. Especialista en todo tipo de problemas emocionales y psicológicos (autoestima, estrés, depresión, ansiedad, inestabilidad emocional, duelos, rupturas, problemas familiares, etc).
-
+  name: Núria
+  description: Fundadora del centro y Psicóloga General Sanitaria. Colegiada 26792. Terapeuta breve estratégica y terapeuta cognitivo conductual. Especialista en todo tipo de problemas emocionales y psicológicos. Ha atendido a centenares de pacientes con éxito. 
   img: /images/equipo/nuria.webp
   link: /sobre-mi
 
 montse:
-  name: Montse Fraile
-  description: Terapeuta Gestalt y Breve Estratégica. Especialista en desarrollo personal y experta en terapia de las emociones. Colabora como docente en Institut Superior de Psicología de Barcelona (ISEP) y es experta en acompañamiento emocional. Ha realizado numerosos talleres de autoconocimiento y gestión de emociones y es una gran comunicadora.
+  name: Montse
+  description: Terapeuta Gestalt y Breve Estratégica. Especialista en desarrollo personal y experta en terapia de las emociones y autoestima. Colabora con el centro ISEP y ha realizado numerosos talleres de gestión emocional. 
   img: /images/equipo/montse.webp
   link: /equipo/#montse
 
 iris:
-  name: Iris Torres
-  description: Nutricionista especializada en Trastornos de la Conducta Alimentaria (TCA) y en Nutrición Clínica. Coach Nutricional, realiza consultas de alimentación y psiconutrición en el Centro Núria León.
+  name: Iris
+  description: Nutricionista colegiada especializada en Trastornos de la Conducta Alimentaria (TCA) y en Nutrición Clínica. Coach Nutricional, realiza consultas de alimentación y psiconutrición en el Centro Núria León.
   img: /images/equipo/iris.webp
   link: /equipo/#iris
+
+elisenda:
+  name: Elisenda
+  description: Psicóloga Sanitaria Colegiada 29785. Especialista en ansiedad y depresión. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso. Psicóloga anitaria de adultos y familias. 
+  img: /images/equipo/elisenda.webp
+  link: /equipo/#elisenda
