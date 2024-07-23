@@ -47,6 +47,7 @@ Ha realizado numerosos talleres de autoconocimiento y gestión de emociones y es
 
 Montse puede ayudarte en: gestión emocional, baja autoestima, acompañamiento durante la crianza y la maternidad o paternidad, problemas laborales (desmotivación, clima laboral, liderazgo), autoconocimiento, relaciones conflictivas amorosas, crecimiento en pareja y problemas familiares.
 
+- **Curso de Coaching Sistémico** Institut Gestalt de Barcelona (2024)
 - **Máster en Terapia Breve y Comunicación Estratégica** Modelo de intervención de Giorgio Nardone en Institut Gestalt (2023)
 - **Formación en Coaching Sistémico** en Institut Gestalt (2024)
 - **Formada en Terapia Gestalt** Formación oficial en Institut Gestalt (2016-2020)
