@@ -13,8 +13,8 @@ const menu = [
   [
     "Terapia",
     [
-      ["Terapia Individual", "/a"],
-      ["Terapia de Parejas", "/b"],
+      ["Terapia Individual", "/terapia-individual-presencial-barcelona"],
+      ["Terapia de Parejas", "/terapia-de-parejas-relaciones-familiares-barcelona"],
       ["Terapia Online", "/c"],
       ["Psicología Sanitaria / Clinica", "/b"],
       ["Psico-Nutrición", "/d"],
