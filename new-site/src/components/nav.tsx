@@ -18,7 +18,7 @@ const menu = [
       ["Terapia Online", "/terapia-psicologia-online"],
       ["Psicología Sanitaria / Clinica", "/psicologia-clinica-psicologia-sanitaria"],
       ["Psico-Nutrición", "/psiconutricion-nutricion-psicologia-alimentacion"],
-      ["Coaching / Acompañamiento", "/coaching-acompañamiento-emocional-barcelona"],
+      ["Coaching / Acompañamiento", "/coaching-acompanamiento-emocional-barcelona"],
     ],
   ],
   [
