@@ -47,7 +47,7 @@
   }
 
   article {
-    @apply mx-3 text-base md:text-justify;
+    @apply mx-3;
 
     h1 {
       @apply mt-0;
@@ -59,6 +59,7 @@
 
     p {
       @apply my-4;
+      @apply text-base md:text-justify;
     }
 
     img {
