@@ -3,7 +3,7 @@ layout: post
 title: "Dejar de fumar de forma definitiva es posible"
 subtitle: 
 date: 2024-03-24 00:00:00 +0
-image: dejar de fumar.jgp
+image: dejardefumar.jgp
 published: true
 author: nuria
 ---
