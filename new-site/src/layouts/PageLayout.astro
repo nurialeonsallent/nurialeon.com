@@ -1,17 +1,14 @@
 ---
-import type { CollectionEntry } from "astro:content"
-import BaseLayout from "./BaseLayout.astro"
+import type { ComponentProps } from "astro/types"
+import ColumnLayout from "./ColumnLayout.astro"
 
-type Props = CollectionEntry<"blog">["data"]
-
+type Props = ComponentProps<typeof ColumnLayout>
 const { title, description } = Astro.props
 ---
 
-<BaseLayout title={title} description={description}>
-  <article class="flex justify-center py-8 lg:py-16">
-    <div class="max-w-screen-lg">
-      <h1>{title}</h1>
-      <slot />
-    </div>
+<ColumnLayout title={title} description={description}>
+  <article>
+    <h1>{title}</h1>
+    <slot />
   </article>
-</BaseLayout>
+</ColumnLayout>

@@ -14,22 +14,31 @@ const menu = [
     "Terapia",
     [
       ["Terapia Individual", "/terapia-individual-presencial-barcelona"],
-      ["Terapia de Parejas", "/terapia-de-parejas-relaciones-familiares-barcelona"],
+      [
+        "Terapia de Parejas",
+        "/terapia-de-parejas-relaciones-familiares-barcelona",
+      ],
       ["Terapia Online", "/terapia-psicologia-online"],
-      ["Psicología Sanitaria / Clinica", "/psicologia-clinica-psicologia-sanitaria"],
+      [
+        "Psicología Sanitaria / Clinica",
+        "/psicologia-clinica-psicologia-sanitaria",
+      ],
       ["Psico-Nutrición", "/psiconutricion-nutricion-psicologia-alimentacion"],
-      ["Coaching / Acompañamiento", "/coaching-acompanamiento-emocional-barcelona"],
+      [
+        "Coaching / Acompañamiento",
+        "/coaching-acompañamiento-emocional-barcelona",
+      ],
     ],
   ],
-  [
-    "Tratamientos",
-    [
-      ["Tratamientos A", "/ta"],
-      ["Tratamientos B", "/tb"],
-      ["Tratamientos C", "/tc"],
-      ["Tratamientos D", "/td"],
-    ],
-  ],
+  // [
+  //   "Tratamientos",
+  //   [
+  //     ["Tratamientos A", "/ta"],
+  //     ["Tratamientos B", "/tb"],
+  //     ["Tratamientos C", "/tc"],
+  //     ["Tratamientos D", "/td"],
+  //   ],
+  // ],
   [
     "Centro",
     [
@@ -134,10 +143,13 @@ function MenuSection({
 
 function matchUrl(href: string | MenuSectionType, pathname: string): boolean {
   if (typeof href === "string") {
-    return href === pathname || href === "/" + pathname.match(/[^\/]+/g)?.[0]
+    return (
+      decodeURIComponent(href).toLowerCase() ===
+      decodeURIComponent(pathname).toLowerCase()
+    )
   }
 
-  return href.some((s) => matchUrl(s[1], pathname))
+  return href.some(([, innerHref]) => matchUrl(innerHref, pathname))
 }
 
 function NavLink({

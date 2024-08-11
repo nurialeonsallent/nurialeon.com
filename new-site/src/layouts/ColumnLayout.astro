@@ -1,0 +1,15 @@
+---
+import type { ComponentProps } from "astro/types"
+import BaseLayout from "./BaseLayout.astro"
+
+type Props = ComponentProps<typeof BaseLayout>
+const { title, description } = Astro.props
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="flex justify-center py-8 lg:py-16">
+    <div class="w-full max-w-screen-lg mx-3">
+      <slot />
+    </div>
+  </div>
+</BaseLayout>
