@@ -1,16 +1,20 @@
 ---
 layout: post
-title: "Dejar de fumar de forma definitiva es posible"
+title: "Dejar de fumar para siempre es posible"
 subtitle: 
-date: 2024-03-24 00:00:00 +0
-image: dejardefumar.jgp
+date: 2024-08-11 00:00:00 +0
+image: fumar.jgp
 published: true
 author: nuria
 ---
 
+Hoy en día por suerte cada vez es menos habitual que los jóvenes empiecen a fumar tabaco. Sin embargo, aún existen personas fumadoras que a pesar de conocer las desventajas de fumar y los daños que ello les provoca en su salud, no pueden dejarlo fácilmente. 
+
+<!-- more -->
+
 ## Fumar: una adicción cada vez menos habitual
 
-Hoy en día por suerte cada vez es menos habitual que los jóvenes empiecen a fumar tabaco. Los precios elevados y las restricciones o prohibiciones de los lugares han hecho su efecto en la población juvenil. Sin embargo, aún existen personas fumadoras que a pesar de conocer las desventajas de fumar y los daños que ello les provoca en su salud, no pueden dejarlo fácilmente.
+Los precios elevados y las restricciones o prohibiciones de los lugares han hecho su efecto en la población, ya que cada vez menos jóvenes empiezan a fumar y por suerte cada vez está peor visto. Sin embargo, aún existen personas fumadoras que a pesar de conocer las desventajas de fumar y los daños que ello les provoca en su salud, no pueden dejarlo.
 
 No podemos olvidarnos de que fumar tabaco es una adicción a una sustancia química: la nicotina. La nicotina es la sustancia química del tabaco que hace que sea difícil dejarlo. Existe una dependencia psicológica pero también física al hábito de fumar. Por ese motivo es importante pedir ayuda profesional si por ti mism@ no puedes dejar de fumar. Los psicólogos podemos ayudarte si estás pensando en dejar de fumar.
 
