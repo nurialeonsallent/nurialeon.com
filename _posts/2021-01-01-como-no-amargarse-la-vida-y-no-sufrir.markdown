@@ -4,7 +4,7 @@ title: "¿Cómo dejar de amargarse la vida? Aprende las claves para no sufrir "
 date: 2023-11-26 00:00:00 +0
 image: foto_articulo_resolver.webp
 published: true
-author: montse
+author: nuria
 ---
 
 ¿Por qué nos cuesta tanto sentirnos felices? La mayoría de las personas quieren alcanzar la felicidad, pero están en un constante sufrimiento, quieren la paz, pero están en guerra, quieren calma pero están en inquietud. Muchas veces sufrimos porque estamos en contradicción, incoherencia o en lucha con nosotros mismos.

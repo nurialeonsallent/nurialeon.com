@@ -4,7 +4,7 @@ title: "El arte de liderar"
 date: 2024-03-03 00:00:00 +0
 image: foto_liderazgo.webp
 published: true
-author: montse
+author: nuria
 ---
 
 El origen etimológico de la palabra liderar viene del inglés “to lead”, que significa “guiar, ir adelante”. Liderar es un arte que se aprende y se entrena, por lo tanto es una destreza y una habilidad que se construye, si se une el deseo apropiado con las acciones correctas. 

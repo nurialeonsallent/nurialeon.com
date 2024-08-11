@@ -5,7 +5,7 @@ subtitle:
 date: 2024-06-19 00:00:00 +0
 image: jugar_nurialeon.jpg
 published: true
-author: montse
+author: nuria
 ---
 
 
