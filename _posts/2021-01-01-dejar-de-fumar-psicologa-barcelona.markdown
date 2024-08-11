@@ -3,7 +3,7 @@ layout: post
 title: "Dejar de fumar para siempre es posible"
 subtitle: 
 date: 2024-08-11 00:00:00 +0
-image: fumar.jgp
+image: dejardefumar.jpg
 published: true
 author: nuria
 ---
@@ -20,11 +20,14 @@ No podemos olvidarnos de que fumar tabaco es una adicción a una sustancia quím
 
 ## Conoce los beneficios de dejarlo 
 
-En primer lugar es importante conocer los beneficios que tiene dejar de fumar. Por una parte tu salud física en general mejorará, tu respiración será mejor, tu circulación mejorará, tu presión arterial disminuirá, tu piel será más saludable y tu gusto y olfato también mejorarán notablemente. Por otra parte, existen otro tipo de ventajas, como por ejemplo el gran ahorro económico que tendrás debido al alto coste económico que tiene el tabaco. Estas ventajas son importantes conocerlas ya que pueden ayudarte a encontrar más motivación. 
+En primer lugar es importante conocer los beneficios que tiene dejar de fumar. Por una parte tu salud física en general mejorará, tu respiración será mejor, tu circulación mejorará, tu presión arterial disminuirá, tu piel será más saludable y tu gusto y olfato también mejorarán notablemente. 
 
+Por otra parte, existen otro tipo de ventajas, como por ejemplo el gran ahorro económico que tendrás debido al alto coste económico que tiene el tabaco. Estas ventajas son importantes conocerlas ya que pueden ayudarte a encontrar más motivación. 
+
+Personalmente, considero que para cambiar de hábitos y dejar una adicción como esta, es fundamental encontrar una gran motivación, es decir, un gran para qué. Y es importante que esa motivación y ese para qué, lo elijas tú y lo pienses tú por ti mism@. Muchas veces intentamos dejar de fumar porque otras personas nos lo piden, nuestra familia, nuestra pareja… pero si un@ mism@ no tiene una motivación, el cambio no va a ser posible. 
+
+El primer paso, sería saber en qué fase te encuentras, así que a continuación te voy a explicar los estadios de cambio que existen a la hora de dejar una adicción como el tabaco.
 ![Tabaco]({{ site.baseurl }}/images/tabaco-dañino.jpg)
-
-Personalmente, considero que para cambiar de hábitos y dejar una adicción como esta, es fundamental encontrar una gran motivación, es decir, un gran para qué. Y es importante que esa motivación y ese para qué, lo elijas tú y lo pienses tú por ti mism@. Muchas veces intentamos dejar de fumar porque otras personas nos lo piden, nuestra familia, nuestra pareja… pero si un@ mism@ no tiene una motivación, el cambio no va a ser posible. El primer paso, sería saber en qué fase te encuentras, así que a continuación te voy a explicar los estadios de cambio que existen a la hora de dejar una adicción como el tabaco.
 
 ## Los estadios de cambio en una adicción ¿en cuál te encuentras?
 
