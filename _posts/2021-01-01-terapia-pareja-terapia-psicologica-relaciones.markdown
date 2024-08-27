@@ -5,7 +5,7 @@ subtitle:
 date: 2024-04-18 00:00:00 +0
 image: terapia_pareja_psicologia.webp
 published: true
-author: montse
+author: nuria
 ---
 
 Si somos honestos, pocos ámbitos de nuestras vidas están tan llenos de expectativas como el ámbito del amor en la pareja. Lógicamente es normal que pongamos ciertas expectativas en la relación y en la otra persona, pero la realidad es que aunque muchas veces pensemos lo contrario, nuestras parejas no tienen la capacidad de hacernos felices.
