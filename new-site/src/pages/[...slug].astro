@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content"
-import PageLayout from "../layouts/PageLayout.astro"
+import PageLayout from "../layouts/pageLayout.astro"
 
 export async function getStaticPaths() {
   const pages = await getCollection("page")

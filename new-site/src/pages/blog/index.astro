@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content"
 import FormattedDate from "@components/FormattedDate.astro"
 import { Image } from "astro:assets"
-import Layout from "~/layouts/ColumnLayout.astro"
+import Layout from "~/layouts/columnLayout.astro"
 
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()

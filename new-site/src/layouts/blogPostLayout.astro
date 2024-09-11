@@ -2,7 +2,7 @@
 import type { CollectionEntry } from "astro:content"
 import FormattedDate from "@components/FormattedDate.astro"
 import { Image } from "astro:assets"
-import PageLayout from "./PageLayout.astro"
+import PageLayout from "./pageLayout.astro"
 
 type Props = CollectionEntry<"blog">["data"]
 const { title, description, date, image } = Astro.props
