@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Ansiedad y Deporte: ¿Ayuda realmente el deporte?"
 subtitle:
 date: 2024-07-12 00:00:00 +0

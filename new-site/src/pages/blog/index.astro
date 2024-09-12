@@ -13,11 +13,12 @@ const posts = (await getCollection("blog")).sort(
   <ul class="flex flex-col gap-8">
     {
       posts.map((post) => (
-        <li class="flex flex-col">
+        <li class="flex flex-col sm:flex-row">
           <a href={`/blog/${post.slug}/`} class="contents">
             {post.data.image && (
               <Image
-                height={240}
+                widths={[640, 1024]}
+                sizes={`(max-width: 640px) 640px, 1024px`}
                 src={post.data.image}
                 alt=""
                 class="w-full object-cover h-[240px] border border-neutral-300"
