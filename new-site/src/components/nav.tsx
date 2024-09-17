@@ -13,17 +13,17 @@ const menu = [
   [
     "Terapia",
     [
-      ["Terapia Individual", "/terapia-individual-presencial-barcelona"],
+      ["Terapia Individual", "/psicologo-barcelona"],
+      ["Terapia Online", "/psicologo-online"],
       [
         "Terapia de Parejas",
         "/terapia-de-parejas-relaciones-familiares-barcelona",
       ],
-      ["Terapia Online", "/terapia-psicologia-online"],
-      [
-        "Psicología Sanitaria / Clinica",
-        "/psicologia-clinica-psicologia-sanitaria",
-      ],
-      ["Psico-Nutrición", "/psiconutricion-nutricion-psicologia-alimentacion"],
+      ["Psico-Nutrición", "/psiconutricion-barcelona"],
+      // [
+      //   "Psicología Sanitaria / Clinica",
+      //   "/psicologia-clinica-psicologia-sanitaria",
+      // ],
       // [
       //   "Coaching / Acompañamiento",
       //   "/coaching-acompañamiento-emocional-barcelona",
