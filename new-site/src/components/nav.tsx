@@ -6,7 +6,7 @@ import { SITE_TITLE } from "../consts"
 import { useState, type PropsWithChildren, type ReactNode } from "react"
 import LogoIcon from "~/icons/logo"
 
-type MenuSectionType = [ReactNode, string | [ReactNode, string][]][]
+type MenuSectionType = [ReactNode, string | MenuSectionType][]
 
 const menu = [
   [<>Inicio</>, "/"],
@@ -24,10 +24,10 @@ const menu = [
         "/psicologia-clinica-psicologia-sanitaria",
       ],
       ["Psico-Nutrición", "/psiconutricion-nutricion-psicologia-alimentacion"],
-      [
-        "Coaching / Acompañamiento",
-        "/coaching-acompañamiento-emocional-barcelona",
-      ],
+      // [
+      //   "Coaching / Acompañamiento",
+      //   "/coaching-acompañamiento-emocional-barcelona",
+      // ],
     ],
   ],
   // [

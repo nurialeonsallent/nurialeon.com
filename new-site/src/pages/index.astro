@@ -9,6 +9,7 @@ import IndividualIcon from "~/icons/individual.astro"
 import ParejaIcon from "~/icons/pareja2.astro"
 import OnlineIcon from "~/icons/online.astro"
 import PsiconutricionIcon from "~/icons/psiconutricion.astro"
+import { reviews } from "~/content/reviews"
 ---
 
 <Layout>
@@ -19,14 +20,10 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
         <h2 class="max-sm:text-2xl text-neutral-700">Psicología y Terapia</h2>
         <SocialNetworks />
         <p>
-          TEST Esto es una Introducción. TEST Esto es una Introducción. TEST
-          Esto es una Introducción. TEST Esto es una Introducción. TEST Esto es
-          una Introducción. TEST Esto es una Introducción. TEST Esto es una
-          Introducción. TEST Esto es una Introducción. TEST Esto es una
-          Introducción. TEST Esto es una Introducción. TEST Esto es una
-          Introducción. TEST Esto es una Introducción. TEST Esto es una
-          Introducción. TEST Esto es una Introducción. TEST Esto es una
-          Introducción.
+          Somos un Centro Sanitario de Psicología O PSICOTERAPIA? y
+          Psiconutrición en Barcelona. Especialistas en Psicoterapia y
+          Psiconutrición en Adultos y Jóvenes. Trabajamos en Español, Catalán e
+          Inglés. Nuestro enfoque es moderno, integrador y muy efectivo.
         </p>
       </div>
       <div class="image">
@@ -39,15 +36,20 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
       </div>
     </div>
   </div>
-  <div class="lg:max-w-screen-xl mx-auto">
-    <div
-      class="flex flex-wrap gap-x-4 gap-y-10 p-4 py-10 lg:gap-4 justify-center"
-    >
+  <div class="lg:max-w-screen-xl mx-auto max-xl:px-4">
+    <h2 class="text-left">¿Qué servicios ofrecemos?</h2>
+    <p class="mt-6 mb-4 lg:max-w-screen-lg">
+      SI TIENES ALGUNA CONSULTA CONCRETA SOBRE ALGUNA PATOLOGIA O NECESIDAD,
+      CONTACTA SIN COMPROMISO. Ofrecemos una amplia variedad de servicios
+      personalizados para cada caso. Si quieres entender si nuestro centro es
+      para ti, no dudes en contactarnos!
+    </p>
+    <div class="flex flex-wrap gap-x-4 gap-y-10 py-10 lg:gap-4 justify-center">
       <a href="/terapia-individual-presencial-barcelona" class="terapia-card">
         <div class="icon"><IndividualIcon /></div>
         <div class="title">
-          <h2>Terapia Individual</h2>
-          <h3>65€</h3>
+          <h3>Terapia Individual</h3>
+          <h3 class="price">65€</h3>
         </div>
         <p>
           La terapia psicológica es para ti si sufres algun problema emocional o
@@ -77,8 +79,8 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
       >
         <div class="icon"><ParejaIcon /></div>
         <div class="title">
-          <h2>Terapia de Parejas</h2>
-          <h3>65€</h3>
+          <h3>Terapia de Parejas</h3>
+          <h3 class="price">95€</h3>
         </div>
         <p>
           La terapia de parejas es adecuada para quienes estén atravesando
@@ -103,8 +105,8 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
       <a href="/terapia-psicologia-online" class="terapia-card">
         <div class="icon"><OnlineIcon /></div>
         <div class="title">
-          <h2>Terapia Online</h2>
-          <h3>65€</h3>
+          <h3>Terapia Online</h3>
+          <h3 class="price">60€</h3>
         </div>
         <p>
           La terapia online es adecuada si quieres realizar terapia por
@@ -119,7 +121,7 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
           <li>Estrés</li>
           <li>Miedos</li>
           <li>Duelo</li>
-          <li>Mobbing</li>
+          <li>Mobbing (Acoso Laboral)</li>
           <li>Timidez</li>
           <li>...</li>
         </ul>
@@ -131,12 +133,13 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
       >
         <div class="icon"><PsiconutricionIcon /></div>
         <div class="title">
-          <h2>Psico-Nutrición</h2>
-          <h3>65€</h3>
+          <h3>Psico-Nutrición</h3>
+          <h3 class="price">60€</h3>
         </div>
         <p>
-          Realizamos terapia psicológica acompañada de un asesoramiento
-          nutricional personalizado para mejorar la relación alimentaria.
+          FALTA PONER SERVICIO DE NUTRICION SANITARIO/MEDICO, Realizamos terapia
+          psicológica acompañada de un asesoramiento nutricional personalizado
+          para mejorar la relación alimentaria.
         </p>
         <ul>
           <li>TCA</li>
@@ -147,6 +150,8 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
           <li>Atracones</li>
           <li>Anorexia</li>
           <li>Bulímia</li>
+          <li>Fagofobia</li>
+          <li>Disfagia</li>
           <li>...</li>
         </ul>
         <button>Leer más <GoIcon /></button>
@@ -165,12 +170,15 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
     </div>
   </div>
 
-  <Reviews />
+  <div class="lg:max-w-screen-xl mx-auto max-xl:px-4 overflow-hidden">
+    <h3 class="text-left">Reseñas ({reviews.length + 30})</h3>
+    <Reviews />
+  </div>
 </Layout>
 
 <style>
   .hero {
-    @apply flex items-center justify-center border-b-2 border-neutral-300 bg-neutral-200 p-4 lg:mb-20;
+    @apply flex items-center justify-center border-b-2 border-neutral-300 bg-neutral-200 p-4 lg:mb-32;
 
     h1 {
       @apply text-nowrap;
@@ -186,12 +194,12 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
         }
 
         p {
-          @apply mt-4 lg:mt-8;
+          @apply mt-4 lg:mt-8 xl:ml-4;
         }
       }
 
       .image {
-        @apply flex shrink-0 justify-center pt-2 lg:p-5;
+        @apply flex shrink-0 justify-center pt-2 lg:p-5 lg:pr-0;
 
         .img {
           @apply h-[300px] object-contain sm:h-[450px] lg:-mb-[100px] lg:h-[600px];
@@ -211,11 +219,11 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
       @apply flex items-center justify-center gap-4 px-2 lg:px-4;
     }
 
-    h2 {
+    h3 {
       @apply m-0 text-xl;
     }
 
-    h3 {
+    h3.price {
       @apply m-0 shrink-0 text-lg text-neutral-600;
     }
 
