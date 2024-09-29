@@ -16,7 +16,7 @@ const menu = [
       ["Terapia Individual", "/psicologo-barcelona"],
       ["Terapia Online", "/psicologo-online"],
       [
-        "Terapia de Parejas",
+        "Terapia de Parejas / Familia",
         "/terapia-de-parejas-relaciones-familiares-barcelona",
       ],
       ["Psico-Nutrición", "/psiconutricion-barcelona"],
@@ -40,9 +40,9 @@ const menu = [
   //   ],
   // ],
   [
-    "Centro",
+    "Equipo",
     [
-      ["Equipo", "/equipo"],
+      ["Conoce al equipo", "/equipo"],
       ["Sobre mí", "/sobre-mi"],
     ],
   ],

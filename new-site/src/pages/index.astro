@@ -10,6 +10,11 @@ import ParejaIcon from "~/icons/pareja2.astro"
 import OnlineIcon from "~/icons/online.astro"
 import PsiconutricionIcon from "~/icons/psiconutricion.astro"
 import { reviews } from "~/content/reviews"
+import ContactForm from "~/components/contactForm.astro"
+import LocationIcon from "~/icons/location.astro"
+import TimeIcon from "~/icons/time.astro"
+import CalendarIcon from "~/icons/calendar.astro"
+import ChecklistIcon from "~/icons/checklist.astro"
 ---
 
 <Layout>
@@ -20,11 +25,21 @@ import { reviews } from "~/content/reviews"
         <h2 class="max-sm:text-2xl text-neutral-700">Psicología y Terapia</h2>
         <SocialNetworks />
         <p>
-          Somos un Centro Sanitario de Psicología O PSICOTERAPIA? y
-          Psiconutrición en Barcelona. Especialistas en Psicoterapia y
-          Psiconutrición en Adultos y Jóvenes. Trabajamos en Español, Catalán e
-          Inglés. Nuestro enfoque integrador es rápido, moderno y muy efectivo.
+          Somos un Centro de Psicología y Psicoterapia en Barcelona. Realizamos
+          <strong
+            ><a class="a-link" href="/psicologo-barcelona">Terapia Presencial</a
+            ></strong
+          > y <strong
+            ><a class="a-link" href="/psicologo-online">Online</a></strong
+          > en Castellano y Catalán. Nuestro enfoque integrador es <strong
+            >rápido, moderno y muy efectivo</strong
+          >. El equipo está formado por <strong
+            >Psicólogos Sanitarios Colegiados</strong
+          > y también contamos con un servicio de psico-nutrición y nutrición clínica.
         </p>
+        <!-- <a href="/sobre-mi" class="self-end a-link"
+          >Más sobre Núria León <GoIcon /></a
+        > -->
       </div>
       <div class="image">
         <Picture
@@ -38,29 +53,26 @@ import { reviews } from "~/content/reviews"
   </div>
 
   <div class="lg:max-w-screen-xl mx-auto max-xl:px-4">
-    <h2 class="text-left">¿Cómo trabajamos?</h2>
-    <p class="mt-6 mb-4 lg:max-w-screen-lg">
-      Utilizamos un modelo de Terapia integrador que es rápido, moderno y muy
-      efectivo. Sin recaídas, con ejercicios para aplicar en casa y sentir
-      mejoras desde el primer día.
+    <h2>¿Qué servicios ofrecemos?</h2>
+    <p class="lg:mb-4">
+      Ofrecemos una amplia variedad de servicios personalizados para cada caso.
+      Ayudamos a <strong>Adultos</strong>, <strong>Adolescentes</strong>, <strong
+        >Parejas</strong
+      > y
+      <strong>Familias</strong>.<span class="lg:inline hidden"><br /></span> Si tienes
+      alguna pregunta o quieres saber si la terapia que ofrecemos es adecuada para
+      tí, ¡no dudes en contactar con nosotros!
     </p>
-  </div>
-
-  <div class="lg:max-w-screen-xl mx-auto max-xl:px-4">
-    <h2 class="text-left">¿Qué servicios ofrecemos?</h2>
-    <p class="mt-6 mb-4 lg:max-w-screen-lg">
-      SI TIENES ALGUNA CONSULTA CONCRETA SOBRE ALGUNA PATOLOGIA O NECESIDAD,
-      CONTACTA SIN COMPROMISO. Ofrecemos una amplia variedad de servicios
-      personalizados para cada caso. Si quieres entender si nuestro centro es
-      para ti, no dudes en contactarnos!
-    </p>
-    <div class="flex flex-wrap gap-x-4 gap-y-10 py-10 lg:gap-4 justify-center">
+    <div
+      class="flex flex-wrap gap-x-4 gap-y-10 py-10 pb-4 lg:gap-4 justify-center"
+    >
       <a href="/psicologo-barcelona" class="terapia-card">
         <div class="icon"><IndividualIcon /></div>
         <div class="title">
           <h3>Terapia Individual</h3>
-          <h3 class="price">65€</h3>
+          <span class="price">65€</span>
         </div>
+        <span class="subtitle">Adultos y Adolescentes</span>
         <p>
           La terapia psicológica es para ti si sufres algun problema emocional o
           psicológico y quieres superarlo para sentirte mejor.
@@ -89,6 +101,7 @@ import { reviews } from "~/content/reviews"
           <h3>Terapia Online</h3>
           <h3 class="price">60€</h3>
         </div>
+        <span class="subtitle">Adultos y Adolescentes</span>
         <p>
           La terapia online es adecuada si quieres realizar terapia por
           videollamada. Es igual de eficaz que la presencial y se pueden
@@ -114,9 +127,10 @@ import { reviews } from "~/content/reviews"
       >
         <div class="icon"><ParejaIcon /></div>
         <div class="title">
-          <h3>Terapia de Parejas</h3>
+          <h3>Terapia de Parejas / Familia</h3>
           <h3 class="price">95€</h3>
         </div>
+        <span class="subtitle">Parejas y Familias</span>
         <p>
           La terapia de parejas es adecuada para quienes estén atravesando
           alguna situación complicada en pareja.
@@ -143,10 +157,10 @@ import { reviews } from "~/content/reviews"
           <h3>Psico-Nutrición</h3>
           <h3 class="price">60€</h3>
         </div>
+        <span class="subtitle">Adultos y Adolescentes</span>
         <p>
-          FALTA PONER SERVICIO DE NUTRICION SANITARIO/MEDICO, Realizamos terapia
-          psicológica acompañada de un asesoramiento nutricional personalizado
-          para mejorar la relación alimentaria.
+          Realizamos terapia psicológica acompañada de un asesoramiento
+          nutricional personalizado para mejorar la relación alimentaria.
         </p>
         <ul>
           <li>TCA</li>
@@ -157,41 +171,118 @@ import { reviews } from "~/content/reviews"
           <li>Atracones</li>
           <li>Anorexia</li>
           <li>Bulímia</li>
+          <li>Nutrición Clínica</li>
           <li>Fagofobia</li>
           <li>...</li>
         </ul>
         <button>Leer más <GoIcon /></button>
       </a>
-      <!-- <div class="terapia-card">
-        <div>
-          <h2>Coaching / Acompañamiento</h2>
-          <h3>65€</h3>
-        </div>
-        <p>Si vienes solo, este tipo de terapia es para ti</p>
-        <ul>
-          <li>Problemas personales</li>
-          <li>Lo que sea</li>
-        </ul>
-      </div> -->
     </div>
   </div>
 
   <div class="lg:max-w-screen-xl mx-auto max-xl:px-4">
-    <h2 class="text-left">Conoce al Equipo</h2>
-    <p class="mt-6 mb-4 lg:max-w-screen-lg">
-      Contamos con el equpo más TOP de profesionales sanitarios.
-    </p>
+    <h2>¿Cómo es la terapia?</h2>
+    <div class="flex lg:flex-row flex-col gap-y-8">
+      <div class="basis-1/2 flex flex-col gap-4 lg:px-4">
+        <div class="gap-4 flex items-center">
+          <IndividualIcon
+            class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
+          />
+          <p>
+            Nuestro modelo de terapia es <strong>rápido</strong>, moderno y <strong
+              >muy efectivo</strong
+            >. Sin recaídas. Integramos herramientas de la terapia cognitivo
+            conductual, terapia breve estratégica y terapia sistémica para
+            adaptarnos a cada caso.
+          </p>
+        </div>
+
+        <div class="gap-4 flex items-center">
+          <TimeIcon
+            class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
+          />
+          <p>Las sesiones duran 55 minutos.</p>
+        </div>
+
+        <div class="gap-4 flex items-center">
+          <CalendarIcon
+            class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
+          />
+          <p>Agendamos cada 1-2 semanas y progresivamente vamos espaciando.</p>
+        </div>
+
+        <div class="gap-4 flex items-center">
+          <ChecklistIcon
+            class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
+          />
+          <p>
+            Preescribimos ejercicios para aplicar en casa y <strong
+              >sentir mejoras desde el primer día</strong
+            >.
+          </p>
+        </div>
+
+        <div class="gap-4 flex items-center">
+          <LocationIcon
+            class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
+          />
+          <p>El despacho está en Verdaguer, 08037 Barcelona.</p>
+        </div>
+      </div>
+      <div
+        class="basis-1/2 border-brand-100 lg:border-l-2 flex flex-col gap-x-2 lg:px-4"
+      >
+        <div class="flex flex-col gap-x-2 gap-2 lg:gap-4">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <span class="step-title"
+              >Contacta con nosotros explicando tu situación</span
+            >
+            <a href="#TODO" class="step-action"
+              >Rellena el formulario <GoIcon /></a
+            >
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <span class="step-title"
+              >Nos pondremos en contacto contigo para agendar tu cita</span
+            >
+            <a href="#TODO" class="step-action">Conoce al Equipo <GoIcon /></a>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <span class="step-title">¡Empieza el cambio cuanto antes!</span>
+            <a href="#TODO" class="step-action"
+              >Rellena el formulario <GoIcon /></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="lg:max-w-screen-xl mx-auto max-xl:px-4 overflow-hidden">
-    <h3 class="text-left">Reseñas ({reviews.length + 30})</h3>
-    <Reviews />
+  <div
+    class="lg:max-w-screen-xl mx-auto max-xl:px-4 overflow-hidden flex flex-col md:flex-row gap-x-12"
+  >
+    <div class="basis-1/2">
+      <h2>Reseñas ({reviews.length + 30}+)</h2>
+      <Reviews />
+    </div>
+    <div class="basis-1/2">
+      <h2>Pide tu cita, contacta con nosotros</h2>
+      <p>
+        Para contactar con nosotros puedes enviarnos un email con tu consulta a
+        psicologa@nurialeon.com, contactar por Whatsapp en el 650011672 o
+        escribirnos un mensaje a través del formulario de contacto:
+      </p>
+      <ContactForm />
+    </div>
   </div>
 </Layout>
 
 <style>
   .hero {
-    @apply flex items-center justify-center border-b-2 border-neutral-300 bg-neutral-200 p-4 lg:mb-32;
+    @apply flex items-center justify-center border-b-2 border-neutral-300 bg-neutral-200 p-4;
 
     h1 {
       @apply text-nowrap;
@@ -215,7 +306,7 @@ import { reviews } from "~/content/reviews"
         @apply flex shrink-0 justify-center pt-2 lg:p-5 lg:pr-0;
 
         .img {
-          @apply h-[300px] object-contain sm:h-[450px] lg:-mb-[100px] lg:h-[600px];
+          @apply h-[300px] object-contain sm:h-[350px] lg:-mb-[100px] lg:h-[500px];
         }
       }
     }
@@ -236,24 +327,44 @@ import { reviews } from "~/content/reviews"
       @apply m-0 text-xl;
     }
 
-    h3.price {
-      @apply m-0 shrink-0 text-lg text-neutral-600;
+    .price {
+      @apply m-0 shrink-0 font-title text-lg font-bold text-neutral-600;
+    }
+
+    .subtitle {
+      @apply m-0 -mt-2 hidden text-sm italic text-neutral-700 lg:-mt-3;
     }
 
     p {
-      @apply grow px-2 text-sm lg:px-4 lg:text-base;
+      @apply grow p-2 text-sm lg:px-4 lg:py-0 lg:text-base;
     }
 
     ul {
-      @apply px-2 text-[0px] lg:px-4;
+      @apply px-2 text-[0px] text-neutral-500 lg:px-4;
     }
 
     ul > li {
-      @apply inline text-xs italic before:content-[',_'] first:before:content-[''] lg:text-sm;
+      @apply inline text-xs italic leading-snug before:content-[',_'] first:before:content-[''] lg:text-sm lg:leading-snug;
     }
 
     button {
       @apply w-full rounded-b-lg border-t-2 border-brand-300 bg-white px-4 py-2 text-center font-medium text-brand-500;
+    }
+  }
+
+  .step-card {
+    @apply grid gap-4 rounded-lg border-2 border-brand-300 bg-brand-50 p-4 [grid-template-areas:'step_title''step_action'];
+
+    .step-number {
+      @apply flex h-10 w-10 items-center justify-center self-center rounded-full bg-brand-600 text-xl font-bold text-white [grid-area:step];
+    }
+
+    .step-title {
+      @apply [grid-area:title];
+    }
+
+    .step-action {
+      @apply rounded-md bg-brand-500 text-center font-medium text-white [grid-area:action] active:bg-brand-600 hover:bg-brand-400 md:px-16 lg:self-center;
     }
   }
 </style>
