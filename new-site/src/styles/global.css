@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 @layer base {
   *,
@@ -24,7 +25,9 @@
   [data-disabled="true"] {
     @apply pointer-events-none opacity-50;
   }
+}
 
+@layer components {
   /* custom styles */
   html,
   body {
