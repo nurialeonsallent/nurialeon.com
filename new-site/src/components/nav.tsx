@@ -40,7 +40,7 @@ const menu = [
   //   ],
   // ],
   [
-    "Equipo",
+    "Centro",
     [
       ["Conoce al equipo", "/equipo"],
       ["Sobre mí", "/sobre-mi"],

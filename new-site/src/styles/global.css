@@ -69,7 +69,7 @@
     }
 
     ul > li {
-      @apply ml-4 list-disc;
+      @apply ml-5 list-disc;
     }
 
     p {
@@ -87,6 +87,42 @@
 
     a {
       @apply text-brand-500 underline underline-offset-4;
+    }
+  }
+
+  /* tooltip */
+  .tooltip {
+    position: relative;
+  }
+
+  .tooltipcontent {
+    display: none;
+  }
+
+  .tooltip:hover > .tooltipcontent {
+    position: absolute;
+    padding: 4px 16px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: max-content;
+    color: white;
+    background-color: #565656;
+    border-radius: 8px;
+    margin-top: 16px;
+
+    @apply text-sm;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -8px;
+      border-width: 8px;
+      border-style: solid;
+      border-color: transparent transparent #565656 transparent;
     }
   }
 }

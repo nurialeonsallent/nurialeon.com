@@ -5,9 +5,9 @@ import { Image } from "astro:assets"
 import GoIcon from "~/icons/go.astro"
 ---
 
-<div class="">
+<div class="relative">
   <div
-    class="scrollbar flex flex-col gap-2 overflow-y-scroll max-h-[min(50vh,350px)]"
+    class="scroll flex flex-col gap-2 overflow-y-scroll max-h-[min(50vh,350px)]"
   >
     {
       reviews.map((r) => (
@@ -25,8 +25,11 @@ import GoIcon from "~/icons/go.astro"
       ))
     }
   </div>
+  <div class="shadow"></div>
   <a
     href="https://g.page/r/Cbk285IdPtR5EAg"
+    target="_blank"
+    rel="noopener"
     class="flex flex-row items-center justify-center bg-white px-4 py-2 mt-2 border-2 border-[#4285F4]/50 rounded-md"
   >
     <div
@@ -51,6 +54,47 @@ import GoIcon from "~/icons/go.astro"
   </a>
 </div>
 <style>
-  .scrollbar {
+  .shadow {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), transparent);
+    width: 100%;
+    height: 20px;
+    margin-top: -20px;
+    position: absolute;
+  }
+
+  .scroll {
+    --scrollbar-color-thumb: rgb(175 100 114);
+    --scrollbar-color-track: force-error;
+    --scrollbar-width: auto;
+    --scrollbar-width-legacy: 10px;
+    --scrollbar-height-legacy: 50px;
+  }
+
+  @supports (scrollbar-width: auto) {
+    .scroll {
+      scrollbar-color: var(--scrollbar-color-thumb) var(--scrollbar-color-track);
+      scrollbar-width: var(--scrollbar-width);
+    }
+  }
+
+  @supports selector(::-webkit-scrollbar) {
+    .scroll:hover {
+      --fix: ; /* This custom property invalidates styles on hover, thereby enforcing a style recomputation. This is needed to work around a bug in Safari. */
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+      background: var(--scrollbar-color-thumb);
+      min-height: var(--scrollbar-height-legacy);
+      border-radius: var(--scrollbar-width-legacy);
+    }
+
+    .scroll::-webkit-scrollbar-track {
+      background: var(--scrollbar-color-track);
+    }
+
+    .scroll::-webkit-scrollbar {
+      max-width: var(--scrollbar-width-legacy);
+      max-height: var(--scrollbar-width-legacy);
+    }
   }
 </style>

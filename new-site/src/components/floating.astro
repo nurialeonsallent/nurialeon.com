@@ -6,8 +6,32 @@ import Whatsapp from "~/icons/whatsapp.astro"
   href="https://wa.me/34650011672"
   target="_blank"
   rel="noopener"
-  class="flex items-center gap-1 lg:gap-2 fixed bottom-4 right-4 rounded-full p-2 lg:px-4 lg:bottom-8 lg:right-8 border border-neutral-300 bg-[#25d366]"
+  class="pulse flex items-center gap-1 lg:gap-2 fixed bottom-4 right-4 rounded-full p-2 lg:px-4 lg:bottom-8 lg:right-8 border border-[#1fad53] bg-[#25d366]"
 >
-  <span class="hidden lg:block text-black">¿Hablamos?</span>
+  <span class="hidden lg:block text-white font-bold">¿Hablamos?</span>
   <Whatsapp class="text-3xl lg:text-4xl text-white" />
 </a>
+
+<style>
+  .pulse {
+    transform: scale(1);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 #25d366;
+    }
+
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+</style>
