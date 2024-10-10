@@ -35,30 +35,6 @@ Más sobre mí
 </div>
 
 <div class="member">
-<img class="member__img" alt="Montse" src="{{site.baseurl}}/images/equipo/montse.webp" width="350" />
-<h2 class="member__name" id="montse">Montse</h2>
-<div class="member__content" markdown="1">
-
-**Terapeuta Gestalt y Breve Estratégica.** Especialista en desarrollo personal y experta en terapia de las emociones. Colabora como docente en Institut Superior de Psicología de Barcelona (ISEP) y es experta en acompañamiento emocional.
-
-**Terapeuta de adultos y de parejas**.
-
-Ha realizado numerosos talleres de autoconocimiento y gestión de emociones y es una gran comunicadora. Sigue en constante formación y supervisión clínica.
-
-Montse puede ayudarte en: gestión emocional, baja autoestima, acompañamiento durante la crianza y la maternidad o paternidad, problemas laborales (desmotivación, clima laboral, liderazgo), autoconocimiento, relaciones conflictivas amorosas, crecimiento en pareja y problemas familiares.
-
-- **Curso de Coaching Sistémico** Institut Gestalt de Barcelona (2024)
-- **Máster en Terapia Breve y Comunicación Estratégica** Modelo de intervención de Giorgio Nardone en Institut Gestalt (2023)
-- **Formación en Coaching Sistémico** en Institut Gestalt (2024)
-- **Formada en Terapia Gestalt** Formación oficial en Institut Gestalt (2016-2020)
-- **Terapia Corporal Expresiva** en Escuela Enrique Aguilar (2021-2023)
-- **Programación Neurolingüística** en Institut Integratiu (2021-2022)
-- **Formación en Cuidado y Crianza Infantil** en Fundación CAI por Cristobal Gutierrez (2013-2016)
-
-</div>
-</div>
-
-<div class="member">
 <img class="member__img" alt="Elisenda" src="{{site.baseurl}}/images/equipo/elisenda.webp" width="350" />
 <h2 class="member__name" id="elisenda">Elisenda</h2>
 <div class="member__content" markdown="1">
