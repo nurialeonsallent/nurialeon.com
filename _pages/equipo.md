@@ -22,15 +22,38 @@ El equipo es multidisciplinar, contamos con especialistas en psicología sanitar
 Puedo ayudarte en todo tipo de problema psicológico o emocional: autoestima, ansiedad, depresión, duelos, rupturas de pareja, conflictos en pareja, toma de decisiones, problemas familiares, miedos, estrés post traumático, fobias, duelos, conducta alimentaria, autolesiones...
 
 - **Máster en Terapia Breve y Comunicación Estratégica** Modelo de intervención de Giorgio Nardone en Institut Gestalt
-- **Máster de Psicología General Sanitaria** en Centro Universitario Europeo
+- **Máster de Psicología General Sanitaria** en UCAV
 - **Postgrado en Psicopatología clínica** en la Universitat de Barcelona
-- **Máster Psicología Infantil y Juvenil: Técnicas y Estrategias de Intervención** en la UOC (cursando)
+- **Máster Psicología Infantil y Juvenil: Técnicas y Estrategias de Intervención** en la UOC
 - **Máster en Estrategia y Gestión de Marca** por la Barcelona School of Management Pompeu Fabra
 - **Grado de Psicología** en la Universitat de Barcelona
 
 <a href="{{site.baseurl}}/sobre-mi" class="member__navigation navigation">
 Más sobre mí
 </a>
+</div>
+</div>
+
+<div class="member">
+<img class="member__img" alt="Cristina" src="{{site.baseurl}}/images/equipo/cristina.webp" width="350" />
+<h2 class="member__name" id="cristina">Cristina</h2>
+<div class="member__content" markdown="1">
+
+**Psicóloga Sanitaria colegiada 15671.** Especialista en terapia de adultos, familiar e infantojuvenil. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a la realidad de cada persona.
+
+**Psicóloga Sanitaria de adultos, familias y adolescentes**.
+
+Ha trabajado en varios centros como psicóloga sanitaria con adolescentes y adultos de diferentes franjas de edad. Su enfoque terapéutico es sistémico y cognitivo conductual. Sigue en constante formación y supervisión clínica.
+
+Cristina puede ayudarte en todo tipo de problemas psicológicos: ansiedad, depresión, crianza, maternidad, apego, psicología perinatal, abortos, duelos, fobias, miedos, TDAH, autismo, problemas de comportamiento adolescente...
+
+- **Monográfico de terapia de pareja** en Centro Dendros
+- **Postgrado en Terapia Integradora Individual** en Centro Dendros
+- **Postgrado en Trastornos emocionales y psicopatología legal infantojuvenil** en Universidad Autónoma de Barcelona
+- **Postgrado Enfermedades Crónicas y Trastornos del comportamiento InfantoJuvenil** en Universidad Autónoma de Barcelona
+- **Formación en la Unidad de Terapia de Conducta** en la Universidad Autónoma de Barcelona
+- **Grado en Psicología** en la Universidad Barcelona
+
 </div>
 </div>
 
