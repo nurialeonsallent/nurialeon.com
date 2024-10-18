@@ -7,7 +7,7 @@
 
   img {
     grid-area: img;
-    @apply h-[275px] w-full justify-self-center object-cover sm:h-[350px] sm:w-auto md:h-[450px] md:w-auto md:max-w-[350px];
+    @apply m-0 h-[275px] w-full justify-self-center object-cover sm:h-[350px] sm:w-auto md:h-[450px] md:w-auto md:max-w-[350px];
   }
 
   h2 {
