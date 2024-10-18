@@ -57,7 +57,7 @@ Paralelamente, siempre estoy en constante supervisión clínica y he estado dura
 _Júlia Pascual y Núria León en el Colegio de Psicólogos de Catalunya_
 
 
-Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**.
+Durante todo el 2023, realicé un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros también en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**.
 ![Terapia psicológica]({{ site.baseurl }}/images/copc-terapia-breve.webp)
 _Adela Resurrección, Júlia Pascual, Santiago del Olmo y Núria León en una conferencia sobre terapia breve estratégica en el Colegio de Psicólogos de Catalunya_
 
