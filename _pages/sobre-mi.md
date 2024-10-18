@@ -50,12 +50,12 @@ También he trabajado en un _centro especializado en psicomotricidad y lateralid
 ![Terapia psicológica]({{ site.baseurl }}/images/nurialeon_lateralidad.webp)
 _Psicóloga Infantojuvenil experimentada en lateralidad cruzada_
 
-<!--
-Paralelamente, siempre estoy en constante supervisión clínica y durante el 2022 estuve 9 meses colaborando en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi colaboración pude asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica.
+
+Paralelamente, siempre estoy en constante supervisión clínica y he estado durante meses colaborando en el **Centro de Júlia Pascual**, un centro de referencia de Barcelona de la Terapia Breve Estratégica. Durante mi colaboración pude asistir a las sesiones de psicoterapia supervisada por la misma **Júlia Pascual**, embajadora de la Terapia Breve Estratégica en España, quien me ha formado y supervisado sobre esta metología terapéutica.
 ![Terapia psicológica]({{ site.baseurl }}/images/juliapascualnurialeon.webp)
 
 _Júlia Pascual y Núria León en el Colegio de Psicólogos de Catalunya_
--->
+
 
 Durante este 2023, he realizado un **Máster de Comunicación y Terapia Breve Estratégica** en el Institut Gestalt con los profesores **Adela Resurrección** y **Santiago del Olmo**, pioneros en España de la Terapia Breve Estratégica y formados en Arezzo por **Giorgio Nardone**.
 ![Terapia psicológica]({{ site.baseurl }}/images/copc-terapia-breve.webp)
