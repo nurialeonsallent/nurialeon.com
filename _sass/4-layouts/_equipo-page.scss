@@ -17,11 +17,7 @@
 
       height: 450px;
       object-fit: cover;
-      align-self: center;
-
-      @media only screen and (max-width: $desktop) {
-        align-self: start;
-      }
+      align-self: start;
 
       @media only screen and (max-width: $tablet) {
         width: 100%;
