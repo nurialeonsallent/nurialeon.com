@@ -9,6 +9,7 @@
 
     @media only screen and (min-width: $tablet) {
       margin-top: 3em;
+      gap: 32px;
     }
 
     .member__img {
@@ -16,6 +17,11 @@
 
       height: 450px;
       object-fit: cover;
+      align-self: center;
+
+      @media only screen and (max-width: $desktop) {
+        align-self: start;
+      }
 
       @media only screen and (max-width: $tablet) {
         width: 100%;

@@ -24,8 +24,8 @@ Puedo ayudarte en todo tipo de problema psicológico o emocional: autoestima, an
 - **Máster en Terapia Breve y Comunicación Estratégica** Modelo de intervención de Giorgio Nardone en Institut Gestalt
 - **Máster de Psicología General Sanitaria** en UCAV
 - **Postgrado en Psicopatología clínica** en la Universitat de Barcelona
-- **Máster Psicología Infantil y Juvenil: Técnicas y Estrategias de Intervención** en la UOC
-- **Máster en Estrategia y Gestión de Marca** por la Barcelona School of Management Pompeu Fabra
+- **Máster Psicología Infantil y Juvenil: Técnicas y Estrategias de Intervención** en UOC
+- **Máster en Estrategia y Gestión de Marca** en la Barcelona School of Management Pompeu Fabra
 - **Grado de Psicología** en la Universitat de Barcelona
 
 <a href="{{site.baseurl}}/sobre-mi" class="member__navigation navigation">
@@ -35,24 +35,25 @@ Más sobre mí
 </div>
 
 <div class="member">
-<img class="member__img" alt="Cristina" src="{{site.baseurl}}/images/equipo/cristina.webp" width="350" />
-<h2 class="member__name" id="cristina">Cristina</h2>
+<img class="member__img" alt="Helena" src="{{site.baseurl}}/images/equipo/helena.webp" width="350" />
+<h2 class="member__name" id="helena">Helena</h2>
 <div class="member__content" markdown="1">
 
-**Psicóloga Sanitaria colegiada 15671.** Especialista en terapia de adultos, familiar e infantojuvenil. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a la realidad de cada persona.
+**Psicóloga sanitaria colegiada nº 29716**. Especialista en terapia familiar y de pareja, ansiedad, depresión, y en reprocesamiento del trauma en adultos.
 
-**Psicóloga Sanitaria de adultos, familias y adolescentes**.
+**Psicóloga sanitaria especialista en adultos, familias y parejas**.
 
-Ha trabajado en varios centros como psicóloga sanitaria con adolescentes y adultos de diferentes franjas de edad. Su enfoque terapéutico es sistémico y cognitivo conductual. Sigue en constante formación y supervisión clínica.
+Helena acompaña a las personas con un enfoque sistémico: la comprensión del rol que realizan dentro de sus sistemas (familia, trabajo, entorno). También está enfocada en la psicoterapia y reprocesamiento del trauma en adultos, y divorcios conflictivos.
 
-Cristina puede ayudarte en todo tipo de problemas psicológicos: ansiedad, depresión, crianza, maternidad, apego, psicología perinatal, abortos, duelos, fobias, miedos, TDAH, autismo, problemas de comportamiento adolescente...
+Helena puede ayudarte en: problemas de pareja, problemas familares, infidelidad, conflictos, rups, dependencia emocional, trauma, problemas de apego, crianza, maternidad, autoestima, ansiedad, depresión, estrés, bullying, burnout...
 
-- **Monográfico de terapia de pareja** en Centro Dendros
-- **Postgrado en Terapia Integradora Individual** en Centro Dendros
-- **Postgrado en Trastornos emocionales y psicopatología legal infantojuvenil** en Universidad Autónoma de Barcelona
-- **Postgrado Enfermedades Crónicas y Trastornos del comportamiento InfantoJuvenil** en Universidad Autónoma de Barcelona
-- **Formación en la Unidad de Terapia de Conducta** en la Universidad Autónoma de Barcelona
-- **Grado en Psicología** en la Universidad Barcelona
+- **Máster en Psicología General Sanitaria** en UNIR
+- **Formación en intervenciones sistémicas y terapia familiar** en Institut Sistèmic de Barcelona
+- **Psicopatología clínica e intervención comunitaria. Asociación Española de Neuropsiquiatría** en AEN
+- **Mediación terapéutica en procesos de separación y/o divorcios conflictivos** en Institut Sistèmic de Barcelona
+- **Psicoterapia y reprocesamiento del trauma** en Institut Alecés
+- **Grado en Sociología** en la Universitat de Barcelona
+- **Grado en Psicología** en UNED
 
 </div>
 </div>
@@ -75,6 +76,29 @@ Elisenda puede ayudarte en todo tipo de problema psicológico clínico: ansiedad
 - **Postgrado en Cognitivo Social** en la Universidad de Barcelona (2022)
 - **Máster en Psicología General Sanitaria** en la Universidad Autónoma de Barcelona (2020-2022)
 - **Grado en Psicología** en la Universidad Abad Oliva (2015-2019)
+
+</div>
+</div>
+
+<div class="member">
+<img class="member__img" alt="Cristina" src="{{site.baseurl}}/images/equipo/cristina.webp" width="350" />
+<h2 class="member__name" id="cristina">Cristina</h2>
+<div class="member__content" markdown="1">
+
+**Psicóloga Sanitaria colegiada 15671.** Especialista en terapia de adultos, familiar e infantojuvenil. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a la realidad de cada persona.
+
+**Psicóloga Sanitaria de adultos, familias y adolescentes**.
+
+Ha trabajado en varios centros como psicóloga sanitaria con adolescentes y adultos de diferentes franjas de edad. Su enfoque terapéutico es sistémico y cognitivo conductual. Sigue en constante formación y supervisión clínica.
+
+Cristina puede ayudarte en todo tipo de problemas psicológicos: ansiedad, depresión, crianza, maternidad, apego, psicología perinatal, abortos, duelos, fobias, miedos, TDAH, autismo, problemas de comportamiento adolescente...
+
+- **Monográfico de terapia de pareja** en Centro Dendros
+- **Postgrado en Terapia Integradora Individual** en Centro Dendros
+- **Postgrado en Trastornos emocionales y psicopatología legal infantojuvenil** en Universidad Autónoma de Barcelona
+- **Postgrado Enfermedades Crónicas y Trastornos del comportamiento InfantoJuvenil** en Universidad Autónoma de Barcelona
+- **Formación en la Unidad de Terapia de Conducta** en la Universidad Autónoma de Barcelona
+- **Grado en Psicología** en la Universidad Barcelona
 
 </div>
 </div>
