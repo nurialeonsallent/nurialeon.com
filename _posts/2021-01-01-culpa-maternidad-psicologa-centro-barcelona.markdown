@@ -40,5 +40,7 @@ Por ello, para poder gestionar mejor estos pensamientos y poder vivir una matern
   
 ## Pide ayuda, no estás sola
 
-Es muy importante poder llevar la maternidad de la mejor manera posible para que sea una etapa bonita y positiva tanto para ti como para toda tu familia. Por ese motivo no dudes en pedir ayuda si quieres sentirte mejor en este proceso. Estos consejos compartidos no sustituyen un proceso terapéutico, ya que solamente son algunas ideas que pueden ayudarte. En el Centro Núria León **podemos ayudarte a vivir tu maternidad** tanto si es tu primera ver como madre como cualquier otro aspecto importante de la **crianza y de la familia**. Realizamos terapia psicológica individual, terapia de parejas y terapia familiar.
+Es muy importante poder llevar la maternidad de la mejor manera posible para que sea una etapa bonita y positiva tanto para ti como para toda tu familia. Por ese motivo no dudes en pedir ayuda si quieres sentirte mejor en este proceso. Estos consejos compartidos no sustituyen un proceso terapéutico, ya que son solo algunas ideas que pueden ayudarte. 
+
+En el Centro Núria León **podemos ayudarte a vivir tu maternidad** tanto si es tu primera ver como madre como cualquier otro aspecto importante de la crianza y de la familia. Realizamos **terapia psicológica individual, terapia de parejas y terapia familiar.**
 
