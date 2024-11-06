@@ -63,7 +63,7 @@ Helena puede ayudarte en: problemas de pareja, problemas familares, infidelidad,
 <h2 class="member__name" id="ariadna">Ariadna</h2>
 <div class="member__content" markdown="1">
 
-**Psicóloga Sanitaria colegiada 32228.** Especialista en terapia de pareja, sexualidad, ansiedad, depresión e imagen corporal. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso.
+**Psicóloga Sanitaria Colegiada.** Especialista en terapia de pareja, sexualidad, ansiedad, depresión e imagen corporal. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso.
 
 **Psicóloga Sanitaria de adultos y parejas.**
 
@@ -85,7 +85,7 @@ Ariadna puede ayudarte en: sexualidad, trauma, acompañamiento emocional en repr
 <h2 class="member__name" id="cristina">Cristina</h2>
 <div class="member__content" markdown="1">
 
-**Psicóloga Sanitaria colegiada 15671.** Especialista en terapia de adultos, familiar e infantojuvenil. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a la realidad de cada persona.
+**Psicóloga Sanitaria Colegiada.** Especialista en terapia de adultos, familiar e infantojuvenil. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a la realidad de cada persona.
 
 **Psicóloga Sanitaria de adultos, familias y adolescentes**.
 
@@ -108,7 +108,7 @@ Cristina puede ayudarte en: ansiedad, depresión, crianza, maternidad, apego, ps
 <h2 class="member__name" id="iris">Iris</h2>
 <div class="member__content" markdown="1">
 
-**Nutricionista colegiada CAT002303.** Especialista en psiconutrición y nutrición clínica. Realiza un servicio de nutrición complementario a la terapia psicológica. Sigue en constante formación y supervisión clínica.
+**Nutricionista Colegiada.** Especialista en psiconutrición y nutrición clínica. Realiza un servicio de nutrición complementario a la terapia psicológica. Sigue en constante formación y supervisión clínica.
 
 **Nutricionista de Trastornos de Conducta Alimentaria (TCA)**.
 
@@ -130,7 +130,7 @@ Iris puede ayudarte si tienes una mala relación alimentaria y también si te id
 <h2 class="member__name" id="elisenda">Elisenda</h2>
 <div class="member__content" markdown="1">
 
-**Psicóloga Sanitaria colegiada 29785.** Especialista en ansiedad y depresión. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso.
+**Psicóloga Sanitaria Colegiada.** Especialista en ansiedad y depresión. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso.
 
 **Psicóloga Sanitaria de adultos y familias**.
 
