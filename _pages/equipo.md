@@ -39,7 +39,7 @@ Más sobre mí
 <h2 class="member__name" id="helena">Helena</h2>
 <div class="member__content" markdown="1">
 
-**Psicóloga sanitaria colegiada nº 29716**. Especialista en terapia familiar y de pareja, ansiedad, depresión, y en reprocesamiento del trauma en adultos.
+**Psicóloga Sanitaria Colegiada**. Especialista en terapia familiar y de pareja, ansiedad, depresión, y en reprocesamiento del trauma en adultos.
 
 **Psicóloga sanitaria especialista en adultos, familias y parejas**.
 
