@@ -118,7 +118,7 @@ function MenuSection({
       ></div>
       <NavLink
         active={isCurrentInside}
-        href={isCollapsible ? "#" : content}
+        href={isCollapsible ? undefined : content}
         data-collapsible={isCollapsible}
         onClick={() => setOpen((o) => (o === "" ? !isCurrentInside : !o))}
         className={`${isCurrentInside && "text-brand-500"} ${isCollapsible && "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500"}`}
@@ -160,7 +160,7 @@ function NavLink({
   ...props
 }: PropsWithChildren<{
   className?: string
-  href: string
+  href?: string
   active: boolean
   onClick?: () => void
 }>) {
@@ -168,7 +168,7 @@ function NavLink({
     <a
       {...props}
       href={href}
-      className={`${className ?? ""} group/a inline-block w-full px-8 py-3 text-left font-semibold uppercase aria-[current=page]:text-brand-500 hover:text-brand-500 max-lg:pr-1 lg:px-4 lg:tracking-wider`}
+      className={`${className ?? ""} group/a inline-block w-full cursor-pointer px-8 py-3 text-left font-semibold uppercase aria-[current=page]:text-brand-500 hover:text-brand-500 max-lg:pr-1 lg:px-4 lg:tracking-wider`}
       aria-current={active ? "page" : "false"}
     >
       <span className="relative">
