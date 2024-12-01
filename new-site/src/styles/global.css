@@ -125,4 +125,20 @@
       border-color: transparent transparent #565656 transparent;
     }
   }
+
+  .faq > ul {
+    @apply mt-8 flex flex-col overflow-hidden rounded-md border-2 border-brand-200 bg-white;
+  }
+
+  .faq > ul > li {
+    list-style-type: none;
+    @apply m-0 -mt-[2px] border-t-2 border-brand-200 px-4;
+  }
+
+  .faq > ul > li > *:first-child {
+    @apply mt-6 font-title text-xl font-bold leading-tight text-brand-500 sm:text-2xl;
+  }
+
+  .faq > ul > li > *:last-child {
+  }
 }
