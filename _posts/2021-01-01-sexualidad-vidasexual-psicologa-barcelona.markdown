@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "¿Cómo impacta la salud mental en la sexualidad"
+title: "¿Cómo impacta la salud mental en la sexualidad?"
 subtitle: 
 date: 2024-12-11 00:00:00 +0
 image: parejasexual.jpg
