@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-excerpt: ¡Hola! Soy Núria León, Psicóloga en Barcelona y colegiada 26792. Hago sesiones Presenciales 65€ y Online 55€ en Español y Catalán.
+excerpt: ¡Hola! Soy Núria León, Psicóloga en Barcelona y colegiada 26792. Hago sesiones Presenciales 65€ y Online 60€ en Español y Catalán.
 ---
 
 {% include hero.html %}

@@ -6,34 +6,43 @@ import { SITE_TITLE } from "../consts"
 import { useState, type PropsWithChildren, type ReactNode } from "react"
 import LogoIcon from "~/icons/logo"
 
-type MenuSectionType = [ReactNode, string | [ReactNode, string][]][]
+type MenuSectionType = [ReactNode, string | MenuSectionType][]
 
 const menu = [
   [<>Inicio</>, "/"],
   [
     "Terapia",
     [
-      ["Terapia Individual", "/a"],
-      ["Terapia de Parejas", "/b"],
-      ["Terapia Online", "/c"],
-      ["Psicología Sanitaria / Clinica", "/b"],
-      ["Psico-Nutrición", "/d"],
-      ["Coaching / Acompañamiento", "/d"],
+      ["Terapia Individual", "/psicologo-barcelona"],
+      ["Terapia Online", "/psicologo-online"],
+      [
+        "Terapia de Parejas y Familias",
+        "/terapia-de-parejas-familias-barcelona",
+      ],
+      ["Psico-Nutrición", "/psiconutricion-barcelona"],
+      // [
+      //   "Psicología Sanitaria / Clinica",
+      //   "/psicologia-clinica-psicologia-sanitaria",
+      // ],
+      // [
+      //   "Coaching / Acompañamiento",
+      //   "/coaching-acompañamiento-emocional-barcelona",
+      // ],
     ],
   ],
-  [
-    "Tratamientos",
-    [
-      ["Tratamientos A", "/ta"],
-      ["Tratamientos B", "/tb"],
-      ["Tratamientos C", "/tc"],
-      ["Tratamientos D", "/td"],
-    ],
-  ],
+  // [
+  //   "Tratamientos",
+  //   [
+  //     ["Tratamientos A", "/ta"],
+  //     ["Tratamientos B", "/tb"],
+  //     ["Tratamientos C", "/tc"],
+  //     ["Tratamientos D", "/td"],
+  //   ],
+  // ],
   [
     "Centro",
     [
-      ["Equipo", "/equipo"],
+      ["Conoce al equipo", "/equipo"],
       ["Sobre mí", "/sobre-mi"],
     ],
   ],
@@ -109,7 +118,7 @@ function MenuSection({
       ></div>
       <NavLink
         active={isCurrentInside}
-        href={isCollapsible ? "#" : content}
+        href={isCollapsible ? undefined : content}
         data-collapsible={isCollapsible}
         onClick={() => setOpen((o) => (o === "" ? !isCurrentInside : !o))}
         className={`${isCurrentInside && "text-brand-500"} ${isCollapsible && "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500"}`}
@@ -134,10 +143,13 @@ function MenuSection({
 
 function matchUrl(href: string | MenuSectionType, pathname: string): boolean {
   if (typeof href === "string") {
-    return href === pathname || href === "/" + pathname.match(/[^\/]+/g)?.[0]
+    return (
+      decodeURIComponent(href).toLowerCase() ===
+      decodeURIComponent(pathname).toLowerCase()
+    )
   }
 
-  return href.some((s) => matchUrl(s[1], pathname))
+  return href.some(([, innerHref]) => matchUrl(innerHref, pathname))
 }
 
 function NavLink({
@@ -148,7 +160,7 @@ function NavLink({
   ...props
 }: PropsWithChildren<{
   className?: string
-  href: string
+  href?: string
   active: boolean
   onClick?: () => void
 }>) {
@@ -156,7 +168,7 @@ function NavLink({
     <a
       {...props}
       href={href}
-      className={`${className ?? ""} group/a inline-block w-full px-8 py-3 text-left font-semibold uppercase aria-[current=page]:text-brand-500 hover:text-brand-500 max-lg:pr-1 lg:px-4 lg:tracking-wider`}
+      className={`${className ?? ""} group/a inline-block w-full cursor-pointer px-8 py-3 text-left font-semibold uppercase aria-[current=page]:text-brand-500 hover:text-brand-500 max-lg:pr-1 lg:px-4 lg:tracking-wider`}
       aria-current={active ? "page" : "false"}
     >
       <span className="relative">

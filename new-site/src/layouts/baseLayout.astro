@@ -10,12 +10,15 @@ type Props = {
   description?: string
 }
 
-const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props
+const { title, description = SITE_DESCRIPTION } = Astro.props
 ---
 
 <html lang="es">
   <head>
-    <Head title={title} description={description} />
+    <Head
+      title={title ? `${title} - ${SITE_TITLE}` : SITE_TITLE}
+      description={description}
+    />
   </head>
   <body>
     <Header />

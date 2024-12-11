@@ -6,7 +6,7 @@ date: 2024-01-23 00:00:00 +0
 image: imagen_pareja.webp
 # tags: ansiedad estres
 published: true
-author: montse
+author: nuria
 ---
 
 Dice la terapia breve estratégica que todos los problemas son de relación: la relación de uno

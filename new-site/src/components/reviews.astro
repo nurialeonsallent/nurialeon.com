@@ -1,33 +1,100 @@
 ---
 import { reviews } from "~/content/reviews"
 import Star from "~/icons/star.astro"
+import { Image } from "astro:assets"
+import GoIcon from "~/icons/go.astro"
 ---
 
-<div class="flex justify-center">
-  <div class="flex max-w-screen-xl">
-    <button>&lt;</button>
-    <div
-      class="p-2 grow flex flex-col flex-wrap gap-2 overflow-x-auto snap-x snap-mandatory items-start max-h-[60vh] lg:max-h-[450px] overflow-y-hidden"
-    >
-      {
-        reviews.map((r) => (
-          <div class="shrink-0 max-w-[80vw] flex flex-col border rounded-lg bg-neutral-100 snap-center p-2 lg:max-w-[300px]">
-            <span>
-              {r.name} - {r.date}{" "}
-              {new Array(r.score).fill(0).map(() => (
-                <Star />
-              ))}
-            </span>
-            <span class="mt-2">{r.text}</span>
-          </div>
-        ))
-      }
-    </div>
-    <button>&gt;</button>
+<div class="relative">
+  <div
+    class="scroll flex flex-col gap-2 overflow-y-scroll max-h-[min(50vh,350px)] bg-white"
+  >
+    {
+      reviews.map((r) => (
+        <div class="text-neutral-800 border-l-4 p-2 flex flex-col bg-[#eff2f6] border-[#4285F4]/50 mr-1">
+          <span>
+            <i>
+              <b>{r.name}</b> {r.date}
+            </i>{" "}
+            {new Array(r.score).fill(0).map(() => (
+              <Star />
+            ))}
+          </span>
+          <span class="text-sm italic text-neutral-800">{r.text}</span>
+        </div>
+      ))
+    }
   </div>
+  <div class="shadow"></div>
+  <a
+    href="https://g.page/r/Cbk285IdPtR5EAg"
+    target="_blank"
+    rel="noopener"
+    class="flex flex-row items-center justify-center bg-white px-4 py-2 mt-2 border-2 border-[#4285F4]/50 rounded-md"
+  >
+    <div
+      class="grow flex flex-row items-center justify-center gap-x-4 flex-wrap"
+    >
+      <Image
+        src="https://www.nurialeon.com/images/google-reviews.webp"
+        alt="Google Reviews"
+        height={50}
+        width={100}
+      />
+      <div class="flex flex-row items-center justify-center">
+        <span class="text-xl font-medium">4,9</span>
+        <Star />
+        <span class="text-sm text-neutral-400">(+100)</span>
+      </div>
+    </div>
+    <button
+      class="bg-[#3480dc] text-white px-4 py-2 font-medium rounded-full shrink-0 hover:bg-[#3480dc]/90"
+      >Ver más Reseñas <GoIcon /></button
+    >
+  </a>
 </div>
 <style>
-  button {
-    @apply hidden shrink-0 bg-white p-4 text-4xl shadow-lg lg:block;
+  .shadow {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), transparent);
+    width: 100%;
+    height: 20px;
+    margin-top: -20px;
+    position: absolute;
+  }
+
+  .scroll {
+    --scrollbar-color-thumb: rgb(175 100 114);
+    --scrollbar-color-track: force-error;
+    --scrollbar-width: auto;
+    --scrollbar-width-legacy: 10px;
+    --scrollbar-height-legacy: 50px;
+  }
+
+  @supports (scrollbar-width: auto) {
+    .scroll {
+      scrollbar-color: var(--scrollbar-color-thumb) var(--scrollbar-color-track);
+      scrollbar-width: var(--scrollbar-width);
+    }
+  }
+
+  @supports selector(::-webkit-scrollbar) {
+    .scroll:hover {
+      --fix: ; /* This custom property invalidates styles on hover, thereby enforcing a style recomputation. This is needed to work around a bug in Safari. */
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+      background: var(--scrollbar-color-thumb);
+      min-height: var(--scrollbar-height-legacy);
+      border-radius: var(--scrollbar-width-legacy);
+    }
+
+    .scroll::-webkit-scrollbar-track {
+      background: var(--scrollbar-color-track);
+    }
+
+    .scroll::-webkit-scrollbar {
+      max-width: var(--scrollbar-width-legacy);
+      max-height: var(--scrollbar-width-legacy);
+    }
   }
 </style>

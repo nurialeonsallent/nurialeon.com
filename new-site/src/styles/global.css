@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 @layer base {
   *,
@@ -18,47 +19,62 @@
     font-display: fallback;
     src: local("Roboto"), url("/fonts/roboto.ttf");
   }
+
+  /* disabled default state */
+  *:disabled,
+  [data-disabled="true"] {
+    @apply pointer-events-none opacity-50;
+  }
 }
 
 @layer components {
+  /* custom styles */
   html,
   body {
-    line-height: 1.5;
-    @apply bg-neutral-50 font-body;
+    @apply bg-neutral-50 font-body leading-normal;
   }
 
   h1,
   .h1 {
-    @apply mb-4 mt-12 font-title text-4xl font-bold text-brand-500 sm:mb-8 sm:mt-16 sm:text-6xl;
+    @apply mb-4 mt-12 font-title text-4xl font-bold leading-tight text-brand-500 sm:mb-8 sm:mt-16 sm:text-6xl;
   }
 
   h2,
   .h2 {
-    @apply mb-4 mt-12 font-title text-3xl font-bold text-brand-500 sm:mb-6 sm:mt-16 sm:text-4xl;
+    @apply mb-4 mt-12 font-title text-3xl font-bold leading-tight text-brand-500 sm:mb-6 sm:mt-16 sm:text-4xl;
   }
 
   h3,
   .h3 {
-    @apply mb-4 mt-12 font-title text-2xl font-bold text-brand-500 sm:mb-6 sm:mt-16 sm:text-3xl;
+    @apply mb-4 mt-12 font-title text-2xl font-bold leading-tight text-brand-500 sm:mb-6 sm:mt-16 sm:text-3xl;
   }
 
+  h4,
+  .h4 {
+    @apply mb-4 mt-12 font-title text-xl font-bold leading-tight text-brand-500 sm:mb-6 sm:mt-16 sm:text-2xl;
+  }
+
+  .strong,
   strong {
     @apply font-bold text-neutral-800;
   }
 
-  article {
-    @apply mx-3 text-base md:text-justify;
+  .a-link {
+    @apply text-brand-500 underline underline-offset-4;
+  }
 
+  article {
     h1 {
       @apply mt-0;
     }
 
     ul > li {
-      @apply ml-4 list-disc;
+      @apply ml-5 list-disc;
     }
 
     p {
       @apply my-4;
+      @apply text-base md:text-justify;
     }
 
     img {
@@ -72,5 +88,57 @@
     a {
       @apply text-brand-500 underline underline-offset-4;
     }
+  }
+
+  /* tooltip */
+  .tooltip {
+    position: relative;
+  }
+
+  .tooltipcontent {
+    display: none;
+  }
+
+  .tooltip:hover > .tooltipcontent {
+    position: absolute;
+    padding: 4px 16px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: max-content;
+    color: white;
+    background-color: #565656;
+    border-radius: 8px;
+    margin-top: 16px;
+
+    @apply text-sm;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -8px;
+      border-width: 8px;
+      border-style: solid;
+      border-color: transparent transparent #565656 transparent;
+    }
+  }
+
+  .faq > ul {
+    @apply mt-8 flex flex-col overflow-hidden rounded-md border-2 border-brand-200 bg-white;
+  }
+
+  .faq > ul > li {
+    list-style-type: none;
+    @apply m-0 -mt-[2px] border-t-2 border-brand-200 px-4;
+  }
+
+  .faq > ul > li > *:first-child {
+    @apply mt-6 font-title text-xl font-bold leading-tight text-brand-500 sm:text-2xl;
+  }
+
+  .faq > ul > li > *:last-child {
   }
 }

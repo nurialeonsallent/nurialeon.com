@@ -3,7 +3,7 @@ layout: post
 title: "Claves para educar y cuidar a nuestros hijos"
 date: 2023-11-29 00:00:00 +0
 image: familia_unida.webp
-author: montse
+author: nuria
 published: true
 ---
 

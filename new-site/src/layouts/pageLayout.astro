@@ -1,0 +1,14 @@
+---
+import type { ComponentProps } from "astro/types"
+import ColumnLayout from "./columnLayout.astro"
+
+type Props = ComponentProps<typeof ColumnLayout>
+const { title, description } = Astro.props
+---
+
+<ColumnLayout title={title} description={description}>
+  <article>
+    <h1>{title}</h1>
+    <slot />
+  </article>
+</ColumnLayout>
