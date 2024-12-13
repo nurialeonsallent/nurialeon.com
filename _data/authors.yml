@@ -16,14 +16,20 @@ iris:
   img: /images/equipo/iris.webp
   link: /equipo/#iris
 
-elisenda:
-  name: Elisenda
-  description: Psicóloga Sanitaria Colegiada. Especialista en ansiedad y depresión. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso. Psicóloga sanitaria de adultos y familias. 
-  img: /images/equipo/elisenda.webp
-  link: /equipo/#elisenda
+ariadna:
+  name: Ariadna
+  description: Psicóloga Sanitaria Colegiada. Especialista en terapia de pareja, sexualidad, ansiedad y depresión. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso.  
+  img: /images/equipo/ariadna.webp
+  link: /equipo/#ariadna
 
 helena:
   name: Helena
   description: Psicóloga Sanitaria Colegiada. Especialista en terapia familiar y de pareja, ansiedad, depresión, y en reprocesamiento del trauma en adultos. Psicóloga sanitaria especialista en adultos, familias y parejas. 
   img: /images/equipo/helena.webp
   link: /equipo/#helena
+
+teresa:
+  name: Teresa
+  description: Psicóloga Sanitaria Colegiada. Especialista en terapia familiar y de pareja, ansiedad, depresión, y en reprocesamiento del trauma en adultos. Psicóloga sanitaria especialista en adultos, familias y parejas. 
+  img: /images/equipo/teresa.webp
+  link: /equipo/#teresa
