@@ -3,6 +3,9 @@ import { getCollection } from "astro:content"
 import FormattedDate from "@components/FormattedDate.astro"
 import { Image } from "astro:assets"
 import Layout from "~/layouts/columnLayout.astro"
+import { createExcerpt } from "~/utils/excerpt"
+import GoIcon from "~/icons/go.astro"
+import { authors } from "~/content/authors"
 
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -12,27 +15,41 @@ const posts = (await getCollection("blog")).sort(
 <Layout title="Blog">
   <ul class="flex flex-col gap-8">
     {
-      posts.map((post) => (
-        <li class="flex flex-col sm:flex-row">
-          <a href={`/blog/${post.slug}/`} class="contents">
-            {post.data.image && (
-              <Image
-                widths={[640, 1024]}
-                sizes={`(max-width: 640px) 640px, 1024px`}
-                src={post.data.image}
-                alt=""
-                class="w-full object-cover h-[240px] border border-neutral-300"
-              />
-            )}
-            <div class="mx-2 bg-white shadow-xl p-4 -mt-16 rounded-md border border-neutral-300">
-              <p class="h4 m-0">{post.data.title}</p>
-              <p class="date">
-                <FormattedDate date={post.data.date} />
-              </p>
-            </div>
-          </a>
-        </li>
-      ))
+      posts.map((post) => {
+        const excerpt = createExcerpt(post.body)
+        const author = authors[post.data.author || "nuria"]
+
+        return (
+          <li class="flex flex-col sm:flex-row">
+            <a href={`/blog/${post.slug}/`} class="contents">
+              {post.data.image && (
+                <Image
+                  widths={[640, 1024]}
+                  sizes={`(max-width: 640px) 640px, 1024px`}
+                  src={post.data.image}
+                  alt="post.data.title"
+                  class="w-full object-cover h-[240px] border border-neutral-300"
+                />
+              )}
+              <div class="mx-2 bg-white shadow-xl p-4 -mt-16 rounded-md border border-neutral-300">
+                <h2 class="h4 m-0">{post.data.title}</h2>
+                <p class="my-4 text-base">{excerpt}</p>
+                <div class="flex items-center justify-between flex-wrap gap-x-8">
+                  <p class="text-xs text-gray-800">
+                    <FormattedDate date={post.data.date} /> -
+                    <a class="a-link" href="/equipo">
+                      Escrito por {author.name}
+                    </a>
+                  </p>
+                  <button class="a-link">
+                    Leer más <GoIcon />
+                  </button>
+                </div>
+              </div>
+            </a>
+          </li>
+        )
+      })
     }
   </ul>
 </Layout>
