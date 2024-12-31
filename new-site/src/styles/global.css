@@ -78,7 +78,7 @@
     }
 
     img {
-      @apply mx-auto my-8;
+      @apply mx-auto my-8 rounded-lg;
     }
 
     img + em {
@@ -87,6 +87,10 @@
 
     a {
       @apply text-brand-500 underline underline-offset-4;
+    }
+
+    li {
+      @apply my-2;
     }
   }
 

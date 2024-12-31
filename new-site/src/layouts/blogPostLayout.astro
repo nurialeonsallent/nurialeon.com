@@ -2,26 +2,40 @@
 import type { CollectionEntry } from "astro:content"
 import FormattedDate from "@components/FormattedDate.astro"
 import { Image } from "astro:assets"
-import PageLayout from "./pageLayout.astro"
+import BaseLayout from "./baseLayout.astro"
+import { authors } from "~/content/authors"
 
 type Props = CollectionEntry<"blog">["data"]
-const { title, description, date, image } = Astro.props
+const { title, description, date, image, author: propAuthor } = Astro.props
+const author = authors[propAuthor || "nuria"]
 ---
 
-<PageLayout title={title} description={description}>
-  <article class="max-w-screen-lg">
-    <div class="hero-image">
-      {image && <Image width={1020} height={510} src={image} alt="" />}
-    </div>
-    <div class="prose">
-      <div class="title">
-        <div class="date">
-          <FormattedDate date={date} />
-        </div>
-        <h1>{title}</h1>
-        <hr />
+<BaseLayout title={title} description={description}>
+  <div
+    class="bg-neutral-200 w-full flex flex-col items-center border-b-2 border-neutral-300"
+  >
+    <div class="max-w-screen-lg mx-3 text-center md:mt-12">
+      <h1>{title}</h1>
+      <div class="text-sm text-neutral-600">
+        <FormattedDate date={date} /> - <a class="a-link" href="/equipo">
+          Escrito por {author.name}</a
+        >
       </div>
-      <slot />
+      <div class="h-24 md:h-40"></div>
     </div>
-  </article>
-</PageLayout>
+  </div>
+  <div class="flex flex-col items-center">
+    <div class="w-full max-w-screen-lg px-3">
+      <Image
+        width={1020}
+        height={510}
+        src={image}
+        alt=""
+        class="w-full md:-mt-20 -mt-12 rounded-lg object-cover h-[200px] sm:h-[355px] lg:h-[510px]"
+      />
+      <div class="py-8 lg:py-16">
+        <slot />
+      </div>
+    </div>
+  </div>
+</BaseLayout>
