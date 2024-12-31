@@ -1,5 +1,5 @@
 .member {
-  @apply mt-12 grid grid-rows-[auto_1fr] gap-2 sm:gap-4 md:mt-16 md:gap-8;
+  @apply mt-12 grid grid-rows-[auto_1fr] gap-2 sm:gap-4 md:mt-16 md:gap-8 md:rounded-xl md:border-2 md:border-brand-200 md:bg-brand-50 md:p-6;
   grid-template-areas:
     "name"
     "img"

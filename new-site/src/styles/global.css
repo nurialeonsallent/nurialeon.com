@@ -74,7 +74,7 @@
 
     p {
       @apply my-4;
-      @apply text-base md:text-justify;
+      @apply text-base lg:text-justify;
     }
 
     img {
