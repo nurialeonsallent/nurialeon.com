@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ¿Qué servicios ofrecemos?
-excerpt: Sesiones de Psicología Presenciales en Barcelona por 65€ y Sesiones Online por 60€.
+excerpt: Sesiones de Psicología Presenciales en Barcelona por 70€ y Sesiones Online por 60€.
 permalink: /servicios/
 ---
 
@@ -49,12 +49,12 @@ Además, después de la sesión os damos tareas y **os envíamos material, lectu
 <img src="{{site.baseurl}}/images/sesiononline.webp" width="150" height="150" class="circle" />
 </div>
 
-## Sesión Presencial en Barcelona a 65€
+## Sesión Presencial en Barcelona a 70€
 
 <div class="columnas-2 sesion-card card">
 <div class="content" markdown="1">
 
-En el caso de las sesiones presenciales también tienen **una duración de 55 minutos**. El despacho está ubicado en una zona céntrica, muy cerca de la Sagrada Familia. En este caso el precio es de 65€ la sesión y el pago se realiza mediante bizum, paypal o efectivo el mismo día de la cita.
+En el caso de las sesiones presenciales también tienen **una duración de 55 minutos**. El despacho está ubicado en una zona céntrica, muy cerca de la Sagrada Familia. En este caso el precio es de 70€ la sesión y el pago se realiza mediante bizum, paypal o efectivo el mismo día de la cita.
 
 Siempre después de la sesión os damos tareas y **os envíamos material, lecturas, ejercicios personalizados** para que sigáis trabajando entre sesión y sesión.
 </div>

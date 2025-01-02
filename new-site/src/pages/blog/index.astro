@@ -28,7 +28,7 @@ const posts = (await getCollection("blog")).sort(
                   sizes={`(max-width: 640px) 640px, 1024px`}
                   src={post.data.image}
                   alt="post.data.title"
-                  class="w-full object-cover h-[240px] border border-neutral-300 rounded-lg"
+                  class="w-full object-cover h-[240px] border border-neutral-300 rounded-lg md:h-[500px]"
                 />
               )}
               <div class="mx-2 bg-white shadow-xl p-4 -mt-16 rounded-md border border-neutral-300">
