@@ -12,6 +12,9 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
 import { reviews } from "~/content/reviews"
 import ContactForm from "~/components/contactForm.astro"
 import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
+import Go from "~/icons/go.astro"
+import Whatsapp from "~/icons/whatsapp.astro"
+import Email from "~/icons/email.astro"
 ---
 
 <Layout>
@@ -36,9 +39,9 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
         </p>
         <a
           href="/contacto"
-          class="cta rounded-md border-2 border-brand-600 bg-brand-400 active:bg-brand-600 hover:bg-brand-500 py-2 text-center text-base font-semibold text-white px-16"
+          class="cta flex items-center rounded-md border-2 border-brand-600 bg-brand-400 active:bg-brand-600 hover:bg-brand-500 py-2 text-center text-base font-semibold text-white pl-8 pr-4 no-underline"
         >
-          ¡Pide tu Cita!
+          ¡Pide tu Cita! <Go class="pl-8" />
         </a>
       </div>
       <div class="image">
@@ -193,14 +196,38 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
       <Reviews />
     </div>
     <div class="basis-1/2">
-      <h2>Pide tu cita, contacta con nosotros</h2>
-      <p class="mb-4">
-        Para contactar con nosotros puedes enviarnos un email con tu consulta a
-        <a class="a-link" href="mailto:psicologa@nurialeon.com"
-          >psicologa@nurialeon.com</a
-        >, contactar por Whatsapp en el 650011672 o escribirnos un mensaje a
-        través del formulario de contacto:
-      </p>
+      <h2>Pide tu cita, Contacta con nosotros</h2>
+      <div class="mb-4">
+        <p>Para contactar con nosotros puedes:</p>
+        <ul class="list-disc *:ml-8 *:m-0 mt-2">
+          <li>
+            Enviarnos un email con tu consulta a
+            <a
+              class="inline-flex items-center a-link gap-px"
+              href="mailto:psicologa@nurialeon.com"
+              ><Email class="text-[18px]" />psicologa@nurialeon.com</a
+            >
+          </li>
+          <li>
+            Contactar por Whatsapp en <a
+              href="https://wa.me/34650011672"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center a-link gap-px"
+              ><Whatsapp class="text-[18px]" />+34 650 011 672</a
+            >
+          </li>
+          <li>
+            Contactar a través de las redes: <span class="ml-4"
+              ><SocialNetworks /></span
+            >
+          </li>
+        </ul>
+        <p>
+          También puedes enviarnos un mensaje a través del formulario de
+          Contacto:
+        </p>
+      </div>
       <ContactForm />
     </div>
   </div>
