@@ -1,31 +1,37 @@
 ---
-
+import Email from "~/icons/email.astro"
+import Go from "~/icons/go.astro"
+import Whatsapp from "~/icons/whatsapp.astro"
 ---
 
 <div class="marker" id="gotoContactForm"></div>
-<form method="POST" action="https://formspree.io/f/xvowdevg">
+<form
+  method="POST"
+  action="https://formspree.io/f/xvowdevg"
+  data-action="contact"
+>
   <input
     type="text"
     name="Nombre"
     placeholder="Nombre y Apellidos"
     aria-label="Nombre y Apellidos"
-    autocomplete="off"
+    autocomplete="name"
     required
   />
   <input
-    type="text"
+    type="tel"
     name="Telefono"
     placeholder="Teléfono de contacto"
     aria-label="Teléfono de contacto"
     minlength="9"
-    autocomplete="off"
+    autocomplete="tel"
   />
   <input
-    type="text"
+    type="email"
     name="Email"
     placeholder="Email de contacto"
     aria-label="Email de contacto"
-    autocomplete="off"
+    autocomplete="email"
   />
   <textarea
     name="Mensaje"
@@ -33,9 +39,56 @@
 Si quieres reservar una cita, escribe también la fecha/hora deseada."
     autocomplete="off"
     required></textarea>
-  <button type="submit">Contactar</button>
+  <div
+    class="flex flex-row-reverse flex-wrap-reverse gap-x-4 gap-y-2 items-center justify-start"
+  >
+    <button type="submit" name="action" value="email"
+      ><Email class="mr-4 text-xl" /> Contactar por Email <Go
+        class="ml-4"
+      /></button
+    >
+    <button type="submit" name="action" value="whatsapp"
+      ><Whatsapp class="mr-4 text-xl" /> Contactar por WhatsApp <Go
+        class="ml-4"
+      /></button
+    >
+  </div>
 </form>
-<script></script>
+<script>
+  const contactForm = document.querySelector<HTMLFormElement>(
+    "form[data-action=contact]"
+  )
+
+  contactForm?.addEventListener("submit", (e) => {
+    const name = contactForm.Nombre.value
+    const telefono = contactForm.Telefono.value
+    const email = contactForm.Email.value
+    const text = contactForm.Mensaje.value
+    const action = (e.submitter as HTMLInputElement)?.value
+
+    if (!telefono && !email) {
+      alert("Por favor introduce el Teléfono o Email de contacto")
+      e.preventDefault()
+      return
+    }
+
+    if (action !== "whatsapp") {
+      return
+    }
+
+    const message = `Hola Núria, soy ${name} (${email}, ${telefono}).\n\n${text}`
+    var url = "https://wa.me/34650011672?text=" + encodeURIComponent(message)
+    const win = window.open(url, "_blank")
+    if (win) {
+      win.opener = null
+      win.focus()
+    } else {
+      window.location.href = url
+    }
+    e.preventDefault()
+    return
+  })
+</script>
 <style>
   form {
     display: flex;
@@ -65,8 +118,9 @@ Si quieres reservar una cita, escribe también la fecha/hora deseada."
   }
 
   button {
+    display: flex;
     align-items: center;
     justify-items: center;
-    @apply rounded-md border-2 border-brand-600 bg-brand-400 px-4 py-2 text-center text-base font-semibold text-white active:bg-brand-600 hover:bg-brand-500 md:px-16 lg:self-center;
+    @apply rounded-md border-2 border-brand-600 bg-brand-400 px-4 py-2 text-center text-base font-semibold text-white active:bg-brand-600 hover:bg-brand-500 md:px-4;
   }
 </style>
