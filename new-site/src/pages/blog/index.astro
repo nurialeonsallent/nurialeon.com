@@ -28,9 +28,9 @@ const posts = (await getCollection("blog")).sort(
                 alt={post.data.title}
                 class="w-full object-cover h-[240px] border border-neutral-300 rounded-lg md:h-auto md:w-[500px] shrink-0"
               />
-              <div class="mx-2 bg-white shadow-xl p-4 md:p-8 -mt-16 rounded-md border border-neutral-300 md:my-12 md:-ml-[25vw] lg:-ml-32 flex flex-col gap-1">
+              <div class="mx-2 bg-white shadow-xl p-4 md:p-8 -mt-16 rounded-md border border-neutral-300 md:my-12 md:-ml-[25vw] lg:-ml-32 flex flex-col">
                 <h2 class="h3 m-0">{post.data.title}</h2>
-                <p class="my-4 text-base grow">{excerpt}</p>
+                <p class="my-4 md:my-6 text-base grow">{excerpt}</p>
                 <div class="flex items-center justify-between flex-wrap gap-x-8 gap-y-4">
                   <p class="text-xs text-gray-700">
                     <FormattedDate date={post.data.date} /> - Escrito por{" "}
