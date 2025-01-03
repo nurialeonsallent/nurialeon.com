@@ -13,35 +13,32 @@ const posts = (await getCollection("blog")).sort(
 ---
 
 <Layout title="Blog">
-  <ul class="flex flex-col gap-8">
+  <div class="flex flex-col gap-8">
     {
       posts.map((post) => {
         const excerpt = createExcerpt(post.body)
         const author = authors[post.data.author || "nuria"]
 
         return (
-          <li class="flex flex-col sm:flex-row">
+          <li class="flex flex-col md:flex-row md:items-stretch">
             <a href={`/blog/${post.slug}/`} class="contents">
-              {post.data.image && (
-                <Image
-                  widths={[640, 1024]}
-                  sizes={`(max-width: 640px) 640px, 1024px`}
-                  src={post.data.image}
-                  alt="post.data.title"
-                  class="w-full object-cover h-[240px] border border-neutral-300 rounded-lg md:h-[500px]"
-                />
-              )}
-              <div class="mx-2 bg-white shadow-xl p-4 -mt-16 rounded-md border border-neutral-300">
-                <h2 class="h4 m-0">{post.data.title}</h2>
-                <p class="my-4 text-base">{excerpt}</p>
-                <div class="flex items-center justify-between flex-wrap gap-x-8">
-                  <p class="text-xs text-gray-800">
-                    <FormattedDate date={post.data.date} /> -
+              <Image
+                width={640}
+                src={post.data.image}
+                alt={post.data.title}
+                class="w-full object-cover h-[240px] border border-neutral-300 rounded-lg md:h-auto md:w-[500px] shrink-0"
+              />
+              <div class="mx-2 bg-white shadow-xl p-4 md:p-8 -mt-16 rounded-md border border-neutral-300 md:my-12 md:-ml-[25vw] lg:-ml-32 flex flex-col gap-1">
+                <h2 class="h3 m-0">{post.data.title}</h2>
+                <p class="my-4 text-base grow">{excerpt}</p>
+                <div class="flex items-center justify-between flex-wrap gap-x-8 gap-y-4">
+                  <p class="text-xs text-gray-700">
+                    <FormattedDate date={post.data.date} /> - Escrito por{" "}
                     <a class="a-link" href="/equipo">
-                      Escrito por {author.name}
+                      {author.name}
                     </a>
                   </p>
-                  <button class="a-link">
+                  <button class="a-link ml-auto">
                     Leer más <GoIcon />
                   </button>
                 </div>
@@ -51,5 +48,5 @@ const posts = (await getCollection("blog")).sort(
         )
       })
     }
-  </ul>
+  </div>
 </Layout>

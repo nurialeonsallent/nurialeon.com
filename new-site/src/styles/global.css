@@ -92,6 +92,10 @@
     li {
       @apply my-2;
     }
+
+    hr {
+      @apply hidden;
+    }
   }
 
   /* tooltip */

@@ -9,7 +9,7 @@ author: nuria
 
 ¿Te _han_ **recomendado** hacer ejercicio cuando estabas atravesando por una época de mucha ansiedad? ¿O has escuchado como ante el agobio y presiones del día a día, para muchos, el ejercicio es una vía de escape? Para saber si realmente es solo una vía de escape o si realmente hay más beneficios, sigue leyendo el siguiente artículo.
 
-<!-- more -->
+---
 
 ### Beneficios del deporte en el manejo de la ansiedad
 

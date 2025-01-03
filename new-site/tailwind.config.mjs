@@ -29,7 +29,7 @@ export default {
     },
   },
   plugins: [
-    plugin(function ({ addVariant }) {
+    plugin(function ({ addComponents, theme, addVariant }) {
       addVariant("hover", [
         "@media (hover: hover) { &:hover }",
         "@media (hover: none) { &:active }",
