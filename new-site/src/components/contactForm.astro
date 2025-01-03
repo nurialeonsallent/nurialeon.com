@@ -76,7 +76,7 @@ Si quieres reservar una cita, escribe también la fecha/hora deseada."
       return
     }
 
-    const message = `Hola Núria, soy ${name} (${email}, ${telefono}).\n\n${text}`
+    const message = `Hola soy ${name} (${email}, ${telefono}).\n\n${text}`
     var url = "https://wa.me/34650011672?text=" + encodeURIComponent(message)
     const win = window.open(url, "_blank")
     if (win) {
