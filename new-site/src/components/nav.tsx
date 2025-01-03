@@ -85,6 +85,12 @@ export default function ({ pathname }: { pathname: string }) {
           {menu.map((s, i) => (
             <MenuSection key={i} pathname={pathname} section={s} />
           ))}
+          {/* <a
+            href="/contacto"
+            className="m-4 rounded-md border-2 border-brand-600 bg-brand-400 px-4 py-2 text-center text-base font-semibold text-gray-100 lg:m-0 lg:py-1"
+          >
+            Pide tu Cita
+          </a> */}
         </ul>
       </div>
       <div

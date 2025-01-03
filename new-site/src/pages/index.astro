@@ -34,9 +34,12 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
             >Psicólogos Sanitarios Colegiados</strong
           > y también contamos con un servicio de psico-nutrición y nutrición clínica.
         </p>
-        <!-- <a href="/sobre-mi" class="self-end a-link"
-          >Más sobre Núria León <GoIcon /></a
-        > -->
+        <a
+          href="/contacto"
+          class="cta rounded-md border-2 border-brand-600 bg-brand-400 active:bg-brand-600 hover:bg-brand-500 px-4 py-2 text-center text-base font-semibold text-white"
+        >
+          ¡Pide tu Cita!
+        </a>
       </div>
       <div class="image">
         <Picture
@@ -220,8 +223,16 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
           @apply m-0;
         }
 
+        h1 {
+          @apply lg:mt-12;
+        }
+
         p {
           @apply mt-4 lg:mt-8 xl:ml-4;
+        }
+
+        .cta {
+          @apply mb-4 mt-8 lg:mt-4;
         }
       }
 
