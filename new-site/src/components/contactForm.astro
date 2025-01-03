@@ -5,11 +5,7 @@ import Whatsapp from "~/icons/whatsapp.astro"
 ---
 
 <div class="marker" id="gotoContactForm"></div>
-<form
-  method="POST"
-  action="https://formspree.io/f/xvowdevg"
-  data-action="contact"
->
+<form method="POST" data-action="contact">
   <input
     type="text"
     name="Nombre"
@@ -72,22 +68,56 @@ Si quieres reservar una cita, escribe también la fecha/hora deseada."
       return
     }
 
-    if (action !== "whatsapp") {
+    if (action === "whatsapp") {
+      const message = `Hola soy ${name} (${email}, ${telefono}).\n\n${text}`
+      var url = "https://wa.me/34650011672?text=" + encodeURIComponent(message)
+      const win = window.open(url, "_blank")
+      if (win) {
+        win.opener = null
+        win.focus()
+      } else {
+        window.location.href = url
+      }
+
+      e.preventDefault()
       return
     }
 
-    const message = `Hola soy ${name} (${email}, ${telefono}).\n\n${text}`
-    var url = "https://wa.me/34650011672?text=" + encodeURIComponent(message)
-    const win = window.open(url, "_blank")
-    if (win) {
-      win.opener = null
-      win.focus()
+    const captchaOK = triggerCaptcha("2 + 2 = ?", [
+      "4",
+      "cuatro",
+      "four",
+      "quatre",
+    ])
+
+    if (captchaOK) {
+      contactForm.action = "https://formspree.io/f/xvowdevg"
     } else {
-      window.location.href = url
+      e.preventDefault()
     }
-    e.preventDefault()
+
     return
   })
+
+  function triggerCaptcha(question: string, expectedResponses: string[]) {
+    const response = prompt(
+      "¿Eres un robot?\nPor favor resuelve la siguiente operación:\n" + question
+    )
+
+    if (
+      !expectedResponses.some(
+        (r) => r.trim().toLowerCase() === response?.trim().toLowerCase()
+      )
+    ) {
+      if (response != null && response != "") {
+        alert("Respuesta incorrecta, no ha sido posible enviar el formulario")
+      }
+
+      return false
+    }
+
+    return true
+  }
 </script>
 <style>
   form {
