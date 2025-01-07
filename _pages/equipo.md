@@ -104,6 +104,32 @@ Cristina puede ayudarte en: ansiedad, depresión, crianza, maternidad, apego, ps
 </div>
 
 <div class="member">
+<img class="member__img" alt="Teresa" src="{{site.baseurl}}/images/equipo/teresa.webp" width="350" />
+<h2 class="member__name" id="teresa">Teresa</h2>
+<div class="member__content" markdown="1">
+
+**Psicóloga Sanitaria Colegiada.** Tiene amplia experiencia en terapia para adultos, mediación familiar, terapia de parejas y adolescentes.
+
+**Psicóloga General Sanitaria de adultos, parejas, familias y adolescentes.**
+
+Su enfoque terapéutico es cognitivo conductual, aunque también utiliza una metodología integradora combinando técnicas humanistas y del psicoanálisis. Utiliza técnicas basadas en la evidencia empírica, basándose en estudios e investigaciones recientes. Sigue en constante formación y supervisión clínica.
+
+Teresa puede ayudarte en cualquier situación de: ansiedad, depresión, autoestima, problemas de orientación laboral, coaching laboral, mediación familiar, crisis de parejas, problemas familiares, rupturas, infidelidad, celos, compulsiones, obsesiones y duelos.
+
+- **Máster en Psicología General Sanitaria** en UDIMA
+- **Postgrado en Psicoanálisis** en la Universitat de Girona
+- **Postgrado en Recursos Humanos** en Universitat Ramón Llull
+- **Formación en violencia de género** a la Fundació Pere Tarrés
+- **Curso de Resolución de Conflictos y Gestión del Estrés** en la Fundación Paco Puerto
+- **Curso de coaching sistémico** en Foment Formació
+- **Curso de Llenguatge sexiste inclusiu** en Ajuntament de Sabadell
+- **Licenciatura de Psicología** en la Universitat de Barcelona
+
+
+</div>
+</div>
+
+<div class="member">
 <img class="member__img" alt="Iris" src="{{site.baseurl}}/images/equipo/iris.webp" width="350" />
 <h2 class="member__name" id="iris">Iris</h2>
 <div class="member__content" markdown="1">
@@ -121,28 +147,6 @@ Iris puede ayudarte si tienes una mala relación alimentaria y también si te id
 - **Máster Oficial en Nutrición Clínica Universidad Europea de Madrid** (2022-2023)
 - **Curso Coaching Nutricional Institute Nutritional Coaching** (2022)
 - **Grado en Nutrición Humana y Dietética en Universitat de Barcelona** (2018-2022)
-
-</div>
-</div>
-
-<div class="member">
-<img class="member__img" alt="Elisenda" src="{{site.baseurl}}/images/equipo/elisenda.webp" width="350" />
-<h2 class="member__name" id="elisenda">Elisenda</h2>
-<div class="member__content" markdown="1">
-
-**Psicóloga Sanitaria Colegiada.** Especialista en ansiedad y depresión. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso.
-
-**Psicóloga Sanitaria de adultos y familias**.
-
-Ha trabajado en varios centros médicos como psicóloga sanitaria. Su enfoque terapéutico es cognitivo conductual, breve estratégico y sistémico. Sigue en constante formación y supervisión clínica.
-
-Elisenda puede ayudarte en todo tipo de problema psicológico clínico: ansiedad, depresión, trauma, apego, duelos, fobias, miedos, TOC, TCA, estrés post traumático, autolesiones, pensamientos de suicidio...
-
-- **Tratamiento psicológico del trauma en psicoterapia** en Centre GRAT (2024)
-- **Intervención breve Centrada en las Soluciones** en Institut d'Estudis de la Sexualitat i la Parella (2024)
-- **Postgrado en Cognitivo Social** en la Universidad de Barcelona (2022)
-- **Máster en Psicología General Sanitaria** en la Universidad Autónoma de Barcelona (2020-2022)
-- **Grado en Psicología** en la Universidad Abad Oliva (2015-2019)
 
 </div>
 </div>

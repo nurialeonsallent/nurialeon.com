@@ -16,8 +16,8 @@ const menu = [
       ["Terapia Individual", "/psicologo-barcelona"],
       ["Terapia Online", "/psicologo-online"],
       [
-        "Terapia de Parejas / Familia",
-        "/terapia-de-parejas-relaciones-familiares-barcelona",
+        "Terapia de Parejas y Familias",
+        "/terapia-de-parejas-familias-barcelona",
       ],
       ["Psico-Nutrición", "/psiconutricion-barcelona"],
       // [
@@ -85,6 +85,12 @@ export default function ({ pathname }: { pathname: string }) {
           {menu.map((s, i) => (
             <MenuSection key={i} pathname={pathname} section={s} />
           ))}
+          {/* <a
+            href="/contacto"
+            className="m-4 rounded-md border-2 border-brand-600 bg-brand-400 px-4 py-2 text-center text-base font-semibold text-white active:bg-brand-600 hover:bg-brand-500 lg:m-0 lg:py-1"
+          >
+            Pide tu Cita
+          </a> */}
         </ul>
       </div>
       <div
@@ -118,7 +124,7 @@ function MenuSection({
       ></div>
       <NavLink
         active={isCurrentInside}
-        href={isCollapsible ? "#" : content}
+        href={isCollapsible ? undefined : content}
         data-collapsible={isCollapsible}
         onClick={() => setOpen((o) => (o === "" ? !isCurrentInside : !o))}
         className={`${isCurrentInside && "text-brand-500"} ${isCollapsible && "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500"}`}
@@ -160,7 +166,7 @@ function NavLink({
   ...props
 }: PropsWithChildren<{
   className?: string
-  href: string
+  href?: string
   active: boolean
   onClick?: () => void
 }>) {
@@ -168,7 +174,7 @@ function NavLink({
     <a
       {...props}
       href={href}
-      className={`${className ?? ""} group/a inline-block w-full px-8 py-3 text-left font-semibold uppercase aria-[current=page]:text-brand-500 hover:text-brand-500 max-lg:pr-1 lg:px-4 lg:tracking-wider`}
+      className={`${className ?? ""} group/a inline-block w-full cursor-pointer px-8 py-3 text-left font-semibold uppercase aria-[current=page]:text-brand-500 hover:text-brand-500 max-lg:pr-1 lg:px-4 lg:tracking-wider`}
       aria-current={active ? "page" : "false"}
     >
       <span className="relative">

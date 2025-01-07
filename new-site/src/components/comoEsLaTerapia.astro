@@ -6,11 +6,14 @@ import CalendarIcon from "~/icons/calendar.astro"
 import ChecklistIcon from "~/icons/checklist.astro"
 import SmileIcon from "~/icons/smile.astro"
 import GoIcon from "~/icons/go.astro"
+import Go from "~/icons/go.astro"
 ---
 
 <h2>¿Cómo es la terapia?</h2>
-<div class="flex lg:flex-row flex-col gap-y-8">
-  <div class="basis-1/2 flex flex-col gap-4 lg:pr-4">
+<div
+  class="flex lg:flex-row flex-col border-brand-300 border-2 rounded-lg bg-white"
+>
+  <div class="basis-1/2 flex flex-col gap-4 lg:pr-4 p-4 py-6">
     <div class="gap-4 flex items-center">
       <IndividualIcon
         class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
@@ -50,54 +53,73 @@ import GoIcon from "~/icons/go.astro"
       <LocationIcon
         class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
       />
-      <span>El despacho está en Verdaguer, 08037 Barcelona.</span>
+      <span
+        >El despacho está en <a
+          class="a-link"
+          href="https://g.page/r/Cbk285IdPtR5EAg"
+          target="_blank"
+          rel="noopener">C/ Bailèn 141, Barcelona</a
+        >.</span
+      >
     </div>
   </div>
   <div
-    class="basis-1/2 border-brand-200 max-lg:border-t-2 max-lg:pt-8 lg:border-l-2 lg:pl-8 flex items-center justify-center"
+    class="p-4 basis-1/2 border-brand-200 max-lg:border-t-2 py-6 lg:border-l-2 lg:pl-4 flex items-center justify-center"
   >
-    <div
-      class="relative grid grid-cols-[auto_1fr] border-l-4 border-brand-400 lg:ml-8 ml-5 gap-x-4 gap-y-7 lg:gap-y-10 lg:gap-x-8"
-    >
+    <div class="flex flex-col gap-8">
       <div
-        class="-ml-[26px] shrink-0 w-12 h-12 rounded-full border-4 border-brand-400 bg-white text-brand-400 flex items-center justify-center font-bold text-2xl lg:text-3xl"
+        class="relative grid grid-cols-[auto_1fr] border-l-4 border-brand-400 lg:ml-8 ml-5 gap-x-4 gap-y-7 lg:gap-y-10 lg:gap-x-8"
       >
-        1
-      </div>
-      <div class="flex flex-col">
-        <span class="step-title"
-          >Contacta con nosotros explicando tu situación.</span
+        <div
+          class="-ml-[26px] shrink-0 w-12 h-12 rounded-full border-4 border-brand-400 bg-white text-brand-400 flex items-center justify-center font-bold text-2xl lg:text-3xl"
         >
-        <a href="/contacto" class="a-link">
-          Rellena el formulario <GoIcon />
-        </a>
-      </div>
+          1
+        </div>
+        <div class="flex flex-col">
+          <span class="step-title"
+            >Contacta con nosotros explicando tu situación.</span
+          >
+          <a href="/contacto" class="a-link">
+            Rellena el formulario <GoIcon />
+          </a>
+        </div>
 
-      <div
-        class="-ml-[26px] shrink-0 w-12 h-12 rounded-full border-4 border-brand-400 bg-white text-brand-400 flex items-center justify-center font-bold text-2xl lg:text-3xl"
+        <div
+          class="-ml-[26px] shrink-0 w-12 h-12 rounded-full border-4 border-brand-400 bg-white text-brand-400 flex items-center justify-center font-bold text-2xl lg:text-3xl"
+        >
+          2
+        </div>
+        <div class="flex flex-col">
+          <span class="step-title">
+            Te recomendamos al mejor profesional para ti y te contactará para
+            agendar cita. Tendrás su teléfono y podrás escribirle en caso de
+            duda o necesidad.
+          </span>
+          <a href="/equipo" class="a-link">
+            Conoce al equipo <GoIcon />
+          </a>
+        </div>
+
+        <SmileIcon
+          class="-ml-[26px] shrink-0 bg-white text-brand-400 text-[48px]"
+        />
+        <div class="flex flex-col">
+          <span class="step-title">¡Empieza tu cambio cuanto antes!</span>
+          <a
+            href="https://g.page/r/Cbk285IdPtR5EAg"
+            class="a-link"
+            target="_blank"
+          >
+            Ver reseñas <GoIcon />
+          </a>
+        </div>
+      </div>
+      <a
+        href="/contacto"
+        class="cta self-center flex items-center rounded-md border-2 border-brand-600 bg-brand-400 active:bg-brand-600 hover:bg-brand-500 py-2 text-center text-base font-semibold text-white pl-8 pr-4 no-underline"
       >
-        2
-      </div>
-      <div class="flex flex-col">
-        <span class="step-title">
-          Te recomendamos al mejor profesional para ti y te contactará para
-          agendar cita. Tendrás su teléfono y podrás escribirle en caso de duda
-          o necesidad.
-        </span>
-        <a href="/equipo" class="a-link">
-          Conoce al equipo <GoIcon />
-        </a>
-      </div>
-
-      <SmileIcon
-        class="-ml-[26px] shrink-0 bg-white text-brand-400 text-[48px]"
-      />
-      <div class="flex flex-col">
-        <span class="step-title">¡Empieza tu cambio cuanto antes!</span>
-        <a href="https://g.page/r/Cbk285IdPtR5EAg" class="a-link">
-          Ver reseñas <GoIcon />
-        </a>
-      </div>
+        ¡Pide tu Cita! <Go class="pl-8" />
+      </a>
     </div>
   </div>
 </div>

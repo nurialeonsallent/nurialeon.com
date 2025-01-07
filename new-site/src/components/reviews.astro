@@ -7,7 +7,7 @@ import GoIcon from "~/icons/go.astro"
 
 <div class="relative">
   <div
-    class="scroll flex flex-col gap-2 overflow-y-scroll max-h-[min(50vh,350px)]"
+    class="scroll flex flex-col gap-2 overflow-y-scroll max-h-[min(50vh,450px)] bg-white"
   >
     {
       reviews.map((r) => (
@@ -30,7 +30,7 @@ import GoIcon from "~/icons/go.astro"
     href="https://g.page/r/Cbk285IdPtR5EAg"
     target="_blank"
     rel="noopener"
-    class="flex flex-row items-center justify-center bg-white px-4 py-2 mt-2 border-2 border-[#4285F4]/50 rounded-md"
+    class="no-underline text-current flex flex-row items-center justify-center bg-white px-4 py-2 mt-2 border-2 border-[#4285F4]/50 rounded-md"
   >
     <div
       class="grow flex flex-row items-center justify-center gap-x-4 flex-wrap"
@@ -40,6 +40,7 @@ import GoIcon from "~/icons/go.astro"
         alt="Google Reviews"
         height={50}
         width={100}
+        class="m-0"
       />
       <div class="flex flex-row items-center justify-center">
         <span class="text-xl font-medium">4,9</span>
@@ -48,7 +49,7 @@ import GoIcon from "~/icons/go.astro"
       </div>
     </div>
     <button
-      class="bg-[#3480dc] text-white px-4 py-2 font-medium rounded-full shrink-0 hover:bg-[#3480dc]/90"
+      class="bg-[#3480dc] text-white px-4 py-2 font-medium rounded-full shrink-0 hover:bg-[#3480dc]/80 border-2 border-[#184e90]"
       >Ver más Reseñas <GoIcon /></button
     >
   </a>

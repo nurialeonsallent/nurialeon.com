@@ -1,31 +1,32 @@
 ---
-
+import Email from "~/icons/email.astro"
+import Whatsapp from "~/icons/whatsapp.astro"
 ---
 
 <div class="marker" id="gotoContactForm"></div>
-<form method="POST" action="https://formspree.io/f/xvowdevg">
+<form method="POST" data-action="contact">
   <input
     type="text"
     name="Nombre"
     placeholder="Nombre y Apellidos"
     aria-label="Nombre y Apellidos"
-    autocomplete="off"
+    autocomplete="name"
     required
   />
   <input
-    type="text"
+    type="tel"
     name="Telefono"
     placeholder="Teléfono de contacto"
     aria-label="Teléfono de contacto"
     minlength="9"
-    autocomplete="off"
+    autocomplete="tel"
   />
   <input
-    type="text"
+    type="email"
     name="Email"
     placeholder="Email de contacto"
     aria-label="Email de contacto"
-    autocomplete="off"
+    autocomplete="email"
   />
   <textarea
     name="Mensaje"
@@ -33,8 +34,86 @@
 Si quieres reservar una cita, escribe también la fecha/hora deseada."
     autocomplete="off"
     required></textarea>
-  <button type="submit">Contactar</button>
+  <div
+    class="flex flex-row-reverse flex-wrap-reverse gap-x-4 gap-y-2 items-center justify-start"
+  >
+    <button type="submit" name="action" value="email"
+      ><Email class="mr-4 text-xl" /> Contactar por Email</button
+    >
+    <button type="submit" name="action" value="whatsapp"
+      ><Whatsapp class="mr-4 text-xl" /> Contactar por WhatsApp</button
+    >
+  </div>
 </form>
+<script>
+  const contactForm = document.querySelector<HTMLFormElement>(
+    "form[data-action=contact]"
+  )
+
+  contactForm?.addEventListener("submit", (e) => {
+    const name = contactForm.Nombre.value
+    const telefono = contactForm.Telefono.value
+    const email = contactForm.Email.value
+    const text = contactForm.Mensaje.value
+    const action = (e.submitter as HTMLInputElement)?.value
+
+    if (!telefono && !email) {
+      alert("Por favor introduce el Teléfono o Email de contacto")
+      e.preventDefault()
+      return
+    }
+
+    if (action === "whatsapp") {
+      const message = `Hola soy ${name} (${email}, ${telefono}).\n\n${text}`
+      var url = "https://wa.me/34650011672?text=" + encodeURIComponent(message)
+      const win = window.open(url, "_blank")
+      if (win) {
+        win.opener = null
+        win.focus()
+      } else {
+        window.location.href = url
+      }
+
+      e.preventDefault()
+      return
+    }
+
+    const captchaOK = triggerCaptcha("2 + 2 = ?", [
+      "4",
+      "cuatro",
+      "four",
+      "quatre",
+    ])
+
+    if (captchaOK) {
+      contactForm.action = "https://formspree.io/f/xvowdevg"
+    } else {
+      e.preventDefault()
+    }
+
+    return
+  })
+
+  function triggerCaptcha(question: string, expectedResponses: string[]) {
+    const response = prompt(
+      "¿Eres un robot?\nPor favor resuelve la siguiente operación:\n" + question
+    )
+
+    if (
+      !expectedResponses.some(
+        (r) => r.trim().toLowerCase() === response?.trim().toLowerCase()
+      )
+    ) {
+      if (response != null && response != "") {
+        alert("Respuesta incorrecta, no ha sido posible enviar el formulario")
+      }
+
+      return false
+    }
+
+    return true
+  }
+</script>
 <style>
   form {
     display: flex;
@@ -48,7 +127,7 @@ Si quieres reservar una cita, escribe también la fecha/hora deseada."
     background-color: white;
     outline: none;
     padding: 0.5rem;
-    @apply rounded-md border border-brand-500;
+    @apply rounded-md border border-brand-500 placeholder:text-neutral-500;
 
     &:focus {
       box-shadow: 0 0 5px rgba(135, 76, 86, 0.8);
@@ -64,8 +143,9 @@ Si quieres reservar una cita, escribe también la fecha/hora deseada."
   }
 
   button {
+    display: flex;
     align-items: center;
     justify-items: center;
-    @apply rounded-md bg-brand-500 text-center font-medium text-white active:bg-brand-600 hover:bg-brand-400 md:px-16 lg:self-center;
+    @apply rounded-md border-2 border-brand-600 bg-brand-400 px-4 py-2 text-center text-base font-semibold text-white active:bg-brand-600 hover:bg-brand-500 md:px-4;
   }
 </style>

@@ -12,6 +12,9 @@ import PsiconutricionIcon from "~/icons/psiconutricion.astro"
 import { reviews } from "~/content/reviews"
 import ContactForm from "~/components/contactForm.astro"
 import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
+import Go from "~/icons/go.astro"
+import Whatsapp from "~/icons/whatsapp.astro"
+import Email from "~/icons/email.astro"
 ---
 
 <Layout>
@@ -34,9 +37,12 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
             >Psicólogos Sanitarios Colegiados</strong
           > y también contamos con un servicio de psico-nutrición y nutrición clínica.
         </p>
-        <!-- <a href="/sobre-mi" class="self-end a-link"
-          >Más sobre Núria León <GoIcon /></a
-        > -->
+        <a
+          href="/contacto"
+          class="cta flex items-center rounded-md border-2 border-brand-600 bg-brand-400 active:bg-brand-600 hover:bg-brand-500 py-2 text-center text-base font-semibold text-white pl-8 pr-4 no-underline"
+        >
+          ¡Pide tu Cita! <Go class="pl-8" />
+        </a>
       </div>
       <div class="image">
         <Picture
@@ -68,7 +74,7 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
         <div class="icon"><IndividualIcon /></div>
         <div class="title">
           <h3>Terapia Individual</h3>
-          <span class="price">65€</span>
+          <span class="price">70€</span>
         </div>
         <span class="subtitle">Adultos y Adolescentes</span>
         <p>
@@ -158,18 +164,20 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
         <span class="subtitle">Adultos y Adolescentes</span>
         <p>
           Realizamos terapia psicológica acompañada de un asesoramiento
-          nutricional personalizado para mejorar la relación alimentaria.
+          nutricional personalizado para mejorar la relación alimentaria de
+          forma integral.
         </p>
         <ul>
           <li>TCA</li>
           <li>Hambre emocional</li>
           <li>Restricción</li>
           <li>Compensación</li>
-          <li>Autoestima corporal</li>
+          <li>Autoestima Corporal</li>
           <li>Atracones</li>
           <li>Anorexia</li>
           <li>Bulímia</li>
           <li>Nutrición Clínica</li>
+          <li>Trastornos Alimentarios</li>
           <li>Fagofobia</li>
           <li>...</li>
         </ul>
@@ -188,14 +196,38 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
       <Reviews />
     </div>
     <div class="basis-1/2">
-      <h2>Pide tu cita, contacta con nosotros</h2>
-      <p class="mb-4">
-        Para contactar con nosotros puedes enviarnos un email con tu consulta a
-        <a class="a-link" href="mailto:psicologa@nurialeon.com"
-          >psicologa@nurialeon.com</a
-        >, contactar por Whatsapp en el 650011672 o escribirnos un mensaje a
-        través del formulario de contacto:
-      </p>
+      <h2>Pide tu cita, Contacta con nosotros</h2>
+      <div class="mb-4">
+        <p>Para contactar con nosotros puedes:</p>
+        <ul class="list-disc *:ml-8 *:m-0 mt-2">
+          <li>
+            Enviarnos un email con tu consulta a
+            <a
+              class="inline-flex items-center a-link gap-px"
+              href="mailto:psicologa@nurialeon.com"
+              ><Email class="text-[18px]" />psicologa@nurialeon.com</a
+            >
+          </li>
+          <li>
+            Contactar por Whatsapp en <a
+              href="https://wa.me/34650011672"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center a-link gap-px"
+              ><Whatsapp class="text-[18px]" />+34 650 011 672</a
+            >
+          </li>
+          <li>
+            Contactar a través de las redes: <span class="ml-4"
+              ><SocialNetworks /></span
+            >
+          </li>
+        </ul>
+        <p>
+          También puedes enviarnos un mensaje a través del formulario de
+          Contacto:
+        </p>
+      </div>
       <ContactForm />
     </div>
   </div>
@@ -218,8 +250,16 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
           @apply m-0;
         }
 
+        h1 {
+          @apply lg:mt-12;
+        }
+
         p {
           @apply mt-4 lg:mt-8 xl:ml-4;
+        }
+
+        .cta {
+          @apply mb-4 mt-8 lg:mt-2;
         }
       }
 
@@ -245,7 +285,7 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
     }
 
     h3 {
-      @apply m-0 text-xl;
+      @apply m-0 text-xl lg:tracking-tight;
     }
 
     .price {
