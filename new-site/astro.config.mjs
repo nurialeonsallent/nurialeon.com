@@ -19,4 +19,7 @@ export default defineConfig({
   markdown: {
     rehypePlugins: [[externalLink, {}]],
   },
+  redirects: {
+    awd: "test",
+  },
 })

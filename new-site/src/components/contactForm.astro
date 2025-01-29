@@ -1,9 +1,46 @@
 ---
 import Email from "~/icons/email.astro"
 import Whatsapp from "~/icons/whatsapp.astro"
+import SocialNetworks from "./socialNetworks.astro"
 ---
 
 <div class="marker" id="gotoContactForm"></div>
+<div class="mb-4">
+  <p class="m-0">Para contactar con nosotros puedes:</p>
+  <ul class="mt-2 list-disc *:m-0 *:ml-8">
+    <li>
+      Enviarnos un email con tu consulta a
+      <a
+        class="a-link inline-flex items-center gap-px"
+        href="mailto:psicologa@nurialeon.com"
+      >
+        <Email class="text-[18px]" />
+        psicologa@nurialeon.com
+      </a>
+    </li>
+    <li>
+      Contactar por Whatsapp en{" "}
+      <a
+        href="https://wa.me/34650011672"
+        target="_blank"
+        rel="noopener"
+        class="a-link inline-flex items-center gap-px"
+      >
+        <Whatsapp class="text-[18px]" />
+        +34 650 011 672
+      </a>
+    </li>
+    <li>
+      Contactar a través de las redes:{" "}
+      <span class="ml-4">
+        <SocialNetworks />
+      </span>
+    </li>
+  </ul>
+  <p>
+    También puedes enviarnos un mensaje a través del formulario de Contacto:
+  </p>
+</div>
 <form method="POST" data-action="contact">
   <input
     type="text"

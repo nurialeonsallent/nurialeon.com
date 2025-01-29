@@ -96,64 +96,17 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
 
 </div>
 
-import RawHTML from "~/components/rawHTML.astro"
 import { reviews } from "~/content/reviews"
 import Reviews from "~/components/reviews.astro"
 import ContactForm from "~/components/contactForm.astro"
-import SocialNetworks from "~/components/socialNetworks.astro"
-import Email from "~/icons/email.astro"
-import Whatsapp from "~/icons/whatsapp.astro"
 
-hola
-
-<RawHTML>
-  <div class="flex flex-col gap-x-12 md:flex-row">
-    <div class="basis-1/2">
-      <h2>Reseñas ({reviews.length + 30}+)</h2>
-      <Reviews />
-    </div>
-    <div class="basis-1/2">
-      <h2>Pide tu cita, Contacta con nosotros</h2>
-      <div class="mb-4">
-        <p class="m-0">Para contactar con nosotros puedes:</p>
-        <ul class="mt-2 list-disc *:m-0 *:ml-8">
-          <li>
-            Enviarnos un email con tu consulta a
-            <a
-              class="a-link inline-flex items-center gap-px"
-              href="mailto:psicologa@nurialeon.com"
-            >
-              <Email class="text-[18px]" />
-              psicologa@nurialeon.com
-            </a>
-          </li>
-          <li>
-            Contactar por Whatsapp en{" "}
-            <a
-              href="https://wa.me/34650011672"
-              target="_blank"
-              rel="noopener"
-              class="a-link inline-flex items-center gap-px"
-            >
-              <Whatsapp class="text-[18px]" />
-              +34 650 011 672
-            </a>
-          </li>
-          <li>
-            Contactar a través de las redes:{" "}
-            <span class="ml-4">
-              <SocialNetworks />
-            </span>
-          </li>
-        </ul>
-        <p>
-          También puedes enviarnos un mensaje a través del formulario de
-          Contacto:
-        </p>
-      </div>
-      <ContactForm />
-    </div>
+<div class="flex flex-col gap-x-12 md:flex-row">
+  <div class="basis-1/2">
+    <h2>Reseñas ({reviews.length + 30}+)</h2>
+    <Reviews />
   </div>
-</RawHTML>
-
-adawd
+  <div class="basis-1/2">
+    <h2>Pide tu cita, Contacta con nosotros</h2>
+    <ContactForm />
+  </div>
+</div>
