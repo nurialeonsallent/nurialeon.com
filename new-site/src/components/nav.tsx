@@ -26,7 +26,7 @@ const menu = [
       ["Psico-Nutrición", "/psiconutricion-barcelona"],
        [
        "Psicología Sanitaria / Clinica",
-        "/psicologia-clinica-psicologia-sanitaria",
+        "/psicologia-clinica-sanitaria-barcelona",
       ],
      [
          "Coaching / Acompañamiento",
