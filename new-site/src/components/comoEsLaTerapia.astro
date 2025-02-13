@@ -7,6 +7,13 @@ import ChecklistIcon from "~/icons/checklist.astro"
 import SmileIcon from "~/icons/smile.astro"
 import GoIcon from "~/icons/go.astro"
 import Go from "~/icons/go.astro"
+import { servicios } from "~/content/servicios"
+export interface Props {
+  tipo: keyof typeof servicios
+}
+
+const { tipo } = Astro.props
+const servicio = servicios[tipo]
 ---
 
 <h2>¿Cómo es la terapia?</h2>
@@ -19,9 +26,10 @@ import Go from "~/icons/go.astro"
         class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
       />
       <span>
-        Nuestro modelo de terapia es <strong>rápido</strong>, moderno y <strong
-          >muy eficaz</strong
-        >. Vamos directos a la raíz de tu problema. Integramos las mejores herramientas de la terapia cognitivo
+        Nuestro modelo de terapia es <strong>rápido</strong>, <strong
+          >moderno</strong
+        > y <strong>muy eficaz</strong>. Vamos directos a la raíz de tu
+        problema. Integramos las mejores herramientas de la terapia cognitivo
         conductual, terapia breve estratégica y terapia sistémica para
         adaptarnos a cada caso.
       </span>
@@ -30,7 +38,7 @@ import Go from "~/icons/go.astro"
       <TimeIcon
         class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
       />
-      <span>Las sesiones duran 55 minutos.</span>
+      <span>Las sesiones duran {servicio.duracion}.</span>
     </div>
     <div class="gap-4 flex items-center">
       <CalendarIcon
@@ -51,16 +59,20 @@ import Go from "~/icons/go.astro"
     </div>
     <div class="gap-4 flex items-center">
       <LocationIcon
-        class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
+        class="mt-1 w-[1em] shrink-0 self-start text-[32px] leading-none text-brand-400"
       />
-      <span
-        >El despacho está en <a
+      <span>
+        El despacho está en{" "}
+        <a
           class="a-link"
           href="https://g.page/r/Cbk285IdPtR5EAg"
           target="_blank"
-          rel="noopener">C/ Bailèn 141, Barcelona</a
-        >.</span
-      >
+          rel="noopener"
+        >
+          C/ Bailèn 141, Barcelona
+        </a>
+        .
+      </span>
     </div>
   </div>
   <div
@@ -123,3 +135,7 @@ import Go from "~/icons/go.astro"
     </div>
   </div>
 </div>
+<p class="text-center italic text-neutral-600 my-4">
+  * Para cancelaciones o cambios es necesario poder avisar con un margen mínimo
+  de 24 horas.
+</p>

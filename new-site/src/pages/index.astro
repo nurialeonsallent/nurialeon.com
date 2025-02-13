@@ -15,6 +15,7 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
 import Go from "~/icons/go.astro"
 import Whatsapp from "~/icons/whatsapp.astro"
 import Email from "~/icons/email.astro"
+import { servicios } from "~/content/servicios"
 ---
 
 <Layout>
@@ -74,7 +75,7 @@ import Email from "~/icons/email.astro"
         <div class="icon"><IndividualIcon /></div>
         <div class="title">
           <h3>Terapia Individual</h3>
-          <span class="price">70€</span>
+          <span class="price">{servicios["presencial"].precio}</span>
         </div>
         <span class="subtitle">Adultos y Adolescentes</span>
         <p>
@@ -103,7 +104,7 @@ import Email from "~/icons/email.astro"
         <div class="icon"><OnlineIcon /></div>
         <div class="title">
           <h3>Terapia Online</h3>
-          <h3 class="price">60€</h3>
+          <h3 class="price">{servicios["online"].precio}</h3>
         </div>
         <span class="subtitle">Adultos y Adolescentes</span>
         <p>
@@ -132,7 +133,7 @@ import Email from "~/icons/email.astro"
         <div class="icon"><ParejaIcon /></div>
         <div class="title">
           <h3>Terapia de Parejas/Familia</h3>
-          <h3 class="price">95€</h3>
+          <h3 class="price">{servicios["familias"].precio}</h3>
         </div>
         <span class="subtitle">Parejas y Familias</span>
         <p>
@@ -159,7 +160,7 @@ import Email from "~/icons/email.astro"
         <div class="icon"><PsiconutricionIcon /></div>
         <div class="title">
           <h3>Psico-Nutrición</h3>
-          <h3 class="price">60€</h3>
+          <h3 class="price">{servicios["psiconutricion"].precio}</h3>
         </div>
         <span class="subtitle">Adultos y Adolescentes</span>
         <p>
@@ -186,7 +187,7 @@ import Email from "~/icons/email.astro"
     </div>
   </div>
   <div class="lg:max-w-screen-xl mx-auto max-xl:px-3">
-    <ComoEsLaTerapia />
+    <ComoEsLaTerapia tipo="presencial" />
   </div>
   <div
     class="lg:max-w-screen-xl mx-auto max-xl:px-3 overflow-hidden flex flex-col md:flex-row gap-x-12"

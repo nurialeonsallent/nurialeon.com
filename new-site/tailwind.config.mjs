@@ -24,7 +24,7 @@ export default {
       },
       fontFamily: {
         body: [...defaultTheme.fontFamily.sans],
-        title: ["Roboto", ...defaultTheme.fontFamily.sans],
+        title: ["NLTitles", ...defaultTheme.fontFamily.sans],
       },
     },
   },

@@ -12,12 +12,13 @@
     overflow-wrap: break-word; /* avoid overflows caused by long words */
     word-break: break-word; /* avoid overflows caused by long words */
     min-width: 0; /* some input elements have min-width by browser defaults */
+    -webkit-font-smoothing: antialiased;
   }
 
   @font-face {
-    font-family: "Roboto";
+    font-family: "NLTitles";
     font-display: fallback;
-    src: local("Roboto"), url("/fonts/roboto.ttf");
+    src: local("Roboto"), local("-apple-system"), url("/fonts/roboto.ttf");
   }
 
   /* disabled default state */
@@ -69,7 +70,7 @@
     }
 
     ul > li {
-      @apply ml-5 list-disc;
+      @apply ml-5 list-[disclosure-closed];
     }
 
     p {

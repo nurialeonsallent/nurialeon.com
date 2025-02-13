@@ -1,0 +1,27 @@
+---
+
+---
+
+<div class="bg-brand-100 border-2 border-brand-350 py-6 px-4 my-8">
+  <slot />
+</div>
+
+<style>
+  * > :global(:first-child) {
+    @apply mb-8 mt-2;
+  }
+
+  * > :global(h1),
+  * > :global(h2),
+  * > :global(h3) {
+    @apply text-center;
+  }
+
+  * :global(ul) {
+    @apply columns-[150px_4] md:px-12;
+  }
+
+  * :global(li) {
+    @apply mr-2 text-sm md:text-base;
+  }
+</style>
