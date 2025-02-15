@@ -18,7 +18,8 @@ Web del Centro Nuria Leon
 - ![#f9f5f6](https://placehold.co/30x30/f9f5f6/f9f5f6.png) Fondo 4 (NuriaLeon muy clarito): `#f9f5f6`
 - ![#000000](https://placehold.co/30x30/000000/000000.png) Texto 1 (negro puro): `#000000`
 - ![#262626](https://placehold.co/30x30/262626/262626.png) Texto 2 (gris oscuro): `#262626`
-- ![#525252](https://placehold.co/30x30/525252/525252.png) Texto 3 (gris clarito): `#525252`
+- ![#525252](https://placehold.co/30x30/525252/525252.png) Texto 3 (gris clarito): `#525252``
+- ![#8b4957](https://placehold.co/30x30/dac0c4/dac0c4.png) NuriaLeon muy Clarito: `#dac0c4`
 - ![#8b4957](https://placehold.co/30x30/8b4957/8b4957.png) NuriaLeon Clarito: `#8b4957`
 - ![#7d3647](https://placehold.co/30x30/7d3647/7d3647.png) NuriaLeon: `#7d3647`
 - ![#6c2e3d](https://placehold.co/30x30/6c2e3d/6c2e3d.png) NuriaLeon Oscuro: `#6c2e3d`
