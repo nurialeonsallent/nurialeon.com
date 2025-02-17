@@ -27,7 +27,9 @@ La relación entre la ansiedad y el deporte es compleja y puede variar según la
 ### Adaptar el deporte a lo que más te guste
 
 Aunque hacer deporte tiene multidud de ventajas, es importante que la persona realice la actividad disfrutándola y adaptándola a sus gustos y cuerpo. En muchas ocasiones no todas las personas experimentan los mismos efectos positivos del deporte en su salud mental. No todas las personas pueden o quieren participar en deportes, e incluso algunas personas pueden experimentar ansiedad relacionada con el rendimiento deportivo o la presión competitiva, dolor y malestar ante lesiones... También hay variedad de factores y circunstancias personales que pueden tener un impacto negativo en la experiencia individual con el deporte.
-![Deporte]({{ site.baseurl }}/images/deporte2.jpg)
+
+![Deporte](deporte2.jpg)
+
 Por eso hay que valorar a cada persona y su situación para que haga la actividad que mejor le encaje. Es posible encontrar la actividad más adecuada ya que existe gran variedad de opciones y posibilidades de encontrar actividades físicas que sean adecuadas y agradables para cada uno.
 
 A pesar de todos los beneficios del deporte, si estás experimentando ansiedad o problemas de salud mental, es importante que busques apoyo de profesionales de la salud mental que puedan ofrecerte orientación y un tratamiento adecuados. En el **Centro Núria León** tenemos un equipo especializado en ansiedad, depresión y diferentes problemas de salud mental y emocional.
