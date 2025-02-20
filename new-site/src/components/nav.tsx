@@ -15,23 +15,17 @@ const menu = [
     [
       ["Terapia Individual", "/psicologo-barcelona"],
       ["Terapia Online", "/psicologo-online"],
-      [
-        "Terapia de Parejas",
-        "/terapia-de-parejas-barcelona",
-      ],
-      [
-        "Terapia de Familias",
-        "/terapia-de-familias-barcelona",
-      ],
+      ["Terapia de Parejas", "/terapia-de-parejas-barcelona"],
+      ["Terapia de Familias", "/terapia-de-familias-barcelona"],
       ["Psico-Nutrición", "/psiconutricion-barcelona"],
-       [
-       "Psicología Sanitaria / Clinica",
+      [
+        "Psicología Sanitaria / Clinica",
         "/psicologia-clinica-sanitaria-barcelona",
       ],
-     [
-         "Coaching / Acompañamiento",
+      [
+        "Coaching / Acompañamiento",
         "/coaching-acompañamiento-emocional-barcelona",
-     ],
+      ],
     ],
   ],
   [
@@ -40,23 +34,25 @@ const menu = [
       ["Ansiedad", "/ansiedad"],
       ["Depresión", "/depresion"],
       ["Estrés", "/estres"],
-      ["Autoestima","/autoestima"],
+      ["Autoestima", "/autoestima"],
       ["Gestión de Emociones", "/gestion-de-emociones"],
       ["Agresividad", "/agresividad"],
-      ["Alteraciones del Estado de Ánimo","/alteraciones-del-estado-de-animo"],
-      ["Problemas de pareja","/problemas-de-pareja"],
-      ["Toma de decisiones","/toma-de-decisiones"],
+      ["Alteraciones del Estado de Ánimo", "/alteraciones-del-estado-de-animo"],
+      ["Problemas de pareja", "/problemas-de-pareja"],
+      ["Toma de decisiones", "/toma-de-decisiones"],
       ["Ansiedad Social", "/ansiedad-social"],
-      ["Trastornos de Conducta Alimentaria","/tca-trastornos-de-conducta-alimentaria"],
+      [
+        "Trastornos de Conducta Alimentaria",
+        "/tca-trastornos-de-conducta-alimentaria",
+      ],
       ["Fobias", "/fobias"],
-      ["Burnout","/burnout"],
-      ["Obsesiones","/obsesiones"],
-      ["Agorafobia","/agorafobia"],
+      ["Burnout", "/burnout"],
+      ["Obsesiones", "/obsesiones"],
+      ["Agorafobia", "/agorafobia"],
       ["Crisis", "/crisis"],
-      ["Hipocondria","/hipocondria"],
+      ["Hipocondria", "/hipocondria"],
       ["Gestión de Conflictos", "/gestion-de-conflictos"],
-
-    ]
+    ],
   ],
   [
     "Centro",
@@ -65,7 +61,7 @@ const menu = [
       ["Sobre mí", "/sobre-mi"],
     ],
   ],
-  ["Blog", "/blog"],
+  ["Articulos", "/posts"],
   ["Contacto", "/contacto"],
 ] satisfies MenuSectionType
 
@@ -168,10 +164,21 @@ function MenuSection({
 
 function matchUrl(href: string | MenuSectionType, pathname: string): boolean {
   if (typeof href === "string") {
+    if (
+      decodeURIComponent(href) === "/" &&
+      decodeURIComponent(pathname) !== "/"
+    ) {
+      return false
+    }
+
     return (
-      decodeURIComponent(href).toLowerCase() ===
-      decodeURIComponent(pathname).toLowerCase()
+      decodeURIComponent(pathname).toLowerCase() ===
+      decodeURIComponent(href).toLowerCase()
     )
+
+    // return decodeURIComponent(pathname)
+    //   .toLowerCase()
+    //   .startsWith(decodeURIComponent(href).toLowerCase())
   }
 
   return href.some(([, innerHref]) => matchUrl(innerHref, pathname))
