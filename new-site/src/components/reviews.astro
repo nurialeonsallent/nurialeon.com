@@ -3,6 +3,12 @@ import { reviews } from "~/content/reviews"
 import Star from "~/icons/star.astro"
 import { Image } from "astro:assets"
 import GoIcon from "~/icons/go.astro"
+
+const orderedReviews = [...reviews].map((r, i) => ({...r, index: i})).sort((a, b) => 
+  new Date("01/" + b.date).getTime() - new Date("01/" + a.date).getTime()
+  || a.index - b.index
+)
+
 ---
 
 <div class="relative">
@@ -10,7 +16,7 @@ import GoIcon from "~/icons/go.astro"
     class="scroll flex flex-col gap-2 overflow-y-scroll max-h-[min(50vh,450px)] bg-white"
   >
     {
-      reviews.map((r) => (
+      orderedReviews.map((r) => (
         <div class="text-neutral-800 border-l-4 p-2 flex flex-col bg-[#eff2f6] border-[#4285F4]/50 mr-1">
           <span>
             <i>

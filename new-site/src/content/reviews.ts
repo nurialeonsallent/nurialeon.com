@@ -1,10 +1,267 @@
 export const reviews = [
     {
+        name: "I.T.",
+        score: 5,
+        date: "02/2025",
+        text: "Despues de mucho tiempo buscando una psicologa y replantenadome si ir, con Nuria estoy al 100% agradecida de haber tomado el paso y que sea tan buena tratandome y su preocupacion para que todo salga bien. Y a amigos les he recomendado que para dar el paso si nunca has ido, ella es genial."
+    },
+    {
+        name: "A.P.",
+        score: 5,
+        date: "01/2024",
+        text: ""
+    },
+    {
+        name: "J.C.",
+        score: 5,
+        date: "01/2024",
+        text: ""
+    },
+    {
+        name: "A.F.",
+        score: 5,
+        date: "01/2024",
+        text: ""
+    },
+    {
+        name: "A.L.",
+        score: 5,
+        date: "01/2025",
+        text: "Teresa me dio muy buenas herramientas para afrontar mi crisis de ansiedad"
+    },
+    {
+        name: "M.R.",
+        score: 5,
+        date: "01/2024",
+        text: ""
+    },
+    {
+        name: "R.LL.",
+        score: 5,
+        date: "01/2025",
+        text: "Una Gran professional A mi hijo le ha sido muy fácil abrirse con ella tiene don De gentes"
+    },
+    {
+        name: "M",
+        score: 5,
+        date: "01/2025",
+        text: "Llevo unos meses trabajando con Cristina y estoy contenta con el asesoramiento que estoy recibiendo y con la manera en que se desarrollan las sesiones (me siento escuchada con atención y vamos adaptando las sesiones a las necesidades del momento). He puesto en práctica algunas de las herramientas y técnicas que me ha ido indicando y aunque aún queda trabajo por delante veo una evolución en mí."
+    },
+
+    {
+        name: "I.",
+        score: 5,
+        date: "12/2024",
+        text: "Porto ja gairebé un any veient a la Núria i realment m’està ajudant moltíssim en el procés de sanar tot allò en què encara seguim treballant. Noto l’evolució en mi i encara que el camí no és fàcil, poc a poc i amb la seva ajuda veig un futur en què poder viure molt millor. Tant la Núria com l’Iris estan sent un gran suport en aquesta part de la meva vida i estic realment agraït de poder comptar amb elles quan les necessito. Com ja he dit, el camí no és senzill, així que sempre és bo tenir una mà a la que poder agafar-te quan sembla que no hi ha sortida."
+    },
+    {
+        name: "J.A.",
+        score: 5,
+        date: "10/2024",
+        text: ""
+    },
+    {
+        name: "R.R.",
+        score: 5,
+        date: "10/2024",
+        text: "De lo mejor que me ha pasado en mi vida,ahora mismo no sabría dónde estaría sino me hubiera encontrado a Nuria en mi camino"
+    },
+
+    {
+        name: "A.C.",
+        score: 5,
+        date: "11/2024",
+        text: "Estic molt agraïda per l’ajuda rebuda en la teràpia de parella. La psicòloga Núria ha estat molt empàtica i professional, creant un ambient segur on poder parlar obertament. Gràcies a les seves orientacions, estem millorant la comunicació i la connexió emocional com a parella. Sens dubte, recomano els seus serveis a qui vulgui enfortir tant la seva relació amb la parella com amb si mateix."
+    },
+    {
+        name: "J.F.",
+        score: 5,
+        date: "10/2024",
+        text: "Hace ya un año prácticamente que estoy con Núria, y estoy súper contenta de todo el progreso que hemos conseguido. Creo que soy una persona completamente diferente que hace un año atras. Creo que todos, independientemente de lo que nos pase, deberíamos ir. Es genial tener una persona que te acompañe en tu día a día y te haga ver los hechos/las cosas que te suceden desde otra perspectiva: sin juzgarte, aprender a atender tus necesidades, digerir tu pasado y aceptarlo tal y cómo es, … me gustaría haber venido antes. Además, Núria te hace sentir súper cómoda en las sesiones y es como si fuera una “charla entre amig@s”, te deja tu ritmo para que te expreses y eres libre de explicar lo que te apetezca, ella simplemente te acompañara en aquello que decidas. Estoy muy feliz de haber encontrado a alguien tan profesional y auténtica como ella! Gracias Nuria :)"
+    },
+    {
+        name: "D.A.",
+        score: 5,
+        date: "10/2024",
+        text: "Conocí a Nuria hace un par de años, estoy encanta con ella, conecte muy bien con ella."
+    },
+    {
+        name: "I.R.",
+        score: 5,
+        date: "10/2024",
+        text: "Llevaba tiempo queriendo acudir a terapia, y di con Núria. No tenía referencia previa, pero decidí apostar por ella al ver las buenas valoraciones que tenía. Desde el primer día me sentí muy cómoda y segura, y poco a poco me he ido abriendo más en canal. El trato recibido es muy profesional a la vez que muy cercano, lo que te ayuda a no tener ningún tipo de tabú y a mostrarte tal y como eres durante las sesiones. Durante mi proceso pudimos indagar en algunos aspectos en los que un profesional de la nutrición podría serme de gran ayuda, y fue entonces cuando también empecé sesiones con Iris. Iris me ha ayudado muchísimo en los últimos meses y me ha facilitado una serie de herramientas que poco a poco estoy introduciendo en mi día a día. El enfoque de psiconutrición que ofrece el centro es sin duda ideal. Para mí tanto Núria como Iris son lugar seguro y estoy encantada con ellas 🫂❤️‍🩹"
+    },
+    {
+        name: "A.S.",
+        score: 5,
+        date: "09/2024",
+        text: ""
+
+    },
+    {
+        name: "A.R.",
+        score: 5,
+        date: "09/2024",
+        text: "Llevo unos meses von Núria pero me siento muy comprendida y agusto. A diferencia de mis experiencias anteriores, a parte de lo que trabajamos en la sesión, tambien me llevo faena para casa. Siento que me ayuda a conocerme mejor y a trabajar más en mi"
+    },
+    {
+        name: "E.A.",
+        score: 5,
+        date: "09/2024",
+        text: "Siempre había tenido miedo a abrirme y mostrar mis debilidades, pensaba que me costaría ser capaz de contar todos mis problemas a alguien que no conocía de nada, pero Núria des del primer momento me hizo sentir en un ambiente agradable, próximo y relajado. 100% recomendable, llevo varias sesiones con ella y el progreso está siendo muy positivo"
+    },
+    {
+        name: "E.P.",
+        score: 5,
+        date: "09/2024",
+        text: "Empecé con Nuria hace un año; es una gran profesional, atenta y muy cercana. Me ha ayudado en la gestión de estrés y ansiedad en un contexto laboral, dándome herramientas y ayudándome a conocerme mejor. Me transmite mucha confianza y me siento muy cómoda con ella. Sin duda una gran decisión que me ha aportado mucho."
+    },
+    {
+        name: "A.G.",
+        score: 5,
+        date: "08/2024",
+        text: "Fui hace años y resolví por completo mi problema. Recientemente he probado con varias psicólogas por cercanía a mi domicilio pero definitivamente he vuelto con ella. Me da la tranquilidad y confianza que necesito. La recomiendo 100%"
+    },
+    {
+        name: "I.G.",
+        score: 5,
+        date: "08/2024",
+        text: ""
+
+    },
+    {
+        name: "D.S.",
+        score: 5,
+        date: "08/2024",
+        text: "Estamos contentísimos de cómo Nuria está ayudando a nuestra hija, hemos notado su evolución y cambios para muchísimo mejor y agradecemos a Nuria su cercanía, profesionalidad y atención con nuestra hija."
+    },
+    {
+        name: "D.A.",
+        score: 5,
+        date: "08/2024",
+        text: "Una gran experiencia! Núria es una gran profesional, siempre dispuesta a guiarte y asesorarte proporcionándote las herramientas necesarias."
+    },
+    {
+        name: "C.N.",
+        score: 5,
+        date: "07/2024",
+        text: ""
+    },
+    {
+        name: "A.R.",
+        score: 5,
+        date: "07/2024",
+        text: "Llevo más de año y medio yendo a terapia con Nuria y no puedo estar más agradecida.Empecé yendo porque no me sentía feliz conmigo mismo, lo que acabó derivando a un trastorno de la conducta alimentaria y gracias a ella he podido reconciliar mi relación con la comida y el deporte, aprendiendo a disfrutar de nuevo de la comida y volviendo a comer alimentos que los había tachado de malos, asi como recuperar toda aquella vida social que había perdido por haberme cerrado en el transtorno. Después de todo este tiempo me siento más segura conmigo misma, más feliz y volviendo a tener vida más allá de la comida y el deporte. Núria es una gran psicóloga, que te ayuda, te escucha y te respeta y te da los consejos necesarios para que lo afrontes tú mismo y con seguridad pero nunca te va a obligar a hacer algo que tu no quieras."
+
+    },
+    {
+        name: "I.P.",
+        score: 5,
+        date: "07/2024",
+        text: ""
+    },
+    {
+        name: "J.M.",
+        score: 5,
+        date: "07/2024",
+        text: "(...) Es amable, cercana con una gran capacidad de empatía. Por lo tanto, el estado emocional o de ánimo que encarna Montse en las sesiones suele ser comparable en frecuencia al del paciente, por lo que el paciente no se siente como investigado o interrogado, sino está en una atmósfera de comunicación relativamente relajada."
+    },
+    {
+        name: "C.V.",
+        score: 5,
+        date: "07/2024",
+        text: "Muy contento con mi psicóloga, gracias a la terapia he conseguido salir de un episodio depresivo intenso y sigo yendo encantado."
+    },
+    {
+        name: "A.L.",
+        score: 5,
+        date: "07/2024",
+        text: ""
+    },
+    {
+        name: "E.S.",
+        score: 5,
+        date: "07/2024",
+        text: ""
+    },
+    {
+        name: "S.LL.",
+        score: 5,
+        date: "07/2024",
+        text: "Núria y su equipo son grandes profesionales. Muy recomendables."
+    },
+
+    {
+        name: "X.J.",
+        score: 5,
+        date: "07/2024",
+        text: ""
+    },
+    {
+        name: "J.",
+        score: 5,
+        date: "07/2024",
+        text: "Començar teràpia és de les millors decisions que he pres. Em vaig posar en contacte amb el centre explicant els temes que volia tractar i la psicòloga Núria León em va recomanar probar amb ella, ja que treballen juntes, i és una excel•lent professional. Gràcies per la feina que feu!"
+    },
+    {
+        name: "P.R.",
+        score: 5,
+        date: "06/2024",
+        text: ""
+    },
+    {
+        name: "E.F.",
+        score: 5,
+        date: "06/2024",
+        text: "La Núria em va derivar a la seva companya i la veritat que fins al moment tot fantàstic. Ja amb ganes de la següent sessió :), molt content amb les estones amb la Montse, l’espai i la professionalitat."
+    },
+    {
+        name: "T.R.",
+        score: 5,
+        date: "06/2024",
+        text: "Voy con mi pareja, llevamos 3-4 sesiones, empezamos a ir juntas porque ella iba previamente sola y le gustó bastante. Es una persona dinámica, nos da muchas herramientas para facilitar la comunicación y saca nuestra parte más conciliadora. Le estamos muy agradecidas✨"
+    },
+    {
+        name: "A.S.",
+        score: 5,
+        date: "05/2024",
+        text: "Molt bona professional. Tracte impecable."
+    },
+    {
+        name: "D.G.",
+        score: 5,
+        date: "05/2024",
+        text: "Una amiga mía me recomendó a Nuria y la verdad es que no puedo estar más contenta! Es una profesional como la copa de un pino, además de ser dulce y amable. A pesar de que mi caso es complicado, siento que con ella tengo la libertad de poder explicarle todo y que me ayudará a afrontar mis problemas de una forma asertiva."
+    },
+    {
+        name: "I.LP.",
+        score: 5,
+        date: "04/2024",
+        text: "Empecé con Nuria en junio de 2023 recomendada por una amiga y acertó totalmente. Llegué a su consulta con una agorafobia muy fuerte que venía arrastrando desde hace muchos años, llegando al punto de no querer salir sola por la calle, siendo totalmente dependiente de mi familia, pareja y amigos. Creía que nunca más iba a poder hacer nada sola, pues eso no fue así, desde que me puse en sus manos me transmitió una confianza y una tranquilidad que nunca había tenido. Hemos trabajado poco a poco juntas en este proceso y hemos conseguido que pueda salir a pasear sola, ir a hacer la compra, coger el autobús sola, etc. El autobús era una cosa a la que le tenía mucho pánico y pensaba que nunca podría subirme sola y ahora no paro de cogerlo, me ha dado mucha libertad y ahora si que creo que puedo llegar a coger el transporte que quiera siguiendo el mismo proceso poco a poco y con su ayuda. Ahora vamos a por muchas mas cosas porque estamos consiguiendo que todo aquello que no he podido hacer durante años lo pueda hacer. La recomiendo totalmente, la mejor profesional para la salud mental. Gracias Nuria, me has cambiado la vida."
+    },
+    {
+        name: "P.S.",
+        score: 5,
+        date: "05/2024",
+        text: ""
+    },
+    {
+        name: "C.I.",
+        score: 5,
+        date: "04/2024",
+        text: "Al conocer mi caso, Nuria León no dudó en pasarme con su compañera, y no puedo estar más contenta. Me está ayudando muchísimo a desatascar lo que hace tiempo guardaba dentro. Y no me imagino ya los meses sin su cita. Mejor imposible."
+    },
+    {
+        name: "V.S.",
+        score: 5,
+        date: "04/2024",
+        text: "La Núria León em va derivar a la seva companya perquè ella tenia l'agenda completa i la veritat es que no m'imagino amb una altra terapeuta.  És simplement un sol. Humana, atenta, professional, et fa sentir còmoda i, sobre tot, li apassiona el seu treball. Sap identificar el que necessites (et pilla de seguida) i a mi personalment m'ha servit molt, et fa pensar.",
+    },
+    {
         name: "A.F.",
         score: 5,
         date: "04/2024",
-        text: "La experiencia con el acompañamiento profesional de Núria está siendo empática y directa. Brinda un espacio tranquilo, de escucha y donde de una forma natural y acertada por su parte, yo entiendo lo que necesito en ese momento. Esto me permite asimilar y seguir trabajando después. Gracias Nuria.",
-
+        text: "L’experiència amb l’acompanyament professional de Núria està sent empàtic i directa. Brinda un espai tranquil, d’escolta i on d’una forma natural i encertada per la seva part, jo entenc el que necessito en aquell moment. Això, em permet assimilar i seguir treballant després. Gràcies Núria.",
     }, {
         name: "M.T.",
         score: 5,
