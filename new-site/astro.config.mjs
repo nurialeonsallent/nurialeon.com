@@ -1,9 +1,8 @@
 import { defineConfig } from "astro/config"
 import mdx from "@astrojs/mdx"
-import sitemap from "@astrojs/sitemap"
-
 import react from "@astrojs/react"
 import tailwind from "@astrojs/tailwind"
+import sitemap from "@astrojs/sitemap"
 
 import { externalLink } from "./src/utils/externalLink"
 
@@ -23,6 +22,6 @@ export default defineConfig({
   //   layout: "responsive",
   // },
   redirects: {
-    awd: "test",
+    "/sitemap.xml": "/sitemap-index.xml",
   },
 })
