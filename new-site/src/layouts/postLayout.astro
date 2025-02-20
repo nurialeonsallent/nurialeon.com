@@ -47,15 +47,15 @@ const author = authors[propAuthor || "nuria"]
       </article>
       <a href="/equipo" class="contents">
         <div
-          class="flex flex-col bg-brand-50 border-2 border-brand-300 rounded-lg px gap-4 px-3 py-4 md:flex-row items-center hover:border-brand-500 transition-all"
+          class="flex flex-col bg-brand-50 border-2 border-brand-300 rounded-lg px gap-4 px-3 py-4 sm:flex-row items-center hover:border-brand-500 transition-all"
         >
           <Picture
             src={author.image}
             alt={author.name}
             height={250}
-            class="rounded-md md:w-[200px] md:h-[200px] object-cover shrink-0 mx-auto"
+            class="rounded-md sm:w-[200px] sm:h-[200px] object-cover shrink-0 mx-auto"
           />
-          <div class="flex flex-col md:h-[200px]">
+          <div class="flex flex-col sm:h-[200px]">
             <div class="text-neutral-700 text-sm">Escrito por</div>
             <div class="text-brand-500 text-2xl font-medium">{author.name}</div>
             <div class="my-2 grow">{author.description}</div>
