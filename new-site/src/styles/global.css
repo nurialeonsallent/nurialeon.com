@@ -65,6 +65,14 @@
     @apply font-bold text-neutral-800;
   }
 
+  /* https://github.com/withastro/astro/issues/5476 */
+  picture {
+    @apply contents;
+  }
+  source {
+    @apply hidden;
+  }
+
   .a-link {
     @apply text-brand-500 underline underline-offset-4;
   }
@@ -104,7 +112,7 @@
     }
 
     blockquote {
-      @apply border-l-4 border-brand-400 bg-brand-100 py-4 pl-4 pr-2 italic;
+      @apply border-l-4 border-brand-400 bg-brand-50 py-4 pl-4 pr-2 italic;
     }
 
     blockquote > *:first-child {

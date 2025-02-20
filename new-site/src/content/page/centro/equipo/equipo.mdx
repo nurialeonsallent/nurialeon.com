@@ -4,7 +4,7 @@ slug: /equipo/
 excerpt: "Conoce al equipo del Centro Núria León"
 ---
 
-import { Picture } from "astro:assets"
+import { Image } from "astro:assets"
 import GoIcon from "~/icons/go.astro"
 import "./equipo.css"
 
@@ -13,7 +13,7 @@ En nuestro centro estamos en la búsqueda constante de mejorar y crecer, por eso
 El equipo es multidisciplinar, contamos con especialistas en psicología sanitaria, acompañamiento emocional y psiconutrición. Cada caso es diferente y por ello trabajamos en conjunto para poder ofrecer un servicio personalizado.
 
 <div class="member">
-<Picture alt="Núria" src={import('nuria.jpg')} height="450" />
+<Image class="img" alt="Núria" src={import('nuria.jpg')} height="450" />
 <h2 class="member__name" id="nuria">Núria</h2>
 <div class="member__content">
 
@@ -37,7 +37,7 @@ Más sobre mí <GoIcon />
 </div>
 
 <div class="member">
-<Picture alt="Helena" src={import('helena.png')} height="450" />
+<Image class="img" alt="Helena" src={import('helena.png')} height="450" />
 <h2 class="member__name" id="helena">Helena</h2>
 <div class="member__content" markdown="1">
 
@@ -61,7 +61,7 @@ Helena puede ayudarte en: problemas de pareja, problemas familares, infidelidad,
 </div>
 
 <div class="member">
-<Picture alt="Cristina" src={import('cristina.png')} height="450" />
+<Image class="img" alt="Cristina" src={import('cristina.png')} height="450" />
 <h2 class="member__name" id="cristina">Cristina</h2>
 <div class="member__content" markdown="1">
 
@@ -84,7 +84,7 @@ Cristina puede ayudarte en todo tipo de problemas psicológicos: ansiedad, depre
 </div>
 
 <div class="member">
-<Picture alt="Iris" src={import('iris.png')} height="450" />
+<Image class="img" alt="Iris" src={import('iris.png')} height="450" />
 <h2 class="member__name" id="iris">Iris</h2>
 <div class="member__content" markdown="1">
 
