@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets"
 const props = Astro.props
+const WrappedImage = Image as any
 ---
 
-<Image {...props} width={800} />
+<WrappedImage {...props} width={800} />
