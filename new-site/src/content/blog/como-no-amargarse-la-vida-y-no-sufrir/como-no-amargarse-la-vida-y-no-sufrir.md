@@ -1,0 +1,37 @@
+---
+layout: post
+title: "¿Cómo dejar de amargarse la vida? Aprende las claves para no sufrir "
+date: 2023-11-26 00:00:00 +0
+image: foto_articulo_resolver.webp
+published: true
+author: nuria
+---
+
+¿Por qué nos cuesta tanto sentirnos felices? La mayoría de las personas quieren alcanzar la felicidad, pero están en un constante sufrimiento, quieren la paz, pero están en guerra, quieren calma pero están en inquietud. Muchas veces sufrimos porque estamos en contradicción, incoherencia o en lucha con nosotros mismos.
+
+
+---
+
+Por ese motivo, para salir del sufrimiento, tenemos que entender que somos responsables de nosotros mismos y eso significa comprometerse con uno mismo y con el cambio. Nuestras acciones, nuestras emociones… estamos en búsqueda constante de un equilibrio. Parece complicado pero en el fondo es sentido común, uno puede conseguir la felicidad de varias formas, **aunque a veces, con nuestras mejores intenciones, hacemos cosas que no nos ayudan, hacemos cosas que nos empeoran el sufrimiento.**
+
+Con la terapia breve estratégica conseguimos desbloquear esas incoherencias y esas resistencias para que la persona pueda alcanzar su plenitud. Las estrategias son planificaciones que se llevan a cabo con la finalidad de cumplir un objetivo o de alcanzar una meta.
+
+## La terapia breve estratégica: La clave para salir del sufrimiento 
+
+La terapia breve estratégica en un modelo de resolución de conflictos. Uno de los grandes sabios modernos, Karl Popper, acuñó una cita que parece creada expresamente para definir el objetivo del enfoque estratégico: **“la vida en un continuo resolver problemas”.**
+
+![Terapia para no amargarse](articulo_amargarse.webp)
+
+
+Cuando tenemos un **“problema”** necesitamos introducir un cambio, aunque muchas veces lo que nuestra lógica nos dice, puede no ser lo más eficiente para ese cambio, por eso desde la terapia breve estratégica aconsejamos buscar un terapeuta especialista para conseguir desbloquear el problema y hacer las cosas diferentes. 
+
+## Consigue el cambio que necesitas para salir adelante 
+
+Tal y como decía Einstein… "No pretendamos que las cosas cambien, si siempre hacemos lo mismo." La principal clave es **priorizar la acción**, la acción es la puerta fácil para generar cambios. Haciendo más de lo mismo se aumenta el malestar, el sufrimiento y la infelicidad. 
+
+Por ese motivo, si necesitas desbloquear tu situación, desde la terapia te ofreceremos estrategias para poder provocar nuevas experiencias emocionales que te ayudarán a ver la realidad desde otra perspectiva. Además, la mejor forma de predecir el futuro es creándolo mediante el cambio.
+
+No dudes en contactar con nosotras si te encuentras en una espiral de sufrimiento, somos especialistas en terapia breve estratégica y con nuestro enfoque conseguiremos desbloquear cualquier problema que tengas.
+
+
+
