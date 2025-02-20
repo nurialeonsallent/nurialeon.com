@@ -88,7 +88,7 @@ import Checks from "~/components/checks.astro"
 
 </Checks>
 
-> También podemos ayudarte si estás buscando un cambio en tu vida, sentirte mejor o conseguir algún objetivo concreto como: sacarte una oposición, cambiar de trabajo, dejar una relación, hacer un cambio de vida o simplemente aprender a conocerte mejor y mejorar tus relaciones personales, familiares, laborales o de amistad.
+También podemos ayudarte si estás buscando un cambio en tu vida, sentirte mejor o conseguir algún objetivo concreto como: sacarte una oposición, cambiar de trabajo, dejar una relación, hacer un cambio de vida o simplemente aprender a conocerte mejor y mejorar tus relaciones personales, familiares, laborales o de amistad. ¡Preguntanos!
 
 ## Nuestros valores son:
 
@@ -106,6 +106,12 @@ Después de cada visita solemos enviar actividades o prescribimos tareas concret
 **_Las sesiones son en nuestro Centro en la Calle Bailén 141, esc izq entlo 6, 08037, Barcelona. Puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal o efectivo._**
 
 **_Para cancelaciones o cambios es necesario poder avisar con un margen mínimo de 24 horas._**
+
+import { reviews } from "~/content/reviews"
+import Reviews from "~/components/reviews.astro"
+
+<h2>Reseñas ({reviews.length + 30}+)</h2>
+<Reviews />
 
 ## Preguntas frecuentes
 
@@ -137,17 +143,7 @@ Después de cada visita solemos enviar actividades o prescribimos tareas concret
 
 </div>
 
-import { reviews } from "~/content/reviews"
-import Reviews from "~/components/reviews.astro"
 import ContactForm from "~/components/contactForm.astro"
 
-<div class="flex flex-col gap-x-12 md:flex-row">
-  <div class="basis-1/2">
-    <h2>Reseñas ({reviews.length + 30}+)</h2>
-    <Reviews />
-  </div>
-  <div class="basis-1/2">
-    <h2>Pide tu cita, Contacta con nosotros</h2>
-    <ContactForm />
-  </div>
-</div>
+<h2>Pide tu cita, Contacta con nosotros</h2>
+<ContactForm />
