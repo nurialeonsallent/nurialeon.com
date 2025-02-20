@@ -10,7 +10,7 @@ author: nuria
 
 Hoy en día existen muchos profesionales que se dedican a ayudar a otras personas a superar sus problemas y a sentirse mejor, aunque no todos son adecuados. En este artículo te voy a explicar algunas ideas para que tengas en cuenta a la hora de elegir un psicólogo.
 
-<!-- more -->
+---
 
 ### Formación académica y corriente terapeútica
 
