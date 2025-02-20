@@ -19,6 +19,9 @@ export default defineConfig({
   markdown: {
     rehypePlugins: [[externalLink, {}]],
   },
+  // image: {
+  //   layout: "responsive",
+  // },
   redirects: {
     awd: "test",
   },

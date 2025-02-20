@@ -1,14 +1,17 @@
 ---
 import { reviews } from "~/content/reviews"
 import Star from "~/icons/star.astro"
-import { Image } from "astro:assets"
+import { Picture } from "astro:assets"
 import GoIcon from "~/icons/go.astro"
+import googleReviewsImage from "@images/google-reviews.webp"
 
-const orderedReviews = [...reviews].map((r, i) => ({...r, index: i})).sort((a, b) => 
-  new Date("01/" + b.date).getTime() - new Date("01/" + a.date).getTime()
-  || a.index - b.index
-)
-
+const orderedReviews = [...reviews]
+  .map((r, i) => ({ ...r, index: i }))
+  .sort(
+    (a, b) =>
+      new Date("01/" + b.date).getTime() - new Date("01/" + a.date).getTime() ||
+      a.index - b.index
+  )
 ---
 
 <div class="relative">
@@ -41,8 +44,8 @@ const orderedReviews = [...reviews].map((r, i) => ({...r, index: i})).sort((a, b
     <div
       class="grow flex flex-row items-center justify-center gap-x-4 flex-wrap"
     >
-      <Image
-        src="https://www.nurialeon.com/images/google-reviews.webp"
+      <Picture
+        src={googleReviewsImage}
         alt="Google Reviews"
         height={50}
         width={100}

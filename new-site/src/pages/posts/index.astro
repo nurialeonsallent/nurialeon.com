@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content"
 import FormattedDate from "@components/FormattedDate.astro"
-import { Image } from "astro:assets"
+import { Picture } from "astro:assets"
 import Layout from "~/layouts/columnLayout.astro"
 import { createExcerpt } from "~/utils/excerpt"
 import GoIcon from "~/icons/go.astro"
@@ -38,7 +38,7 @@ let currentDate: Date | undefined
             )}
             <li class="flex flex-col md:flex-row md:items-stretch">
               <a href={`/posts/${post.slug}/`} class="contents">
-                <Image
+                <Picture
                   width={640}
                   src={post.data.image}
                   alt={post.data.title}
