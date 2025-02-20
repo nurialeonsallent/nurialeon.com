@@ -7,13 +7,13 @@ published: true
 author: nuria
 ---
 
-Los humanos experimentamos infinidad de emociones y aun así nos cuesta mucho describir con palabras lo que son. De hecho, estamos condenados a sentir emociones a diario, ya que estar vivo implica sentir.  Las emociones nos aportan mucha información relacionada con nuestro bienestar y nos informan de si estamos satisfaciendo o frustrando nuestras metas o necesidades. Si combinamos nuestras emociones con nuestra razón, conseguiremos ser seres más eficaces en los distintos entornos que vivamos. Por ese motivo, es muy importante que cada uno de nosotros aprenda a gestionar sus emociones, ya que eso nos llevará a tomar mejores decisiones y a vivir una vida mejor. 
+Los humanos experimentamos infinidad de emociones y aun así nos cuesta mucho describir con palabras lo que son. De hecho, estamos condenados a sentir emociones a diario, ya que estar vivo implica sentir.  Las emociones nos aportan mucha información relacionada con nuestro bienestar y nos informan de si estamos satisfaciendo o frustrando nuestras metas o necesidades. Si combinamos nuestras emociones con nuestra razón, conseguiremos ser seres más eficaces en los distintos entornos que vivamos. 
 
 
 ---
 
 
-Platón decía que las emociones eran caballos salvajes que tenían que ser refrenados por el cochero del intelecto. Por otra parte, Descartes dijo “Pienso, luego existo”, poniendo el foco en la importancia de la parte racional… Pero a pesar de ello, todos somos seres altamente emocionales. A pesar de los mejores esfuerzos que hagamos para controlar las emociones, nuestra emotividad surge de todas maneras, dando lugar a esperanzas, temores, deseos y miedos…
+Platón decía que las emociones eran caballos salvajes que tenían que ser refrenados por el cochero del intelecto. Por otra parte, Descartes dijo “Pienso, luego existo”, poniendo el foco en la importancia de la parte racional… Pero a pesar de ello, todos somos seres altamente emocionales. A pesar de los mejores esfuerzos que hagamos para controlar las emociones, nuestra emotividad surge de todas maneras, dando lugar a esperanzas, temores, deseos y miedos… 
 
 Pero ¿qué son las emociones? Según el diccionario, la palabra emoción viene del verbo “motere” y el prefijo “e”, por lo que, etimológicamente, el término emoción viene del latín emotĭo, que significa «movimiento o impulso», «aquello que te mueve hacia algún sitio». Las emociones son reacciones psicofisiológicas que representan modos de adaptación ante situaciones y como bien indica su definición, nos impulsa a tomar acción o nos hace reaccionar ante algo que nos parece importante.
 
