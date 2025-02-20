@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "¿Cómo dejar de amargarse la vida? Aprende las claves para no sufrir "
 date: 2023-11-26 00:00:00 +0
 image: foto_articulo_resolver.webp
