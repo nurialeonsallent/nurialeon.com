@@ -1,5 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content"
+import PostImage from "~/components/postImage.astro"
 import BlogPost from "~/layouts/blogPostLayout.astro"
 import { createExcerpt } from "~/utils/excerpt"
 
@@ -15,9 +16,9 @@ type Props = CollectionEntry<"posts">
 
 const post = Astro.props
 const excerpt = createExcerpt(post.body)
-const { Content } = await post.render()
+const { Content, ...components } = await post.render()
 ---
 
 <BlogPost {...post.data} excerpt={excerpt}>
-  <Content />
+  <Content components={{ ...components, img: PostImage }} />
 </BlogPost>
