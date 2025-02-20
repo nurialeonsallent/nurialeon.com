@@ -10,6 +10,7 @@ import { authors } from "~/content/authors"
 const posts = (await getCollection("posts")).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 )
+let currentDate: Date | undefined
 ---
 
 <Layout title="Posts">
@@ -19,37 +20,53 @@ const posts = (await getCollection("posts")).sort(
         const excerpt = createExcerpt(post.body)
         const author = authors[post.data.author ?? "nuria"]
 
+        const dateTitle =
+          !currentDate || post.data.date.getMonth() !== currentDate.getMonth()
+            ? post.data.date.toLocaleDateString("es", {
+                month: "long",
+                year: "numeric",
+              })
+            : undefined
+        currentDate = post.data.date
+
         return (
-          <li class="flex flex-col md:flex-row md:items-stretch">
-            <a href={`/posts/${post.slug}/`} class="contents">
-              <Image
-                width={640}
-                src={post.data.image}
-                alt={post.data.title}
-                class="w-full object-cover h-[240px] border border-neutral-300 rounded-lg md:h-auto md:w-[500px] shrink-0"
-              />
-              <div class="mx-2 bg-white shadow-xl p-4 md:p-8 -mt-16 rounded-md border border-neutral-300 md:my-12 md:-ml-[25vw] lg:-ml-32 flex flex-col">
-                <h2 class="h3 m-0">{post.data.title}</h2>
-                {post.data.subtitle && (
-                  <h3 class="mb-0 mt-2 h5 text-neutral-500">
-                    {post.data.subtitle}
-                  </h3>
-                )}
-                <p class="my-4 md:my-6 text-base grow">{excerpt}</p>
-                <div class="flex items-center justify-between flex-wrap gap-x-8 gap-y-4">
-                  <p class="text-xs text-gray-700">
-                    <FormattedDate date={post.data.date} /> - Escrito por{" "}
-                    <a class="a-link" href="/equipo">
-                      {author.name}
-                    </a>
-                  </p>
-                  <button class="a-link ml-auto">
-                    Leer más <GoIcon />
-                  </button>
+          <>
+            {dateTitle && (
+              <h2 class="h3 mx-auto">
+                {dateTitle.charAt(0).toUpperCase() + dateTitle.substring(1)}
+              </h2>
+            )}
+            <li class="flex flex-col md:flex-row md:items-stretch">
+              <a href={`/posts/${post.slug}/`} class="contents">
+                <Image
+                  width={640}
+                  src={post.data.image}
+                  alt={post.data.title}
+                  class="w-full object-cover h-[240px] border border-neutral-300 rounded-lg md:h-auto md:w-[500px] shrink-0"
+                />
+                <div class="mx-2 bg-white shadow-xl p-4 md:p-8 -mt-16 rounded-md border border-neutral-300 md:my-12 md:-ml-[25vw] lg:-ml-32 flex flex-col">
+                  <h2 class="h3 m-0">{post.data.title}</h2>
+                  {post.data.subtitle && (
+                    <h3 class="mb-0 mt-2 h5 text-neutral-500">
+                      {post.data.subtitle}
+                    </h3>
+                  )}
+                  <p class="my-4 md:my-6 text-base grow">{excerpt}</p>
+                  <div class="flex items-center justify-between flex-wrap gap-x-8 gap-y-4">
+                    <p class="text-xs text-gray-700">
+                      <FormattedDate date={post.data.date} /> - Escrito por{" "}
+                      <a class="a-link" href="/equipo">
+                        {author.name}
+                      </a>
+                    </p>
+                    <button class="a-link ml-auto">
+                      Leer más <GoIcon />
+                    </button>
+                  </div>
                 </div>
-              </div>
-            </a>
-          </li>
+              </a>
+            </li>
+          </>
         )
       })
     }
