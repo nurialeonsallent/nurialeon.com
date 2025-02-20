@@ -9,7 +9,6 @@ author: nuria
 
 ¿Por qué nos cuesta tanto sentirnos felices? La mayoría de las personas quieren alcanzar la felicidad, pero están en un constante sufrimiento, quieren la paz, pero están en guerra, quieren calma pero están en inquietud. Muchas veces sufrimos porque estamos en contradicción, incoherencia o en lucha con nosotros mismos.
 
-
 ---
 
 Por ese motivo, para salir del sufrimiento, tenemos que entender que somos responsables de nosotros mismos y eso significa comprometerse con uno mismo y con el cambio. Nuestras acciones, nuestras emociones… estamos en búsqueda constante de un equilibrio. Parece complicado pero en el fondo es sentido común, uno puede conseguir la felicidad de varias formas, **aunque a veces, con nuestras mejores intenciones, hacemos cosas que no nos ayudan, hacemos cosas que nos empeoran el sufrimiento.**
