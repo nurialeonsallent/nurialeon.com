@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content"
 import PostImage from "~/components/postImage.astro"
-import BlogPost from "~/layouts/blogPostLayout.astro"
+import PostLayout from "~/layouts/postLayout.astro"
 import { createExcerpt } from "~/utils/excerpt"
 
 export async function getStaticPaths() {
@@ -19,6 +19,6 @@ const excerpt = createExcerpt(post.body)
 const { Content, ...components } = await post.render()
 ---
 
-<BlogPost {...post.data} excerpt={excerpt}>
+<PostLayout {...post.data} excerpt={excerpt}>
   <Content components={{ ...components, img: PostImage }} />
-</BlogPost>
+</PostLayout>

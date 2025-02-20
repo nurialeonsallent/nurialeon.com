@@ -5,7 +5,7 @@ import { Image } from "astro:assets"
 import Layout from "~/layouts/columnLayout.astro"
 import { createExcerpt } from "~/utils/excerpt"
 import GoIcon from "~/icons/go.astro"
-import { authors } from "~/content/authors"
+import { authors } from "~/content/authors/authors"
 
 const posts = (await getCollection("posts")).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()

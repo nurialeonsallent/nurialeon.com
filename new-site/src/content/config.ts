@@ -1,5 +1,5 @@
 import { defineCollection, z } from "astro:content"
-import { authors } from "./authors";
+import { authors } from "./authors/authors";
 
 const posts = defineCollection({
   type: "content",
