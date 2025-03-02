@@ -1,8 +1,16 @@
 ---
+import { Image } from "astro:assets"
 import Location from "~/icons/location.astro"
 import SocialNetworks from "./socialNetworks.astro"
 import Phone from "~/icons/phone.astro"
 import Email from "~/icons/email.astro"
+
+import Acapps from "~/images/acapps.png"
+import Copc from "~/images/copc.png"
+import Paypal from "~/icons/paypal.astro"
+import Visa from "~/icons/visa.astro"
+import Mastercard from "~/icons/mastercard.astro"
+import Bizum from "~/icons/bizum.astro"
 
 const today = new Date()
 ---
@@ -10,34 +18,59 @@ const today = new Date()
 <footer
   class="mt-8 flex flex-col justify-center items-center bg-neutral-200 border-t-2 border-neutral-300 px-3 pt-8 pb-24 gap-16"
 >
-  <SocialNetworks />
-  <div>NUESTROS VALORES</div>
-  <div>LOGOS COPC + ASOCIACION</div>
-  <div>LOGOS VISA MASTERCARD BIZUM PAYPAL</div>
-  <p class="flex flex-col items-start">
-    <a
-      class="link"
-      href="https://g.page/r/Cbk285IdPtR5EAg"
-      target="_blank"
-      rel="noopener"
+  <div class="flex items-center justify-center gap-12 md:gap-24 flex-wrap">
+    <div
+      class="flex flex-col md:items-end gap-6 md:gap-8 flex-wrap items-center"
     >
-      <Location class="text-xl" />
-      <span>Bailèn 141, Esc. Izq. Entr. 6, 08037 Barcelona</span></a
-    >
-    <a
-      class="link"
-      href="https://wa.me/34650011672"
-      target="_blank"
-      rel="noopener"
-    >
-      <Phone class="text-xl" />
-      <span>+34 650 011 672</span></a
-    >
-    <a class="link" href="mailto:psicologa@nurialeon.com" rel="noopener">
-      <Email class="text-xl" />
-      <span>psicologa@nurialeon.com</span>
-    </a>
-  </p>
+      <div class="flex gap-6 md:gap-8 items-center flex-wrap">
+        <Image
+          src={Copc}
+          alt="COPC"
+          height={80}
+          class="h-16 w-auto md:h-auto"
+        />
+        <Image
+          src={Acapps}
+          alt="Federacio ACAPPS"
+          height={100}
+          class="h-20 w-auto md:h-auto"
+        />
+      </div>
+      <div class="flex gap-6 md:gap-8 items-center flex-wrap justify-center">
+        <Paypal class="text-[50px] md:text-[50px]" />
+        <Visa class="text-[25px] md:text-[25px]" />
+        <Mastercard class="text-[50px] md:text-[50px]" />
+        <Bizum class="text-[25px] md:text-[25px]" />
+      </div>
+    </div>
+    <div class="flex flex-col items-center md:items-start">
+      <SocialNetworks />
+      <p class="flex flex-col items-start mt-12">
+        <a
+          class="link"
+          href="https://g.page/r/Cbk285IdPtR5EAg"
+          target="_blank"
+          rel="noopener"
+        >
+          <Location class="text-xl" />
+          <span>Bailèn 141, Esc. Izq. Entr. 6, 08037 Barcelona</span></a
+        >
+        <a
+          class="link"
+          href="https://wa.me/34650011672"
+          target="_blank"
+          rel="noopener"
+        >
+          <Phone class="text-xl" />
+          <span>+34 650 011 672</span></a
+        >
+        <a class="link" href="mailto:psicologa@nurialeon.com" rel="noopener">
+          <Email class="text-xl" />
+          <span>psicologa@nurialeon.com</span>
+        </a>
+      </p>
+    </div>
+  </div>
   <span>&copy; {today.getFullYear()} nurialeon.com</span>
 </footer>
 
