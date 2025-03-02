@@ -97,7 +97,7 @@ export default defineConfig({
   // },
   redirects: {
     "/sitemap.xml": "/sitemap-index.xml",
-    "/servicios/": "/",
+    "/servicios/": "/psicologo-barcelona/",
     ...blogAntiguo,
   },
 })
