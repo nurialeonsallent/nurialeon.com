@@ -10,13 +10,14 @@ import Go from "~/icons/go.astro"
 import { servicios } from "~/content/servicios"
 export interface Props {
   tipo: keyof typeof servicios
+  title?: string | null
 }
 
-const { tipo } = Astro.props
+const { title = "¿Cómo es la terapia?", tipo } = Astro.props
 const servicio = servicios[tipo]
 ---
 
-<h2>¿Cómo es la terapia?</h2>
+<h2>{title}</h2>
 <div
   class="flex lg:flex-row flex-col border-brand-300 border-2 rounded-lg bg-white"
 >

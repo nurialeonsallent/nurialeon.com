@@ -5,6 +5,7 @@ import { Picture } from "astro:assets"
 import BaseLayout from "./baseLayout.astro"
 import { authors } from "~/content/authors/authors"
 import Go from "~/icons/go.astro"
+import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
 
 type Props = CollectionEntry<"posts">["data"] & { excerpt: string }
 const {
@@ -64,5 +65,11 @@ const author = authors[propAuthor || "nuria"]
         </div>
       </a>
     </div>
+  </div>
+  <div class="mx-auto w-full max-w-screen-lg px-3 mb-16">
+    <ComoEsLaTerapia
+      tipo="presencial"
+      title="¿Cómo es la terapia en el Centro Núria León?"
+    />
   </div>
 </BaseLayout>
