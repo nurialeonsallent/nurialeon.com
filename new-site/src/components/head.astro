@@ -56,3 +56,24 @@ const {
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<!-- GA4 -->
+<script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-PCWBZV5Z2N"
+></script>
+
+<script is:inline>
+  window.dataLayer = window.dataLayer || []
+  function gtag() {
+    dataLayer.push(arguments)
+  }
+  gtag("js", new Date())
+
+  gtag("consent", "default", {
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    analytics_storage: "denied",
+  })
+
+  gtag("config", "G-PCWBZV5Z2N")
+</script>
