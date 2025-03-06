@@ -6,7 +6,7 @@ import CalendarIcon from "~/icons/calendar.astro"
 import ChecklistIcon from "~/icons/checklist.astro"
 import SmileIcon from "~/icons/smile.astro"
 import GoIcon from "~/icons/go.astro"
-import Go from "~/icons/go.astro"
+import PaymentIcon from "~/icons/payment.astro"
 import { servicios } from "~/content/servicios"
 export interface Props {
   tipo: keyof typeof servicios
@@ -39,7 +39,21 @@ const servicio = servicios[tipo]
       <TimeIcon
         class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
       />
-      <span>Las sesiones duran {servicio.duracion}.</span>
+      <span>Las sesiones duran <b>{servicio.duracion}</b>.</span>
+    </div>
+    <div class="gap-4 flex items-center">
+      <PaymentIcon
+        class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
+      />
+      <span
+        >{
+          servicio.precio && (
+            <>
+              El coste por sesión es de <b>{servicio.precio}</b>.{" "}
+            </>
+          )
+        }Se puede pagar con tarjeta, bizum o paypal.</span
+      >
     </div>
     <div class="gap-4 flex items-center">
       <CalendarIcon
@@ -130,7 +144,7 @@ const servicio = servicios[tipo]
         href="/contacto"
         class="cta self-center flex items-center rounded-md border-2 border-brand-600 bg-brand-400 active:bg-brand-600 hover:bg-brand-500 py-2 text-center text-base font-semibold text-white pl-8 pr-4 no-underline"
       >
-        ¡Pide tu Cita! <Go class="pl-8" />
+        ¡Pide tu Cita! <GoIcon class="pl-8" />
       </a>
     </div>
   </div>
