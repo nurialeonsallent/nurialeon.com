@@ -10,7 +10,7 @@ import Go from "~/icons/go.astro"
 import { servicios } from "~/content/servicios"
 export interface Props {
   tipo: keyof typeof servicios
-  title?: string | null
+  title?: string
 }
 
 const { title = "¿Cómo es la terapia?", tipo } = Astro.props
@@ -70,9 +70,8 @@ const servicio = servicios[tipo]
           target="_blank"
           rel="noopener"
         >
-          C/ Bailèn 141, Barcelona
-        </a>
-        .
+          C/ Bailèn 141, Barcelona</a
+        >.
       </span>
     </div>
   </div>
