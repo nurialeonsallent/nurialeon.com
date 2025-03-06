@@ -122,6 +122,10 @@
     blockquote > *:last-child {
       @apply mb-0;
     }
+
+    lite-youtube {
+      @apply mx-auto my-8 w-full max-w-full;
+    }
   }
 
   /* tooltip */

@@ -3,6 +3,7 @@ import mdx from "@astrojs/mdx"
 import react from "@astrojs/react"
 import tailwind from "@astrojs/tailwind"
 import sitemap from "@astrojs/sitemap"
+import embeds from "astro-embed/integration"
 
 import { externalLink } from "./src/utils/externalLink"
 
@@ -84,6 +85,7 @@ const blogAntiguo = {
 export default defineConfig({
   site: "https://www.nurialeon.com",
   integrations: [
+    embeds(),
     mdx(),
     sitemap(),
     react(),
