@@ -71,7 +71,7 @@ export default function ({ pathname }: { pathname: string }) {
 
   return (
     <nav
-      className="group/nav flex items-center justify-center bg-neutral-200 font-title"
+      className="group/nav flex items-center justify-center bg-neutral-200 font-title shadow-transparent transition-shadow duration-300"
       data-nav
       data-open={isGlobalMenuOpen}
     >

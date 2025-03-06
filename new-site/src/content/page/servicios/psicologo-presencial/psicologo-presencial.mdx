@@ -4,24 +4,16 @@ title: Terapia Psicológica Individual
 ---
 
 import { Picture } from "astro:assets"
+import { servicios } from "~/content/servicios"
+import ServicioCard from "~/components/servicioCard.astro"
 
-La terapia psicológica es para ti si sufres algun problema emocional o psicológico y quieres superarlo para sentirte mejor.
+{servicios.presencial.descripcion}
 
-<div class="inline-flex grow flex-col items-center justify-start gap-2 rounded-lg border-2 border-brand-300 bg-brand-50 p-4 sm:basis-1/3 lg:basis-0 lg:gap-4">
-  <span>70€</span>
-</div>
-
-## ¿Qué es la Terapia Individual?
-
-<div class="columns-2">
-  <Picture
-    alt="Terapia Psicológica Individual"
-    src="https://placehold.co/600x400/EEE/31343C"
-    width={600}
-    height={400}
-    class="m-0"
-  />
+<div class="flex gap-2 flex-wrap md:flex-nowrap">
+  <ServicioCard type="presencial" />
   <div>
+
+    ## ¿Qué es la Terapia Individual?
 
     La terapia psicológica es un proceso en el que intervenimos para resolver o mejorar algún aspecto de la vida de la persona. En el Centro podemos ayudarte en todo tipo de problema psicológico o emocional. Somos especialistas en la terapia breve estratégica y la terapia cognitivo conductual, aunque nuestra metodología también es integradora ya que utilizamos herramientas y recursos de todo tipo para adaptarnos a cada caso.
 
@@ -36,59 +28,11 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
 
 <ComoEsLaTerapia tipo="presencial" />
 
-import Checks from "~/components/checks.astro"
+import Problemas from "~/components/problemas.astro"
 
-<Checks>
+<Problemas tipo="presencial" />
 
-## ¿Qué problemas se pueden tratar en terapia?
-
-- Ansiedad
-- Depresión o Tristeza
-- Autoestima
-- Crecimiento personal
-- Dudas patológicas
-- Crisis
-- Timidez
-- Toma de decisiones
-- Estrés
-- Gestión de emociones
-- Fobias
-- Miedos
-- Ansiedad Social
-- Ataques de pánico
-- Inseguridades
-- Ansiedad Social
-- Crecimiento personal
-- Autoconocimiento
-- Habilidades Sociales
-- Obsesiones
-- Duelos
-- Autolesiones
-- Intentos de suicidio
-- Rituales
-- Rumiación
-- Ataques de pánico
-- Ataques de ansiedad
-- Compulsiones
-- Agorafobia
-- Hipocondría
-- TOC, TAG, TLP
-- Trastornos de personalidad
-- Problemas de alimentación
-- Mobbing, Burnout, Bullying
-- Imagen corporal
-- Sexualidad
-- Dismorfia corporal
-- Baja líbido
-- Apego Ansioso
-- Trauma
-- Abusos sexuales
-- Disforia de género
-- ... y muchos más!
-
-</Checks>
-
-También podemos ayudarte si estás buscando un cambio en tu vida, sentirte mejor o conseguir algún objetivo concreto como: sacarte una oposición, cambiar de trabajo, dejar una relación, hacer un cambio de vida o simplemente aprender a conocerte mejor y mejorar tus relaciones personales, familiares, laborales o de amistad. ¡Preguntanos!
+> También podemos ayudarte si estás buscando un cambio en tu vida, sentirte mejor o conseguir algún objetivo concreto como: sacarte una oposición, cambiar de trabajo, dejar una relación, hacer un cambio de vida o simplemente aprender a conocerte mejor y mejorar tus relaciones personales, familiares, laborales o de amistad. ¡Preguntanos!
 
 ## Nuestros valores son:
 
@@ -101,16 +45,9 @@ También podemos ayudarte si estás buscando un cambio en tu vida, sentirte mejo
 
 Cuidamos todos los detalles de cada intervención para poder ofrecer una atención de calidad. Nos centramos en la persona y por eso ofrecemos un servicio único y exclusivo.
 
-Después de cada visita solemos enviar actividades o prescribimos tareas concretas con la idea de que la persona siga realizando avances entre sesión y sesión. Nos adaptamos a cada caso y a cada necesidad. A lo largo de la terapia las sesiones se irán espaciando hasta que una vez se resuelva el problema inicial se dará el alta terapéutica.
-
-**_Las sesiones son en nuestro Centro en la Calle Bailén 141, esc izq entlo 6, 08037, Barcelona. Puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal o efectivo._**
-
-**_Para cancelaciones o cambios es necesario poder avisar con un margen mínimo de 24 horas._**
-
 import { reviews } from "~/content/reviews"
 import Reviews from "~/components/reviews.astro"
 
-<h2>Reseñas ({reviews.length + 30}+)</h2>
 <Reviews />
 
 ## Preguntas frecuentes

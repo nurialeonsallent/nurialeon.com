@@ -69,119 +69,36 @@ import { servicios } from "~/content/servicios"
     <div
       class="flex flex-wrap gap-x-4 gap-y-10 py-10 pb-4 lg:gap-4 justify-center"
     >
-      <a href="/psicologo-barcelona" class="terapia-card">
-        <div class="icon"><IndividualIcon /></div>
-        <div class="title">
-          <h3>Terapia Individual</h3>
-          <span class="price">{servicios["presencial"].precio}</span>
-        </div>
-        <span class="subtitle">Adultos y Adolescentes</span>
-        <p>
-          La terapia psicológica es para ti si sufres algun problema emocional o
-          psicológico y quieres superarlo para sentirte mejor.
-        </p>
-        <ul>
-          <li>Autoestima</li>
-          <li>Ansiedad</li>
-          <li>Depresión</li>
-          <li>Fobias</li>
-          <li>Estrés</li>
-          <li>Miedos</li>
-          <li>Duelos no resueltos</li>
-          <li>Gestión de emociones</li>
-          <li>Hipocondría</li>
-          <li>Trauma</li>
-          <li>Ansiedad Social</li>
-          <li>Mobbing (Acoso Laboral)</li>
-          <li>Burnout</li>
-          <li>...</li>
-        </ul>
-        <button>Leer más <GoIcon /></button>
-      </a>
-      <a href="/psicologo-online" class="terapia-card">
-        <div class="icon"><OnlineIcon /></div>
-        <div class="title">
-          <h3>Terapia Online</h3>
-          <h3 class="price">{servicios["online"].precio}</h3>
-        </div>
-        <span class="subtitle">Adultos y Adolescentes</span>
-        <p>
-          La terapia online es adecuada si quieres realizar terapia por
-          videollamada. Es igual de eficaz que la presencial y se pueden
-          combinar.
-        </p>
-        <ul>
-          <li>Problemas personales</li>
-          <li>Autoestima</li>
-          <li>Depresión</li>
-          <li>Ansiedad</li>
-          <li>Estrés</li>
-          <li>Miedos</li>
-          <li>Duelo</li>
-          <li>Mobbing (Acoso Laboral)</li>
-          <li>Timidez</li>
-          <li>...</li>
-        </ul>
-        <button>Leer más <GoIcon /></button>
-      </a>
-      <a
-        href="/terapia-de-parejas-relaciones-familiares-barcelona"
-        class="terapia-card"
-      >
-        <div class="icon"><ParejaIcon /></div>
-        <div class="title">
-          <h3>Terapia de Parejas/Familia</h3>
-          <h3 class="price">{servicios["familias"].precio}</h3>
-        </div>
-        <span class="subtitle">Parejas y Familias</span>
-        <p>
-          La terapia de parejas es adecuada para quienes estén atravesando
-          alguna situación complicada en pareja.
-        </p>
-        <ul>
-          <li>Infidelidades</li>
-          <li>Rupturas</li>
-          <li>Celos</li>
-          <li>Mentiras</li>
-          <li>Relación tóxica</li>
-          <li>Dependencia emocional</li>
-          <li>Comunicación Asertiva</li>
-          <li>Maternidad</li>
-          <li>Paternidad</li>
-          <li>Crianza</li>
-          <li>Familia</li>
-          <li>...</li>
-        </ul>
-        <button>Leer más <GoIcon /></button>
-      </a>
-      <a href="/psiconutricion-barcelona" class="terapia-card">
-        <div class="icon"><PsiconutricionIcon /></div>
-        <div class="title">
-          <h3>Psico-Nutrición</h3>
-          <h3 class="price">{servicios["psiconutricion"].precio}</h3>
-        </div>
-        <span class="subtitle">Adultos y Adolescentes</span>
-        <p>
-          Realizamos terapia psicológica acompañada de un asesoramiento
-          nutricional personalizado para mejorar la relación alimentaria de
-          forma integral.
-        </p>
-        <ul>
-          <li>TCA</li>
-          <li>Hambre emocional</li>
-          <li>Restricción</li>
-          <li>Compensación</li>
-          <li>Autoestima Corporal</li>
-          <li>Atracones</li>
-          <li>Anorexia</li>
-          <li>Bulímia</li>
-          <li>Nutrición Clínica</li>
-          <li>Trastornos Alimentarios</li>
-          <li>Fagofobia</li>
-          <li>...</li>
-        </ul>
-        <button>Leer más <GoIcon /></button>
-      </a>
+      {
+        (["presencial", "online", "parejas", "psiconutricion"] as const).map(
+          (s) => {
+            const servicio = servicios[s]
+            const Icono = servicio.icon
+            return (
+              <a href={servicio.link} class="terapia-card">
+                <div class="icon">
+                  <Icono />
+                </div>
+                <div class="title">
+                  <h3>{servicio.nombre}</h3>
+                  <span class="price">{servicio.precio}</span>
+                </div>
+                <span class="subtitle">{servicio.target}</span>
+                <p>{servicio.descripcion}</p>
+                <ul>
+                  {[
+                    ...servicio.problemas.map((p) => <li>{p}</li>),
+                    <li>...</li>,
+                  ]}
+                </ul>
+                <button>
+                  Leer más <GoIcon />
+                </button>
+              </a>
+            )
+          }
+        )
+      }
     </div>
   </div>
   <div class="lg:max-w-screen-xl mx-auto max-xl:px-3">
@@ -191,7 +108,6 @@ import { servicios } from "~/content/servicios"
     class="lg:max-w-screen-xl mx-auto max-xl:px-3 overflow-hidden flex flex-col md:flex-row gap-x-12"
   >
     <div class="basis-1/2">
-      <h2>Reseñas ({reviews.length + 30}+)</h2>
       <Reviews />
     </div>
     <div class="basis-1/2">
@@ -269,7 +185,9 @@ import { servicios } from "~/content/servicios"
     }
 
     ul {
-      @apply px-2 text-[0px] text-neutral-600 lg:px-3;
+      @apply max-h-[200px] overflow-hidden px-2 leading-none text-neutral-600 [-webkit-line-clamp:4] lg:px-3;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
     }
 
     ul > li {

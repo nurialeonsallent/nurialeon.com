@@ -1,0 +1,21 @@
+---
+import { servicios } from "~/content/servicios"
+import Checks from "./checks.astro"
+
+export type Props = {
+  tipo: keyof typeof servicios
+}
+
+const { tipo } = Astro.props
+---
+
+<Checks>
+  <h2>¿Qué problemas se pueden tratar en terapia?</h2>
+  <ul>
+    {
+      [...servicios[tipo].problemas, "... y muchos más!"].map((p) => (
+        <li>{p}</li>
+      ))
+    }
+  </ul>
+</Checks>

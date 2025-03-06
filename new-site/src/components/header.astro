@@ -5,7 +5,7 @@ import PhoneIcon from "~/icons/phone.astro"
 import EmailIcon from "~/icons/email.astro"
 ---
 
-<header class="sticky top-0 left-0 z-10">
+<header class="sticky top-0 left-0 z-10 header">
   <div class="contact-bar">
     <a href="https://g.page/r/Cbk285IdPtR5EAg" target="_blank" rel="noopener">
       <LocationIcon class="icon" />
@@ -23,6 +23,18 @@ import EmailIcon from "~/icons/email.astro"
   <Nav pathname={Astro.url.pathname} client:load />
 </header>
 <style>
+  .header {
+    container-type: scroll-state;
+
+    @supports (container-type: scroll-state) {
+      @container scroll-state(stuck: top) {
+        nav {
+          @apply shadow-lg;
+        }
+      }
+    }
+  }
+
   .contact-bar {
     @apply flex flex-wrap items-center justify-center gap-x-4 gap-y-1 bg-brand-500 px-4 py-1 text-sm text-white sm:py-2;
 
