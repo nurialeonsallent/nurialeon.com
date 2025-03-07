@@ -1,0 +1,62 @@
+---
+
+---
+
+<div class="faq" data-faq>
+  <slot />
+</div>
+
+<style>
+  .faq {
+    @apply transition-all;
+  }
+
+  .faq > :global(ul) {
+    @apply mt-8 flex flex-col overflow-hidden rounded-md border-2 border-brand-200 bg-white;
+  }
+
+  .faq > :global(ul > li) {
+    list-style-type: none;
+    @apply relative m-0 -mt-[2px] cursor-pointer border-t-2 border-brand-200 pl-4 pr-12 hover:bg-neutral-100;
+
+    &:after {
+      content: "\002B";
+      @apply absolute right-5 top-4 font-title text-xl font-bold text-brand-500 sm:text-2xl;
+    }
+    &.open:after {
+      content: "\2212";
+    }
+
+    & > :global(:not(:first-child)) {
+      @apply m-0 h-0 overflow-clip transition-all;
+    }
+
+    &.open > :global(:not(:first-child)) {
+      @apply my-4 block h-auto overflow-visible;
+    }
+  }
+
+  .faq > :global(ul > li > *:first-child) {
+    @apply font-title text-xl font-bold leading-tight text-brand-500 sm:text-2xl;
+  }
+
+  .faq > :global(ul > li > *:last-child) {
+  }
+</style>
+<script>
+  const faqs = document.querySelectorAll("[data-faq]")
+  faqs.forEach((faq) => {
+    const questions = faq.querySelectorAll("li")
+    questions.forEach((q, i) => {
+      if (i === 0) {
+        q.classList.add("open")
+      }
+      q.addEventListener("click", () => {
+        q.classList.toggle("open")
+        // questions.forEach((oq) => {
+        //   if (oq !== q) oq.classList.remove("open")
+        // })
+      })
+    })
+  })
+</script>

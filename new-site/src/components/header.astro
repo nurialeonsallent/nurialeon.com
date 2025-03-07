@@ -33,6 +33,11 @@ import EmailIcon from "~/icons/email.astro"
         }
       }
     }
+    @supports (not (container-type: scroll-state)) {
+      nav {
+        @apply shadow-lg;
+      }
+    }
   }
 
   .contact-bar {

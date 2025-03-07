@@ -6,18 +6,15 @@ title: Terapia Psicológica Individual
 import { Picture } from "astro:assets"
 import { servicios } from "~/content/servicios"
 import ServicioCard from "~/components/servicioCard.astro"
+import FAQ from "~/components/faq.astro"
 
-{servicios.presencial.descripcion}
-
-<div class="flex gap-2 flex-wrap md:flex-nowrap">
+<div class="flex gap-x-8 flex-wrap lg:flex-nowrap items-center">
   <ServicioCard type="presencial" />
   <div>
 
     ## ¿Qué es la Terapia Individual?
 
     La terapia psicológica es un proceso en el que intervenimos para resolver o mejorar algún aspecto de la vida de la persona. En el Centro podemos ayudarte en todo tipo de problema psicológico o emocional. Somos especialistas en la terapia breve estratégica y la terapia cognitivo conductual, aunque nuestra metodología también es integradora ya que utilizamos herramientas y recursos de todo tipo para adaptarnos a cada caso.
-
-    La terapia individual es un proceso personalizado en que nos centraremos y adaptamos a tus necesidades para poder resolver el problema de raíz. Nuestra metodología es muy eficaz, rápida y resolutiva.
 
     **Abordaremos tu historia de vida, tus fortalezas, tus debilidades, tus relaciones personales, tus heridas del pasado y tu proyección a futuro**. Haremos un análisis de toda tu situación y abordaremos un plan de acción para conseguir los objetivos. Con las herramientas que te daremos podrás aprender a gestionar cualquier problema para siempre.
 
@@ -31,8 +28,6 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
 import Problemas from "~/components/problemas.astro"
 
 <Problemas tipo="presencial" />
-
-> También podemos ayudarte si estás buscando un cambio en tu vida, sentirte mejor o conseguir algún objetivo concreto como: sacarte una oposición, cambiar de trabajo, dejar una relación, hacer un cambio de vida o simplemente aprender a conocerte mejor y mejorar tus relaciones personales, familiares, laborales o de amistad. ¡Preguntanos!
 
 ## Nuestros valores son:
 
@@ -52,11 +47,11 @@ import Reviews from "~/components/reviews.astro"
 
 ## Preguntas frecuentes
 
-<div class="faq">
+<FAQ>
 
 - ¿Cuanto duran y cuanto valen las sesiones?
 
-  Las sesiones duran 55 minutos. El precio es de 70€ y puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal o efectivo.
+  Las sesiones duran {servicios.presencial.duracion}. El precio es de {servicios.presencial.precio} y puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal o efectivo.
 
 - ¿Cuanto dura un proceso de terapia?
 
@@ -78,7 +73,7 @@ import Reviews from "~/components/reviews.astro"
 
   Por lo general suele haber una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica.
 
-</div>
+</FAQ>
 
 import ContactForm from "~/components/contactForm.astro"
 

@@ -1,6 +1,5 @@
 ---
 import { servicios } from "~/content/servicios"
-import Checks from "./checks.astro"
 
 export type Props = {
   tipo: keyof typeof servicios
@@ -9,13 +8,21 @@ export type Props = {
 const { tipo } = Astro.props
 ---
 
-<Checks>
-  <h2>¿Qué problemas se pueden tratar en terapia?</h2>
-  <ul>
+<div
+  class="problemas bg-brand-50 border-2 border-brand-300 py-6 px-4 my-12 md:my-16"
+>
+  <h2 class="mb-8 mt-2 text-center">
+    ¿Qué problemas se pueden tratar en terapia?
+  </h2>
+  <ul class="columns-[100px_4] md:px-12">
     {
       [...servicios[tipo].problemas, "... y muchos más!"].map((p) => (
-        <li>{p}</li>
+        <li class="my-1 mr-2 text-sm md:my-2 md:text-base">{p}</li>
       ))
     }
   </ul>
-</Checks>
+  <p class="mb-0 mt-8 text-neutral-700 italic text-center text-sm md:text-base">
+    También podemos ayudarte si estás buscando un cambio en tu vida, sentirte
+    mejor o conseguir algún objetivo concreto. ¡Preguntanos!
+  </p>
+</div>
