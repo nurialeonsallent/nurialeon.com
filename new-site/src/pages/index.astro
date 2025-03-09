@@ -9,6 +9,7 @@ import ContactForm from "~/components/contactForm.astro"
 import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
 import Go from "~/icons/go.astro"
 import { servicios } from "~/content/servicios"
+import Blob from "~/icons/blob.astro"
 ---
 
 <Layout>
@@ -38,9 +39,12 @@ import { servicios } from "~/content/servicios"
           ¡Pide tu Cita! <Go class="pl-8" />
         </a>
       </div>
-      <div class="image">
+      <div class="image relative">
+        <Blob
+          class="text-brand-500 absolute w-[700px] translate-x-10 rotate-[180deg]"
+        /><Blob class="text-brand-400 absolute w-[500px] -translate-y-10" />
         <Picture
-          class="img"
+          class="img z-10"
           src={heroImage}
           height={600}
           alt="Núria León, fundadora del Centro"

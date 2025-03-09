@@ -1,0 +1,53 @@
+---
+import Profesional from "~/icons/profesional.astro"
+---
+
+<h2>Nuestros valores son:</h2>
+<ul>
+  <li>
+    <span class="icon"><Profesional /></span>
+    <span class="text">Profesionalidad</span>
+  </li>
+  <li>
+    <span class="icon"><Profesional /></span>
+    <span class="text">Confidencialidad</span>
+  </li>
+  <li>
+    <span class="icon"><Profesional /></span>
+    <span class="text">Atención al Detalle</span>
+  </li>
+  <li>
+    <span class="icon"><Profesional /></span>
+    <span class="text">Compromiso</span>
+  </li>
+  <li>
+    <span class="icon"><Profesional /></span>
+    <span class="text">Cercanía</span>
+  </li>
+  <li>
+    <span class="icon"><Profesional /></span>
+    <span class="text">Búsqueda de Excelencia</span>
+  </li>
+</ul>
+<p>
+  Ofrecemos un servicio único y exclusivo. Cuidamos todos los detalles de cada
+  intervención para poder ofrecer una atención de calidad.
+</p>
+
+<style>
+  ul {
+    @apply columns-[165px_6] gap-4;
+  }
+
+  li {
+    @apply m-0 flex grow list-none flex-row items-start gap-2;
+  }
+
+  li .icon {
+    @apply text-brand-400;
+  }
+
+  li .text {
+    @apply text-left;
+  }
+</style>
