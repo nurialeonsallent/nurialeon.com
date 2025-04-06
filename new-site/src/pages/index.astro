@@ -39,10 +39,13 @@ import Blob from "~/icons/blob.astro"
           ¡Pide tu Cita! <Go class="pl-8" />
         </a>
       </div>
-      <div class="image relative">
+      <div class="image relative z-0">
         <Blob
-          class="text-brand-500 absolute w-[700px] translate-x-10 rotate-[180deg]"
-        /><Blob class="text-brand-400 absolute w-[500px] -translate-y-10" />
+          class="text-brand-500 absolute lg:w-[700px] w-[400px] translate-y-1 translate-x-5 lg:translate-y-0 lg:translate-x-10 rotate-[180deg]"
+        />
+        <Blob
+          class="text-brand-400 absolute w-[300px] lg:w-[500px] -translate-y-10"
+        />
         <Picture
           class="img z-10"
           src={heroImage}

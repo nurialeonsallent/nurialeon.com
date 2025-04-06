@@ -62,7 +62,7 @@ export const servicios = {
   },
   online: {
     nombre: "Terapia Online",
-    precio: "60€",
+    precio: "65€",
     duracion: "55 minutos",
     link: "/psicologo-online",
     icon: OnlineIcon,
