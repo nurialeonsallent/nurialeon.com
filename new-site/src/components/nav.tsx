@@ -16,7 +16,7 @@ const menu = [
       ["Terapia Individual", "/psicologo-barcelona"],
       ["Terapia Online", "/psicologo-online"],
       ["Terapia de Parejas", "/terapia-de-parejas-barcelona"],
-      // ["Terapia de Familias", "/terapia-de-familias-barcelona"],
+      ["Terapia de Familias", "/terapia-de-familias-barcelona"],
       ["Psico-Nutrición", "/psiconutricion-barcelona"],
       // [
       //   "Psicología Sanitaria / Clinica",
