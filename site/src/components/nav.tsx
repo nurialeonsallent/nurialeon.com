@@ -166,17 +166,14 @@ function MenuSection({
 
 function matchUrl(href: string | MenuSectionType, pathname: string): boolean {
   if (typeof href === "string") {
-    if (
-      decodeURIComponent(href) === "/" &&
-      decodeURIComponent(pathname) !== "/"
-    ) {
+    const hrefUri = decodeURIComponent(href).toLowerCase();
+    const pathnameUri = decodeURIComponent(pathname).toLowerCase();
+
+    if (hrefUri === "/" && pathnameUri !== "/") {
       return false;
     }
 
-    return (
-      decodeURIComponent(pathname).toLowerCase() ===
-      decodeURIComponent(href).toLowerCase()
-    );
+    return pathnameUri.replace(/\/$/, "") === hrefUri.replace(/\/$/, "");
 
     // return decodeURIComponent(pathname)
     //   .toLowerCase()
