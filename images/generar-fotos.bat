@@ -1,1 +1,0 @@
-npx --yes @yukioru/cwebp-cli -r -q 95
