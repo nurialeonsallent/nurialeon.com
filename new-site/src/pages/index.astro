@@ -45,13 +45,13 @@ import Blob from "~/icons/blob.astro"
       </div>
       <div class="image relative z-0">
         <Blob
-          class="text-brand-500 absolute lg:w-[700px] w-[400px] translate-y-1 translate-x-5 lg:translate-y-0 lg:translate-x-10 rotate-[180deg]"
+          class="text-brand-500 absolute lg:w-[700px] w-[400px] translate-y-1 translate-x-5 lg:translate-y-0 lg:translate-x-10 rotate-[180deg] pointer-events-none"
         />
         <Blob
-          class="text-brand-400 absolute w-[300px] lg:w-[500px] -translate-y-10"
+          class="text-brand-400 absolute w-[300px] lg:w-[500px] -translate-y-10 pointer-events-none"
         />
         <Picture
-          class="img z-10"
+          class="img z-10 pointer-events-none"
           src={heroImage}
           height={600}
           alt="Núria León, fundadora del Centro"
