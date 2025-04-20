@@ -86,6 +86,10 @@
       @apply ml-5 list-[disclosure-closed];
     }
 
+    ol > li {
+      @apply ml-5 list-decimal;
+    }
+
     p {
       @apply my-4;
       @apply text-base lg:text-justify;
