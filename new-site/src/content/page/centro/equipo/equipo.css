@@ -28,7 +28,7 @@
 
   @media only screen and (min-width: 768px) {
     grid-template-areas:
-      "img name"
+      "_ name"
       "img content";
   }
 }
