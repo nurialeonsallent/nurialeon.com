@@ -7,15 +7,16 @@ excerpt: "Conoce al equipo del Centro Núria León"
 import { Image } from "astro:assets"
 import GoIcon from "~/icons/go.astro"
 import "./equipo.css"
+import { authors } from '~/content/authors/authors'
 
 En nuestro centro estamos en la búsqueda constante de mejorar y crecer, por eso actualmente hemos ampliado el equipo. Trabajamos conjuntamente con los mejores profesionales del sector y supervisamos casos, para asegurarnos de que el servicio que ofrecemos sea el mejor para cada persona.
 
 El equipo es multidisciplinar, contamos con especialistas en psicología sanitaria, acompañamiento emocional y psiconutrición. Cada caso es diferente y por ello trabajamos en conjunto para poder ofrecer un servicio personalizado.
 
-![](equipo.jpg)
+![El equipo del Centro Núria León](equipo.jpg)
 
 <div class="member">
-<Image class="img" alt="Núria" src={import('nuria.jpg')} height="450" />
+<Image class="img" alt="Núria" src={authors.nuria.image} height="450" />
 <h2 class="member__name" id="nuria">Núria</h2>
 <div class="member__content">
 
@@ -39,7 +40,7 @@ Más sobre mí <GoIcon />
 </div>
 
 <div class="member">
-<Image class="img" alt="Helena" src={import('helena.jpg')} height="450" />
+<Image class="img" alt="Helena" src={authors.helena.image} height="450" />
 <h2 class="member__name" id="helena">Helena</h2>
 <div class="member__content" markdown="1">
 
@@ -63,7 +64,7 @@ Helena puede ayudarte en: problemas de pareja, problemas familares, infidelidad,
 </div>
 
 <div class="member">
-<Image class="img" alt="Ariadna" src={import('ariadna.jpg')} height="450" />
+<Image class="img" alt="Ariadna" src={authors.ariadna.image} height="450" />
 <h2 class="member__name" id="ariadna">Ariadna</h2>
 <div class="member__content" markdown="1">
 
@@ -85,7 +86,7 @@ Ariadna puede ayudarte en: sexualidad, trauma, acompañamiento emocional en repr
 </div>
 
 <div class="member">
-<Image class="img" alt="Cristina" src={import('cristina.jpg')} height="450" />
+<Image class="img" alt="Cristina" src={authors.cristina.image} height="450" />
 <h2 class="member__name" id="cristina">Cristina</h2>
 <div class="member__content" markdown="1">
 
@@ -108,7 +109,7 @@ Cristina puede ayudarte en: ansiedad, depresión, crianza, maternidad, apego, ps
 </div>
 
 <div class="member">
-<Image class="img" alt="Teresa" src={import('teresa.jpg')} height="450" />
+<Image class="img" alt="Teresa" src={authors.teresa.image} height="450" />
 <h2 class="member__name" id="teresa">Teresa</h2>
 <div class="member__content" markdown="1">
 
@@ -133,7 +134,7 @@ Teresa puede ayudarte en cualquier situación de: ansiedad, depresión, autoesti
 </div>
 
 <div class="member">
-<Image class="img" alt="Iris" src={import('iris.jpg')} height="450" />
+<Image class="img" alt="Iris" src={authors.iris.image} height="450" />
 <h2 class="member__name" id="iris">Iris</h2>
 <div class="member__content" markdown="1">
 

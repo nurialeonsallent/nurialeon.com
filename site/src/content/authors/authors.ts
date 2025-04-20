@@ -1,9 +1,9 @@
 import Nuria from './images/nuria.jpg'
-import Ariadna from './images/ariadna.png'
-import Iris from './images/iris.png'
-import Helena from './images/helena.png'
-import Teresa from './images/teresa.png'
-import Cristina from './images/cristina.png'
+import Ariadna from './images/ariadna.jpg'
+import Iris from './images/iris.jpg'
+import Helena from './images/helena.jpg'
+import Teresa from './images/teresa.jpg'
+import Cristina from './images/cristina.jpg'
 
 export const authors = {
     nuria: {

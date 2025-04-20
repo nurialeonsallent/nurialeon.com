@@ -54,9 +54,9 @@ const author = authors[propAuthor || "nuria"]
             src={author.image}
             alt={author.name}
             height={200}
-            class="rounded-full w-[200px] h-[200px] object-cover shrink-0 mx-auto"
+            class="rounded-full w-[150px] h-[150px] object-cover shrink-0 mx-auto"
           />
-          <div class="flex flex-col sm:h-[200px]">
+          <div class="flex flex-col sm:h-[150px]">
             <div class="text-neutral-700 text-sm">Escrito por</div>
             <div class="text-brand-500 text-2xl font-medium">{author.name}</div>
             <div class="my-2 grow">{author.description}</div>
@@ -68,7 +68,6 @@ const author = authors[propAuthor || "nuria"]
   </div>
   <div class="mx-auto w-full max-w-screen-lg px-3 md:mt-20 my-16">
     <ComoEsLaTerapia
-      tipo="presencial"
       title="¿Cómo es la terapia en el Centro Núria León?"
     />
   </div>
