@@ -3,92 +3,39 @@ slug: /psicologo-online/
 title: Terapia Psicológica Online
 ---
 
-La terapia psicológica online es para ti si sufres algún problema emocional o psicológico y quieres superarlo para sentirte mejor. Es igual de eficaz que la presencial.
-En el Centro Núria León realizamos terapia psicológica para todas aquellas personas que necesiten un servicio personalizado, individual y único.
+import { Picture } from "astro:assets"
+import { servicios } from "~/content/servicios"
+import ServicioCard from "~/components/servicioCard.astro"
+import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
+import Problemas from "~/components/problemas.astro"
+import Valores from "~/components/valores.astro"
+import Reviews from "~/components/reviews.astro"
+import FAQ from "~/components/faq.astro"
+import ContactForm from "~/components/contactForm.astro"
 
-## ¿Qué es la Terapia Online?
+<div class="flex gap-x-8 flex-wrap lg:flex-nowrap items-center">
+  <ServicioCard type="online" />
+  <div>
 
-La terapia online es un proceso en el que intervenimos fde forma virtual para resolver o mejorar algún aspecto de la vida de la persona de forma online. En el Centro podemos ayudarte en todo tipo de problema psicológico o emocional. Somos expertos en la terapia breve estratégica y la terapia cognitivo conductual, aunque nuestra metodología también es integradora ya que utilizamos herramientas y recursos de todo tipo para adaptarnos a cada caso.
+    ## ¿Qué es la Terapia Online?
 
-La terapia online es un proceso personalizado en que nos adaptamos a tus necesidades para poder resolver el problema de raíz y que lo puedas hacer desde tu casa o desde donde quieras. Nuestra metodología es muy eficaz, rápida y resolutiva.
+    La terapia online es un proceso en el que intervenimos fde forma virtual para resolver o mejorar algún aspecto de la vida de la persona de forma online. En el Centro podemos ayudarte en todo tipo de problema psicológico o emocional. Somos expertos en la terapia breve estratégica y la terapia cognitivo conductual, aunque nuestra metodología también es integradora ya que utilizamos herramientas y recursos de todo tipo para adaptarnos a cada caso.
 
-**Abordaremos tu historia de vida, tus fortalezas, tus debilidades, tus relaciones personales, tus heridas del pasado y tu proyección a futuro.** Haremos un análisis de toda tu situación y abordaremos un plan de acción para conseguir los objetivos. Con las herramientas que te daremos podrás aprender a gestionar cualquier problema para siempre.
+    La terapia online es un proceso personalizado en que nos adaptamos a tus necesidades para poder resolver el problema de raíz y que lo puedas hacer desde tu casa o desde donde quieras. Nuestra metodología es muy eficaz, rápida y resolutiva.
 
-## ¿Qué problemas se pueden tratar en terapia?
+    **Abordaremos tu historia de vida, tus fortalezas, tus debilidades, tus relaciones personales, tus heridas del pasado y tu proyección a futuro.** Haremos un análisis de toda tu situación y abordaremos un plan de acción para conseguir los objetivos. Con las herramientas que te daremos podrás aprender a gestionar cualquier problema para siempre.
 
-<div class="columns-2">
-
-- Ansiedad
-- Depresión o Tristeza
-- Autoestima
-- Crecimiento personal
-- Dudas patológicas
-- Crisis
-- Timidez
-- Toma de decisiones
-- Estrés
-- Gestión de emociones
-- Fobias
-- Miedos
-- Ansiedad Social
-- Ataques de pánico
-- Inseguridades
-- Ansiedad Social
-- Crecimiento personal
-- Autoconocimiento
-- Habilidades Sociales
-- Obsesiones
-- Duelos
-- Autolesiones
-- Intentos de suicidio
-- Pérdida
-- Rituales
-- Rumiación
-- Ataques de pánico
-- Ataques de ansiedad
-- Compulsiones
-- Agorafobia
-- Hipocondría
-- TOC, TAG, TLP
-- Trastornos de personalidad
-- Problemas de alimentación
-- Mobbing, Burnout, Bullying
-- Imagen corporal
-- Sexualidadç
-- Dismorfia corporal
-- Baja líbido
-- Apego Ansioso
-- Trauma
-- Abusos sexuales
-
+  </div>
 </div>
 
-→ También podemos ayudarte si estás buscando un cambio en tu vida, sentirte mejor o conseguir algún objetivo concreto como: sacarte una oposición, cambiar de trabajo, dejar una relación, hacer un cambio de vida o simplemente aprender a conocerte mejor y mejorar tus relaciones personales, familiares, laborales o de amistad.
-
-## Nuestros valores son:
-
-- ✅profesionalidad
-- ✅confidencialidad
-- ✅atención al detalle
-- ✅compromiso
-- ✅cercanía
-- ✅búsqueda de excelencia
-
-Cuidamos todos los detalles de cada intervención para poder ofrecer una atención de calidad. Nos centramos en la persona y por eso ofrecemos un servicio único y exclusivo. De la misma manera, realizamos supervisiones clínicas semanales con los mejores profesionales de la psicología clínica, para así poder ofrecer una atención de calidad.
-
-Después de cada visita solemos enviar actividades o prescribimos tareas concretas con la idea de que la persona siga realizando avances entre sesión y sesión. Nos adaptamos a cada caso y cada necesidad. A lo largo de la terapia las sesiones se irán espaciando hasta que una vez se resuelva el problema inicial se dará el alta terapéutica.
-
-**_Las sesiones se realizan mediante Skype, Google Meet o Whatsapp y puedes realizar el pago antes de la visita mediante bizum, transferencia, paypal. Es necesario enviar el justificante una vez realizado el pago._**
-
-**_Para cancelaciones o cambios es necesario poder avisar con un margen mínimo de 24 horas._**
-
-import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
-
 <ComoEsLaTerapia tipo="online" />
+<Problemas tipo="online" />
+<Valores />
+<Reviews />
 
 ## Preguntas frecuentes
 
-<div class="faq">
+<FAQ>
 
 - ¿Cuanto duran y como se hacen las sesiones online?
 
@@ -114,4 +61,7 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
 
   Por lo general suele haber una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica.
 
-</div>
+</FAQ>
+
+<h2>Pide tu cita, Contacta con nosotros</h2>
+<ContactForm />

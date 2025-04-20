@@ -3,70 +3,39 @@ slug: /terapia-de-parejas-barcelona/
 title: Terapia de Parejas
 ---
 
-La terapia de parejas es para parejas que sufren algún tipo de problema y quieren poder superarlo.
-En el Centro Núria León realizamos terapia de parejas para todas aquellas parejas que necesiten un servicio personalizado, individual y único.
+import { Picture } from "astro:assets"
+import { servicios } from "~/content/servicios"
+import ServicioCard from "~/components/servicioCard.astro"
+import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
+import Problemas from "~/components/problemas.astro"
+import Valores from "~/components/valores.astro"
+import Reviews from "~/components/reviews.astro"
+import FAQ from "~/components/faq.astro"
+import ContactForm from "~/components/contactForm.astro"
 
-## ¿Qué es la Terapia de Parejas?
+<div class="flex gap-x-8 flex-wrap lg:flex-nowrap items-center">
+  <ServicioCard type="parejas" />
+  <div>
 
-La terapia de parejas es un proceso en el que intervenimos para resolver o mejorar algún aspecto de la vida de la relación amorosa. En el Centro podemos ayudarte en todo tipo de problema psicológico o emocional relacionado con la pareja. Somos especialistas en la terapia breve estratégica y la terapia cognitivo conductual, aunque nuestra metodología también es integradora ya que utilizamos herramientas y recursos de todo tipo para adaptarnos a cada caso.
+    ## ¿Qué es la Terapia de Parejas?
 
-La terapia de parejas es un proceso personalizado en que nos centraremos y adaptamos a tus necesidades para poder resolver el problema de raíz. Nuestra metodología es muy eficaz, rápida y resolutiva. Trabajamos con parejas monógamas, abiertas, poliamorosas y con cualquier tipo de relación sexoafectiva.
+    La terapia de parejas es un proceso en el que intervenimos para resolver o mejorar algún aspecto de la vida de la relación amorosa. En el Centro podemos ayudarte en todo tipo de problema psicológico o emocional relacionado con la pareja. Somos especialistas en la terapia breve estratégica y la terapia cognitivo conductual, aunque nuestra metodología también es integradora ya que utilizamos herramientas y recursos de todo tipo para adaptarnos a cada caso.
 
-**Abordaremos vuestra historia de vida, vuestras fortalezas, vuestras debilidades, vuestras relaciones personales, vuestras heridas del pasado y la proyección a futuro**. Haremos un análisis de toda la situación y abordaremos un plan de acción para conseguir los objetivos. Con las herramientas que os daremos podreis aprender a gestionar cualquier problema para siempre.
+    La terapia de parejas es un proceso personalizado en que nos centraremos y adaptamos a tus necesidades para poder resolver el problema de raíz. Nuestra metodología es muy eficaz, rápida y resolutiva. Trabajamos con parejas monógamas, abiertas, poliamorosas y con cualquier tipo de relación sexoafectiva.
 
-## ¿Qué problemas se pueden tratar en terapia?
+    **Abordaremos vuestra historia de vida, vuestras fortalezas, vuestras debilidades, vuestras relaciones personales, vuestras heridas del pasado y la proyección a futuro**. Haremos un análisis de toda la situación y abordaremos un plan de acción para conseguir los objetivos. Con las herramientas que os daremos podreis aprender a gestionar cualquier problema para siempre.
 
-<div class="columns-2">
-- Infidelidad
-- Mala comunicación
-- Celos
-- Crisis
-- Segundas oportunidades
-- Gestión de límites
-- Gestión de conflictos
-- Mentiras
-- Traiciones
-- Crianza
-- Maternidad
-- Paternidad
-- Problemas familiares
-- Fertilidad
-- Pérdidas
-- Duelos
-- Rupturas
-- Divorcios
-- Hijos
-- Relaciones abiertas
-- Sexualidad
-- Anorgasmia
-- Eyaculación precoz
-- Inseguridad, control
-
+  </div>
 </div>
 
-→ También podemos ayudaros si estáis buscando un cambio en vuestra vida, sentiros mejor entre vosotros, reconectar o sentir otra vez más amor entre vosotros. También si queréis conseguir algún objetivo concreto como mejorar vuestra comunicación.
-
-Nuestros valores son:
-
-✅profesionalidad
-✅confidencialidad
-✅atención al detalle
-✅compromiso
-✅cercanía
-✅búsqueda de excelencia
-
-Cuidamos todos los detalles de cada intervención para poder ofrecer una atención de calidad. Nos centramos en la pareja y por eso ofrecemos un servicio único y exclusivo. De la misma manera, realizamos supervisiones clínicas semanales con los mejores profesionales de la psicología clínica, para así poder ofrecer una atención de calidad.
-Después de cada visita solemos enviar actividades o prescribimos tareas concretas con la idea de que sigáis realizando avances entre sesión y sesión. Nos adaptamos a cada caso y a cada necesidad. A lo largo de la terapia las sesiones se irán espaciando hasta que una vez se resuelva el problema inicial se dará el alta terapéutica.
-Las sesiones son en nuestro Centro en la Calle Bailen 141, esc izq entlo 6, 08037, Barcelona. Puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal o efectivo.
-Para cancelaciones o cambios es necesario poder avisar con un margen mínimo de 24 horas.
-
-import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
-
 <ComoEsLaTerapia tipo="parejas" />
+<Problemas tipo="parejas" />
+<Valores />
+<Reviews />
 
 ## Preguntas frecuentes
 
-<div class="faq">
+<FAQ>
 
 - ¿Cuanto duran y cuanto valen las sesiones?
 
@@ -88,4 +57,7 @@ import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
 
   Por lo general suele haber una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica.
 
-</div>
+</FAQ>
+
+<h2>Pide tu cita, Contacta con nosotros</h2>
+<ContactForm />

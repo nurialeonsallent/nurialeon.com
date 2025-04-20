@@ -6,7 +6,12 @@ title: Terapia Psicológica Individual
 import { Picture } from "astro:assets"
 import { servicios } from "~/content/servicios"
 import ServicioCard from "~/components/servicioCard.astro"
+import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
+import Problemas from "~/components/problemas.astro"
+import Valores from "~/components/valores.astro"
+import Reviews from "~/components/reviews.astro"
 import FAQ from "~/components/faq.astro"
+import ContactForm from "~/components/contactForm.astro"
 
 <div class="flex gap-x-8 flex-wrap lg:flex-nowrap items-center">
   <ServicioCard type="presencial" />
@@ -19,21 +24,9 @@ import FAQ from "~/components/faq.astro"
   </div>
 </div>
 
-import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
-
 <ComoEsLaTerapia tipo="presencial" />
-
-import Problemas from "~/components/problemas.astro"
-
 <Problemas tipo="presencial" />
-
-import Valores from "~/components/valores.astro"
-
 <Valores />
-
-import { reviews } from "~/content/reviews"
-import Reviews from "~/components/reviews.astro"
-
 <Reviews />
 
 ## Preguntas frecuentes
@@ -65,8 +58,6 @@ import Reviews from "~/components/reviews.astro"
   Por lo general suele haber una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica.
 
 </FAQ>
-
-import ContactForm from "~/components/contactForm.astro"
 
 <h2>Pide tu cita, Contacta con nosotros</h2>
 <ContactForm />
