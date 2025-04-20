@@ -11,6 +11,10 @@ export const createExcerpt = (body: string) => {
             { selector: "img", format: "skip" },
             { selector: "figure", format: "skip" },
             { selector: "hr", format: "blockString", options: { string: "~MORE~" } },
+            { selector: 'h1', options: { uppercase: false } },
+            { selector: 'h2', options: { uppercase: false } },
+            { selector: 'h3', options: { uppercase: false } },
+            { selector: 'h4', options: { uppercase: false } },
         ],
     };
     const text = convert(html, options);
