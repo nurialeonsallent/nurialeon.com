@@ -20,6 +20,7 @@ const blogAntiguo = {
   "/blog/9": "/posts/",
   "/blog/10": "/posts/",
   "/blog/11": "/posts/",
+  "/blog/12": "/posts/",
   "/2025/01/06/terapiapareja-barcelona-psicologiapareja/":
     "/posts/cuando-ir-a-terapia-de-parejas-familias/",
   "/2024/12/10/sexualidad-vidasexual-psicologa-barcelona/":
