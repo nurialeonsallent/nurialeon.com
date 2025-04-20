@@ -1,14 +1,15 @@
-name: Jekyll site CI
+name: Astro site CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "feat/new-site" ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
     - name: Clean unrelated files
       run: |
         rm -rf ${{ github.workspace }}/new-site
