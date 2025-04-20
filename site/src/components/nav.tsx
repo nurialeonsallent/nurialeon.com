@@ -1,12 +1,11 @@
-import MenuIcon from "~/icons/menu"
-import MenuSectionIcon from "~/icons/menuSection"
-import CloseIcon from "~/icons/close"
+import MenuIcon from "~/icons/menu";
+import MenuSectionIcon from "~/icons/menuSection";
+import CloseIcon from "~/icons/close";
 
-import { SITE_TITLE } from "../consts"
-import { useState, type PropsWithChildren, type ReactNode } from "react"
-import LogoIcon from "~/icons/logo"
+import { useState, type PropsWithChildren, type ReactNode } from "react";
+import LogoIcon from "~/icons/logo";
 
-type MenuSectionType = [ReactNode, string | MenuSectionType][]
+type MenuSectionType = [ReactNode, string | MenuSectionType][];
 
 const menu = [
   [<>Inicio</>, "/"],
@@ -63,11 +62,11 @@ const menu = [
   ],
   ["Articulos", "/posts"],
   ["Contacto", "/contacto"],
-] satisfies MenuSectionType
+] satisfies MenuSectionType;
 
 export default function ({ pathname }: { pathname: string }) {
-  const [isGlobalMenuOpen, setGlobalMenuOpen] = useState(false)
-  const toggleGlobalMenu = () => setGlobalMenuOpen((s) => !s)
+  const [isGlobalMenuOpen, setGlobalMenuOpen] = useState(false);
+  const toggleGlobalMenu = () => setGlobalMenuOpen((s) => !s);
 
   return (
     <nav
@@ -82,7 +81,7 @@ export default function ({ pathname }: { pathname: string }) {
         >
           <LogoIcon className="text-[32px]" />
           <span className="text-base font-semibold text-brand-500">
-            {SITE_TITLE}
+            Centro Núria León
           </span>
         </a>
         <button onClick={toggleGlobalMenu} className="pr-4 lg:hidden">
@@ -113,19 +112,19 @@ export default function ({ pathname }: { pathname: string }) {
         onClick={toggleGlobalMenu}
       ></div>
     </nav>
-  )
+  );
 }
 
 function MenuSection({
   pathname,
   section: [title, content],
 }: PropsWithChildren<{
-  pathname: string
-  section: MenuSectionType[0]
+  pathname: string;
+  section: MenuSectionType[0];
 }>) {
-  const isCurrentInside = matchUrl(content, pathname)
-  const [isOpen, setOpen] = useState<boolean | "">("")
-  const isCollapsible = typeof content !== "string"
+  const isCurrentInside = matchUrl(content, pathname);
+  const [isOpen, setOpen] = useState<boolean | "">("");
+  const isCollapsible = typeof content !== "string";
   return (
     <li
       className="group/li relative w-auto"
@@ -142,7 +141,10 @@ function MenuSection({
         href={isCollapsible ? undefined : content}
         data-collapsible={isCollapsible}
         onClick={() => setOpen((o) => (o === "" ? !isCurrentInside : !o))}
-        className={`${isCurrentInside && "text-brand-500"} ${isCollapsible && "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500"}`}
+        className={`${isCurrentInside && "text-brand-500"} ${
+          isCollapsible &&
+          "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500"
+        }`}
       >
         {title}
         {isCollapsible && (
@@ -159,7 +161,7 @@ function MenuSection({
         </ul>
       )}
     </li>
-  )
+  );
 }
 
 function matchUrl(href: string | MenuSectionType, pathname: string): boolean {
@@ -168,20 +170,20 @@ function matchUrl(href: string | MenuSectionType, pathname: string): boolean {
       decodeURIComponent(href) === "/" &&
       decodeURIComponent(pathname) !== "/"
     ) {
-      return false
+      return false;
     }
 
     return (
       decodeURIComponent(pathname).toLowerCase() ===
       decodeURIComponent(href).toLowerCase()
-    )
+    );
 
     // return decodeURIComponent(pathname)
     //   .toLowerCase()
     //   .startsWith(decodeURIComponent(href).toLowerCase())
   }
 
-  return href.some(([, innerHref]) => matchUrl(innerHref, pathname))
+  return href.some(([, innerHref]) => matchUrl(innerHref, pathname));
 }
 
 function NavLink({
@@ -191,16 +193,18 @@ function NavLink({
   active,
   ...props
 }: PropsWithChildren<{
-  className?: string
-  href?: string
-  active: boolean
-  onClick?: () => void
+  className?: string;
+  href?: string;
+  active: boolean;
+  onClick?: () => void;
 }>) {
   return (
     <a
       {...props}
       href={href}
-      className={`${className ?? ""} group/a inline-block w-full cursor-pointer px-8 py-3 text-left font-semibold uppercase aria-[current=page]:text-brand-500 hover:text-brand-500 max-lg:pr-1 lg:px-4 lg:tracking-wider`}
+      className={`${
+        className ?? ""
+      } group/a inline-block w-full cursor-pointer px-8 py-3 text-left font-semibold uppercase aria-[current=page]:text-brand-500 hover:text-brand-500 max-lg:pr-1 lg:px-4 lg:tracking-wider`}
       aria-current={active ? "page" : "false"}
     >
       <span className="relative">
@@ -208,5 +212,5 @@ function NavLink({
         <div className="absolute -bottom-2 left-0 right-0 h-1 bg-brand-500 opacity-0 transition-all group-data-[collapsible=false]/a:group-aria-[current=page]/a:opacity-100 lg:group-aria-[current=page]/a:opacity-100 lg:group-data-[open=true]/li:group-data-[collapsible=true]/a:group-aria-[current=page]/a:opacity-0 lg:group-hover/li:group-data-[collapsible=true]/a:group-aria-[current=page]/a:opacity-0"></div>
       </span>
     </a>
-  )
+  );
 }
