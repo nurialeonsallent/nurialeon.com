@@ -73,7 +73,16 @@ const servicio = tipo && servicios[tipo]
               El coste por sesión es de <b>{servicio.precio}</b>.{" "}
             </>
           )
-        }Se puede pagar con tarjeta, bizum, paypal o efectivo.</span
+        }{
+          tipo === "online" ? (
+            <>
+              Se puede pagar con bizum o paypal. El pago se realiza antes de la
+              sesión.
+            </>
+          ) : (
+            <>Se puede pagar con tarjeta, bizum, paypal o efectivo.</>
+          )
+        }</span
       >
     </div>
     <div class="gap-4 flex items-center">
@@ -100,15 +109,24 @@ const servicio = tipo && servicios[tipo]
         class="mt-1 w-[1em] shrink-0 self-start text-[32px] leading-none text-brand-400"
       />
       <span>
-        El despacho está en{" "}
-        <a
-          class="a-link"
-          href="https://g.page/r/Cbk285IdPtR5EAg"
-          target="_blank"
-          rel="noopener"
-        >
-          C/ Bailèn 141, Barcelona</a
-        >.
+        {
+          tipo === "online" ? (
+            <>La sesión se puede realizar desde el ordenador o el móvil.</>
+          ) : (
+            <>
+              El despacho está en{" "}
+              <a
+                class="a-link"
+                href="https://g.page/r/Cbk285IdPtR5EAg"
+                target="_blank"
+                rel="noopener"
+              >
+                C/ Bailèn 141, Barcelona
+              </a>
+              .
+            </>
+          )
+        }
       </span>
     </div>
   </div>
