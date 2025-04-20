@@ -100,6 +100,12 @@ Si quieres reservar una cita, escribe también la fecha/hora deseada."
       return
     }
 
+    if (email && !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+      alert("Por favor introduce un Email válido")
+      e.preventDefault()
+      return
+    }
+
     if (action === "whatsapp") {
       const message = `Hola soy ${name} (${email}, ${telefono}).\n\n${text}`
       var url = "https://wa.me/34650011672?text=" + encodeURIComponent(message)

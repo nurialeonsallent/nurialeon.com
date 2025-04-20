@@ -8,13 +8,14 @@ import SmileIcon from "~/icons/smile.astro"
 import GoIcon from "~/icons/go.astro"
 import PaymentIcon from "~/icons/payment.astro"
 import { servicios } from "~/content/servicios"
+
 export interface Props {
-  tipo: keyof typeof servicios
+  tipo?: keyof typeof servicios
   title?: string
 }
 
 const { title = "¿Cómo es la terapia?", tipo } = Astro.props
-const servicio = servicios[tipo]
+const servicio = tipo && servicios[tipo]
 ---
 
 <h2>{title}</h2>
@@ -39,7 +40,27 @@ const servicio = servicios[tipo]
       <TimeIcon
         class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
       />
-      <span>Las sesiones duran <b>{servicio.duracion}</b>.</span>
+      <span
+        >{
+          (() => {
+            if (servicio) {
+              return (
+                <>
+                  Las sesiones duran <b>{servicio.duracion}</b>.
+                </>
+              )
+            }
+
+            return (
+              <>
+                Las sesiones individuales duran{" "}
+                <b>{servicios["presencial"].duracion}</b>. Las sesiones de
+                Pareja o Familiar duran <b>{servicios["parejas"].duracion}</b>.
+              </>
+            )
+          })()
+        }</span
+      >
     </div>
     <div class="gap-4 flex items-center">
       <PaymentIcon
@@ -47,12 +68,12 @@ const servicio = servicios[tipo]
       />
       <span
         >{
-          servicio.precio && (
+          servicio?.precio && (
             <>
               El coste por sesión es de <b>{servicio.precio}</b>.{" "}
             </>
           )
-        }Se puede pagar con tarjeta, bizum o paypal.</span
+        }Se puede pagar con tarjeta, bizum, paypal o efectivo.</span
       >
     </div>
     <div class="gap-4 flex items-center">
