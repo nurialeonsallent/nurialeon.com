@@ -138,12 +138,12 @@ function MenuSection({
       ></div>
       <NavLink
         active={isCurrentInside}
-        href={isCollapsible ? undefined : content}
+        href={isCollapsible ? '#' : content}
         data-collapsible={isCollapsible}
         onClick={() => setOpen((o) => (o === "" ? !isCurrentInside : !o))}
-        className={`${isCurrentInside && "text-brand-500"} ${
-          isCollapsible &&
-          "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500"
+        className={`${isCurrentInside ? "text-brand-500" : ""} ${
+          isCollapsible ?
+          "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500" : ""
         }`}
       >
         {title}
