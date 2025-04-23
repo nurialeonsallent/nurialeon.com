@@ -159,7 +159,7 @@ export default defineConfig({
   redirects: {
     "/sitemap.xml": "/sitemap-index.xml",
     "/feed.xml": "/sitemap-index.xml",
-    "/servicios/": "/psicologo-barcelona/",
+    "/servicios/": "/",
     ...blogAntiguo,
   },
 })

@@ -12,7 +12,7 @@ export const servicios = {
     icon: IndividualIcon,
     target: "Adultos y Adolescentes",
     descripcion:
-      "La terapia psicológica es para ti si sufres algún problema emocional o psicológico y quieres superarlo para sentirte mejor.",
+      "La terapia psicológica presencial es para ti si sufres algún problema emocional o psicológico y quieres superarlo para sentirte mejor.",
     problemas: [
       "Ansiedad",
       "Depresión o Tristeza",
