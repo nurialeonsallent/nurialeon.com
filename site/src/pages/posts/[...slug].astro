@@ -6,7 +6,7 @@ import { createExcerpt } from "~/utils/excerpt"
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts")
-  return posts.filter(p => !p.draft).map((post) => ({
+  return posts.filter(p => import.meta.env.PROD ? p.data.draft !== true : true).map((post) => ({
     params: { slug: post.slug },
     props: post,
   }))
