@@ -72,9 +72,9 @@ const blogAntiguo = {
   "/2024/03/26/enfermedad-dolor-psicologa-barcelona/":
     "/posts/dolor-cronico-convivencia/",
   "/2024/03/23/alimentacion-psiconutricion-psicologa-barcelona/":
-    "/posts/hambre-saciedad-se%C3%B1ales-de-nuestro-cuerpo/",
+    "/posts/hambre-saciedad-señales-de-nuestro-cuerpo/",
   "/2024/03/24/alimentacion-psiconutricion-psicologa-barcelona/":
-    "/posts/hambre-saciedad-se%C3%B1ales-de-nuestro-cuerpo/",
+    "/posts/hambre-saciedad-señales-de-nuestro-cuerpo/",
   "/2024/03/02/como-ser-un-buen-lider-el-arte-de-liderar/":
     "/posts/el-arte-de-liderar-como-ser-un-buen-lider/el-arte-de-liderar-como-ser-un-buen-lider/",
   "/2024/03/03/como-ser-un-buen-lider-el-arte-de-liderar/":
@@ -129,9 +129,9 @@ const blogAntiguo = {
   "/2021/07/25/ansiedad-estres-factores-psicologia/":
     "/posts/ansiedad-estres-factores-asociados/",
   "/2021/07/03/estilos-de-crianza-parental-psicologia/":
-    "/posts/estilos-de-crianza-parental-desarrollo-ni%C3%B1os/",
+    "/posts/estilos-de-crianza-parental-desarrollo-niños/",
   "/2021/07/04/estilos-de-crianza-parental-psicologia/":
-    "/posts/estilos-de-crianza-parental-desarrollo-ni%C3%B1os/",
+    "/posts/estilos-de-crianza-parental-desarrollo-niños/",
   "/2021/06/26/personalidad-y-conduca-agresiva-psicologia/":
     "/posts/relacion-agresividad-personalidad-factores/",
   "/2021/06/27/personalidad-y-conduca-agresiva-psicologia/":
