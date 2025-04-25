@@ -57,6 +57,100 @@ const {
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
 
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "medicalSpecialty": "PsychologicalCare",
+  "image": "https://www.nurialeon.com/meta-img.webp",
+  "name": "Centro Núria León - Psicología",
+  "url": "https://www.nurialeon.com/",
+  "description": "Somos un Centro de Psicología y Psicoterapia en Barcelona. Realizamos Terapia Presencial y Online en Castellano y Catalán. Nuestro enfoque integrador es rápido, moderno y muy efectivo. El equipo está formado por Psicólogos Sanitarios Colegiados y también contamos con un servicio de Psico-Nutrición y Nutrición Clínica.",
+  "telephone": "+34 650 011 672",
+  "email": "info@nurialeon.com",
+  "priceRange": "$",
+  "currenciesAccepted": "EUR",
+  "sameAs": [
+    "https://g.page/r/Cbk285IdPtR5EAg/",
+    "https://www.instagram.com/nurialeonpsicologa/"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue":  "4.9",
+    "reviewCount": "187",
+    "bestRating": "5"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Bailèn 141, Esc. Izq. Entr. 6",
+    "addressLocality": "Barcelona",
+    "addressRegion": "Cataluña",
+    "postalCode": "08037",
+    "addressCountry": "ES"
+  },
+  "hasMap": "https://maps.app.goo.gl/ZwySeYCvKi5NAJCp8/",
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Barcelona"
+    },
+    {
+      "@type": "Country",
+      "name": "Spain"
+    }
+  ],
+  "knowsLanguage": [
+    {
+      "@type": "Language",
+      "name": "Español",
+      "alternateName": "es"
+    },
+    {
+      "@type": "Language",
+      "name": "Català",
+      "alternateName": "ca"
+    }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+34 650 011 672",
+    "contactType": "Contacto",
+    "areaServed": "ES"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Núria León",
+    "jobTitle": "Psicóloga Sanitaria",
+    "url": "https://www.nurialeon.com/sobre-mi/",
+    "image": "https://www.nurialeon.com/nuria.webp",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Universitat de Barcelona"
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Colegio Oficial de Psicología de Cataluña"
+    }
+  }
+}
+</script>
+
+<!--
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "price": "70.00",
+      "priceCurrency": "EUR",
+      "itemOffered": {
+        "@type": "MedicalTherapy",
+        "name": "Terapia Individual Presencial",
+        "description": "Sesiones individuales presenciales de psicoterapia en Barcelona para Adultos y Adolescentes."
+      }
+    }
+  ],
+-->
+
 <!-- GA4 -->
 <script
   is:inline
@@ -64,18 +158,16 @@ const {
   src="https://www.googletagmanager.com/gtag/js?id=G-PCWBZV5Z2N"></script>
 
 <script is:inline>
-  window.dataLayer = window.dataLayer || []
-  function gtag() {
-    dataLayer.push(arguments)
-  }
-  gtag("js", new Date())
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
   gtag("consent", "default", {
     ad_storage: "denied",
     ad_user_data: "denied",
     ad_personalization: "denied",
-    analytics_storage: "denied",
-  })
+    analytics_storage: "granted",
+  });
 
-  gtag("config", "G-PCWBZV5Z2N")
+  gtag('config', 'G-PCWBZV5Z2N');
 </script>

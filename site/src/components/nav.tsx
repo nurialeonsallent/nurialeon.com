@@ -84,7 +84,7 @@ export default function ({ pathname }: { pathname: string }) {
             Centro Núria León
           </span>
         </a>
-        <button onClick={toggleGlobalMenu} className="pr-4 lg:hidden">
+        <button onClick={toggleGlobalMenu} className="pr-4 lg:hidden" aria-label="Open Menu">
           <MenuIcon className="text-[32px]" />
         </button>
         <ul className="fixed right-0 top-0 z-30 flex h-screen w-[90vw] max-w-[90vw] grow flex-col bg-white text-base transition-all max-lg:overflow-x-auto max-lg:pb-14 max-lg:group-data-[open=false]/nav:translate-x-[101%] lg:relative lg:h-auto lg:w-auto lg:max-w-[900px] lg:flex-row lg:items-center lg:justify-between lg:border-0 lg:bg-transparent lg:pr-4">
@@ -92,6 +92,7 @@ export default function ({ pathname }: { pathname: string }) {
             <button
               className="w-full px-4 py-4 pt-14 text-right lg:hidden"
               onClick={toggleGlobalMenu}
+              aria-label="Close Menu"
             >
               <CloseIcon className="text-[32px]" />
             </button>
@@ -138,12 +139,12 @@ function MenuSection({
       ></div>
       <NavLink
         active={isCurrentInside}
-        href={isCollapsible ? undefined : content}
+        href={isCollapsible ? '#' : content}
         data-collapsible={isCollapsible}
         onClick={() => setOpen((o) => (o === "" ? !isCurrentInside : !o))}
-        className={`${isCurrentInside && "text-brand-500"} ${
-          isCollapsible &&
-          "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500"
+        className={`${isCurrentInside ? "text-brand-500" : ""} ${
+          isCollapsible ?
+          "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500" : ""
         }`}
       >
         {title}

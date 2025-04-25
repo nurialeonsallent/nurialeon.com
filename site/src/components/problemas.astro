@@ -17,7 +17,7 @@ const { tipo } = Astro.props
   <ul class="columns-[145px_4] md:px-12">
     {
       [...servicios[tipo].problemas, "... y muchos más!"].map((p) => (
-        <li class="my-1 mr-2 text-sm md:my-2 md:text-base">{p}</li>
+        <li class="my-1 mr-2 text-sm md:my-2 md:text-base break-inside-avoid">{p}</li>
       ))
     }
   </ul>

@@ -30,14 +30,14 @@ let currentDate: Date | undefined
         currentDate = post.data.date
 
         return (
-          <>
+          <ul class="contents">
             {dateTitle && (
               <h2 class="hidden">
                 {dateTitle.charAt(0).toUpperCase() + dateTitle.substring(1)}
               </h2>
             )}
             <li class="flex flex-col md:flex-row md:items-stretch">
-              <a href={`/posts/${post.slug}/`} class="contents">
+              <a href={`/posts/${post.slug}/`} class="contents" aria-label={post.data.title}>
                 <Picture
                   width={640}
                   src={post.data.image}
@@ -66,7 +66,7 @@ let currentDate: Date | undefined
                 </div>
               </a>
             </li>
-          </>
+          </ul>
         )
       })
     }
