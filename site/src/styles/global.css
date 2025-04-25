@@ -99,7 +99,7 @@
       @apply mx-auto my-8 rounded-lg;
     }
 
-    img + em {
+    img + em, picture + em {
       @apply mx-auto -mt-6 mb-8 block text-center text-sm italic text-neutral-500 md:w-2/3;
     }
 

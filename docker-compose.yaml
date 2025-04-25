@@ -1,0 +1,10 @@
+services:
+  site:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    ports:
+      - 4321:4321
+    volumes:
+      - ./site:/usr/src/app
+

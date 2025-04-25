@@ -104,4 +104,10 @@ export default defineConfig({
     "/servicios/": "/psicologo-barcelona/",
     ...blogAntiguo,
   },
+  vite: {
+    server:{
+      hmr: { clientPort: 4321 },
+      watch: { usePolling: true }
+    }
+  }
 })
