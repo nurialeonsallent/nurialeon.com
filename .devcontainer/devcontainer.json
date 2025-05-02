@@ -1,12 +1,32 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-	"build": { "context": "..", "dockerfile": "./Dockerfile" },
+	"name": "Node.js",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [4321],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "cd /workspace/site && npm install && npm run dev",
+
+	// Configure the Workspace
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+	"workspaceFolder": "/workspace",
+	
+	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 		"extensions": ["astro-build.astro-vscode", "esbenp.prettier-vscode"]
 		}
 	},
-	"forwardPorts": [4321],
-	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
-	"workspaceFolder": "/workspace",
-	"postCreateCommand": "cd /workspace/site && npm install && npm run dev"
+
+	// Connect as root
+	"remoteUser": "root"
 }
