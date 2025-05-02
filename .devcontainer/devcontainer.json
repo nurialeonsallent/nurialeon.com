@@ -1,0 +1,12 @@
+{
+	"build": { "context": "..", "dockerfile": "./Dockerfile" },
+	"customizations": {
+		"vscode": {
+		"extensions": ["astro-build.astro-vscode", "esbenp.prettier-vscode"]
+		}
+	},
+	"forwardPorts": [4321],
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+	"workspaceFolder": "/workspace",
+	"postCreateCommand": "cd /workspace/site && npm install && npm run dev"
+}
