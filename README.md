@@ -1,6 +1,6 @@
 # www.nurialeon.com
 
-Web del Centro Núria León
+Web del Centro Núria Leon
 
 ## Diseño
 
