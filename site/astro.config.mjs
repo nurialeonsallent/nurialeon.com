@@ -76,9 +76,11 @@ const blogAntiguo = {
   "/2024/03/24/alimentacion-psiconutricion-psicologa-barcelona/":
     "/posts/hambre-saciedad-señales-de-nuestro-cuerpo/",
   "/2024/03/02/como-ser-un-buen-lider-el-arte-de-liderar/":
-    "/posts/el-arte-de-liderar-como-ser-un-buen-lider/el-arte-de-liderar-como-ser-un-buen-lider/",
+    "/posts/como-ser-un-buen-lider/",
   "/2024/03/03/como-ser-un-buen-lider-el-arte-de-liderar/":
-    "/posts/el-arte-de-liderar-como-ser-un-buen-lider/el-arte-de-liderar-como-ser-un-buen-lider/",
+    "/posts/como-ser-un-buen-lider/",
+  "/posts/el-arte-de-liderar-como-ser-un-buen-lider/el-arte-de-liderar-como-ser-un-buen-lider/":
+    "/posts/como-ser-un-buen-lider/",
   "/2024/01/29/comer-con-ansiedad-psicologia/":
     "/posts/psiconutricion-emociones-conducta-alimentaria/",
   "/2024/01/30/comer-con-ansiedad-psicologia/":
