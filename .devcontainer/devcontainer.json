@@ -13,7 +13,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [4321],
 
-	"postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+	"postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && git config pull.rebase false",
 	"postStartCommand": "cd /workspace/site && npm install && npm run dev",
 
 	// Configure the Workspace
