@@ -11,11 +11,11 @@ import EmailIcon from "~/icons/email.astro"
       <LocationIcon class="icon" />
       <span>Bailèn 141, Esc. Izq. Entr. 6, 08037 Barcelona</span>
     </a>
-    <a href="https://wa.me/34650011672" target="_blank" rel="noopener">
+    <a href="https://wa.me/34650011672" target="_blank" rel="noopener" onclick="trackContact?.('whatsapp')">
       <PhoneIcon class="icon" />
       <span>+34 650 011 672</span>
     </a>
-    <a href="mailto:psicologa@nurialeon.com" rel="noopener">
+    <a href="mailto:psicologa@nurialeon.com" rel="noopener" onclick="trackContact?.('email')">
       <EmailIcon class="icon" />
       <span>psicologa@nurialeon.com</span>
     </a>

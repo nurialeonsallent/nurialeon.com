@@ -107,6 +107,8 @@ Si quieres reservar una cita, escribe también la fecha/hora deseada."
     }
 
     if (action === "whatsapp") {
+      window.trackContact?.('whatsapp')
+
       const message = `Hola soy ${name} (${email}, ${telefono}).\n\n${text}`
       var url = "https://wa.me/34650011672?text=" + encodeURIComponent(message)
       const win = window.open(url, "_blank")
@@ -130,6 +132,7 @@ Si quieres reservar una cita, escribe también la fecha/hora deseada."
 
     if (captchaOK) {
       contactForm.action = "https://formspree.io/f/xvowdevg"
+      window.trackContact?.('form')
     } else {
       e.preventDefault()
     }

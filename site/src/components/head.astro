@@ -160,11 +160,21 @@ const {
   async
   src="https://www.googletagmanager.com/gtag/js?id=G-PCWBZV5Z2N"></script>
 
+<script>
+  declare global {
+    interface Window {
+        gtag?(eventName: string, ...params: any[]): void
+        trackContact?(action: string): void
+    }
+  }
+</script>
+
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag(){ window.dataLayer.push(arguments); }
+  window.gtag = gtag;
 
+  gtag('js', new Date());
   gtag("consent", "default", {
     ad_storage: "denied",
     ad_user_data: "denied",
@@ -173,4 +183,10 @@ const {
   });
 
   gtag('config', 'G-PCWBZV5Z2N');
-</script>
+
+  window.trackContact = function trackContact(action) {
+    console.log('trackContact', action)
+    window.gtag?.('event', 'contact', { action });
+  }
+
+</script> 
