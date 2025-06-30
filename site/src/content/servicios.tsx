@@ -200,4 +200,20 @@ export const servicios = {
       "Cambio de hábitos",
     ],
   },
+  nutricionClinica: {
+    nombre: "Nutrición Clínica",
+    precio: "65€",
+    duracion: "55 minutos",
+    link: "/nutricion-clinica",
+    icon: PsiconutricionIcon,
+    target: "Adultos y Adolescentes",
+    descripcion:
+      "Realizamos terapia psicológica acompañada de un asesoramiento nutricional personalizado para mejorar la relación alimentaria de forma integral.",
+    problemas: [
+      "Problemas hormonales",
+      "Disfagias",
+      "Gastritis",
+      
+    ],
+  },
 }
