@@ -53,7 +53,9 @@ import Blob from "~/icons/blob.astro"
         <Picture
           class="img z-10 pointer-events-none"
           src={heroImage}
-          height={600}
+          height={500}
+          widths={[250, 450]}
+          sizes="(max-width: 640px) 250px, 100vw"
           alt="Núria León, fundadora del Centro"
           loading="eager"
         />
@@ -154,10 +156,10 @@ import Blob from "~/icons/blob.astro"
       }
 
       .image {
-        @apply flex shrink-0 justify-center pt-2 lg:p-5 lg:pr-0 overflow-x-clip;
+        @apply flex shrink-0 justify-center pt-2 lg:p-5 lg:pr-0;
 
         .img {
-          @apply h-[300px] object-contain sm:h-[350px] lg:-mb-[100px] lg:h-[500px];
+          @apply w-auto h-[300px] object-contain sm:h-[350px] lg:-mb-[100px] lg:h-[500px];
         }
       }
     }

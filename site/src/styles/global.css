@@ -21,6 +21,10 @@
     src: local("Roboto"), local("-apple-system"), url("/fonts/roboto.ttf");
   }
 
+  html, body {
+    @apply overflow-x-clip;
+  }
+
   /* disabled default state */
   *:disabled,
   [data-disabled="true"] {
