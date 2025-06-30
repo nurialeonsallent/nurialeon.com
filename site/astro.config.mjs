@@ -156,7 +156,7 @@ export default defineConfig({
     rehypePlugins: [[externalLink, {}]],
   },
   // image: {
-  //   layout: "responsive",
+  //   layout: "constrained"
   // },
   redirects: {
     "/sitemap.xml": "/sitemap-index.xml",
