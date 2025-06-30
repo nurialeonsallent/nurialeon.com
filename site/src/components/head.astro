@@ -33,8 +33,10 @@ const {
   crossorigin
 />
 
-<!-- Canonical URL -->
+<!-- SEO -->
 <link rel="canonical" href={canonicalURL} />
+<link rel="alternate" href={canonicalURL} hreflang="es" />
+<link rel="alternate" href={canonicalURL} hreflang="x-default">
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
