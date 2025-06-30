@@ -46,10 +46,15 @@ const {
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
+<meta property="og:locale" content="es_ES" />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
+<meta property="og:site_name" content="Centro Núria León - Psicología y Terapia" />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image:type" content="image/webp" />
+<meta property="og:image:width" content="700" />
+<meta property="og:image:height" content="479" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
@@ -57,6 +62,10 @@ const {
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<!-- Article -->
+<meta property="article:author" content="https://www.facebook.com/people/Centro-N%C3%BAria-Le%C3%B3n-Psicolog%C3%ADa-y-Terapia/61572609944126/" />
+<meta property="article:publisher" content="https://www.facebook.com/people/Centro-N%C3%BAria-Le%C3%B3n-Psicolog%C3%ADa-y-Terapia/61572609944126/" />
 
 <!-- JSON-LD -->
 <script type="application/ld+json">
@@ -76,7 +85,9 @@ const {
     "https://nurialeon.com/",
     "https://www.nurialeon.com/",
     "https://g.page/r/Cbk285IdPtR5EAg/",
-    "https://www.instagram.com/nurialeonpsicologa/"
+    "https://www.instagram.com/nurialeonpsicologa/",
+    "https://www.youtube.com/@nurialeonpsicologa",
+    "https://www.tiktok.com/@nurialeonpsicologa"
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
