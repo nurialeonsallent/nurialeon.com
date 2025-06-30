@@ -20,6 +20,7 @@ const {
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/png" href="/favicon.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="generator" content={Astro.generator} />
 
@@ -28,7 +29,7 @@ const {
   rel="preload"
   href="/fonts/roboto.tff"
   as="font"
-  type="font/tff"
+  type="font/ttf"
   crossorigin
 />
 
@@ -72,6 +73,8 @@ const {
   "priceRange": "$",
   "currenciesAccepted": "EUR",
   "sameAs": [
+    "https://nurialeon.com/",
+    "https://www.nurialeon.com/",
     "https://g.page/r/Cbk285IdPtR5EAg/",
     "https://www.instagram.com/nurialeonpsicologa/"
   ],
@@ -136,20 +139,6 @@ const {
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "CreativeWorkSeries",
-  "name": "Sesiones de Psicología en Barcelona y Online",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "ratingCount": "187",
-    "bestRating": "5"
-  }
-}
-</script>
-
 <!--
   "makesOffer": [
     {
@@ -171,11 +160,21 @@ const {
   async
   src="https://www.googletagmanager.com/gtag/js?id=G-PCWBZV5Z2N"></script>
 
+<script>
+  declare global {
+    interface Window {
+        gtag?(eventName: string, ...params: any[]): void
+        trackContact?(action: string): void
+    }
+  }
+</script>
+
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag(){ window.dataLayer.push(arguments); }
+  window.gtag = gtag;
 
+  gtag('js', new Date());
   gtag("consent", "default", {
     ad_storage: "denied",
     ad_user_data: "denied",
@@ -184,4 +183,10 @@ const {
   });
 
   gtag('config', 'G-PCWBZV5Z2N');
-</script>
+
+  window.trackContact = function trackContact(action) {
+    console.log('trackContact', action)
+    window.gtag?.('event', 'contact', { action });
+  }
+
+</script> 
