@@ -12,18 +12,18 @@ const menu = [
   [
     "Servicios",
     [
-      ["Terapia Individual", "/psicologo-barcelona"],
-      ["Terapia Online", "/psicologo-online"],
-      ["Terapia de Parejas / Familia", "/terapia-de-parejas-barcelona"],
-      ["Psico-Nutrición", "/psiconutricion-barcelona"],
-      // ["Terapia de Familias", "/terapia-de-familias-barcelona"],
+      ["Terapia Individual", "/psicologo-barcelona/"],
+      ["Terapia Online", "/psicologo-online/"],
+      ["Terapia de Parejas / Familia", "/terapia-de-parejas-barcelona/"],
+      ["Psico-Nutrición", "/psiconutricion-barcelona/"],
+      // ["Terapia de Familias", "/terapia-de-familias-barcelona/"],
       // [
       //   "Psicología Sanitaria / Clinica",
-      //   "/psicologia-clinica-sanitaria-barcelona",
+      //   "/psicologia-clinica-sanitaria-barcelona/",
       // ],
       // [
       //   "Coaching / Acompañamiento",
-      //   "/coaching-acompañamiento-emocional-barcelona",
+      //   "/coaching-acompañamiento-emocional-barcelona/",
       // ],
     ],
   ],
@@ -56,12 +56,12 @@ const menu = [
   [
     "Centro",
     [
-      ["Conoce al equipo", "/equipo"],
-      ["Sobre mí", "/sobre-mi"],
+      ["Conoce al equipo", "/equipo/"],
+      ["Sobre mí", "/sobre-mi/"],
     ],
   ],
-  ["Articulos", "/posts"],
-  ["Contacto", "/contacto"],
+  ["Articulos", "/posts/"],
+  ["Contacto", "/contacto/"],
 ] satisfies MenuSectionType;
 
 export default function ({ pathname }: { pathname: string }) {
