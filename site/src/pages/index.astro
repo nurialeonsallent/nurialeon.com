@@ -22,22 +22,22 @@ import Blob from "~/icons/blob.astro"
         <p>
           Somos un Centro de Psicología y Psicoterapia en Barcelona. Realizamos
           <strong
-            ><a class="a-link" href="/psicologo-barcelona">Terapia Presencial</a
+            ><a class="a-link" href="/psicologo-barcelona/">Terapia Presencial</a
             ></strong
           > y <strong
-            ><a class="a-link" href="/psicologo-online">Online</a></strong
+            ><a class="a-link" href="/psicologo-online/">Online</a></strong
           > en Castellano y Catalán. Nuestro enfoque integrador es <strong
             >rápido, moderno y muy efectivo</strong
           >. El equipo está formado por <strong
             >Psicólogos Sanitarios Colegiados</strong
           > y también contamos con un servicio de <strong
-            ><a class="a-link" href="/psiconutricion-barcelona"
+            ><a class="a-link" href="/psiconutricion-barcelona/"
               >Psico-Nutrición y Nutrición Clínica</a
             ></strong
           >.
         </p>
         <a
-          href="/contacto"
+          href="/contacto/"
           class="cta flex items-center rounded-md border-2 border-brand-600 bg-brand-400 active:bg-brand-600 hover:bg-brand-500 py-2 text-center text-base font-semibold text-white pl-8 pr-4 no-underline"
         >
           ¡Pide tu Cita! <Go class="pl-8" />
@@ -53,7 +53,9 @@ import Blob from "~/icons/blob.astro"
         <Picture
           class="img z-10 pointer-events-none"
           src={heroImage}
-          height={600}
+          height={500}
+          widths={[250, 450]}
+          sizes="(max-width: 640px) 250px, 100vw"
           alt="Núria León, fundadora del Centro"
           loading="eager"
         />
@@ -154,10 +156,10 @@ import Blob from "~/icons/blob.astro"
       }
 
       .image {
-        @apply flex shrink-0 justify-center pt-2 lg:p-5 lg:pr-0 overflow-x-clip;
+        @apply flex shrink-0 justify-center pt-2 lg:p-5 lg:pr-0;
 
         .img {
-          @apply h-[300px] object-contain sm:h-[350px] lg:-mb-[100px] lg:h-[500px];
+          @apply w-auto h-[300px] object-contain sm:h-[350px] lg:-mb-[100px] lg:h-[500px];
         }
       }
     }

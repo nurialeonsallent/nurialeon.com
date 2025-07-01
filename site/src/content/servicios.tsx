@@ -8,7 +8,7 @@ export const servicios = {
     nombre: "Terapia Individual",
     precio: "70€",
     duracion: "55 minutos",
-    link: "/psicologo-barcelona",
+    link: "/psicologo-barcelona/",
     icon: IndividualIcon,
     target: "Adultos y Adolescentes",
     descripcion:
@@ -63,7 +63,7 @@ export const servicios = {
     nombre: "Terapia Online",
     precio: "65€",
     duracion: "55 minutos",
-    link: "/psicologo-online",
+    link: "/psicologo-online/",
     icon: OnlineIcon,
     target: "Adultos y Adolescentes",
     descripcion:
@@ -119,7 +119,7 @@ export const servicios = {
     nombre: "Terapia de Parejas/Familia",
     precio: "95€",
     duracion: "1 hora y 20 minutos",
-    link: "/terapia-de-parejas-barcelona",
+    link: "/terapia-de-parejas-barcelona/",
     icon: ParejaIcon,
     target: "Parejas y Familias",
     descripcion:
@@ -157,7 +157,7 @@ export const servicios = {
     nombre: "Psico-Nutrición",
     precio: "70€",
     duracion: "55 minutos",
-    link: "/psiconutricion-barcelona",
+    link: "/psiconutricion-barcelona/",
     icon: PsiconutricionIcon,
     target: "Adultos y Adolescentes",
     descripcion:
@@ -198,6 +198,22 @@ export const servicios = {
       "Estrés y alimentación",
       "Autoconocimiento",
       "Cambio de hábitos",
+    ],
+  },
+  nutricionClinica: {
+    nombre: "Nutrición Clínica",
+    precio: "65€",
+    duracion: "55 minutos",
+    link: "/nutricion-clinica",
+    icon: PsiconutricionIcon,
+    target: "Adultos y Adolescentes",
+    descripcion:
+      "Realizamos terapia psicológica acompañada de un asesoramiento nutricional personalizado para mejorar la relación alimentaria de forma integral.",
+    problemas: [
+      "Problemas hormonales",
+      "Disfagias",
+      "Gastritis",
+      
     ],
   },
 }
