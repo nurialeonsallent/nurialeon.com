@@ -34,35 +34,32 @@ import ContactForm from "~/components/contactForm.astro"
 <Valores />
 <Reviews />
 
-## Preguntas frecuentes
-
-<FAQ>
-
-- ¿Utilizáis la báscula para pesar a los pacientes?
-
-  Por lo general en el centro no utilizamos el peso como medida para hacer ni la evaluación ni el seguimiento. Consideramos que la salud es mucho más que un número y utilizamos otros recursos para la terapia de psiconutrición.
-
-- ¿Realizáis diagnósticos clínicos?
-
-  En el centro no realizamos diagnósticos clínicos como tal pero sí te podemos orientar en caso de que necesites obtener un diagnóstico clínico especializado informado. Tenemos una amplia red de contactos en caso de que necesites un diagnóstico específico.
-
-- ¿Cuando es necesario acudir a terapia de psiconutrición?
-
-  Cualquier persona puede beneficiarse de un proceso de terapia de psiconutrición para mejorar su relación alimentaria y su autoestima corporal. La terapia de psiconutricón es indispensable en casos de cualquier trastorno alimentario como puede ser: Anorexia, Bulímia, Trastorno por atracón, Obesidad, Vigorexia, Ortorexia, compensaciones... Lo más adecuado es compaginar las sesiones de nutrición con las sesiones de psicología, para poder así abordar el problema desde un enfoque integral. En caso de que el psicólogo detecte una necesidad de intervenir también a nivel nutricional, se le planteará al paciente hacer una primera sesión conjunta de psiconutrición.
-
-- ¿Cómo funciona un proceso de psiconutrición?
-
-  Una terapia incluye sesiones con el psicólogo y con la nutricionista en conjunto y también por separado con el objetivo de entender el problema emocional asociado a la dinámica alimentaria. El psicólogo y la nutricionista son quienes van guiando las sesiones mediante técnicas, recursos y herramientas para cambiar la dinámica disfuncional alimentaria. En cada sesión hay un cierre y unas prescripciones o tareas para trabajar entre sesiones. En nuestro centro estamos en constante supervisión y trabajamos de forma conjunta para ofrecer el mejor servicio.
-
-- ¿Cómo sé que la terapia está funcionando? ¿Qué ocurre si la terapia no funciona?
-
-  Por lo general suelen haber cambios en un periodo de tiempo corto, ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de una amplia formación académica y experiencia clínica. En algunos casos concretos, puede ser necesaria una derivación a algún centro clínico especializado para tratar el problema de forma más multidisciplinar.
-
-- He realizado otro tipo de terapia y no me han funcionado... ¿Por qué debería de ser diferente en esta ocasión?
-
-  Entendemos que puede ser muy frustrante haber realizado otras terapias sin haber tenido éxito. Lamentamos que hayas tenido malas experiencias en el pasado. Sin embargo, no todos los profesionales son iguales, y nosotros confiamos plenamente en nuestra metodología y en nuestra experiencia, somos muy cuidadosos con la atención que ofrecemos y nos esforzamos por mejorar. Si tienes alguna sugerencia para que mejoremos estaremos encantados de escucharte.
-
-</FAQ>
+<FAQ content={[
+  {
+    question: `¿Utilizáis la báscula para pesar a los pacientes?`,
+    answer: `Por lo general en el centro no utilizamos el peso como medida para hacer ni la evaluación ni el seguimiento. Consideramos que la salud es mucho más que un número y utilizamos otros recursos para la terapia de psiconutrición.`
+  },
+  {
+    question: `¿Realizáis diagnósticos clínicos?`,
+    answer: `En el centro no realizamos diagnósticos clínicos como tal pero sí te podemos orientar en caso de que necesites obtener un diagnóstico clínico especializado informado. Tenemos una amplia red de contactos en caso de que necesites un diagnóstico específico.`
+  },
+  {
+    question: `¿Cuando es necesario acudir a terapia de psiconutrición?`,
+    answer: `Cualquier persona puede beneficiarse de un proceso de terapia de psiconutrición para mejorar su relación alimentaria y su autoestima corporal. La terapia de psiconutricón es indispensable en casos de cualquier trastorno alimentario como puede ser: Anorexia, Bulímia, Trastorno por atracón, Obesidad, Vigorexia, Ortorexia, compensaciones... Lo más adecuado es compaginar las sesiones de nutrición con las sesiones de psicología, para poder así abordar el problema desde un enfoque integral. En caso de que el psicólogo detecte una necesidad de intervenir también a nivel nutricional, se le planteará al paciente hacer una primera sesión conjunta de psiconutrición.`
+  },
+  {
+    question: `¿Cómo funciona un proceso de psiconutrición?`,
+    answer: `Una terapia incluye sesiones con el psicólogo y con la nutricionista en conjunto y también por separado con el objetivo de entender el problema emocional asociado a la dinámica alimentaria. El psicólogo y la nutricionista son quienes van guiando las sesiones mediante técnicas, recursos y herramientas para cambiar la dinámica disfuncional alimentaria. En cada sesión hay un cierre y unas prescripciones o tareas para trabajar entre sesiones. En nuestro centro estamos en constante supervisión y trabajamos de forma conjunta para ofrecer el mejor servicio.`
+  },
+  {
+    question: `¿Cómo sé que la terapia está funcionando? ¿Qué ocurre si la terapia no funciona?`,
+    answer: `Por lo general suelen haber cambios en un periodo de tiempo corto, ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de una amplia formación académica y experiencia clínica. En algunos casos concretos, puede ser necesaria una derivación a algún centro clínico especializado para tratar el problema de forma más multidisciplinar.`
+  },
+  {
+    question: `He realizado otro tipo de terapia y no me han funcionado... ¿Por qué debería de ser diferente en esta ocasión?`,
+    answer: `Entendemos que puede ser muy frustrante haber realizado otras terapias sin haber tenido éxito. Lamentamos que hayas tenido malas experiencias en el pasado. Sin embargo, no todos los profesionales son iguales, y nosotros confiamos plenamente en nuestra metodología y en nuestra experiencia, somos muy cuidadosos con la atención que ofrecemos y nos esforzamos por mejorar. Si tienes alguna sugerencia para que mejoremos estaremos encantados de escucharte.`
+  },
+]} />
 
 <h2>Pide tu cita, Contacta con nosotros</h2>
 <ContactForm />
