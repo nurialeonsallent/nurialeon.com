@@ -31,35 +31,32 @@ import ContactForm from "~/components/contactForm.astro"
 <Valores />
 <Reviews />
 
-## Preguntas frecuentes
-
-<FAQ>
-
-- ¿Cuanto duran y cuanto valen las sesiones?
-
-  Las sesiones individuales duran {servicios.presencial.duracion}. El precio es de {servicios.presencial.precio} y puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal o efectivo.
-
-- ¿Cuanto dura un proceso de terapia?
-
-  El proceso de terapia suele durar unos meses. Valoramos cada caso y en función de los resultados o cambios obtenidos en las sesiones se alarga más o menos en el tiempo. Hay personas que una vez resuelto su problema prefieren mantener las visitas de forma mensual para evitar recaídas.
-
-- ¿Cuando es necesario acudir a terapia psicológica?
-
-  Cualquier persona puede beneficiarse de un proceso de terapia aunque es especialmente recomendada en casos de querer mejorar a nivel personal, para sacarse una oposición, a la hora de tomar alguna decisión o cambio de vida / hábitos, etc. Por otro lado, se considera necesaria en casos de malestar emocional, pensamientos de suicidio, mala gestión de emociones, ansiedad, depresión, estrés, burnout, mobbing, acoso, fobias, enfermedades, duelos, autolesiones, agorafobia, TOC, TAG, trastornos de personalidad, ataques de ira, obsesiones, problemas de timidez, ansiedad social, inseguridades, rituales, TLP, miedos, etc. o cualquier situación psicológica en el que la persona esté sufriendo o haga sufrir a los demás.
-
-- ¿Cómo funciona la terapia?
-
-  Una terapia incluye sesiones con el psicólogo con el objetivo de entender el problema emocional para resolverlo para siempre. El psicólogo es quien va guiando la sesión mediante técnicas, recursos y herramientas para cambiar la dinámica disfuncional. En cada sesión hay un cierre y unas prescripciones o tareas para trabajar entre sesiones.
-
-- ¿Puedo hacer terapia presencial y combinarla con terapia online?
-
-  Sí, se pueden combinar ambos tipos.
-
-- ¿Cómo sé que la terapia está funcionando?
-
-  Por lo general hay una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica. Hacemos supervisiones con los mejores profesionales referentes y utilizamos muchos recursos combinados para ir a la raíz del problema.
-
-</FAQ>
+<FAQ content={[
+  {
+    question: `¿Cuanto duran y cuanto valen las sesiones?`,
+    answer: `Las sesiones individuales duran ${servicios.presencial.duracion}. El precio es de ${servicios.presencial.precio} y puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal o efectivo.`
+  },
+  {
+    question: `¿Cuanto dura un proceso de terapia?`,
+    answer: `El proceso de terapia suele durar unos meses. Valoramos cada caso y en función de los resultados o cambios obtenidos en las sesiones se alarga más o menos en el tiempo. Hay personas que una vez resuelto su problema prefieren mantener las visitas de forma mensual para evitar recaídas.`
+  },
+  {
+    question: `¿Cuando es necesario acudir a terapia psicológica?`,
+    answer: `Cualquier persona puede beneficiarse de un proceso de terapia aunque es especialmente recomendada en casos de querer mejorar a nivel personal, para sacarse una oposición, a la hora de tomar alguna decisión o cambio de vida / hábitos, etc. Por otro lado, se considera necesaria en casos de malestar emocional, pensamientos de suicidio, mala gestión de emociones, ansiedad, depresión, estrés, burnout, mobbing, acoso, fobias, enfermedades, duelos, autolesiones, agorafobia, TOC, TAG, trastornos de personalidad, ataques de ira, obsesiones, problemas de timidez, ansiedad social, inseguridades, rituales, TLP, miedos, etc. o cualquier situación psicológica en el que la persona esté sufriendo o haga sufrir a los demás.`
+  },
+  {
+    question: `¿Cómo funciona la terapia?`,
+    answer: `Una terapia incluye sesiones con el psicólogo con el objetivo de entender el problema emocional para resolverlo para siempre. El psicólogo es quien va guiando la sesión mediante técnicas, recursos y herramientas para cambiar la dinámica disfuncional. En cada sesión hay un cierre y unas prescripciones o tareas para trabajar entre sesiones.`
+  },
+  {
+    question: `¿Puedo hacer terapia presencial y combinarla con terapia online?`,
+    answer: `Sí, se pueden combinar ambos tipos.`
+  },
+  {
+    question: `¿Cómo sé que la terapia está funcionando?`,
+    answer: `Por lo general hay una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica. Hacemos supervisiones con los mejores profesionales referentes y utilizamos muchos recursos combinados para ir a la raíz del problema.`
+  },
+]} />
 
 <h2>Pide tu cita, Contacta con nosotros</h2>
 <ContactForm />

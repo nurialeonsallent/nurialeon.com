@@ -19,7 +19,9 @@ import ContactForm from "~/components/contactForm.astro"
 
     ## ¿Qué es la Terapia Online?
 
-    La terapia online es un proceso en el que intervenimos de forma virtual para resolver o mejorar algún aspecto de la vida de la persona de forma online.  **Abordaremos tu historia de vida, tus fortalezas, tus debilidades, tus relaciones personales, tus heridas del pasado y tu proyección a futuro.** Haremos un análisis de toda tu situación y abordaremos un plan de acción para conseguir los objetivos. Con las herramientas que te daremos podrás aprender a gestionar cualquier problema para siempre.
+    La terapia online (en linea) es un proceso en el que intervenimos de forma virtual para resolver o mejorar algún aspecto de la vida de la persona de forma online. **Abordaremos tu historia de vida, tus fortalezas, tus debilidades, tus relaciones personales, tus heridas del pasado y tu proyección a futuro**. Haremos un análisis de toda tu situación y abordaremos un plan de acción para conseguir los objetivos. Con las herramientas que te daremos podrás aprender a gestionar cualquier problema para siempre.
+
+    También ofrecemos **realizar esta misma terapia [de forma Presencial en Barcelona por {servicios.presencial.precio}](/psicologo-barcelona/)**.
 
   </div>
 </div>
@@ -29,35 +31,32 @@ import ContactForm from "~/components/contactForm.astro"
 <Valores />
 <Reviews />
 
-## Preguntas frecuentes
-
-<FAQ>
-
-- ¿Cuanto duran y como se hacen las sesiones online?
-
-  Las sesiones duran 55 minutos y se realizan por Google Meet, Skype, Videollamada por Whatsapp o Zoom. Recibirás un correo electrónico el día anterior con un enlace o sino a través de Whatsapp. El precio es de 65€ y puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal. El pago siempre hay que realizarlo antes de las sesiones online.
-
-- ¿Cuanto dura un proceso de terapia?
-
-  El proceso de terapia suele durar unos meses. Valoramos cada caso y en función de los resultados o cambios obtenidos en las sesiones se alarga más o menos en el tiempo. Hay personas que una vez resuelto el problema principal quieren mantener el seguimiento psicológico de forma menos frecuente para evitar recaídas y contar con apoyo.
-
-- ¿Cuando es necesario acudir a terapia psicológica?
-
-  Cualquier persona puede beneficiarse de un proceso de terapia online aunque es recomendada en casos de querer gestionar mejor las emociones, crecer a nivel personal o cambiar algún punto de su vida. Es necesaria en casos de malestar emocional, pensamientos de suicidio, mala gestión de emociones, ansiedad, depresión, estrés, burnout, mobbing, acoso, fobias, enfermedades, duelos, autolesiones, agorafobia, TOC, TAG, trastornos de personalidad, ataques de ira, obsesiones, problemas de timidez, ansiedad social, inseguridades, rituales, TLP, miedo o cualquier situación psicológica difícil.
-
-- ¿Cómo funciona la terapia?
-
-  Una terapia incluye sesiones con el psicólogo o terapeuta con el objetivo de entender el problema emocional. El psicólogo o terapeuta es quien va guiando la sesión mediante técnicas, recursos y herramientas para cambiar la dinámica disfuncional. En cada sesión hay un cierre y unas prescripciones para trabajar entre sesiones.
-
-- ¿Puedo hacer terapia presencial y combinarla con terapia online?
-
-  Sí, se pueden combinar ambos tipos.
-
-- ¿Cómo sé que la terapia está funcionando?
-
-  Por lo general hay una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica. Tenemos muchos recursos para poder ofrecer lo mejor a cada situación y persona. 
-
-</FAQ>
+<FAQ content={[
+  {
+    question: `¿Cuanto duran y cómo se hacen las sesiones online?`,
+    answer: `Las sesiones duran ${servicios.online.duracion} y se realizan por Google Meet, Skype, Videollamada por Whatsapp o Zoom. Recibirás un correo electrónico el día anterior con un enlace o sino a través de Whatsapp. El precio es de ${servicios.online.precio} y puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal. El pago siempre hay que realizarlo antes de las sesiones online.`
+  },
+  {
+    question: `¿Cuanto dura un proceso de terapia?`,
+    answer: `El proceso de terapia suele durar unos meses. Valoramos cada caso y en función de los resultados o cambios obtenidos en las sesiones se alarga más o menos en el tiempo. Hay personas que una vez resuelto el problema principal quieren mantener el seguimiento psicológico de forma menos frecuente para evitar recaídas y contar con apoyo.`
+  },
+  {
+    question:`¿Cuando es necesario acudir a terapia psicológica?`,
+    answer:`Cualquier persona puede beneficiarse de un proceso de terapia online aunque es recomendada en casos de querer gestionar mejor las emociones, crecer a nivel personal o cambiar algún punto de su vida. Es necesaria en casos de malestar emocional, pensamientos de suicidio, mala gestión de emociones, ansiedad, depresión, estrés, burnout, mobbing, acoso, fobias, enfermedades, duelos, autolesiones, agorafobia, TOC, TAG, trastornos de personalidad, ataques de ira, obsesiones, problemas de timidez, ansiedad social, inseguridades, rituales, TLP, miedo o cualquier situación psicológica difícil.`
+  },
+  {
+    question:`¿Cómo funciona la terapia?`,
+    answer:`Una terapia incluye sesiones con el psicólogo o terapeuta con el objetivo de entender el problema emocional. El psicólogo o terapeuta es quien va guiando la sesión mediante técnicas, recursos y herramientas para cambiar la dinámica disfuncional. En cada sesión hay un cierre y unas prescripciones para trabajar entre sesiones.`
+  },
+  {
+    question:`¿Puedo hacer terapia presencial y combinarla con terapia online?`,
+    answer:`Sí, se pueden combinar ambos tipos.`
+  },
+  {
+    question:`¿Cómo sé que la terapia está funcionando?`,
+    answer:`Por lo general hay una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica. Tenemos muchos recursos para poder ofrecer lo mejor a cada situación y persona`
+  },
+]} />
 
 <h2>Pide tu cita, Contacta con nosotros</h2>
 <ContactForm />
