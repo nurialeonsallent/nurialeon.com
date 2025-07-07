@@ -17,10 +17,10 @@ const menu = [
       ["Terapia de Parejas / Familia", "/terapia-de-parejas-barcelona/"],
       ["Psico-Nutrición", "/psiconutricion-barcelona/"],
       // ["Terapia de Familias", "/terapia-de-familias-barcelona/"],
-      // [
-      //   "Psicología Sanitaria / Clinica",
-      //   "/psicologia-clinica-sanitaria-barcelona/",
-      // ],
+      [
+        "Psicología Clínica y Sanitaria",
+        "/psicologia-clinica-sanitaria-barcelona/",
+      ],
       // [
       //   "Coaching / Acompañamiento",
       //   "/coaching-acompañamiento-emocional-barcelona/",
