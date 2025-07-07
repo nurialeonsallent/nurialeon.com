@@ -262,7 +262,7 @@ export const servicios = {
     nombre: "Nutrición Clínica",
     precio: "65€",
     duracion: "55 minutos",
-    link: "/nutricion-clinica/",
+    link: "/nutricion-clinica-barcelona/",
     icon: PsiconutricionIcon,
     target: "Adultos y Adolescentes",
     descripcion:

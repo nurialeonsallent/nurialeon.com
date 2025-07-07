@@ -21,6 +21,7 @@ const menu = [
         "Psicología Clínica y Sanitaria",
         "/psicologia-clinica-sanitaria-barcelona/",
       ],
+      ["Nutrición Clínica", "/nutricion-clinica-barcelona/"],
       // [
       //   "Coaching / Acompañamiento",
       //   "/coaching-acompañamiento-emocional-barcelona/",
