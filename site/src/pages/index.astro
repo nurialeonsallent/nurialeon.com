@@ -54,10 +54,11 @@ import Blob from "~/icons/blob.astro"
           class="img z-10 pointer-events-none"
           src={heroImage}
           height={500}
-          widths={[250, 450]}
-          sizes="(max-width: 640px) 250px, 450px"
+          widths={[250, 300, 450]}
+          sizes="(min-width: 1024px) 450px, (min-width: 640px) 300px, 250px"
           alt="Núria León, fundadora del Centro"
           loading="eager"
+          fetchpriority="high"
         />
       </div>
     </div>
