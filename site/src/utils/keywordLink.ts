@@ -12,7 +12,6 @@ export const keywordLink: RehypePlugin = (_options: Options) => {
 };
 
 const regex = new RegExp(`(?<before>.*?(?:^|\\s|\\.|,|¿|¡))(?<keyword>${keywords.map(k => k[0].source).join('|')})(?<after>(?=$|\\s|\\.|,|\\?|!).*)`, 'gi');
-console.log(regex);
 
 function visitNode(node: Root | RootContent | ElementContent): any[] {
     if ('children' in node) {
