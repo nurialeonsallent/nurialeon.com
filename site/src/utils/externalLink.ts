@@ -7,20 +7,12 @@ interface Options {
 
 export const externalLink: RehypePlugin = (_options: Options) => {
     return (tree) => {
-        visit(tree, (node) => {
-            if (node.type !== "element") {
-                return;
-            }
-
-            const element = node as Element;
-
+        visit(tree, 'element', (element) => {
             if (!isAnchor(element)) {
                 return;
             }
 
-            const url = getUrl(element);
-
-            if (isExternal(url)) {
+            if (isExternal(getUrl(element))) {
                 element.properties!["target"] = "_blank";
                 element.properties!["rel"] = "noopener";
             }
