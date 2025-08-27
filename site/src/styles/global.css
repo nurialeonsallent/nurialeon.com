@@ -4,6 +4,10 @@
 @tailwind variants;
 
 @layer base {
+  @view-transition {
+    navigation: auto;
+  }
+
   *,
   *::before,
   *::after {

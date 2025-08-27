@@ -8,6 +8,7 @@ const { content } = Astro.props
 const contentLDJson = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "name": "Preguntas frequentes",
   "mainEntity": content.map(i => ({
       "@type": "Question",
       "name": i.question,

@@ -6,6 +6,7 @@ import sitemap from "@astrojs/sitemap"
 import embeds from "astro-embed/integration"
 
 import { externalLink } from "./src/utils/externalLink"
+import { keywordLink } from "./src/utils/keywordLink"
 
 const blogAntiguo = {
   "/blog/": "/posts/",
@@ -153,7 +154,7 @@ export default defineConfig({
     tailwind({ applyBaseStyles: false }),
   ],
   markdown: {
-    rehypePlugins: [[externalLink, {}]],
+    rehypePlugins: [keywordLink, externalLink],
   },
   // image: {
   //   layout: "constrained",
