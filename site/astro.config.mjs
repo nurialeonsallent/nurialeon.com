@@ -164,6 +164,7 @@ export default defineConfig({
     "/sitemap.xml": "/sitemap-index.xml",
     "/feed.xml": "/sitemap-index.xml",
     "/servicios/": "/",
+    "/posts/la-tristeza-y-la-furia-cuento/": "/",
     ...blogAntiguo,
   },
   vite: {
