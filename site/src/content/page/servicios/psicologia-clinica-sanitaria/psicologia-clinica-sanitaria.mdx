@@ -1,77 +1,68 @@
 ---
-draft: true
 slug: /psicologia-clinica-sanitaria-barcelona/
-title: Psicología Clínica y Sanitaria
+title: Psicología Clínica Sanitaria
 ---
 
-La psicología sanitaria o psicología clínica es para ti si sufres algún problema psicológico clínico y quieres superarlo para sentirte mejor.
-En el Centro Núria León realizamos terapia psicológica para todas aquellas personas que necesiten un servicio personalizado, individual y único.
-70€
-
-## ¿Qué es la Psicología Sanitaria y la Psicología Clínica?
-
-La psicología sanitaria y psicología clínica son procesos en los que intervenimos de forma para resolver o mejorar algún aspecto de la vida de la persona con algún diagnóstico clínico previo o con la sospecha de tenerlo. En el Centro podemos ayudarte en todo tipo de problema psicológico clínico. Somos especialistas en la terapia breve estratégica y la terapia cognitivo conductual, aunque nuestra metodología también es integradora y nos basamos en la evidencia, ya que utilizamos las mejores herramientas y recursos para adaptarnos a cada caso.
-
-La terapia individual es un proceso personalizado en que nos centraremos y adaptamos a tus necesidades para poder resolver el problema de raíz. Nuestra metodología es muy eficaz, rápida y resolutiva.
-
-Abordaremos tu historia de vida, tus fortalezas, tus debilidades, tus relaciones personales, tus heridas del pasado y tu proyección a futuro. Haremos un análisis de toda tu situación y abordaremos un plan de acción para conseguir los objetivos. Con las herramientas que te daremos podrás aprender a gestionar cualquier problema para siempre.
-
-## ¿Qué problemas se pueden tratar en Psicología Sanitaria y Psicología Clínica?
-
-<div class="columns-2">
-  - TDAH - TEA - Depresión Clínica - Depresión Exógena - Depresión Endógena -
-  Enfermedades - Fibromialgia - T. Obsesivo Compulsivo - T. Ansiedad
-  Generalizada - T. Límite - T.Estrés Post Traumático - T. Antisocial - T.
-  Histriónico - T. Dependiente - Psicosis - Esquizofrenia - Trastorno Bipolar -
-  Ciclotimia - Autolesiones - Intentos de suicidio - Estrés Post Traumático -
-  Abusos sexuales - Trauma - Paranoia - Trastornos Psiquiátricos
-</div>
-
-**_En caso de sospecha de algún diagnóstico, desde el Centro Núria León no realizamos diagnósticos clínicos pero podemos realizar un informe psicológico y te ayudaremos a buscar el mejor centro de derivación para que te realicen una evaluación completa y personalizada. Contamos con una red de centros de contactos y colaboraciones, por lo que podemos ayudarte a encontrar el mejor sitio para ti._**
-
-## Nuestros valores son:
-
-✅profesionalidad
-✅confidencialidad
-✅atención al detalle
-✅compromiso
-✅cercanía
-✅búsqueda de excelencia
-
-Cuidamos todos los detalles de cada intervención para poder ofrecer una atención de calidad. Nos centramos en la persona y por eso ofrecemos un servicio único y exclusivo.
-
-Después de cada visita solemos enviar actividades o prescribimos tareas concretas con la idea de que la persona siga realizando avances entre sesión y sesión. Nos adaptamos a cada caso y a cada necesidad. A lo largo de la terapia las sesiones se irán espaciando hasta que una vez se resuelva el problema inicial se dará el alta terapéutica.
-
-**_Las sesiones son en nuestro Centro en la Calle Bailén 141, esc izq entlo 6, 08037, Barcelona. Puedes realizar el pago mediante tarjeta, bizum, transferencia, paypal o efectivo._**
-
-**_Para cancelaciones o cambios es necesario poder avisar con un margen mínimo de 24 horas._**
-
+import { Picture } from "astro:assets"
+import { servicios } from "~/content/servicios"
+import ServicioCard from "~/components/servicioCard.astro"
 import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
+import Problemas from "~/components/problemas.astro"
+import Valores from "~/components/valores.astro"
+import Reviews from "~/components/reviews.astro"
+import FAQ from "~/components/faq.astro"
+import ContactForm from "~/components/contactForm.astro"
 
-<ComoEsLaTerapia tipo="presencial" />
+<div class="flex gap-x-8 flex-wrap lg:flex-nowrap items-center">
+  <ServicioCard type="sanitaria" />
+  <div>
 
-## Preguntas frecuentes
+    ## ¿Qué es la Psicología Clínica Sanitaria?
 
-<div class="faq">
+  La psicología sanitaria y psicología clínica son procesos en los que intervenimos de forma para resolver o mejorar algún aspecto de la vida de la persona con algún diagnóstico clínico previo o con la sospecha de tenerlo. Si tienes algún diagnóstico clínico te ayudaremos a que entiendas lo que te ocurre, te enseñaremos las mejores técnicas para que puedas aprender a convivir con tu diagnóstico. 
+  
+  En el caso de **sospecha de que tengas algún diagnóstico buscaremos la mejor opción para ti**. En algunos casos realizamos **pruebas de screening** para tener una orientación clara de lo que te ocurre, y si consideramos que necesitas una ayuda más especializada te derivaremos al mejor profesional. 
 
-- ¿Realizáis informes clínicos psicológicos?
+    También ofrecemos **realizar esta misma terapia [de forma Online por {servicios.online.precio}](/psicologo-online/)**, más flexible y económica.
 
-  Realizamos informes psicológicos de seguimiento en caso de necesidad y tienen un coste aparte de las precio de las sesiones. En caso de querer saber el precio nos lo podéis preguntar directamente, ya que dependerá de la evaluación que haga el psicólogo y de la demanda.
-
-- ¿Realizáis diagnósticos clínicos?
-
-  En el centro no realizamos diagnósticos psiquiátricos como tal pero sí te podemos orientar en caso de que necesites obtener un diagnóstico clínico especializado. Tenemos una amplia red de contactos de referemcoa en caso de que necesites un diagnóstico específico.
-
-- ¿Cuando es necesario acudir a terapia psicológica?
-
-  Cualquier persona puede beneficiarse de un proceso de terapia aunque es especialmente recomendada en casos de malestar emocional, si tomas algún antidepresivo o ansiolítico, si tienes pensamientos de suicidio, mala gestión de tus emociones, si sufres de ansiedad, depresión, estrés, burnout, mobbing, acoso, fobias, enfermedades, duelos, si te realizas autolesiones, si sufres de agorafobia, si tienes pensamientos obsesivos o TOC, TAG, trastornos de personalidad, ataques de ira, obsesiones, problemas de timidez, ansiedad social, inseguridades, rituales, TLP, miedos... Por lo general recomendamos realizar terapia a todas aquellas personas que tengan algún tipo de sufrimiento emocional o que quieran mejorar sus vidas.
-
-- ¿Cómo funciona la terapia?
-
-  Un proceso de terapia se realiza con sesiones con el psicólogo con el objetivo de entender el problema emocional o psicológico para poder resolverlo de raíz. El psicólogo es quien va guiando la sesión mediante sus prescripciones, técnicas, recursos y herramientas para cambiar la dinámica disfuncional de cada persona. En el Centro Núria León somos especialistas en la comunicación analógica y mediante nuestras técnicas conseguimos cambiar la perspectiva del problema y así abrir un canal distinto y generar nuevas realidades.
-
-- ¿Cómo sé que la terapia está funcionando?
-
-  Por lo general suele haber una mejoría rápida ya que nuestra metodología estratégica es especialista en crear cambios rápidos. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra metodología ya que disponemos de protocolos específicos y mucha experiencia clínica. Sin embargo, hay que ser consciente de que a veces los cambios tardan más, por eso nos esforzamos en poder ofrecer una atención de calidad y en caso de ver un estancamiento en la terapia cambiaremos la estrategia hasta así conseguir un cambio en el paciente.
-
+  </div>
 </div>
+
+Abordaremos tu historia clínica, tus fortalezas, tus debilidades, tus relaciones personales, tus heridas del pasado y tu proyección a futuro. Haremos un análisis de toda tu situación y abordaremos un plan de acción para conseguir los objetivos. 
+
+_**En caso de sospecha de algún diagnóstico podemos realizar un informe psicológico y te ayudaremos a buscar el mejor centro de evaluación para que te realicen una evaluación completa y personalizada. Contamos con una red de centros de contactos y colaboraciones, por lo que podemos ayudarte a encontrar el mejor sitio para ti.**_
+
+<ComoEsLaTerapia tipo="sanitaria" />
+<Problemas tipo="sanitaria" />
+<Valores />
+<Reviews />
+
+<FAQ content={[
+  {
+    question: `¿Realizáis informes clínicos psicológicos?`,
+    answer: `Realizamos informes psicológicos de seguimiento en caso de necesidad y tienen un coste aparte de las precio de las sesiones. En caso de querer saber el precio nos lo podéis preguntar directamente, ya que dependerá de la evaluación que haga el psicólogo y de la demanda.`
+  },
+  {
+    question: `¿Realizáis diagnósticos clínicos?`,
+    answer: `En el centro no realizamos diagnósticos psiquiátricos como tal pero sí te podemos orientar en caso de que necesites obtener una evaluación especializada. Hacemos pruebas de screening y hacemos informes psicológicos para poder derivarte a algún centro especializado en caso de que necesites un diagnóstico. Tenemos una amplia red de contactos de referemcoa en caso de que necesites un diagnóstico específico.`
+  },
+  {
+    question: `¿Cuando es necesario acudir a terapia psicológica?`,
+    answer: `Cualquier persona puede beneficiarse de un proceso de terapia aunque es especialmente recomendada en casos de malestar emocional, si tomas algún antidepresivo o ansiolítico, si tienes pensamientos de suicidio, mala gestión de tus emociones, si sufres de ansiedad, depresión, estrés, burnout, mobbing, acoso, fobias, enfermedades, duelos, si te realizas autolesiones, si sufres de agorafobia, si tienes pensamientos obsesivos o TOC, TAG, trastornos de personalidad, ataques de ira, obsesiones, problemas de timidez, ansiedad social, inseguridades, rituales, TLP, miedos... Por lo general recomendamos realizar terapia a todas aquellas personas que tengan algún tipo de sufrimiento emocional o que quieran mejorar sus vidas.`
+  },
+  {
+    question: `¿Cómo funciona la terapia?`,
+    answer: `Un proceso de terapia se realiza con sesiones con el psicólogo con el objetivo de entender el problema emocional o psicológico para poder resolverlo de raíz. El psicólogo es quien va guiando la sesión mediante sus prescripciones, técnicas, recursos y herramientas para cambiar la dinámica disfuncional de cada persona. En el Centro Núria León somos especialistas en la comunicación analógica y mediante nuestras técnicas conseguimos cambiar la perspectiva del problema y así abrir un canal distinto y generar nuevas realidades.`
+  },
+  {
+    question: `¿Puedo hacer terapia presencial y combinarla con terapia online?`,
+    answer: `Sí, se pueden combinar ambos tipos.`
+  },
+  {
+    question: `¿Cómo sé que la terapia está funcionando?`,
+    answer: `Por lo general hay una mejoría en poco tiempo ya que nuestra metodología es especialista en crear cambios. Igualmente hay casos que necesitan más sesiones para ver cambios y notar resultados. Confiamos plenamente en nuestra experiencia y formación. Hacemos supervisiones con los mejores profesionales referentes y utilizamos muchos recursos combinados para ir a la raíz del problema.`
+  },
+]} />
+
+<h2>Pide tu cita, Contacta con nosotros</h2>
+<ContactForm />

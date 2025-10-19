@@ -27,14 +27,23 @@ const servicio = tipo && servicios[tipo]
       <IndividualIcon
         class="shrink-0 self-start mt-1 text-[32px] w-[1em] text-brand-400 leading-none"
       />
-      <span>
-        Nuestro modelo de terapia es <strong>rápido</strong>, <strong
-          >moderno</strong
-        > y <strong>muy eficaz</strong>. Vamos directos a la raíz de tu
-        problema. Integramos las mejores herramientas de la terapia cognitivo
-        conductual, terapia breve estratégica y terapia sistémica para
-        adaptarnos a cada caso.
-      </span>
+      {
+        tipo !== "psiconutricion" && tipo !== "nutricionClinica" ? (
+          <span>
+            Nuestro modelo de terapia es <strong>rápido</strong>,{" "}
+            <strong>moderno</strong> y <strong>muy eficaz</strong>. Vamos
+            directos a la raíz de tu problema. Integramos las mejores
+            herramientas de la terapia cognitivo conductual, terapia breve
+            estratégica y terapia sistémica para adaptarnos a cada caso.
+          </span>
+        ) : (
+          <span>
+            Las consultas de psiconutrición y nutrición clínica pueden ser
+            presenciales y online. Integramos las mejores técnicas, herramientas
+            y recursos para adaptarnos a tu caso.
+          </span>
+        )
+      }
     </div>
     <div class="gap-4 flex items-center">
       <TimeIcon
@@ -80,7 +89,7 @@ const servicio = tipo && servicios[tipo]
               sesión.
             </>
           ) : (
-            <>Se puede pagar con tarjeta, bizum, paypal o efectivo.</>
+            <>Se puede pagar con tarjeta, bizum, transferencia o efectivo.</>
           )
         }</span
       >
@@ -146,7 +155,7 @@ const servicio = tipo && servicios[tipo]
           <span class="step-title"
             >Contacta con nosotros explicando tu situación.</span
           >
-          <a href="/contacto" class="a-link">
+          <a href="/contacto/" class="a-link">
             Rellena el formulario <GoIcon />
           </a>
         </div>
@@ -162,7 +171,7 @@ const servicio = tipo && servicios[tipo]
             agendar cita. Tendrás su teléfono y podrás escribirle en caso de
             duda o necesidad.
           </span>
-          <a href="/equipo" class="a-link">
+          <a href="/equipo/" class="a-link">
             Conoce al equipo <GoIcon />
           </a>
         </div>
@@ -182,7 +191,7 @@ const servicio = tipo && servicios[tipo]
         </div>
       </div>
       <a
-        href="/contacto"
+        href="/contacto/"
         class="cta self-center flex items-center rounded-md border-2 border-brand-600 bg-brand-400 active:bg-brand-600 hover:bg-brand-500 py-2 text-center text-base font-semibold text-white pl-8 pr-4 no-underline"
       >
         ¡Pide tu Cita! <GoIcon class="pl-8" />

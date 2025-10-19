@@ -4,6 +4,10 @@
 @tailwind variants;
 
 @layer base {
+  @view-transition {
+    navigation: auto;
+  }
+
   *,
   *::before,
   *::after {
@@ -19,6 +23,10 @@
     font-family: "NLTitles";
     font-display: fallback;
     src: local("Roboto"), local("-apple-system"), url("/fonts/roboto.ttf");
+  }
+
+  html, body {
+    @apply overflow-x-clip;
   }
 
   /* disabled default state */

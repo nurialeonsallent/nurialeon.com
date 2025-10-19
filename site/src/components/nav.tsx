@@ -1,29 +1,30 @@
-import MenuIcon from "~/icons/menu";
-import MenuSectionIcon from "~/icons/menuSection";
-import CloseIcon from "~/icons/close";
+import MenuIcon from "~/icons/menu"
+import MenuSectionIcon from "~/icons/menuSection"
+import CloseIcon from "~/icons/close"
 
-import { useState, type PropsWithChildren, type ReactNode } from "react";
-import LogoIcon from "~/icons/logo";
+import { useState, type PropsWithChildren, type ReactNode } from "react"
+import LogoIcon from "~/icons/logo"
 
-type MenuSectionType = [ReactNode, string | MenuSectionType][];
+type MenuSectionType = [ReactNode, string | MenuSectionType][]
 
 const menu = [
   [<>Inicio</>, "/"],
   [
     "Servicios",
     [
-      ["Terapia Individual", "/psicologo-barcelona"],
-      ["Terapia Online", "/psicologo-online"],
-      ["Terapia de Parejas / Familia", "/terapia-de-parejas-barcelona"],
-      ["Psico-Nutrición", "/psiconutricion-barcelona"],
-      // ["Terapia de Familias", "/terapia-de-familias-barcelona"],
-      // [
-      //   "Psicología Sanitaria / Clinica",
-      //   "/psicologia-clinica-sanitaria-barcelona",
-      // ],
+      ["Terapia Individual", "/psicologo-barcelona/"],
+      ["Terapia Online", "/psicologo-online/"],
+      ["Terapia de Parejas / Familia", "/terapia-de-parejas-barcelona/"],
+      ["Psico-Nutrición", "/psiconutricion-barcelona/"],
+      // ["Terapia de Familias", "/terapia-de-familias-barcelona/"],
+      [
+        "Psicología Clínica y Sanitaria",
+        "/psicologia-clinica-sanitaria-barcelona/",
+      ],
+      ["Nutrición Clínica", "/nutricion-clinica-barcelona/"],
       // [
       //   "Coaching / Acompañamiento",
-      //   "/coaching-acompañamiento-emocional-barcelona",
+      //   "/coaching-acompañamiento-emocional-barcelona/",
       // ],
     ],
   ],
@@ -56,17 +57,17 @@ const menu = [
   [
     "Centro",
     [
-      ["Conoce al equipo", "/equipo"],
-      ["Sobre mí", "/sobre-mi"],
+      ["Conoce al equipo", "/equipo/"],
+      ["Sobre mí", "/sobre-mi/"],
     ],
   ],
-  ["Articulos", "/posts"],
-  ["Contacto", "/contacto"],
-] satisfies MenuSectionType;
+  ["Articulos", "/posts/"],
+  ["Contacto", "/contacto/"],
+] satisfies MenuSectionType
 
 export default function ({ pathname }: { pathname: string }) {
-  const [isGlobalMenuOpen, setGlobalMenuOpen] = useState(false);
-  const toggleGlobalMenu = () => setGlobalMenuOpen((s) => !s);
+  const [isGlobalMenuOpen, setGlobalMenuOpen] = useState(false)
+  const toggleGlobalMenu = () => setGlobalMenuOpen((s) => !s)
 
   return (
     <nav
@@ -84,7 +85,11 @@ export default function ({ pathname }: { pathname: string }) {
             Centro Núria León
           </span>
         </a>
-        <button onClick={toggleGlobalMenu} className="pr-4 lg:hidden" aria-label="Open Menu">
+        <button
+          onClick={toggleGlobalMenu}
+          className="pr-4 lg:hidden"
+          aria-label="Open Menu"
+        >
           <MenuIcon className="text-[32px]" />
         </button>
         <ul className="fixed right-0 top-0 z-30 flex h-screen w-[90vw] max-w-[90vw] grow flex-col bg-white text-base transition-all max-lg:overflow-x-auto max-lg:pb-14 max-lg:group-data-[open=false]/nav:translate-x-[101%] lg:relative lg:h-auto lg:w-auto lg:max-w-[900px] lg:flex-row lg:items-center lg:justify-between lg:border-0 lg:bg-transparent lg:pr-4">
@@ -113,19 +118,19 @@ export default function ({ pathname }: { pathname: string }) {
         onClick={toggleGlobalMenu}
       ></div>
     </nav>
-  );
+  )
 }
 
 function MenuSection({
   pathname,
   section: [title, content],
 }: PropsWithChildren<{
-  pathname: string;
-  section: MenuSectionType[0];
+  pathname: string
+  section: MenuSectionType[0]
 }>) {
-  const isCurrentInside = matchUrl(content, pathname);
-  const [isOpen, setOpen] = useState<boolean | "">("");
-  const isCollapsible = typeof content !== "string";
+  const isCurrentInside = matchUrl(content, pathname)
+  const [isOpen, setOpen] = useState<boolean | "">("")
+  const isCollapsible = typeof content !== "string"
   return (
     <li
       className="group/li relative w-auto"
@@ -139,12 +144,13 @@ function MenuSection({
       ></div>
       <NavLink
         active={isCurrentInside}
-        href={isCollapsible ? '#' : content}
+        href={isCollapsible ? undefined : content}
         data-collapsible={isCollapsible}
         onClick={() => setOpen((o) => (o === "" ? !isCurrentInside : !o))}
         className={`${isCurrentInside ? "text-brand-500" : ""} ${
-          isCollapsible ?
-          "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500" : ""
+          isCollapsible
+            ? "lg:group-hover/li:bg-white lg:group-hover/li:text-brand-500 lg:group-data-[open=true]/li:bg-white lg:group-data-[open=true]/li:text-brand-500"
+            : ""
         }`}
       >
         {title}
@@ -162,26 +168,26 @@ function MenuSection({
         </ul>
       )}
     </li>
-  );
+  )
 }
 
 function matchUrl(href: string | MenuSectionType, pathname: string): boolean {
   if (typeof href === "string") {
-    const hrefUri = decodeURIComponent(href).toLowerCase();
-    const pathnameUri = decodeURIComponent(pathname).toLowerCase();
+    const hrefUri = decodeURIComponent(href).toLowerCase()
+    const pathnameUri = decodeURIComponent(pathname).toLowerCase()
 
     if (hrefUri === "/" && pathnameUri !== "/") {
-      return false;
+      return false
     }
 
-    return pathnameUri.replace(/\/$/, "") === hrefUri.replace(/\/$/, "");
+    return pathnameUri.replace(/\/$/, "") === hrefUri.replace(/\/$/, "")
 
     // return decodeURIComponent(pathname)
     //   .toLowerCase()
     //   .startsWith(decodeURIComponent(href).toLowerCase())
   }
 
-  return href.some(([, innerHref]) => matchUrl(innerHref, pathname));
+  return href.some(([, innerHref]) => matchUrl(innerHref, pathname))
 }
 
 function NavLink({
@@ -191,10 +197,10 @@ function NavLink({
   active,
   ...props
 }: PropsWithChildren<{
-  className?: string;
-  href?: string;
-  active: boolean;
-  onClick?: () => void;
+  className?: string
+  href?: string
+  active: boolean
+  onClick?: () => void
 }>) {
   return (
     <a
@@ -210,5 +216,5 @@ function NavLink({
         <div className="absolute -bottom-2 left-0 right-0 h-1 bg-brand-500 opacity-0 transition-all group-data-[collapsible=false]/a:group-aria-[current=page]/a:opacity-100 lg:group-aria-[current=page]/a:opacity-100 lg:group-data-[open=true]/li:group-data-[collapsible=true]/a:group-aria-[current=page]/a:opacity-0 lg:group-hover/li:group-data-[collapsible=true]/a:group-aria-[current=page]/a:opacity-0"></div>
       </span>
     </a>
-  );
+  )
 }

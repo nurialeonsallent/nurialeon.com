@@ -1,18 +1,54 @@
 ---
+export interface Props {
+  content: { question: string; answer: string }[]
+}
+
+const { content } = Astro.props
+
+const contentLDJson = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Preguntas frequentes",
+  "mainEntity": content.map(i => ({
+      "@type": "Question",
+      "name": i.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": i.answer
+      }
+    }))
+})
 
 ---
 
+<h2>Preguntas frecuentes</h2>
+
 <div class="faq" data-faq>
-  <slot />
+  <ul>
+    {
+      content.map((i) => (
+        <li>
+          <p>{i.question}</p>
+          <p>{i.answer}</p>
+        </li>
+      ))
+    }
+    <li>
+      <p>Tengo más preguntas, ¿Qué puedo hacer?</p>
+      <p>¡No dudes en contactarnos! Te aclararemos cualquier duda.</p>
+    </li>
+  </ul>
 </div>
+
+<script is:inline type="application/ld+json" set:html={contentLDJson}></script>
 
 <style>
   .faq {
-    @apply select-none transition-all;
+    @apply mt-8 select-none overflow-hidden rounded-md border-2 border-brand-200 bg-white transition-all;
   }
 
   .faq > :global(ul) {
-    @apply mt-8 flex flex-col overflow-hidden rounded-md border-2 border-brand-200 bg-white;
+    @apply flex flex-col;
   }
 
   .faq > :global(ul > li) {
@@ -49,9 +85,9 @@
   faqs.forEach((faq) => {
     const questions = faq.querySelectorAll("li")
     questions.forEach((q, i) => {
-      if (i === 0) {
-        q.classList.add("open")
-      }
+      // if (i === 0) {
+      //   q.classList.add("open")
+      // }
       q.addEventListener("click", () => {
         q.classList.toggle("open")
         // questions.forEach((oq) => {

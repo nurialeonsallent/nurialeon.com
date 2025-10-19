@@ -61,11 +61,17 @@ const today = new Date()
           href="https://wa.me/34650011672"
           target="_blank"
           rel="noopener"
+          onclick="trackContact?.('whatsapp')"
         >
           <Phone class="text-xl" />
           <span>+34 650 011 672</span></a
         >
-        <a class="link" href="mailto:psicologa@nurialeon.com" rel="noopener">
+        <a
+          class="link"
+          href="mailto:psicologa@nurialeon.com"
+          rel="noopener"
+          onclick="trackContact?.('email')"
+        >
           <Email class="text-xl" />
           <span>psicologa@nurialeon.com</span>
         </a>
