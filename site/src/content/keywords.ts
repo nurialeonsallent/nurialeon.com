@@ -1,5 +1,6 @@
 export const keywords = [
     [/terapia individual/, '/psicologo-barcelona/'],
+    [/terapia psicol[óo]{1}gica individual/, '/psicologo-barcelona/'],
     [/terapia para adultos/, '/psicologo-barcelona/'],
     [/terapia de adultos/, '/psicologo-barcelona/'],
     [/online/, '/psicologo-online/'],
@@ -8,4 +9,9 @@ export const keywords = [
     [/psico-?nutrici[oó]{1}n/, '/psiconutricion-barcelona/'],
     [/nutrici[oó]{1}n cl[ií]{1}nica/, '/nutricion-clinica-barcelona/'],
     [/terapia de parejas?/, '/terapia-de-parejas-barcelona/'],
+    [/terapia de familias?/, '/terapia-de-parejas-barcelona/'],
+    [/terapia familiar/, '/terapia-de-parejas-barcelona/'],
+    [/nuestro equipo/, '/equipo/'],
+    [/equipo especializado/, '/equipo/'],
+    [/contacto/, '/contacto/'],
 ] as const
