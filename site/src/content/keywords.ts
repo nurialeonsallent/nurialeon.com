@@ -13,5 +13,6 @@ export const keywords = [
     [/terapia familiar/, '/terapia-de-parejas-barcelona/'],
     [/nuestro equipo/, '/equipo/'],
     [/equipo especializado/, '/equipo/'],
-    [/contacto/, '/contacto/'],
+    [/contactar?/, '/contacto/'],
+    [/nuestro centro/, '/'],
 ] as const
