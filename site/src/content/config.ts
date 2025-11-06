@@ -9,7 +9,7 @@ const posts = defineCollection({
       title: z.string(),
       subtitle: z.string().optional(),
       date: z.coerce.date(),
-      image: image(),
+      image: image().optional(),
       author: z.custom<keyof typeof authors>((v) => Object.keys(authors).includes(v as string)).optional()
     }),
 })
