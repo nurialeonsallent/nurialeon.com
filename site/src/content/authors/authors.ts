@@ -4,6 +4,7 @@ import Iris from './images/iris.jpg'
 import Helena from './images/helena.jpg'
 import Teresa from './images/teresa.jpg'
 import Cristina from './images/cristina.jpg'
+import Sonia from './images/sonia.jpg'
 
 export const authors = {
     nuria: {
@@ -33,7 +34,12 @@ export const authors = {
     },
     cristina: {
         name: "Cristina",
-        description: "Psicóloga Sanitaria Colegiada. Psicóloga de adultos, familias y adolescentes. Especialista en terapia de adultos, familiar e infantojuvenil. Psicóloga integradora combina diferentes corrientes y herramientas.",
+        description: "Psicóloga Sanitaria Colegiada. Psicóloga de adultos, familias y adolescentes. Especialista en terapia de adultos, familiar e infantojuvenil. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso.",
         image: Cristina
+    },
+    sonia: {
+        name: "Sonia",
+        description: "Psicóloga Sanitaria Colegiada. Especialista en ansiedad, depresión y addiciones comportamentales. Psicóloga integradora, combina diferentes corrientes y herramientas para adaptarse a cada caso.",
+        image: Sonia
     }
 }
