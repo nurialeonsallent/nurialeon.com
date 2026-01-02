@@ -125,7 +125,7 @@ export const servicios = {
   },
   parejas: {
     nombre: "Terapia de Parejas/Familias",
-    precio: "95€",
+    precio: "105€",
     duracion: "1 hora y 20 minutos",
     link: "/terapia-de-parejas-barcelona/",
     icon: ParejaIcon,
