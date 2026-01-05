@@ -8,9 +8,9 @@ import GoIcon from "~/icons/go.astro"
 import { authors } from "~/content/authors/authors"
 import placeholder from "~/images/placeholder.png"
 
-const posts = (await getCollection("posts")).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
-)
+const posts = (await getCollection("posts"))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .filter((p) => (import.meta.env.PROD ? p.data.draft !== true : true))
 let currentDate: Date | undefined
 ---
 
@@ -39,7 +39,11 @@ let currentDate: Date | undefined
               </h2>
             )}
             <li class="flex flex-col md:flex-row md:items-stretch">
-              <a href={`/posts/${post.slug}/`} class="contents" aria-label={post.data.title}>
+              <a
+                href={`/posts/${post.slug}/`}
+                class="contents"
+                aria-label={post.data.title}
+              >
                 <Picture
                   width={640}
                   src={post.data.image || placeholder}
