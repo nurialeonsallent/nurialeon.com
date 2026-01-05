@@ -1,4 +1,154 @@
 export const reviews = [
+                  {
+        name: "R.R.",
+        score: 5,
+        date: "01/2026",
+        text: "Excelente servicio Teresa te da la confianza y para poder ir avanzando en el mejoramiento personal. Recomendado ayuda bastante."
+    },
+                {
+        name: "D.D.",
+        score: 5,
+        date: "12/2025",
+        text: "Estamos contentísimos de cómo Nuria está ayudando a nuestra hija, hemos notado su evolución y cambios para muchísimo mejor y agradecemos a Nuria su cercanía, profesionalidad y atención con nuestra hija"
+    },
+                {
+        name: "C.F.",
+        score: 5,
+        date: "12/2025",
+        text: "Ja fa uns mesos que estic fent teràpia amb la Cristina i estic notant una gran millora en mi. No només em sento escoltada, sino que a més aconsegueix explicar-me el que em passa d’una forma que em resulta fàcil, i em dona les eines per entendre’m jo mateixa. Estic encantada, ho recomano 100% !!"
+    },
+              {
+        name: "J.V",
+        score: 5,
+        date: "10/2025",
+        text: "Estoy muy contento con el centro. Helena es una gran profesional, muy cercana. Me siento cómodo en las sesiones y noto que avanzo. Totalmente recomendable. Dar la gracias a Nuria por ayudarme a encontrar a una profesional con el que me siento cómodo explicando."
+    },
+              {
+        name: "A.V",
+        score: 5,
+        date: "10/2025",
+        text: "Estamos encantados con el trato. Se nota que se preocupa por los pacientes. Atenta y profesional."
+    },
+            {
+        name: "C.P",
+        score: 5,
+        date: "10/2025",
+        text: ""
+    },
+          {
+        name: "A.M",
+        score: 5,
+        date: "09/2025",
+        text: "Nuria es genial, me está ayudando mucho :)…"
+    },
+          {
+        name: "S.K.",
+        score: 5,
+        date: "08/2025",
+        text: "Mi psicóloga Núria me está ayudando muchísimo con mis problemas de pareja. Siempre me escucha con atención, me comprende y nos da consejos claros y prácticos. Al poner en práctica lo que nos dice, realmente vemos cambios positivos y nuestra relación está mejorando cada día. Gracias a su apoyo hemos encontrado soluciones y avanzamos juntos con más confianza. Invertir en salud mental es súper importante, y con una profesional como Núria realmente se nota la diferencia. Muy recomendable"
+    },
+        {
+        name: "J.N.",
+        score: 5,
+        date: "07/2025",
+        text: "Hace unos meses que voy a terapia con Ariadna, y es maravillosa ❤️‍🩹 me pasaba mucho con otros especialistas que no me apetecía volver a la siguiente consulta, pero con Ari siempre tengo ganas de la siguiente sesión y siento que estoy avanzando. Mil gracias ❤️‍🩹…"
+    },
+        {
+        name: "E.M.",
+        score: 5,
+        date: "07/2025",
+        text: "La doctora me sigue personalmente y siempre me hace sentir cómoda, desde la primera sesión. Es increíblemente atenta y competente: escucha, interactúa y me guía con gran profesionalismo, proponiendo ejercicios muy útiles que luego comentamos juntos en cada sesión. Su empatía es extraordinaria: nunca me ha hecho sentir juzgada, ni siquiera con una pequeña expresión. Cada vez que salgo de una sesión con ella, siento como si me quitara un peso de encima. La recomiendo : después de años de búsqueda, finalmente he encontrado a una profesional que realmente me ayuda."
+    },
+      {
+        name: "S.",
+        score: 5,
+        date: "07/2025",
+        text: "Muy profesional y cercana. Te va aconsejando de forma efectiva. Poco a poco vamos viendo resultados. Se interesa por como estás después de las sesiones y contesta cualquier duda q puedas tener entre sesión y sesión."
+    },
+    {
+        name: "A.P.",
+        score: 5,
+        date: "06/2025",
+        text: "Es mi primera vez en terapia y con Nuria he conectado desde la primera sesión. Todas las sesiones me han ayudado y la terapia está siendo muy fluida y me siento muy cómoda con ella. Además es cercana y muy profesional."
+    },
+    {
+        name: "J.P.",
+        score: 5,
+        date: "06/2025",
+        text: "Nuria es maravillosa. Desde la primera sesión logra conectar contigo, te escucha con atención, se involucra y te hace sentir realmente comprendida. Había probado terapia con otras profesionales, pero nunca me sentí tan cómoda y en confianza como con ella. Las sesiones fluyen de forma tan natural que se sienten más como una charla con una amiga que como una consulta clínica. Llevo unos seis meses de terapia y noto una mejora enorme a nivel emocional y personal. Estoy muy agradecida por su apoyo y profesionalismo. ¡Gracias de corazón, Nuria!"
+    },
+  {
+        name: "C.T.",
+        score: 5,
+        date: "06/2025",
+        text: "Tanto Nuria como su equipo son super amables, lo recomiendo 100%"
+    },
+      {
+        name: "Z.S.",
+        score: 5,
+        date: "05/2025",
+        text: "Es mi primera experiencia con un psicólogo, y después de varias sesiones verdaderamente siento mejoras conmigo mismo. 100% recomendable"
+    },
+      {
+        name: "J.C.N",
+        score: 5,
+        date: "04/2025",
+        text: "No sabía que la necesitaba hasta que la encontré. Llegué a su consulta en un momento complicado, con muchas dudas y miedos, y desde el primer encuentro me sentí acogido, comprendido y, sobre todo, acompañado. Su calidez, empatía y profesionalismo me han dado un espacio seguro donde puedo ser yo mismo. Gracias a ella he podido sanar heridas, entenderme mejor y recuperar la confianza en mí. No tengo palabras suficientes para agradecer todo lo que ha hecho por mí."
+    },
+    {
+        name: "J.V.",
+        score: 5,
+        date: "04/2025",
+        text: "Las 2 primeras sesiones tenía sensación de no avanzar pero el resto ya fueron fructíferas. Te da las pautas, no hace milagros, porque tenemos que poner de nuestra parte"
+    },
+    {
+        name: "I.L.",
+        score: 5,
+        date: "04/2025",
+        text: ""
+    },
+    {
+        name: "J.V.",
+        score: 5,
+        date: "04/2025",
+        text: ""
+    },
+    {
+        name: "M.",
+        score: 5,
+        date: "04/2025",
+        text: "Llevo unos meses trabajando con Cristina y estoy contenta con el asesoramiento que estoy recibiendo y con la manera en que se desarrollan las sesiones (me siento escuchada con atención y vamos adaptando las sesiones a las necesidades del momento). He puesto en práctica algunas de las herramientas y técnicas que me ha ido indicando y aunque aún queda trabajo por delante veo una evolución en mí."
+    },
+    {
+        name: "F.M.",
+        score: 5,
+        date: "03/2025",
+        text: " Excel·lent professional. Estem fent tant teràpia individual, on la meva parella ja era clienta, com de parella i sembla que estem salvant la relació 🤞🤗 Gràcies Nuria…"
+    },
+      {
+        name: "A.R.",
+        score: 5,
+        date: "03/2025",
+        text: "Es una gran profesional con una gran calidad humana que la hace destacar❤️ Agradezco su ayuda y su profesionalidad"
+    },
+      {
+        name: "J.G.",
+        score: 5,
+        date: "03/2025",
+        text: "Magnífica profesional. Yo destacaría su manera de tratar los asuntos y al paciente. Recomendable al 100%"
+    },
+    {
+        name: "E.G.",
+        score: 5,
+        date: "03/2025",
+        text: "Estoy encantada con Cristina, es toda una profesional. En la primera sesión que tuvimos ya conecté con ella 💖"
+    },
+    {
+        name: "A.E.",
+        score: 5,
+        date: "03/2025",
+        text: "Empecé en este centro por recomendación de mi hermana, estoy con Teresa del equipo de Nuria y estoy muy contenta. Teresa es muy profesional y cercana, me transmite seguridad y confianza. Sin duda la mejor decisión que he tomado"
+    },
     {
         name: "I.T.",
         score: 5,
@@ -8,19 +158,19 @@ export const reviews = [
     {
         name: "A.P.",
         score: 5,
-        date: "01/2024",
+        date: "01/2025",
         text: ""
     },
     {
         name: "J.C.",
         score: 5,
-        date: "01/2024",
+        date: "01/2025",
         text: ""
     },
     {
         name: "A.F.",
         score: 5,
-        date: "01/2024",
+        date: "01/2025",
         text: ""
     },
     {
@@ -32,7 +182,7 @@ export const reviews = [
     {
         name: "M.R.",
         score: 5,
-        date: "01/2024",
+        date: "01/2025",
         text: ""
     },
     {
