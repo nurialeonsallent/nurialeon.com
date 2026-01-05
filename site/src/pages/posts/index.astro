@@ -11,6 +11,7 @@ import placeholder from "~/images/placeholder.png"
 const posts = (await getCollection("posts"))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .filter((p) => (import.meta.env.PROD ? p.data.draft !== true : true))
+  
 let currentDate: Date | undefined
 ---
 
