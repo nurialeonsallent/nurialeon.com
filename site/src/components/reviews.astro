@@ -14,7 +14,7 @@ const orderedReviews = [...reviews]
   )
 ---
 
-<h2>Reseñas ({reviews.length + 30}+)</h2>
+<h2>Reseñas ({Math.floor((reviews.length + 25) / 25) * 25}+)</h2>
 <div class="relative border-2 border-[#4285F4]/50 rounded-md overflow-hidden">
   <div
     class="scroll flex flex-col gap-2 overflow-y-scroll max-h-[min(50vh,450px)] bg-white"
