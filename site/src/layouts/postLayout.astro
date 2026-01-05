@@ -6,6 +6,7 @@ import BaseLayout from "./baseLayout.astro"
 import { authors } from "~/content/authors/authors"
 import Go from "~/icons/go.astro"
 import ComoEsLaTerapia from "~/components/comoEsLaTerapia.astro"
+import placeholder from "~/images/placeholder.png"
 
 type Props = CollectionEntry<"posts">["data"] & { excerpt: string }
 const {
@@ -19,7 +20,7 @@ const {
 const author = authors[propAuthor || "nuria"]
 ---
 
-<BaseLayout title={title} description={excerpt} image={image.src}>
+<BaseLayout title={title} description={excerpt} image={image?.src || placeholder.src}>
   <div
     class="bg-neutral-200 w-full flex flex-col items-center border-b-2 border-neutral-300"
   >
@@ -39,7 +40,7 @@ const author = authors[propAuthor || "nuria"]
     <div class="w-full max-w-screen-lg px-3">
       <Picture
         width={1020}
-        src={image}
+        src={image || placeholder}
         alt=""
         class="mx-auto max-w-full md:-mt-20 -mt-12 rounded-lg object-cover h-[200px] sm:h-[355px] lg:h-[510px]"
       />
