@@ -25,7 +25,8 @@
     src: local("Roboto"), local("-apple-system"), url("/fonts/roboto.ttf");
   }
 
-  html, body {
+  html,
+  body {
     @apply overflow-x-clip;
   }
 
@@ -70,7 +71,7 @@
 
   .strong,
   strong {
-    @apply font-bold text-neutral-800;
+    @apply font-bold;
   }
 
   /* https://github.com/withastro/astro/issues/5476 */
@@ -107,7 +108,8 @@
       @apply mx-auto my-8 rounded-lg;
     }
 
-    img + em, picture + em {
+    img + em,
+    picture + em {
       @apply mx-auto -mt-6 mb-8 block text-center text-sm italic text-neutral-500 md:w-2/3;
     }
 
